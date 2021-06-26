@@ -5,6 +5,6 @@
     type: Normal,
     accuracy: None,
     pp: 20,
-    usage: [StatStage(Attack, 2),
+    usage: [StatStage(Attack, 2)],
     target: User,
 )
