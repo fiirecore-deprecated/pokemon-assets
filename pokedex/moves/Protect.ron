@@ -1,0 +1,10 @@
+(
+    id: "protect",
+    name: "Protect",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "gunk-shot",
+    name: "Gunk Shot",
+    category: Physical,
+    type: Poison,
+    accuracy: Some(80),
+    pp: 5,
+    usage: Damage(Power(120)),
+    target: Opponent,
+)

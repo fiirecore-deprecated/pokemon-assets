@@ -1,0 +1,10 @@
+(
+    id: "fake-out",
+    name: "Fake Out",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(40)),
+    target: Opponent,
+)

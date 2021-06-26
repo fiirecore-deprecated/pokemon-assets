@@ -1,0 +1,10 @@
+(
+    id: "heal-order",
+    name: "Heal Order",
+    category: Status,
+    type: Bug,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

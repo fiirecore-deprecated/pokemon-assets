@@ -1,0 +1,10 @@
+(
+    id: "leaf-blade",
+    name: "Leaf Blade",
+    category: Physical,
+    type: Grass,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

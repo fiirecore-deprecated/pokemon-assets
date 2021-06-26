@@ -1,0 +1,10 @@
+(
+    id: "swallow",
+    name: "Swallow",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

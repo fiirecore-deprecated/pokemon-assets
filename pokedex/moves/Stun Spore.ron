@@ -1,0 +1,10 @@
+(
+    id: "stun-spore",
+    name: "Stun Spore",
+    category: Status,
+    type: Grass,
+    accuracy: Some(75),
+    pp: 30,
+    usage: Todo,
+    target: Opponent,
+)

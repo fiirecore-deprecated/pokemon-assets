@@ -1,0 +1,10 @@
+(
+    id: "sunny-day",
+    name: "Sunny Day",
+    category: Status,
+    type: Fire,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

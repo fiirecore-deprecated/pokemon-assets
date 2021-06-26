@@ -1,0 +1,10 @@
+(
+    id: "hail",
+    name: "Hail",
+    category: Status,
+    type: Ice,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "poison-fang",
+    name: "Poison Fang",
+    category: Physical,
+    type: Poison,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(50)),
+    target: Opponent,
+)

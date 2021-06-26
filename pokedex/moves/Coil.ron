@@ -1,0 +1,10 @@
+(
+    id: "coil",
+    name: "Coil",
+    category: Status,
+    type: Poison,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

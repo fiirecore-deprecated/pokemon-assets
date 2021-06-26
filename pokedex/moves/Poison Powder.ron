@@ -1,0 +1,10 @@
+(
+    id: "poison-powder",
+    name: "Poison Powder",
+    category: Status,
+    type: Poison,
+    accuracy: Some(75),
+    pp: 35,
+    usage: Todo,
+    target: Opponent,
+)

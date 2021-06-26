@@ -1,0 +1,10 @@
+(
+    id: "heart-swap",
+    name: "Heart Swap",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

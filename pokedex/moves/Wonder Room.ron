@@ -1,0 +1,10 @@
+(
+    id: "wonder-room",
+    name: "Wonder Room",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

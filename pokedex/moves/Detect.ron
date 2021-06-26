@@ -1,0 +1,10 @@
+(
+    id: "detect",
+    name: "Detect",
+    category: Status,
+    type: Fighting,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

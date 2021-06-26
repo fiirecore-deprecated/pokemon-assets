@@ -1,0 +1,10 @@
+(
+    id: "fly",
+    name: "Fly",
+    category: Physical,
+    type: Flying,
+    accuracy: Some(95),
+    pp: 15,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

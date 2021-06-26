@@ -1,0 +1,10 @@
+(
+    id: "hammer-arm",
+    name: "Hammer Arm",
+    category: Physical,
+    type: Fighting,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(100)),
+    target: Opponent,
+)

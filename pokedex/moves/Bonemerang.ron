@@ -1,0 +1,10 @@
+(
+    id: "bonemerang",
+    name: "Bonemerang",
+    category: Physical,
+    type: Ground,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(50)),
+    target: Opponent,
+)

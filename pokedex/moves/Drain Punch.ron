@@ -1,0 +1,10 @@
+(
+    id: "drain-punch",
+    name: "Drain Punch",
+    category: Physical,
+    type: Fighting,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(75)),
+    target: Opponent,
+)

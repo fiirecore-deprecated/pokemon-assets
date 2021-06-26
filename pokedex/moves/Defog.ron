@@ -1,0 +1,10 @@
+(
+    id: "defog",
+    name: "Defog",
+    category: Status,
+    type: Flying,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

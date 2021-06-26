@@ -1,0 +1,10 @@
+(
+    id: "bide",
+    name: "Bide",
+    category: Physical,
+    type: Normal,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "nasty-plot",
+    name: "Nasty Plot",
+    category: Status,
+    type: Dark,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

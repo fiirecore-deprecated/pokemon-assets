@@ -1,0 +1,10 @@
+(
+    id: "hyper-fang",
+    name: "Hyper Fang",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(90),
+    pp: 15,
+    usage: Damage(Power(80)),
+    target: Opponent,
+)

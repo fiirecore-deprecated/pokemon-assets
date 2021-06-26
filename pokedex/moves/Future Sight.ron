@@ -1,0 +1,10 @@
+(
+    id: "future-sight",
+    name: "Future Sight",
+    category: Special,
+    type: Psychic,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(120)),
+    target: Opponent,
+)

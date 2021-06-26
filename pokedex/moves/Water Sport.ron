@@ -1,0 +1,10 @@
+(
+    id: "water-sport",
+    name: "Water Sport",
+    category: Status,
+    type: Water,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "bulk-up",
+    name: "Bulk Up",
+    category: Status,
+    type: Fighting,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

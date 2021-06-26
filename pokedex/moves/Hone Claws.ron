@@ -1,0 +1,10 @@
+(
+    id: "hone-claws",
+    name: "Hone Claws",
+    category: Status,
+    type: Dark,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

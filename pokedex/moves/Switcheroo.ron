@@ -1,0 +1,10 @@
+(
+    id: "switcheroo",
+    name: "Switcheroo",
+    category: Status,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

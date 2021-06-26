@@ -1,0 +1,10 @@
+(
+    id: "confuse-ray",
+    name: "Confuse Ray",
+    category: Status,
+    type: Ghost,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

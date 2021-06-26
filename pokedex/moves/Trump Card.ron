@@ -1,0 +1,10 @@
+(
+    id: "trump-card",
+    name: "Trump Card",
+    category: Special,
+    type: Normal,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

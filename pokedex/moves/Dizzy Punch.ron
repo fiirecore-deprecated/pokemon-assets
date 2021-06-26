@@ -1,0 +1,10 @@
+(
+    id: "dizzy-punch",
+    name: "Dizzy Punch",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(70)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "spikes",
+    name: "Spikes",
+    category: Status,
+    type: Ground,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

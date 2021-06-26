@@ -1,0 +1,10 @@
+(
+    id: "dragon-dance",
+    name: "Dragon Dance",
+    category: Status,
+    type: Dragon,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

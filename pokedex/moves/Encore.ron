@@ -1,0 +1,10 @@
+(
+    id: "encore",
+    name: "Encore",
+    category: Status,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

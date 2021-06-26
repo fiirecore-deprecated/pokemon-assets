@@ -1,0 +1,10 @@
+(
+    id: "mind-reader",
+    name: "Mind Reader",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

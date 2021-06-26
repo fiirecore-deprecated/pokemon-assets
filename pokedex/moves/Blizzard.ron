@@ -1,0 +1,10 @@
+(
+    id: "blizzard",
+    name: "Blizzard",
+    category: Special,
+    type: Ice,
+    accuracy: Some(70),
+    pp: 5,
+    usage: Damage(Power(110)),
+    target: Opponent,
+)

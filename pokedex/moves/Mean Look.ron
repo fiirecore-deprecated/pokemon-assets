@@ -1,0 +1,10 @@
+(
+    id: "mean-look",
+    name: "Mean Look",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

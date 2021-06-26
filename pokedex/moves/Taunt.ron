@@ -1,0 +1,10 @@
+(
+    id: "taunt",
+    name: "Taunt",
+    category: Status,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

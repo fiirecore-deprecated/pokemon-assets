@@ -1,0 +1,10 @@
+(
+    id: "zen-headbutt",
+    name: "Zen Headbutt",
+    category: Physical,
+    type: Psychic,
+    accuracy: Some(90),
+    pp: 15,
+    usage: Damage(Power(80)),
+    target: Opponent,
+)

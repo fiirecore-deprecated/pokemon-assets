@@ -1,0 +1,10 @@
+(
+    id: "swords-dance",
+    name: "Swords Dance",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 20,
+    usage: StatStage(Attack, 2),
+    target: User,
+)

@@ -1,0 +1,10 @@
+(
+    id: "volt-tackle",
+    name: "Volt Tackle",
+    category: Physical,
+    type: Electric,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(120)),
+    target: Opponent,
+)

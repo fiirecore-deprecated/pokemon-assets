@@ -1,0 +1,10 @@
+(
+    id: "healing-wish",
+    name: "Healing Wish",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "cotton-guard",
+    name: "Cotton Guard",
+    category: Status,
+    type: Grass,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

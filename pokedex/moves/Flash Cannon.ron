@@ -1,0 +1,10 @@
+(
+    id: "flash-cannon",
+    name: "Flash Cannon",
+    category: Special,
+    type: Steel,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(80)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "natural-gift",
+    name: "Natural Gift",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

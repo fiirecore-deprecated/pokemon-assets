@@ -1,0 +1,10 @@
+(
+    id: "memento",
+    name: "Memento",
+    category: Status,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

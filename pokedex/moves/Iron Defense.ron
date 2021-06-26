@@ -1,0 +1,10 @@
+(
+    id: "iron-defense",
+    name: "Iron Defense",
+    category: Status,
+    type: Steel,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "torment",
+    name: "Torment",
+    category: Status,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

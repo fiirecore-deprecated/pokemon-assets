@@ -1,0 +1,10 @@
+(
+    id: "mega-punch",
+    name: "Mega Punch",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(85),
+    pp: 20,
+    usage: Damage(Power(80)),
+    target: Opponent,
+)

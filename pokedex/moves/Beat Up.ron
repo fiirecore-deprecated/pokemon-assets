@@ -1,0 +1,10 @@
+(
+    id: "beat-up",
+    name: "Beat Up",
+    category: Physical,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

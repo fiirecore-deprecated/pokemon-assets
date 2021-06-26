@@ -1,0 +1,10 @@
+(
+    id: "relic-song",
+    name: "Relic Song",
+    category: Special,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(75)),
+    target: Opponent,
+)

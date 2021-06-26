@@ -1,0 +1,10 @@
+(
+    id: "cosmic-power",
+    name: "Cosmic Power",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

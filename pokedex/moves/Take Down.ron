@@ -1,0 +1,10 @@
+(
+    id: "take-down",
+    name: "Take Down",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(85),
+    pp: 20,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

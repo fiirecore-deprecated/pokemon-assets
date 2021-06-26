@@ -1,0 +1,10 @@
+(
+    id: "superpower",
+    name: "Superpower",
+    category: Physical,
+    type: Fighting,
+    accuracy: Some(100),
+    pp: 5,
+    usage: Damage(Power(120)),
+    target: Opponent,
+)

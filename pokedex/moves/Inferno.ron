@@ -1,0 +1,10 @@
+(
+    id: "inferno",
+    name: "Inferno",
+    category: Special,
+    type: Fire,
+    accuracy: Some(50),
+    pp: 5,
+    usage: Damage(Power(100)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "aqua-tail",
+    name: "Aqua Tail",
+    category: Physical,
+    type: Water,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

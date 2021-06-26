@@ -1,0 +1,10 @@
+(
+    id: "growl",
+    name: "Growl",
+    category: Status,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 40,
+    usage: StatStage(Attack, -1),
+    target: Opponent,
+)

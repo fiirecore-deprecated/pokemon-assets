@@ -1,0 +1,10 @@
+(
+    id: "air-slash",
+    name: "Air Slash",
+    category: Special,
+    type: Flying,
+    accuracy: Some(95),
+    pp: 15,
+    usage: Damage(Power(75)),
+    target: Opponent,
+)

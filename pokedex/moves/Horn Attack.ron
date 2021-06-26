@@ -1,0 +1,10 @@
+(
+    id: "horn-attack",
+    name: "Horn Attack",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 25,
+    usage: Damage(Power(65)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "toxic-spikes",
+    name: "Toxic Spikes",
+    category: Status,
+    type: Poison,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

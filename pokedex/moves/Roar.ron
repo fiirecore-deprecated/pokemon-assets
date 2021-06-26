@@ -1,0 +1,10 @@
+(
+    id: "roar",
+    name: "Roar",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

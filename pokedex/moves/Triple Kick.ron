@@ -1,0 +1,10 @@
+(
+    id: "triple-kick",
+    name: "Triple Kick",
+    category: Physical,
+    type: Fighting,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(10)),
+    target: Opponent,
+)

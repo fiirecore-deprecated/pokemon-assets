@@ -1,0 +1,10 @@
+(
+    id: "trick-room",
+    name: "Trick Room",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

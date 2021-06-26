@@ -1,0 +1,10 @@
+(
+    id: "shift-gear",
+    name: "Shift Gear",
+    category: Status,
+    type: Steel,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

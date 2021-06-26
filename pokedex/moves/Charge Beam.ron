@@ -1,0 +1,10 @@
+(
+    id: "charge-beam",
+    name: "Charge Beam",
+    category: Special,
+    type: Electric,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(50)),
+    target: Opponent,
+)

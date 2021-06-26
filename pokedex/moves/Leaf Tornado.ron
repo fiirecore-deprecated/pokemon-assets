@@ -1,0 +1,10 @@
+(
+    id: "leaf-tornado",
+    name: "Leaf Tornado",
+    category: Special,
+    type: Grass,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Damage(Power(65)),
+    target: Opponent,
+)

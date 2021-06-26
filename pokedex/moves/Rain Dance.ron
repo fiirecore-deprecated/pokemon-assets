@@ -1,0 +1,10 @@
+(
+    id: "rain-dance",
+    name: "Rain Dance",
+    category: Status,
+    type: Water,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

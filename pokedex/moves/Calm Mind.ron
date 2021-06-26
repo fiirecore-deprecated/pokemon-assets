@@ -1,0 +1,10 @@
+(
+    id: "calm-mind",
+    name: "Calm Mind",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

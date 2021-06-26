@@ -1,0 +1,10 @@
+(
+    id: "skill-swap",
+    name: "Skill Swap",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

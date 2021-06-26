@@ -1,0 +1,10 @@
+(
+    id: "flamethrower",
+    name: "Flamethrower",
+    category: Special,
+    type: Fire,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

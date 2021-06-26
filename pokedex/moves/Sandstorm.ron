@@ -1,0 +1,10 @@
+(
+    id: "sandstorm",
+    name: "Sandstorm",
+    category: Status,
+    type: Rock,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

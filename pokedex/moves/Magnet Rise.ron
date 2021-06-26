@@ -1,0 +1,10 @@
+(
+    id: "magnet-rise",
+    name: "Magnet Rise",
+    category: Status,
+    type: Electric,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

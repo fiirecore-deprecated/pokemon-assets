@@ -1,0 +1,10 @@
+(
+    id: "present",
+    name: "Present",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(90),
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

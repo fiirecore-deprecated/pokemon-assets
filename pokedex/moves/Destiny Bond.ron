@@ -1,0 +1,10 @@
+(
+    id: "destiny-bond",
+    name: "Destiny Bond",
+    category: Status,
+    type: Ghost,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

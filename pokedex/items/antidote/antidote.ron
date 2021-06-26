@@ -1,0 +1,15 @@
+(
+    id: "antidote",
+    name: "Antidote",
+    description: [
+        "A spray-type medicine.",
+        "It heals one POKEMON from a",
+        "poisoning."
+    ],
+    use: Script((
+        consume: true,
+        actions: [
+            CurePokemon(Some(Poison)),
+        ],
+    )),
+)

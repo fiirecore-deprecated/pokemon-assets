@@ -1,0 +1,10 @@
+(
+    id: "kinesis",
+    name: "Kinesis",
+    category: Status,
+    type: Psychic,
+    accuracy: Some(80),
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

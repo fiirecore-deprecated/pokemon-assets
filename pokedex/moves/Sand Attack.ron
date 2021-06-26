@@ -1,0 +1,10 @@
+(
+    id: "sand-attack",
+    name: "Sand Attack",
+    category: Status,
+    type: Ground,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

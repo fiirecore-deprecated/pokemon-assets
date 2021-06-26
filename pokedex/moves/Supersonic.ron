@@ -1,0 +1,10 @@
+(
+    id: "supersonic",
+    name: "Supersonic",
+    category: Status,
+    type: Normal,
+    accuracy: Some(55),
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

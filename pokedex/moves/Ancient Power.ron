@@ -1,0 +1,10 @@
+(
+    id: "ancient-power",
+    name: "Ancient Power",
+    category: Special,
+    type: Rock,
+    accuracy: Some(100),
+    pp: 5,
+    usage: Damage(Power(60)),
+    target: Opponent,
+)

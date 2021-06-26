@@ -1,0 +1,10 @@
+(
+    id: "spacial-rend",
+    name: "Spacial Rend",
+    category: Special,
+    type: Dragon,
+    accuracy: Some(95),
+    pp: 5,
+    usage: Damage(Power(100)),
+    target: Opponent,
+)

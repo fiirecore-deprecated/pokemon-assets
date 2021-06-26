@@ -1,0 +1,13 @@
+(
+    id: "super_potion",
+    name: "Super Potion",
+    description: [
+        "Heals a pokemon for 50 HP."
+    ],
+    use: Script((
+        consume: true,
+        actions: [
+            HealPokemon(50),
+        ],
+    )),
+)

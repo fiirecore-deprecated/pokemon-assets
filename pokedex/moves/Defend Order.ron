@@ -1,0 +1,10 @@
+(
+    id: "defend-order",
+    name: "Defend Order",
+    category: Status,
+    type: Bug,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

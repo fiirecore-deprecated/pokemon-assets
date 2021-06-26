@@ -1,0 +1,10 @@
+(
+    id: "rage-powder",
+    name: "Rage Powder",
+    category: Status,
+    type: Bug,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

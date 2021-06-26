@@ -1,0 +1,10 @@
+(
+    id: "shadow-punch",
+    name: "Shadow Punch",
+    category: Physical,
+    type: Ghost,
+    accuracy: None,
+    pp: 20,
+    usage: Damage(Power(60)),
+    target: Opponent,
+)

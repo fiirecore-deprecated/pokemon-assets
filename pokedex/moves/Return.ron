@@ -1,0 +1,10 @@
+(
+    id: "return",
+    name: "Return",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

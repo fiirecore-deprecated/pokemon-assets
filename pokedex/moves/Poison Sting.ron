@@ -1,0 +1,10 @@
+(
+    id: "poison-sting",
+    name: "Poison Sting",
+    category: Physical,
+    type: Poison,
+    accuracy: Some(100),
+    pp: 35,
+    usage: Damage(Power(15)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "double-team",
+    name: "Double Team",
+    category: Status,
+    type: Normal,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

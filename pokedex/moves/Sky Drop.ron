@@ -1,0 +1,10 @@
+(
+    id: "sky-drop",
+    name: "Sky Drop",
+    category: Physical,
+    type: Flying,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(60)),
+    target: Opponent,
+)

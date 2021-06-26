@@ -1,0 +1,10 @@
+(
+    id: "captivate",
+    name: "Captivate",
+    category: Status,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

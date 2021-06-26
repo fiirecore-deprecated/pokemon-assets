@@ -1,0 +1,10 @@
+(
+    id: "flame-burst",
+    name: "Flame Burst",
+    category: Special,
+    type: Fire,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(70)),
+    target: Opponent,
+)

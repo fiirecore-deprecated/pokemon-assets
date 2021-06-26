@@ -1,0 +1,10 @@
+(
+    id: "mirror-shot",
+    name: "Mirror Shot",
+    category: Special,
+    type: Steel,
+    accuracy: Some(85),
+    pp: 10,
+    usage: Damage(Power(65)),
+    target: Opponent,
+)

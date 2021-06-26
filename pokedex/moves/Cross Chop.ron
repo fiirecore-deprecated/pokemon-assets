@@ -1,0 +1,10 @@
+(
+    id: "cross-chop",
+    name: "Cross Chop",
+    category: Physical,
+    type: Fighting,
+    accuracy: Some(80),
+    pp: 5,
+    usage: Damage(Power(100)),
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "earth-power",
+    name: "Earth Power",
+    category: Special,
+    type: Ground,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Damage(Power(90)),
+    target: Opponent,
+)

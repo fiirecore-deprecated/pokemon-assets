@@ -1,0 +1,10 @@
+(
+    id: "glare",
+    name: "Glare",
+    category: Status,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 30,
+    usage: Todo,
+    target: Opponent,
+)

@@ -1,0 +1,10 @@
+(
+    id: "metal-burst",
+    name: "Metal Burst",
+    category: Physical,
+    type: Steel,
+    accuracy: Some(100),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

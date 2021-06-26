@@ -1,0 +1,10 @@
+(
+    id: "mud-sport",
+    name: "Mud Sport",
+    category: Status,
+    type: Ground,
+    accuracy: None,
+    pp: 15,
+    usage: Todo,
+    target: Opponent,
+)

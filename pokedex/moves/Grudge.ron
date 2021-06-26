@@ -1,0 +1,10 @@
+(
+    id: "grudge",
+    name: "Grudge",
+    category: Status,
+    type: Ghost,
+    accuracy: None,
+    pp: 5,
+    usage: Todo,
+    target: Opponent,
+)

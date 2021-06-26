@@ -1,0 +1,10 @@
+(
+    id: "power-split",
+    name: "Power Split",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

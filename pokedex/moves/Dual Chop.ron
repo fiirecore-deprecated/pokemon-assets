@@ -1,0 +1,10 @@
+(
+    id: "dual-chop",
+    name: "Dual Chop",
+    category: Physical,
+    type: Dragon,
+    accuracy: Some(90),
+    pp: 15,
+    usage: Damage(Power(40)),
+    target: Opponent,
+)

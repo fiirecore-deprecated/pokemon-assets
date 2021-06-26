@@ -1,0 +1,10 @@
+(
+    id: "iron-head",
+    name: "Iron Head",
+    category: Physical,
+    type: Steel,
+    accuracy: Some(100),
+    pp: 15,
+    usage: Damage(Power(80)),
+    target: Opponent,
+)

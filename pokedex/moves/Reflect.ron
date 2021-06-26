@@ -1,0 +1,10 @@
+(
+    id: "reflect",
+    name: "Reflect",
+    category: Status,
+    type: Psychic,
+    accuracy: None,
+    pp: 20,
+    usage: Todo,
+    target: Opponent,
+)

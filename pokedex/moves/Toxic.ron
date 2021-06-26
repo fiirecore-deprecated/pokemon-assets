@@ -1,0 +1,10 @@
+(
+    id: "toxic",
+    name: "Toxic",
+    category: Status,
+    type: Poison,
+    accuracy: Some(90),
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)

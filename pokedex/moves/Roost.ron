@@ -1,0 +1,10 @@
+(
+    id: "roost",
+    name: "Roost",
+    category: Status,
+    type: Flying,
+    accuracy: None,
+    pp: 10,
+    usage: Todo,
+    target: Opponent,
+)
