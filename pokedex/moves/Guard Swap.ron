@@ -5,6 +5,6 @@
     type: Psychic,
     accuracy: None,
     pp: 10,
-    usage: Todo,
+    usage: [Todo],
     target: Opponent,
 )

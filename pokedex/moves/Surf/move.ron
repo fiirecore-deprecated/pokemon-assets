@@ -5,7 +5,7 @@
     category: Special,
     accuracy: Some(100),
     pp: 15,
-    usage: Damage(Power(90)),
+    usage: [Damage(Power(90))],
     target: AllButUser,
     field_id: Some("surf"),
 

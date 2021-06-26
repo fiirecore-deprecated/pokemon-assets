@@ -5,7 +5,7 @@
     type: Normal,
     accuracy: Some(100),
     pp: 40,
-    usage: Script(
+    usage: [Script(
         "
         let effective = target.effective(move.type, move.category);
         let defense = target.defense(move.category);

@@ -5,6 +5,6 @@
     type: Electric,
     accuracy: None,
     pp: 20,
-    usage: Todo,
+    usage: [Todo],
     target: Opponent,
 )

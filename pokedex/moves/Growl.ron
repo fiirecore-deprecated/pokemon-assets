@@ -5,6 +5,6 @@
     type: Normal,
     accuracy: Some(100),
     pp: 40,
-    usage: StatStage(Attack, -1),
+    usage: [StatStage(Attack, -1),
     target: Opponent,
 )

@@ -5,7 +5,7 @@
     type: Grass,
     accuracy: Some(90),
     pp: 10,
-    usage: Todo,
+    usage: [Todo],
     target: Opponent,
     //script: Some((
     //  action: Persistent((
