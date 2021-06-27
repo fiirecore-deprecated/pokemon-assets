@@ -9,7 +9,7 @@
         "
         let effective = target.effective(move.type, move.category);
         let defense = target.defense(move.category);
-        let result = user.damage(move.type, 40, defense, effective);
+        let result = user.damage(move.type, 40, defense, effective, move.crit_chance);
         if result.damage > target.current_hp {
             result.damage = target.current_hp - 1;
         }

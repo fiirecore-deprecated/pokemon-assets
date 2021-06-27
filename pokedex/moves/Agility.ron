@@ -6,5 +6,5 @@
     accuracy: None,
     pp: 30,
     usage: [Todo],
-    target: Opponent,
+    target: User,
 )

@@ -5,6 +5,6 @@
     type: Poison,
     accuracy: Some(100),
     pp: 30,
-    usage: [Damage(Power(40))],
+    usage: [Chance([StatStage(SpDefense, -1)], 0.1), Damage(Power(40))],
     target: Opponent,
 )

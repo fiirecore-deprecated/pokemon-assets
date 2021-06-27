@@ -4,7 +4,7 @@
     category: Status,
     type: Poison,
     accuracy: None,
-    pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    pp: 40,
+    usage: [StatStage(Defense, 2)],
+    target: User,
 )

@@ -7,4 +7,5 @@
     pp: 15,
     usage: [Damage(Power(55))],
     target: Opponent,
+    contact: true,
 )
