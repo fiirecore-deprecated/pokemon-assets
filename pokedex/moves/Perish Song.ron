@@ -9,7 +9,7 @@
     usage: [
         Todo,
     ],
-    target: Todo,
+    target: AllPokemon,
     contact: false,
     crit_rate: 0,
     field_id: None,
