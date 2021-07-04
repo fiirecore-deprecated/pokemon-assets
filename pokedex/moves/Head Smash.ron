@@ -7,7 +7,7 @@
     pp: 5,
     priority: 0,
     usage: [
-        Drain(Power(150), -0.5),
+        Drain(Power(150), -50),
     ],
     target: Any,
     contact: false,

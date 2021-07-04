@@ -8,7 +8,7 @@
     priority: 0,
     usage: [
         Damage(Power(50)),
-        Status(Poison, Temporary(15, 15), 0.5),
+        Status(Poison, Temporary(15, 15), 50),
     ],
     target: Any,
     contact: false,

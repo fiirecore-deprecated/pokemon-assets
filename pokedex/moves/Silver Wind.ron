@@ -15,7 +15,7 @@
             StatStage(Basic(SpAttack), 1),
             StatStage(Basic(SpDefense), 1),
             StatStage(Basic(Speed), 1),
-        ], 0.1),
+        ], 10),
     ],
     target: Any,
     contact: false,

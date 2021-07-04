@@ -8,7 +8,7 @@
     priority: 0,
     usage: [
         Damage(Power(80)),
-        Status(Burn, Permanent, 0.3),
+        Status(Burn, Permanent, 30),
     ],
     target: AllOtherPokemon,
     contact: false,

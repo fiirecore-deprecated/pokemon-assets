@@ -8,7 +8,7 @@
     priority: 0,
     usage: [
         Damage(Power(75)),
-        Status(Paralysis, Permanent, 0.1),
+        Status(Paralysis, Permanent, 10),
     ],
     target: Any,
     contact: false,

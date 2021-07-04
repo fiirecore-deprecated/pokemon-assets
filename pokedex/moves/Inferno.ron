@@ -8,7 +8,7 @@
     priority: 0,
     usage: [
         Damage(Power(100)),
-        Status(Burn, Permanent, 1),
+        Status(Burn, Permanent, 100),
     ],
     target: Any,
     contact: false,

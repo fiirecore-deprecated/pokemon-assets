@@ -10,7 +10,7 @@
         Damage(Power(85)),
         Chance([
             Flinch,
-        ], 0.3),
+        ], 30),
     ],
     target: Any,
     contact: false,

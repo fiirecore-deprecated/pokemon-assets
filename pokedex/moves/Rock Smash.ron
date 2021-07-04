@@ -10,7 +10,7 @@
         Damage(Power(40)),
         Chance([
             StatStage(Basic(Defense), -1),
-        ], 0.5),
+        ], 50),
     ],
     target: Any,
     contact: false,

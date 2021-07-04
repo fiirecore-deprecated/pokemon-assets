@@ -8,7 +8,7 @@
     priority: 0,
     usage: [
         Damage(Power(95)),
-        Status(Burn, Permanent, 0.1),
+        Status(Burn, Permanent, 10),
     ],
     target: AllOpponents,
     contact: false,

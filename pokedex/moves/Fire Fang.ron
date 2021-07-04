@@ -10,8 +10,8 @@
         Damage(Power(65)),
         Chance([
             Flinch,
-        ], 0.1),
-        Status(Burn, Permanent, 0.1),
+        ], 10),
+        Status(Burn, Permanent, 10),
     ],
     target: Any,
     contact: false,

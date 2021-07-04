@@ -7,8 +7,8 @@
     pp: 15,
     priority: 0,
     usage: [
-        Drain(Power(120), -0.33),
-        Status(Burn, Permanent, 0.1),
+        Drain(Power(120), -33),
+        Status(Burn, Permanent, 10),
     ],
     target: Any,
     contact: false,
