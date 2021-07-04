@@ -5,6 +5,13 @@
     type: Poison,
     accuracy: Some(70),
     pp: 20,
-    usage: [Damage(Power(30))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(30)),
+        Status(Poison, Permanent, 0.4),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

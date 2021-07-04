@@ -5,7 +5,12 @@
     type: Flying,
     accuracy: Some(100),
     pp: 15,
-    usage: [Damage(Power(55))],
-    target: Opponent,
-    contact: true,
+    priority: 0,
+    usage: [
+        Damage(Power(55)),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

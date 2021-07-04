@@ -5,6 +5,15 @@
     type: Dark,
     accuracy: Some(95),
     pp: 10,
-    usage: [Damage(Power(85))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(85)),
+        Chance([
+            StatStage(Accuracy, -1),
+        ], 0.4),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

@@ -5,6 +5,12 @@
     type: Normal,
     accuracy: None,
     pp: 25,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Todo,
+    ],
+    target: Todo,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

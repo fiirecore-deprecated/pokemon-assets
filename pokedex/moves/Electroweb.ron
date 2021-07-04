@@ -5,6 +5,13 @@
     type: Electric,
     accuracy: Some(95),
     pp: 15,
-    usage: [Damage(Power(55))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(55)),
+        StatStage(Basic(Speed), -1),
+    ],
+    target: AllOpponents,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

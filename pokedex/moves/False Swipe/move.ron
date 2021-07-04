@@ -16,5 +16,6 @@
         [MoveResult::Damage(result)]
         "
     )],
-    target: Opponent,
+    target: Any,
+    contact: true,
 )

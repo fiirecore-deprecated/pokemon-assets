@@ -5,6 +5,12 @@
     type: Fighting,
     accuracy: Some(100),
     pp: 10,
-    usage: [Damage(Power(75))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Drain(Power(75), 0.5),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

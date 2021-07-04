@@ -5,6 +5,12 @@
     type: Ground,
     accuracy: Some(30),
     pp: 5,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Todo,
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

@@ -5,6 +5,12 @@
     type: Electric,
     accuracy: Some(90),
     pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Status(Paralysis, Permanent, 0),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

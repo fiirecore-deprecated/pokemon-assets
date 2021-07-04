@@ -4,7 +4,13 @@
     category: Status,
     type: Poison,
     accuracy: None,
-    pp: 40,
-    usage: [StatStage(Defense, 2)],
+    pp: 20,
+    priority: 0,
+    usage: [
+        StatStage(Basic(Defense), 2),
+    ],
     target: User,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

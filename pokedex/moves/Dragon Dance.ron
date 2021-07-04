@@ -5,6 +5,13 @@
     type: Dragon,
     accuracy: None,
     pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        StatStage(Basic(Attack), 1),
+        StatStage(Basic(Speed), 1),
+    ],
+    target: User,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

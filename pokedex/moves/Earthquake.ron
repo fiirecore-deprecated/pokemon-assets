@@ -5,6 +5,12 @@
     type: Ground,
     accuracy: Some(100),
     pp: 10,
-    usage: [Damage(Power(100))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(100)),
+    ],
+    target: AllOtherPokemon,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

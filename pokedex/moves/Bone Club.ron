@@ -5,6 +5,15 @@
     type: Ground,
     accuracy: Some(85),
     pp: 20,
-    usage: [Damage(Power(65))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(65)),
+        Chance([
+            Flinch,
+        ], 0.1),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

@@ -5,6 +5,12 @@
     type: Poison,
     accuracy: Some(90),
     pp: 40,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Status(Poison, Permanent, 0),
+    ],
+    target: AllOpponents,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

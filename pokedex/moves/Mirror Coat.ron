@@ -5,6 +5,12 @@
     type: Psychic,
     accuracy: Some(100),
     pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    priority: -5,
+    usage: [
+        Todo,
+    ],
+    target: Todo,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

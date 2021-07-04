@@ -5,6 +5,15 @@
     type: Steel,
     accuracy: Some(95),
     pp: 35,
-    usage: [Damage(Power(50))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(50)),
+        Chance([
+            StatStage(Basic(Attack), 1),
+        ], 0.1),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

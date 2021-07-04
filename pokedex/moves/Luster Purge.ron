@@ -5,6 +5,15 @@
     type: Psychic,
     accuracy: Some(100),
     pp: 5,
-    usage: [Damage(Power(70))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(70)),
+        Chance([
+            StatStage(Basic(SpDefense), -1),
+        ], 0.5),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

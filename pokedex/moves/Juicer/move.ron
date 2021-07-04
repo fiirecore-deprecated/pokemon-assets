@@ -6,6 +6,6 @@
 	accuracy: None,
 	pp: 255,
 	usage: [Damage(Power(255))],
-	target: Opponent,
+	target: Any,
 	priority: 127,
 )

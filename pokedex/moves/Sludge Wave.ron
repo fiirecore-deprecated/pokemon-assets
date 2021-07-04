@@ -5,6 +5,13 @@
     type: Poison,
     accuracy: Some(100),
     pp: 10,
-    usage: [Damage(Power(95))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(95)),
+        Status(Poison, Permanent, 0.1),
+    ],
+    target: AllOtherPokemon,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

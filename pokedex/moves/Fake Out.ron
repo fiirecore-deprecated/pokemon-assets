@@ -5,6 +5,13 @@
     type: Normal,
     accuracy: Some(100),
     pp: 10,
-    usage: [Damage(Power(40))],
-    target: Opponent,
+    priority: 3,
+    usage: [
+        Damage(Power(40)),
+        Flinch,
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

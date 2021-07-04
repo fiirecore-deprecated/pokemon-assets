@@ -5,6 +5,13 @@
     type: Normal,
     accuracy: Some(100),
     pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        StatStage(Basic(Attack), -1),
+        StatStage(Basic(Defense), -1),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

@@ -5,6 +5,12 @@
     type: Ghost,
     accuracy: Some(100),
     pp: 15,
-    usage: [Damage(Power(70))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(70)),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 1,
+    field_id: None,
 )

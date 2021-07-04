@@ -5,6 +5,12 @@
     type: Normal,
     accuracy: None,
     pp: 1,
-    usage: [Damage(Power(50))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(50)),
+    ],
+    target: Todo,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

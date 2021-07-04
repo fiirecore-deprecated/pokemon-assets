@@ -5,6 +5,12 @@
     type: Ground,
     accuracy: Some(100),
     pp: 30,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Todo,
+    ],
+    target: AllOtherPokemon,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

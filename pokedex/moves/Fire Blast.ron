@@ -5,6 +5,13 @@
     type: Fire,
     accuracy: Some(85),
     pp: 5,
-    usage: [Damage(Power(110))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(110)),
+        Status(Burn, Permanent, 0.1),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

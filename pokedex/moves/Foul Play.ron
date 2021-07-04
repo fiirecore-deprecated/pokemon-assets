@@ -1,0 +1,16 @@
+(
+    id: "foul-play",
+    name: "Foul Play",
+    category: Physical,
+    type: Dark,
+    accuracy: Some(100),
+    pp: 15,
+    priority: 0,
+    usage: [
+        Damage(Power(95)),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
+)

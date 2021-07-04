@@ -5,6 +5,12 @@
     type: Grass,
     accuracy: Some(95),
     pp: 25,
-    usage: [Damage(Power(55))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(55)),
+    ],
+    target: AllOpponents,
+    contact: false,
+    crit_rate: 1,
+    field_id: None,
 )

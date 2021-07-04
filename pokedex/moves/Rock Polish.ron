@@ -5,6 +5,12 @@
     type: Rock,
     accuracy: None,
     pp: 20,
-    usage: [Todo],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        StatStage(Basic(Speed), 2),
+    ],
+    target: User,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

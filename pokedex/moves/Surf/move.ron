@@ -1,12 +1,16 @@
 (
     id: "surf",
     name: "Surf",
-    type: Water,
     category: Special,
+    type: Water,
     accuracy: Some(100),
     pp: 15,
-    usage: [Damage(Power(90))],
-    target: AllButUser,
+    priority: 0,
+    usage: [
+        Damage(Power(90)),
+    ],
+    target: AllOtherPokemon,
+    contact: false,
+    crit_rate: 0,
     field_id: Some("surf"),
-
 )

@@ -5,6 +5,12 @@
     type: Ice,
     accuracy: Some(90),
     pp: 10,
-    usage: [Damage(Power(60))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(60)),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 6,
+    field_id: None,
 )

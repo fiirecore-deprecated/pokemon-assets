@@ -5,6 +5,15 @@
     type: Fire,
     accuracy: Some(95),
     pp: 5,
-    usage: [Damage(Power(180))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(180)),
+        StatStage(Basic(Defense), -1),
+        StatStage(Basic(SpDefense), -1),
+        StatStage(Basic(Speed), -1),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )

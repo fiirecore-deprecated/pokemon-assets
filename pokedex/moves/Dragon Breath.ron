@@ -5,6 +5,13 @@
     type: Dragon,
     accuracy: Some(100),
     pp: 20,
-    usage: [Damage(Power(60))],
-    target: Opponent,
+    priority: 0,
+    usage: [
+        Damage(Power(60)),
+        Status(Paralysis, Permanent, 0.3),
+    ],
+    target: Any,
+    contact: false,
+    crit_rate: 0,
+    field_id: None,
 )
