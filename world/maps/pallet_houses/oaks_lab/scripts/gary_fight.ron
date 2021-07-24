@@ -1,7 +1,9 @@
 (
-    identifier: "gary_fight_1",
-    location: Some(
-        (
+    identifier: "rival_fight_1",
+    conditions: [
+        Script("oak_catch", true),
+        PlayerHasPokemon(true),
+        Location((
             min: (
                 x: 5,
                 y: 8,
@@ -10,26 +12,14 @@
                 x: 7,
                 y: 8,
             ),
-        )
-    ),
-    conditions: [
-        Scripts([
-            (
-                identifier: "oak_pokemon",
-                happened: true,
-            ),
-            (
-                identifier: "gary_fight_1",
-                happened: false,
-            ),
-        ]),
-        PlayerHasPokemon(true),
+        )),
+        NoRepeat,
     ],
     actions: [
         PlayerFreezeInput,
         PlayMusic("EncounterRival"),
         NpcSay(
-            "gary",
+            "rival",
             [
                 (
                     lines: [
@@ -44,18 +34,10 @@
                 )
             ],
         ),
-        NpcMoveToPlayer("gary"),
-        NpcBattle("gary"),
-        NpcMove(
-            "gary",
-            (
-                coords: (
-                    x: 6,
-                    y: 12,
-                )
-            )
-        ),
-        NpcRemove("gary"),
+        NpcMoveToPlayer("rival"),
+        NpcBattle("rival"),
+        NpcMove("rival", 6, 11),
+        NpcRemove("rival"),
         PlayMapMusic,
         PlayerUnfreezeInput,
     ]

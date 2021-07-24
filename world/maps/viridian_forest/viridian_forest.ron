@@ -12,7 +12,7 @@
     )),
 
     settings: (
-        time: Night,
+        brightness: Night,
     )
 
 

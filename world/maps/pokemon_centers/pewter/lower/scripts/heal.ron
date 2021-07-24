@@ -50,7 +50,7 @@
             )]
         ),
         PlayerHealPokemon,
-        Info("Healed player pokemon"),
+        // Info("Healed player pokemon"),
         NpcSay(
             "nurse",
             [

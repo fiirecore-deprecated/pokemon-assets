@@ -13,7 +13,7 @@
             "route_2",
             "route_22",
         ],
-        map_icon: Some(City(2, 5))
+        // map_icon: Some(City(2, 5))
     )),
 
     settings: (
