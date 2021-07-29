@@ -1,6 +1,6 @@
 (    
-	id: "juicer",
-	name: "The Juicer",
+	id: "test",
+	name: "Test Move",
 	category: Special,
 	type: Dragon,
 	accuracy: None,
