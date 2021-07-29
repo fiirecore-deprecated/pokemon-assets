@@ -1,5 +1,5 @@
 (
-    file: "images/font1.png",
+    sheet: "images/font1.png",
     data: (
         id: 1,
         width: 6,

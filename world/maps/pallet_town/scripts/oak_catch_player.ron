@@ -73,7 +73,8 @@
         NpcLeadPlayer("oak", 11, 3),
         NpcLeadPlayer("oak", 11, 14),
         NpcLeadPlayer("oak", 16, 14),
-        NpcLeadPlayer("oak", 16, 13),
+        NpcLook("oak", Up),
+        Wait(0.125),
         NpcWarp("oak", Dest(
             (
                 map: Some("pallet_houses"),
@@ -87,6 +88,8 @@
                 direction: Up,
             )
         )),
+        Wait(0.125),
+        PlayerMove(16, 13),
         WaitFinishWarp,
         Wait(0.5),
         NpcMove("oak", 6, 6),
