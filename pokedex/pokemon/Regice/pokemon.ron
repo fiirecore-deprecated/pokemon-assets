@@ -3,26 +3,6 @@
     name: "Regice",
     primary_type: Ice,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 50,
-        def: 100,
-        sp_atk: 100,
-        sp_def: 200,
-        speed: 50,
-    ),
-    data: (
-        species: "Iceberg",
-        height: 18,
-        weight: 1750,
-    ),
-    training: (
-        base_exp: 261,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "hyper-beam",
@@ -61,4 +41,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 50,
+        def: 100,
+        sp_atk: 100,
+        sp_def: 200,
+        speed: 50,
+    ),
+    species: "Iceberg",
+    height: 18,
+    weight: 1750,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

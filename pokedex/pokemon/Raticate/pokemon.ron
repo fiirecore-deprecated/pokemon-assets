@@ -3,26 +3,6 @@
     name: "Raticate",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 55,
-        atk: 81,
-        def: 60,
-        sp_atk: 50,
-        sp_def: 70,
-        speed: 97,
-    ),
-    data: (
-        species: "Mouse",
-        height: 7,
-        weight: 185,
-    ),
-    training: (
-        base_exp: 145,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -61,4 +41,22 @@
             level: 50,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 81,
+        def: 60,
+        sp_atk: 50,
+        sp_def: 70,
+        speed: 97,
+    ),
+    species: "Mouse",
+    height: 7,
+    weight: 185,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Torkoal",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 85,
-        def: 140,
-        sp_atk: 85,
-        sp_def: 70,
-        speed: 20,
-    ),
-    data: (
-        species: "Coal",
-        height: 5,
-        weight: 804,
-    ),
-    training: (
-        base_exp: 165,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "body-slam",
@@ -73,4 +53,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 85,
+        def: 140,
+        sp_atk: 85,
+        sp_def: 70,
+        speed: 20,
+    ),
+    species: "Coal",
+    height: 5,
+    weight: 804,
+    training: (
+        base_exp: 165,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

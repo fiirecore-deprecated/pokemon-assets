@@ -3,26 +3,6 @@
     name: "Ralts",
     primary_type: Psychic,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 28,
-        atk: 25,
-        def: 25,
-        sp_atk: 45,
-        sp_def: 35,
-        speed: 40,
-    ),
-    data: (
-        species: "Feeling",
-        height: 4,
-        weight: 66,
-    ),
-    training: (
-        base_exp: 40,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -65,4 +45,22 @@
             level: 21,
         ),
     ],
+    base: (
+        hp: 28,
+        atk: 25,
+        def: 25,
+        sp_atk: 45,
+        sp_def: 35,
+        speed: 40,
+    ),
+    species: "Feeling",
+    height: 4,
+    weight: 66,
+    training: (
+        base_exp: 40,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

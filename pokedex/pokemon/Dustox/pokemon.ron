@@ -3,26 +3,6 @@
     name: "Dustox",
     primary_type: Bug,
     secondary_type: Some(Poison),
-    base: (
-        hp: 60,
-        atk: 50,
-        def: 70,
-        sp_atk: 50,
-        sp_def: 90,
-        speed: 65,
-    ),
-    data: (
-        species: "Poison",
-        height: 12,
-        weight: 316,
-    ),
-    training: (
-        base_exp: 173,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "gust",
@@ -65,4 +45,22 @@
             level: 34,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 50,
+        def: 70,
+        sp_atk: 50,
+        sp_def: 90,
+        speed: 65,
+    ),
+    species: "Poison",
+    height: 12,
+    weight: 316,
+    training: (
+        base_exp: 173,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

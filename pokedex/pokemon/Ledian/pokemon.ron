@@ -3,26 +3,6 @@
     name: "Ledian",
     primary_type: Bug,
     secondary_type: Some(Flying),
-    base: (
-        hp: 55,
-        atk: 35,
-        def: 50,
-        sp_atk: 55,
-        sp_def: 110,
-        speed: 85,
-    ),
-    data: (
-        species: "Five",
-        height: 14,
-        weight: 356,
-    ),
-    training: (
-        base_exp: 137,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "comet-punch",
@@ -69,4 +49,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 35,
+        def: 50,
+        sp_atk: 55,
+        sp_def: 110,
+        speed: 85,
+    ),
+    species: "Five",
+    height: 14,
+    weight: 356,
+    training: (
+        base_exp: 137,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

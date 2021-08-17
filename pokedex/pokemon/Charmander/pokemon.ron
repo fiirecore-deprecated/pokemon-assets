@@ -3,26 +3,6 @@
     name: "Charmander",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 39,
-        atk: 52,
-        def: 43,
-        sp_atk: 60,
-        sp_def: 50,
-        speed: 65,
-    ),
-    data: (
-        species: "Lizard",
-        height: 6,
-        weight: 85,
-    ),
-    training: (
-        base_exp: 62,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 13,
         ),
     ],
+    base: (
+        hp: 39,
+        atk: 52,
+        def: 43,
+        sp_atk: 60,
+        sp_def: 50,
+        speed: 65,
+    ),
+    species: "Lizard",
+    height: 6,
+    weight: 85,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

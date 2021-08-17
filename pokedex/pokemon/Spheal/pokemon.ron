@@ -3,26 +3,6 @@
     name: "Spheal",
     primary_type: Ice,
     secondary_type: Some(Water),
-    base: (
-        hp: 70,
-        atk: 40,
-        def: 50,
-        sp_atk: 55,
-        sp_def: 50,
-        speed: 25,
-    ),
-    data: (
-        species: "Clap",
-        height: 8,
-        weight: 395,
-    ),
-    training: (
-        base_exp: 58,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "body-slam",
@@ -77,4 +57,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 40,
+        def: 50,
+        sp_atk: 55,
+        sp_def: 50,
+        speed: 25,
+    ),
+    species: "Clap",
+    height: 8,
+    weight: 395,
+    training: (
+        base_exp: 58,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

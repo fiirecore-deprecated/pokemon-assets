@@ -3,26 +3,6 @@
     name: "Charmeleon",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 58,
-        atk: 64,
-        def: 58,
-        sp_atk: 80,
-        sp_def: 65,
-        speed: 80,
-    ),
-    data: (
-        species: "Flame",
-        height: 11,
-        weight: 190,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 13,
         ),
     ],
+    base: (
+        hp: 58,
+        atk: 64,
+        def: 58,
+        sp_atk: 80,
+        sp_def: 65,
+        speed: 80,
+    ),
+    species: "Flame",
+    height: 11,
+    weight: 190,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Magcargo",
     primary_type: Fire,
     secondary_type: Some(Rock),
-    base: (
-        hp: 60,
-        atk: 50,
-        def: 120,
-        sp_atk: 90,
-        sp_def: 80,
-        speed: 30,
-    ),
-    data: (
-        species: "Lava",
-        height: 8,
-        weight: 550,
-    ),
-    training: (
-        base_exp: 151,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "body-slam",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 50,
+        def: 120,
+        sp_atk: 90,
+        sp_def: 80,
+        speed: 30,
+    ),
+    species: "Lava",
+    height: 8,
+    weight: 550,
+    training: (
+        base_exp: 151,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

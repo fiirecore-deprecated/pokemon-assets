@@ -3,26 +3,6 @@
     name: "Vigoroth",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 80,
-        def: 80,
-        sp_atk: 55,
-        sp_def: 55,
-        speed: 90,
-    ),
-    data: (
-        species: "Wild",
-        height: 14,
-        weight: 465,
-    ),
-    training: (
-        base_exp: 154,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -73,4 +53,22 @@
             level: 43,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 80,
+        def: 80,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 90,
+    ),
+    species: "Wild",
+    height: 14,
+    weight: 465,
+    training: (
+        base_exp: 154,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

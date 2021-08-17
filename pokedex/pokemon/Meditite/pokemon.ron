@@ -3,26 +3,6 @@
     name: "Meditite",
     primary_type: Fighting,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 30,
-        atk: 40,
-        def: 55,
-        sp_atk: 40,
-        sp_def: 55,
-        speed: 60,
-    ),
-    data: (
-        species: "Meditate",
-        height: 6,
-        weight: 112,
-    ),
-    training: (
-        base_exp: 56,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "confusion",
@@ -73,4 +53,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 30,
+        atk: 40,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 55,
+        speed: 60,
+    ),
+    species: "Meditate",
+    height: 6,
+    weight: 112,
+    training: (
+        base_exp: 56,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Cacturne",
     primary_type: Grass,
     secondary_type: Some(Dark),
-    base: (
-        hp: 70,
-        atk: 115,
-        def: 60,
-        sp_atk: 115,
-        sp_def: 60,
-        speed: 55,
-    ),
-    data: (
-        species: "Scarecrow",
-        height: 13,
-        weight: 774,
-    ),
-    training: (
-        base_exp: 166,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -93,4 +73,22 @@
             level: 41,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 115,
+        def: 60,
+        sp_atk: 115,
+        sp_def: 60,
+        speed: 55,
+    ),
+    species: "Scarecrow",
+    height: 13,
+    weight: 774,
+    training: (
+        base_exp: 166,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

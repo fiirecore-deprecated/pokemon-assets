@@ -3,26 +3,6 @@
     name: "Groudon",
     primary_type: Ground,
     secondary_type: None,
-    base: (
-        hp: 100,
-        atk: 150,
-        def: 140,
-        sp_atk: 100,
-        sp_def: 90,
-        speed: 90,
-    ),
-    data: (
-        species: "Continent",
-        height: 35,
-        weight: 9500,
-    ),
-    training: (
-        base_exp: 302,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "solar-beam",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 150,
+        def: 140,
+        sp_atk: 100,
+        sp_def: 90,
+        speed: 90,
+    ),
+    species: "Continent",
+    height: 35,
+    weight: 9500,
+    training: (
+        base_exp: 302,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

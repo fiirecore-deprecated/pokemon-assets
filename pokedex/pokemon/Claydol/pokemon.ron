@@ -3,26 +3,6 @@
     name: "Claydol",
     primary_type: Ground,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 60,
-        atk: 70,
-        def: 105,
-        sp_atk: 70,
-        sp_def: 120,
-        speed: 75,
-    ),
-    data: (
-        species: "Clay",
-        height: 15,
-        weight: 1080,
-    ),
-    training: (
-        base_exp: 175,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "psybeam",
@@ -85,4 +65,22 @@
             level: 42,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 70,
+        def: 105,
+        sp_atk: 70,
+        sp_def: 120,
+        speed: 75,
+    ),
+    species: "Clay",
+    height: 15,
+    weight: 1080,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

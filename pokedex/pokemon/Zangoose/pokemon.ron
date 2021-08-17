@@ -3,26 +3,6 @@
     name: "Zangoose",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 73,
-        atk: 115,
-        def: 60,
-        sp_atk: 60,
-        sp_def: 60,
-        speed: 90,
-    ),
-    data: (
-        species: "Cat",
-        height: 13,
-        weight: 403,
-    ),
-    training: (
-        base_exp: 160,
-        growth_rate: SlowThenVeryFast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 31,
         ),
     ],
+    base: (
+        hp: 73,
+        atk: 115,
+        def: 60,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 90,
+    ),
+    species: "Cat",
+    height: 13,
+    weight: 403,
+    training: (
+        base_exp: 160,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

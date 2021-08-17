@@ -3,26 +3,6 @@
     name: "Mareep",
     primary_type: Electric,
     secondary_type: None,
-    base: (
-        hp: 55,
-        atk: 40,
-        def: 40,
-        sp_atk: 65,
-        sp_def: 45,
-        speed: 35,
-    ),
-    data: (
-        species: "Wool",
-        height: 6,
-        weight: 78,
-    ),
-    training: (
-        base_exp: 56,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -53,4 +33,22 @@
             level: 23,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 40,
+        def: 40,
+        sp_atk: 65,
+        sp_def: 45,
+        speed: 35,
+    ),
+    species: "Wool",
+    height: 6,
+    weight: 78,
+    training: (
+        base_exp: 56,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

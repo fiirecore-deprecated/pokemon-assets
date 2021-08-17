@@ -3,26 +3,6 @@
     name: "Snubbull",
     primary_type: Fairy,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 80,
-        def: 50,
-        sp_atk: 40,
-        sp_def: 40,
-        speed: 30,
-    ),
-    data: (
-        species: "Fairy",
-        height: 6,
-        weight: 78,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "tackle",
@@ -65,4 +45,22 @@
             level: 53,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 80,
+        def: 50,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 30,
+    ),
+    species: "Fairy",
+    height: 6,
+    weight: 78,
+    training: (
+        base_exp: 60,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

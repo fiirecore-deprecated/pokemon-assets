@@ -3,26 +3,6 @@
     name: "Quilava",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 58,
-        atk: 64,
-        def: 58,
-        sp_atk: 80,
-        sp_def: 65,
-        speed: 80,
-    ),
-    data: (
-        species: "Volcano",
-        height: 9,
-        weight: 190,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -61,4 +41,22 @@
             level: 31,
         ),
     ],
+    base: (
+        hp: 58,
+        atk: 64,
+        def: 58,
+        sp_atk: 80,
+        sp_def: 65,
+        speed: 80,
+    ),
+    species: "Volcano",
+    height: 9,
+    weight: 190,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Hitmonchan",
     primary_type: Fighting,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 105,
-        def: 79,
-        sp_atk: 35,
-        sp_def: 110,
-        speed: 76,
-    ),
-    data: (
-        species: "Punching",
-        height: 14,
-        weight: 502,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(0),
-    ),
     moves: [
         (
             move: "comet-punch",
@@ -73,4 +53,22 @@
             level: 32,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 105,
+        def: 79,
+        sp_atk: 35,
+        sp_def: 110,
+        speed: 76,
+    ),
+    species: "Punching",
+    height: 14,
+    weight: 502,
+    training: (
+        base_exp: 159,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
 )

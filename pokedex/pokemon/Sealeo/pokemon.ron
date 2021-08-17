@@ -3,26 +3,6 @@
     name: "Sealeo",
     primary_type: Ice,
     secondary_type: Some(Water),
-    base: (
-        hp: 90,
-        atk: 60,
-        def: 70,
-        sp_atk: 75,
-        sp_def: 70,
-        speed: 45,
-    ),
-    data: (
-        species: "Ball",
-        height: 11,
-        weight: 876,
-    ),
-    training: (
-        base_exp: 144,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "body-slam",
@@ -77,4 +57,22 @@
             level: 55,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 60,
+        def: 70,
+        sp_atk: 75,
+        sp_def: 70,
+        speed: 45,
+    ),
+    species: "Ball",
+    height: 11,
+    weight: 876,
+    training: (
+        base_exp: 144,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

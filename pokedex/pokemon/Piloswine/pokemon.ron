@@ -3,26 +3,6 @@
     name: "Piloswine",
     primary_type: Ice,
     secondary_type: Some(Ground),
-    base: (
-        hp: 100,
-        atk: 100,
-        def: 80,
-        sp_atk: 60,
-        sp_def: 60,
-        speed: 50,
-    ),
-    data: (
-        species: "Swine",
-        height: 11,
-        weight: 558,
-    ),
-    training: (
-        base_exp: 158,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "horn-attack",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 100,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 50,
+    ),
+    species: "Swine",
+    height: 11,
+    weight: 558,
+    training: (
+        base_exp: 158,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

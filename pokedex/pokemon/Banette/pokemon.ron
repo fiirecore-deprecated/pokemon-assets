@@ -3,26 +3,6 @@
     name: "Banette",
     primary_type: Ghost,
     secondary_type: None,
-    base: (
-        hp: 64,
-        atk: 115,
-        def: 65,
-        sp_atk: 83,
-        sp_def: 63,
-        speed: 65,
-    ),
-    data: (
-        species: "Marionette",
-        height: 11,
-        weight: 125,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "night-shade",
@@ -77,4 +57,22 @@
             level: 55,
         ),
     ],
+    base: (
+        hp: 64,
+        atk: 115,
+        def: 65,
+        sp_atk: 83,
+        sp_def: 63,
+        speed: 65,
+    ),
+    species: "Marionette",
+    height: 11,
+    weight: 125,
+    training: (
+        base_exp: 159,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

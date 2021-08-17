@@ -3,26 +3,6 @@
     name: "Altaria",
     primary_type: Dragon,
     secondary_type: Some(Flying),
-    base: (
-        hp: 75,
-        atk: 70,
-        def: 90,
-        sp_atk: 70,
-        sp_def: 105,
-        speed: 80,
-    ),
-    data: (
-        species: "Humming",
-        height: 11,
-        weight: 206,
-    ),
-    training: (
-        base_exp: 172,
-        growth_rate: SlowThenVeryFast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "fury-attack",
@@ -85,4 +65,22 @@
             level: 40,
         ),
     ],
+    base: (
+        hp: 75,
+        atk: 70,
+        def: 90,
+        sp_atk: 70,
+        sp_def: 105,
+        speed: 80,
+    ),
+    species: "Humming",
+    height: 11,
+    weight: 206,
+    training: (
+        base_exp: 172,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

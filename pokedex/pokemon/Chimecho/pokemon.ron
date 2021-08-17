@@ -3,26 +3,6 @@
     name: "Chimecho",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 75,
-        atk: 50,
-        def: 80,
-        sp_atk: 95,
-        sp_def: 90,
-        speed: 65,
-    ),
-    data: (
-        species: "Wind",
-        height: 6,
-        weight: 10,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wrap",
@@ -73,4 +53,22 @@
             level: 9,
         ),
     ],
+    base: (
+        hp: 75,
+        atk: 50,
+        def: 80,
+        sp_atk: 95,
+        sp_def: 90,
+        speed: 65,
+    ),
+    species: "Wind",
+    height: 6,
+    weight: 10,
+    training: (
+        base_exp: 159,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

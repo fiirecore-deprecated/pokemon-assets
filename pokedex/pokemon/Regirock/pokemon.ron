@@ -3,26 +3,6 @@
     name: "Regirock",
     primary_type: Rock,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 100,
-        def: 200,
-        sp_atk: 50,
-        sp_def: 100,
-        speed: 50,
-    ),
-    data: (
-        species: "Rock",
-        height: 17,
-        weight: 2300,
-    ),
-    training: (
-        base_exp: 261,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "hyper-beam",
@@ -61,4 +41,22 @@
             level: 41,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 100,
+        def: 200,
+        sp_atk: 50,
+        sp_def: 100,
+        speed: 50,
+    ),
+    species: "Rock",
+    height: 17,
+    weight: 2300,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

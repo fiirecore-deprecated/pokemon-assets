@@ -3,26 +3,6 @@
     name: "Drowzee",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 48,
-        def: 45,
-        sp_atk: 43,
-        sp_def: 90,
-        speed: 42,
-    ),
-    data: (
-        species: "Hypnosis",
-        height: 10,
-        weight: 324,
-    ),
-    training: (
-        base_exp: 66,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "pound",
@@ -69,4 +49,22 @@
             level: 47,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 48,
+        def: 45,
+        sp_atk: 43,
+        sp_def: 90,
+        speed: 42,
+    ),
+    species: "Hypnosis",
+    height: 10,
+    weight: 324,
+    training: (
+        base_exp: 66,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

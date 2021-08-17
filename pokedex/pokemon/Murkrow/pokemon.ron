@@ -3,26 +3,6 @@
     name: "Murkrow",
     primary_type: Dark,
     secondary_type: Some(Flying),
-    base: (
-        hp: 60,
-        atk: 85,
-        def: 42,
-        sp_atk: 85,
-        sp_def: 42,
-        speed: 91,
-    ),
-    data: (
-        species: "Darkness",
-        height: 5,
-        weight: 21,
-    ),
-    training: (
-        base_exp: 81,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "peck",
@@ -57,4 +37,22 @@
             level: 9,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 85,
+        def: 42,
+        sp_atk: 85,
+        sp_def: 42,
+        speed: 91,
+    ),
+    species: "Darkness",
+    height: 5,
+    weight: 21,
+    training: (
+        base_exp: 81,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,6 +3,12 @@
     name: "Beldum",
     primary_type: Steel,
     secondary_type: Some(Psychic),
+    moves: [
+        (
+            move: "take-down",
+            level: 1,
+        ),
+    ],
     base: (
         hp: 40,
         atk: 55,
@@ -11,11 +17,9 @@
         sp_def: 60,
         speed: 30,
     ),
-    data: (
-        species: "Iron",
-        height: 6,
-        weight: 952,
-    ),
+    species: "Iron",
+    height: 6,
+    weight: 952,
     training: (
         base_exp: 60,
         growth_rate: Slow,
@@ -23,10 +27,4 @@
     breeding: (
         gender: None,
     ),
-    moves: [
-        (
-            move: "take-down",
-            level: 1,
-        ),
-    ],
 )

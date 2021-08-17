@@ -3,26 +3,6 @@
     name: "Alakazam",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 55,
-        atk: 50,
-        def: 45,
-        sp_atk: 135,
-        sp_def: 95,
-        speed: 120,
-    ),
-    data: (
-        species: "Psi",
-        height: 15,
-        weight: 480,
-    ),
-    training: (
-        base_exp: 225,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(2),
-    ),
     moves: [
         (
             move: "disable",
@@ -73,4 +53,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 50,
+        def: 45,
+        sp_atk: 135,
+        sp_def: 95,
+        speed: 120,
+    ),
+    species: "Psi",
+    height: 15,
+    weight: 480,
+    training: (
+        base_exp: 225,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Koffing",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 65,
-        def: 95,
-        sp_atk: 60,
-        sp_def: 45,
-        speed: 35,
-    ),
-    data: (
-        species: "Poison",
-        height: 6,
-        weight: 10,
-    ),
-    training: (
-        base_exp: 68,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -65,4 +45,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 65,
+        def: 95,
+        sp_atk: 60,
+        sp_def: 45,
+        speed: 35,
+    ),
+    species: "Poison",
+    height: 6,
+    weight: 10,
+    training: (
+        base_exp: 68,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

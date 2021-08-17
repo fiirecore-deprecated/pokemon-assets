@@ -3,26 +3,6 @@
     name: "Slugma",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 40,
-        def: 40,
-        sp_atk: 70,
-        sp_def: 40,
-        speed: 20,
-    ),
-    data: (
-        species: "Lava",
-        height: 7,
-        weight: 350,
-    ),
-    training: (
-        base_exp: 50,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "body-slam",
@@ -61,4 +41,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 40,
+        def: 40,
+        sp_atk: 70,
+        sp_def: 40,
+        speed: 20,
+    ),
+    species: "Lava",
+    height: 7,
+    weight: 350,
+    training: (
+        base_exp: 50,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

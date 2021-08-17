@@ -3,26 +3,6 @@
     name: "Moltres",
     primary_type: Fire,
     secondary_type: Some(Flying),
-    base: (
-        hp: 90,
-        atk: 100,
-        def: 90,
-        sp_atk: 125,
-        sp_def: 85,
-        speed: 90,
-    ),
-    data: (
-        species: "Flame",
-        height: 20,
-        weight: 600,
-    ),
-    training: (
-        base_exp: 261,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "wing-attack",
@@ -61,4 +41,22 @@
             level: 73,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 100,
+        def: 90,
+        sp_atk: 125,
+        sp_def: 85,
+        speed: 90,
+    ),
+    species: "Flame",
+    height: 20,
+    weight: 600,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

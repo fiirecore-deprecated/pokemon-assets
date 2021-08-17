@@ -3,26 +3,6 @@
     name: "Hypno",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 85,
-        atk: 73,
-        def: 70,
-        sp_atk: 73,
-        sp_def: 115,
-        speed: 67,
-    ),
-    data: (
-        species: "Hypnosis",
-        height: 16,
-        weight: 756,
-    ),
-    training: (
-        base_exp: 169,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "pound",
@@ -81,4 +61,22 @@
             level: 57,
         ),
     ],
+    base: (
+        hp: 85,
+        atk: 73,
+        def: 70,
+        sp_atk: 73,
+        sp_def: 115,
+        speed: 67,
+    ),
+    species: "Hypnosis",
+    height: 16,
+    weight: 756,
+    training: (
+        base_exp: 169,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

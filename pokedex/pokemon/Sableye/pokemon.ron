@@ -3,26 +3,6 @@
     name: "Sableye",
     primary_type: Dark,
     secondary_type: Some(Ghost),
-    base: (
-        hp: 50,
-        atk: 75,
-        def: 75,
-        sp_atk: 65,
-        sp_def: 65,
-        speed: 50,
-    ),
-    data: (
-        species: "Darkness",
-        height: 5,
-        weight: 110,
-    ),
-    training: (
-        base_exp: 133,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -77,4 +57,22 @@
             level: 13,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 75,
+        def: 75,
+        sp_atk: 65,
+        sp_def: 65,
+        speed: 50,
+    ),
+    species: "Darkness",
+    height: 5,
+    weight: 110,
+    training: (
+        base_exp: 133,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

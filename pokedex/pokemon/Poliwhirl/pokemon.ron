@@ -3,26 +3,6 @@
     name: "Poliwhirl",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 65,
-        def: 65,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 90,
-    ),
-    data: (
-        species: "Tadpole",
-        height: 10,
-        weight: 200,
-    ),
-    training: (
-        base_exp: 135,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "double-slap",
@@ -65,4 +45,22 @@
             level: 27,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 65,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 90,
+    ),
+    species: "Tadpole",
+    height: 10,
+    weight: 200,
+    training: (
+        base_exp: 135,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

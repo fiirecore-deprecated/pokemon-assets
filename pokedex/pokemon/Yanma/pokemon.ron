@@ -3,26 +3,6 @@
     name: "Yanma",
     primary_type: Bug,
     secondary_type: Some(Flying),
-    base: (
-        hp: 65,
-        atk: 65,
-        def: 45,
-        sp_atk: 75,
-        sp_def: 45,
-        speed: 95,
-    ),
-    data: (
-        species: "Clear",
-        height: 12,
-        weight: 380,
-    ),
-    training: (
-        base_exp: 78,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wing-attack",
@@ -69,4 +49,22 @@
             level: 34,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 45,
+        sp_atk: 75,
+        sp_def: 45,
+        speed: 95,
+    ),
+    species: "Clear",
+    height: 12,
+    weight: 380,
+    training: (
+        base_exp: 78,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

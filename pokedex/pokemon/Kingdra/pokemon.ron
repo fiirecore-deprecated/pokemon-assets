@@ -3,26 +3,6 @@
     name: "Kingdra",
     primary_type: Water,
     secondary_type: Some(Dragon),
-    base: (
-        hp: 75,
-        atk: 95,
-        def: 95,
-        sp_atk: 95,
-        sp_def: 95,
-        speed: 85,
-    ),
-    data: (
-        species: "Dragon",
-        height: 18,
-        weight: 1520,
-    ),
-    training: (
-        base_exp: 243,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "leer",
@@ -69,4 +49,22 @@
             level: 62,
         ),
     ],
+    base: (
+        hp: 75,
+        atk: 95,
+        def: 95,
+        sp_atk: 95,
+        sp_def: 95,
+        speed: 85,
+    ),
+    species: "Dragon",
+    height: 18,
+    weight: 1520,
+    training: (
+        base_exp: 243,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

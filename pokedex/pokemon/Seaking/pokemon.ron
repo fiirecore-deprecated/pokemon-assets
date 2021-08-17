@@ -3,26 +3,6 @@
     name: "Seaking",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 92,
-        def: 65,
-        sp_atk: 65,
-        sp_def: 80,
-        speed: 68,
-    ),
-    data: (
-        species: "Goldfish",
-        height: 13,
-        weight: 390,
-    ),
-    training: (
-        base_exp: 158,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "horn-attack",
@@ -73,4 +53,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 92,
+        def: 65,
+        sp_atk: 65,
+        sp_def: 80,
+        speed: 68,
+    ),
+    species: "Goldfish",
+    height: 13,
+    weight: 390,
+    training: (
+        base_exp: 158,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

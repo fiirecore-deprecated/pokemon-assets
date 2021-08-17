@@ -3,26 +3,6 @@
     name: "Dusclops",
     primary_type: Ghost,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 70,
-        def: 130,
-        sp_atk: 60,
-        sp_def: 130,
-        speed: 25,
-    ),
-    data: (
-        species: "Beckon",
-        height: 16,
-        weight: 306,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "bind",
@@ -81,4 +61,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 70,
+        def: 130,
+        sp_atk: 60,
+        sp_def: 130,
+        speed: 25,
+    ),
+    species: "Beckon",
+    height: 16,
+    weight: 306,
+    training: (
+        base_exp: 159,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Wailmer",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 130,
-        atk: 70,
-        def: 35,
-        sp_atk: 70,
-        sp_def: 35,
-        speed: 60,
-    ),
-    data: (
-        species: "Ball",
-        height: 20,
-        weight: 1300,
-    ),
-    training: (
-        base_exp: 80,
-        growth_rate: FastThenVerySlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -73,4 +53,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 130,
+        atk: 70,
+        def: 35,
+        sp_atk: 70,
+        sp_def: 35,
+        speed: 60,
+    ),
+    species: "Ball",
+    height: 20,
+    weight: 1300,
+    training: (
+        base_exp: 80,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

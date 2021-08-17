@@ -6,15 +6,17 @@
     accuracy: Some(95),
     pp: 15,
     priority: 0,
-    usage: [
-        Damage(Power(65)),
-        Chance([
-            Flinch,
-        ], 10),
-        Status(Burn, Permanent, 10),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Damage(Power(65)),
+            Chance([
+                Flinch,
+            ], 10),
+            Ailment(Burn, Permanent, 10),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

@@ -3,26 +3,6 @@
     name: "Squirtle",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 44,
-        atk: 48,
-        def: 65,
-        sp_atk: 50,
-        sp_def: 64,
-        speed: 43,
-    ),
-    data: (
-        species: "Tiny",
-        height: 5,
-        weight: 90,
-    ),
-    training: (
-        base_exp: 63,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -69,4 +49,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 44,
+        atk: 48,
+        def: 65,
+        sp_atk: 50,
+        sp_def: 64,
+        speed: 43,
+    ),
+    species: "Tiny",
+    height: 5,
+    weight: 90,
+    training: (
+        base_exp: 63,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Venonat",
     primary_type: Bug,
     secondary_type: Some(Poison),
-    base: (
-        hp: 60,
-        atk: 55,
-        def: 50,
-        sp_atk: 40,
-        sp_def: 55,
-        speed: 45,
-    ),
-    data: (
-        species: "Insect",
-        height: 10,
-        weight: 300,
-    ),
-    training: (
-        base_exp: 61,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 55,
+        def: 50,
+        sp_atk: 40,
+        sp_def: 55,
+        speed: 45,
+    ),
+    species: "Insect",
+    height: 10,
+    weight: 300,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

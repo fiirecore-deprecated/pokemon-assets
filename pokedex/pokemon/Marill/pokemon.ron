@@ -3,26 +3,6 @@
     name: "Marill",
     primary_type: Water,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 70,
-        atk: 20,
-        def: 50,
-        sp_atk: 20,
-        sp_def: 50,
-        speed: 40,
-    ),
-    data: (
-        species: "Aqua",
-        height: 4,
-        weight: 85,
-    ),
-    training: (
-        base_exp: 88,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -61,4 +41,22 @@
             level: 36,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 20,
+        def: 50,
+        sp_atk: 20,
+        sp_def: 50,
+        speed: 40,
+    ),
+    species: "Aqua",
+    height: 4,
+    weight: 85,
+    training: (
+        base_exp: 88,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

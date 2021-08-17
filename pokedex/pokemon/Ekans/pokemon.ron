@@ -3,26 +3,6 @@
     name: "Ekans",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 35,
-        atk: 60,
-        def: 44,
-        sp_atk: 40,
-        sp_def: 54,
-        speed: 55,
-    ),
-    data: (
-        species: "Snake",
-        height: 20,
-        weight: 69,
-    ),
-    training: (
-        base_exp: 58,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wrap",
@@ -69,4 +49,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 35,
+        atk: 60,
+        def: 44,
+        sp_atk: 40,
+        sp_def: 54,
+        speed: 55,
+    ),
+    species: "Snake",
+    height: 20,
+    weight: 69,
+    training: (
+        base_exp: 58,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

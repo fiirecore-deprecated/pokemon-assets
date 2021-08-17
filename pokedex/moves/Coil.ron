@@ -6,13 +6,15 @@
     accuracy: None,
     pp: 20,
     priority: 0,
-    usage: [
-        StatStage(Basic(Attack), 1),
-        StatStage(Basic(Defense), 1),
-        StatStage(Accuracy, 1),
-    ],
-    target: User,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Stat(Basic(Attack), 1),
+            Stat(Basic(Defense), 1),
+            Stat(Accuracy, 1),
+        ]),
+        target: User,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

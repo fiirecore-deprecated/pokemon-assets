@@ -3,26 +3,6 @@
     name: "Onix",
     primary_type: Rock,
     secondary_type: Some(Ground),
-    base: (
-        hp: 35,
-        atk: 45,
-        def: 160,
-        sp_atk: 30,
-        sp_def: 45,
-        speed: 70,
-    ),
-    data: (
-        species: "Rock",
-        height: 88,
-        weight: 2100,
-    ),
-    training: (
-        base_exp: 77,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "bind",
@@ -73,4 +53,22 @@
             level: 52,
         ),
     ],
+    base: (
+        hp: 35,
+        atk: 45,
+        def: 160,
+        sp_atk: 30,
+        sp_def: 45,
+        speed: 70,
+    ),
+    species: "Rock",
+    height: 88,
+    weight: 2100,
+    training: (
+        base_exp: 77,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

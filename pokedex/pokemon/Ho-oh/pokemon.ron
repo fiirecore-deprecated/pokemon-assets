@@ -3,26 +3,6 @@
     name: "Ho-oh",
     primary_type: Fire,
     secondary_type: Some(Flying),
-    base: (
-        hp: 106,
-        atk: 130,
-        def: 90,
-        sp_atk: 110,
-        sp_def: 154,
-        speed: 90,
-    ),
-    data: (
-        species: "Rainbow",
-        height: 38,
-        weight: 1990,
-    ),
-    training: (
-        base_exp: 306,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "gust",
@@ -65,4 +45,22 @@
             level: 99,
         ),
     ],
+    base: (
+        hp: 106,
+        atk: 130,
+        def: 90,
+        sp_atk: 110,
+        sp_def: 154,
+        speed: 90,
+    ),
+    species: "Rainbow",
+    height: 38,
+    weight: 1990,
+    training: (
+        base_exp: 306,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

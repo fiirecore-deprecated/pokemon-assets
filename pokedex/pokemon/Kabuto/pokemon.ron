@@ -3,26 +3,6 @@
     name: "Kabuto",
     primary_type: Rock,
     secondary_type: Some(Water),
-    base: (
-        hp: 30,
-        atk: 80,
-        def: 90,
-        sp_atk: 55,
-        sp_def: 45,
-        speed: 55,
-    ),
-    data: (
-        species: "Shellfish",
-        height: 5,
-        weight: 115,
-    ),
-    training: (
-        base_exp: 71,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 30,
+        atk: 80,
+        def: 90,
+        sp_atk: 55,
+        sp_def: 45,
+        speed: 55,
+    ),
+    species: "Shellfish",
+    height: 5,
+    weight: 115,
+    training: (
+        base_exp: 71,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

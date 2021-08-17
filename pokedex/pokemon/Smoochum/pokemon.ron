@@ -3,26 +3,6 @@
     name: "Smoochum",
     primary_type: Ice,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 45,
-        atk: 30,
-        def: 15,
-        sp_atk: 85,
-        sp_def: 65,
-        speed: 65,
-    ),
-    data: (
-        species: "Kiss",
-        height: 4,
-        weight: 60,
-    ),
-    training: (
-        base_exp: 61,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(8),
-    ),
     moves: [
         (
             move: "pound",
@@ -69,4 +49,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 45,
+        atk: 30,
+        def: 15,
+        sp_atk: 85,
+        sp_def: 65,
+        speed: 65,
+    ),
+    species: "Kiss",
+    height: 4,
+    weight: 60,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
 )

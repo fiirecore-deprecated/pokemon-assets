@@ -3,26 +3,6 @@
     name: "Gyarados",
     primary_type: Water,
     secondary_type: Some(Flying),
-    base: (
-        hp: 95,
-        atk: 125,
-        def: 79,
-        sp_atk: 60,
-        sp_def: 100,
-        speed: 81,
-    ),
-    data: (
-        species: "Atrocious",
-        height: 65,
-        weight: 2350,
-    ),
-    training: (
-        base_exp: 189,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "thrash",
@@ -61,4 +41,22 @@
             level: 50,
         ),
     ],
+    base: (
+        hp: 95,
+        atk: 125,
+        def: 79,
+        sp_atk: 60,
+        sp_def: 100,
+        speed: 81,
+    ),
+    species: "Atrocious",
+    height: 65,
+    weight: 2350,
+    training: (
+        base_exp: 189,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

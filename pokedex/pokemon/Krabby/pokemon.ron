@@ -3,26 +3,6 @@
     name: "Krabby",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 30,
-        atk: 105,
-        def: 90,
-        sp_atk: 25,
-        sp_def: 25,
-        speed: 50,
-    ),
-    data: (
-        species: "River",
-        height: 4,
-        weight: 65,
-    ),
-    training: (
-        base_exp: 65,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "vise-grip",
@@ -65,4 +45,22 @@
             level: 23,
         ),
     ],
+    base: (
+        hp: 30,
+        atk: 105,
+        def: 90,
+        sp_atk: 25,
+        sp_def: 25,
+        speed: 50,
+    ),
+    species: "River",
+    height: 4,
+    weight: 65,
+    training: (
+        base_exp: 65,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

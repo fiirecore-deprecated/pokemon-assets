@@ -3,26 +3,6 @@
     name: "Vulpix",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 38,
-        atk: 41,
-        def: 40,
-        sp_atk: 50,
-        sp_def: 65,
-        speed: 65,
-    ),
-    data: (
-        species: "Fox",
-        height: 6,
-        weight: 99,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "tail-whip",
@@ -69,4 +49,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 38,
+        atk: 41,
+        def: 40,
+        sp_atk: 50,
+        sp_def: 65,
+        speed: 65,
+    ),
+    species: "Fox",
+    height: 6,
+    weight: 99,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Pidgeotto",
     primary_type: Normal,
     secondary_type: Some(Flying),
-    base: (
-        hp: 63,
-        atk: 60,
-        def: 55,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 71,
-    ),
-    data: (
-        species: "Bird",
-        height: 11,
-        weight: 300,
-    ),
-    training: (
-        base_exp: 122,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "gust",
@@ -69,4 +49,22 @@
             level: 34,
         ),
     ],
+    base: (
+        hp: 63,
+        atk: 60,
+        def: 55,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 71,
+    ),
+    species: "Bird",
+    height: 11,
+    weight: 300,
+    training: (
+        base_exp: 122,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

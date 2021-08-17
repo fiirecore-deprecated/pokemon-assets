@@ -3,26 +3,6 @@
     name: "Muk",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 105,
-        atk: 105,
-        def: 75,
-        sp_atk: 65,
-        sp_def: 100,
-        speed: 50,
-    ),
-    data: (
-        species: "Sludge",
-        height: 12,
-        weight: 300,
-    ),
-    training: (
-        base_exp: 175,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "pound",
@@ -69,4 +49,22 @@
             level: 61,
         ),
     ],
+    base: (
+        hp: 105,
+        atk: 105,
+        def: 75,
+        sp_atk: 65,
+        sp_def: 100,
+        speed: 50,
+    ),
+    species: "Sludge",
+    height: 12,
+    weight: 300,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Tentacool",
     primary_type: Water,
     secondary_type: Some(Poison),
-    base: (
-        hp: 40,
-        atk: 40,
-        def: 35,
-        sp_atk: 50,
-        sp_def: 100,
-        speed: 70,
-    ),
-    data: (
-        species: "Jellyfish",
-        height: 9,
-        weight: 455,
-    ),
-    training: (
-        base_exp: 67,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wrap",
@@ -61,4 +41,22 @@
             level: 12,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 40,
+        def: 35,
+        sp_atk: 50,
+        sp_def: 100,
+        speed: 70,
+    ),
+    species: "Jellyfish",
+    height: 9,
+    weight: 455,
+    training: (
+        base_exp: 67,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

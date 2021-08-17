@@ -3,26 +3,6 @@
     name: "Furret",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 85,
-        atk: 76,
-        def: 64,
-        sp_atk: 45,
-        sp_def: 55,
-        speed: 90,
-    ),
-    data: (
-        species: "Long",
-        height: 18,
-        weight: 325,
-    ),
-    training: (
-        base_exp: 145,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 19,
         ),
     ],
+    base: (
+        hp: 85,
+        atk: 76,
+        def: 64,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 90,
+    ),
+    species: "Long",
+    height: 18,
+    weight: 325,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

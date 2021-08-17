@@ -6,11 +6,13 @@
     accuracy: Some(85),
     pp: 15,
     priority: 0,
-    usage: [
-        Status(Burn, Permanent, 0),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Ailment(Burn, Permanent, 0),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

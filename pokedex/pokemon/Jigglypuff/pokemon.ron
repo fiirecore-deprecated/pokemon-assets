@@ -3,26 +3,6 @@
     name: "Jigglypuff",
     primary_type: Normal,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 115,
-        atk: 45,
-        def: 20,
-        sp_atk: 45,
-        sp_def: 25,
-        speed: 20,
-    ),
-    data: (
-        species: "Balloon",
-        height: 5,
-        weight: 55,
-    ),
-    training: (
-        base_exp: 95,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "pound",
@@ -69,4 +49,22 @@
             level: 44,
         ),
     ],
+    base: (
+        hp: 115,
+        atk: 45,
+        def: 20,
+        sp_atk: 45,
+        sp_def: 25,
+        speed: 20,
+    ),
+    species: "Balloon",
+    height: 5,
+    weight: 55,
+    training: (
+        base_exp: 95,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

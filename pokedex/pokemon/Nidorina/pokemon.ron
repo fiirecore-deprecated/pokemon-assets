@@ -3,26 +3,6 @@
     name: "Nidorina",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 62,
-        def: 67,
-        sp_atk: 55,
-        sp_def: 55,
-        speed: 56,
-    ),
-    data: (
-        species: "Poison",
-        height: 8,
-        weight: 200,
-    ),
-    training: (
-        base_exp: 128,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(8),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 26,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 62,
+        def: 67,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 56,
+    ),
+    species: "Poison",
+    height: 8,
+    weight: 200,
+    training: (
+        base_exp: 128,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
 )

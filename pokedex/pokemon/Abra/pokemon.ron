@@ -3,6 +3,12 @@
     name: "Abra",
     primary_type: Psychic,
     secondary_type: None,
+    moves: [
+        (
+            move: "teleport",
+            level: 1,
+        ),
+    ],
     base: (
         hp: 25,
         atk: 20,
@@ -11,11 +17,9 @@
         sp_def: 55,
         speed: 90,
     ),
-    data: (
-        species: "Psi",
-        height: 9,
-        weight: 195,
-    ),
+    species: "Psi",
+    height: 9,
+    weight: 195,
     training: (
         base_exp: 62,
         growth_rate: MediumSlow,
@@ -23,10 +27,4 @@
     breeding: (
         gender: Some(2),
     ),
-    moves: [
-        (
-            move: "teleport",
-            level: 1,
-        ),
-    ],
 )

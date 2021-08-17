@@ -3,26 +3,6 @@
     name: "Grumpig",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 45,
-        def: 65,
-        sp_atk: 90,
-        sp_def: 110,
-        speed: 80,
-    ),
-    data: (
-        species: "Manipulate",
-        height: 9,
-        weight: 715,
-    ),
-    training: (
-        base_exp: 165,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "psybeam",
@@ -81,4 +61,22 @@
             level: 55,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 45,
+        def: 65,
+        sp_atk: 90,
+        sp_def: 110,
+        speed: 80,
+    ),
+    species: "Manipulate",
+    height: 9,
+    weight: 715,
+    training: (
+        base_exp: 165,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

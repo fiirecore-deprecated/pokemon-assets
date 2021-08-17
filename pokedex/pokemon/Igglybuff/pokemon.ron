@@ -3,26 +3,6 @@
     name: "Igglybuff",
     primary_type: Normal,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 90,
-        atk: 30,
-        def: 15,
-        sp_atk: 40,
-        sp_def: 20,
-        speed: 15,
-    ),
-    data: (
-        species: "Balloon",
-        height: 3,
-        weight: 10,
-    ),
-    training: (
-        base_exp: 42,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "pound",
@@ -45,4 +25,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 30,
+        def: 15,
+        sp_atk: 40,
+        sp_def: 20,
+        speed: 15,
+    ),
+    species: "Balloon",
+    height: 3,
+    weight: 10,
+    training: (
+        base_exp: 42,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

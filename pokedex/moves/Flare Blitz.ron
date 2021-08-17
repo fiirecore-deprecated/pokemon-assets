@@ -6,12 +6,14 @@
     accuracy: Some(100),
     pp: 15,
     priority: 0,
-    usage: [
-        Drain(Power(120), -33),
-        Status(Burn, Permanent, 10),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Drain(Power(120), -33),
+            Ailment(Burn, Permanent, 10),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

@@ -3,26 +3,6 @@
     name: "Haunter",
     primary_type: Ghost,
     secondary_type: Some(Poison),
-    base: (
-        hp: 45,
-        atk: 50,
-        def: 45,
-        sp_atk: 115,
-        sp_def: 55,
-        speed: 95,
-    ),
-    data: (
-        species: "Gas",
-        height: 16,
-        weight: 1,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "hypnosis",
@@ -77,4 +57,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 45,
+        atk: 50,
+        def: 45,
+        sp_atk: 115,
+        sp_def: 55,
+        speed: 95,
+    ),
+    species: "Gas",
+    height: 16,
+    weight: 1,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

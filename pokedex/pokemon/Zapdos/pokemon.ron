@@ -3,26 +3,6 @@
     name: "Zapdos",
     primary_type: Electric,
     secondary_type: Some(Flying),
-    base: (
-        hp: 90,
-        atk: 90,
-        def: 85,
-        sp_atk: 125,
-        sp_def: 90,
-        speed: 100,
-    ),
-    data: (
-        species: "Electric",
-        height: 16,
-        weight: 526,
-    ),
-    training: (
-        base_exp: 261,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "peck",
@@ -61,4 +41,22 @@
             level: 61,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 90,
+        def: 85,
+        sp_atk: 125,
+        sp_def: 90,
+        speed: 100,
+    ),
+    species: "Electric",
+    height: 16,
+    weight: 526,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Mewtwo",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 106,
-        atk: 110,
-        def: 90,
-        sp_atk: 154,
-        sp_def: 90,
-        speed: 130,
-    ),
-    data: (
-        species: "Genetic",
-        height: 20,
-        weight: 1220,
-    ),
-    training: (
-        base_exp: 306,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "disable",
@@ -69,4 +49,22 @@
             level: 88,
         ),
     ],
+    base: (
+        hp: 106,
+        atk: 110,
+        def: 90,
+        sp_atk: 154,
+        sp_def: 90,
+        speed: 130,
+    ),
+    species: "Genetic",
+    height: 20,
+    weight: 1220,
+    training: (
+        base_exp: 306,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

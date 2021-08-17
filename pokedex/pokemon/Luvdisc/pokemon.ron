@@ -3,26 +3,6 @@
     name: "Luvdisc",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 43,
-        atk: 30,
-        def: 55,
-        sp_atk: 40,
-        sp_def: 65,
-        speed: 97,
-    ),
-    data: (
-        species: "Rendezvous",
-        height: 6,
-        weight: 87,
-    ),
-    training: (
-        base_exp: 116,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "tackle",
@@ -61,4 +41,22 @@
             level: 48,
         ),
     ],
+    base: (
+        hp: 43,
+        atk: 30,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 65,
+        speed: 97,
+    ),
+    species: "Rendezvous",
+    height: 6,
+    weight: 87,
+    training: (
+        base_exp: 116,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

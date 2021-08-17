@@ -3,26 +3,6 @@
     name: "Nuzleaf",
     primary_type: Grass,
     secondary_type: Some(Dark),
-    base: (
-        hp: 70,
-        atk: 70,
-        def: 40,
-        sp_atk: 60,
-        sp_def: 40,
-        speed: 60,
-    ),
-    data: (
-        species: "Wily",
-        height: 10,
-        weight: 280,
-    ),
-    training: (
-        base_exp: 119,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "pound",
@@ -65,4 +45,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 70,
+        def: 40,
+        sp_atk: 60,
+        sp_def: 40,
+        speed: 60,
+    ),
+    species: "Wily",
+    height: 10,
+    weight: 280,
+    training: (
+        base_exp: 119,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

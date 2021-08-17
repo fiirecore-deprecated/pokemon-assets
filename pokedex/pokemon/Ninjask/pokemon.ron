@@ -3,26 +3,6 @@
     name: "Ninjask",
     primary_type: Bug,
     secondary_type: Some(Flying),
-    base: (
-        hp: 61,
-        atk: 90,
-        def: 45,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 160,
-    ),
-    data: (
-        species: "Ninja",
-        height: 8,
-        weight: 120,
-    ),
-    training: (
-        base_exp: 160,
-        growth_rate: SlowThenVeryFast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -85,4 +65,22 @@
             level: 45,
         ),
     ],
+    base: (
+        hp: 61,
+        atk: 90,
+        def: 45,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 160,
+    ),
+    species: "Ninja",
+    height: 8,
+    weight: 120,
+    training: (
+        base_exp: 160,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

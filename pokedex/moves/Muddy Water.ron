@@ -6,14 +6,16 @@
     accuracy: Some(85),
     pp: 10,
     priority: 0,
-    usage: [
-        Damage(Power(90)),
-        Chance([
-            StatStage(Accuracy, -1),
-        ], 30),
-    ],
-    target: AllOpponents,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Damage(Power(90)),
+            Chance([
+                Stat(Accuracy, -1),
+            ], 30),
+        ]),
+        target: AllOpponents,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

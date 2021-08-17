@@ -3,26 +3,6 @@
     name: "Latios",
     primary_type: Dragon,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 80,
-        atk: 90,
-        def: 80,
-        sp_atk: 130,
-        sp_def: 110,
-        speed: 110,
-    ),
-    data: (
-        species: "Eon",
-        height: 20,
-        weight: 600,
-    ),
-    training: (
-        base_exp: 270,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(0),
-    ),
     moves: [
         (
             move: "psychic",
@@ -69,4 +49,22 @@
             level: 50,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 90,
+        def: 80,
+        sp_atk: 130,
+        sp_def: 110,
+        speed: 110,
+    ),
+    species: "Eon",
+    height: 20,
+    weight: 600,
+    training: (
+        base_exp: 270,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
 )

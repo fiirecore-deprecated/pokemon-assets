@@ -3,26 +3,6 @@
     name: "Wartortle",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 59,
-        atk: 63,
-        def: 80,
-        sp_atk: 65,
-        sp_def: 80,
-        speed: 58,
-    ),
-    data: (
-        species: "Turtle",
-        height: 10,
-        weight: 225,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -77,4 +57,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 59,
+        atk: 63,
+        def: 80,
+        sp_atk: 65,
+        sp_def: 80,
+        speed: 58,
+    ),
+    species: "Turtle",
+    height: 10,
+    weight: 225,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Dragonair",
     primary_type: Dragon,
     secondary_type: None,
-    base: (
-        hp: 61,
-        atk: 84,
-        def: 65,
-        sp_atk: 70,
-        sp_def: 70,
-        speed: 70,
-    ),
-    data: (
-        species: "Dragon",
-        height: 40,
-        weight: 165,
-    ),
-    training: (
-        base_exp: 147,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "slam",
@@ -73,4 +53,22 @@
             level: 15,
         ),
     ],
+    base: (
+        hp: 61,
+        atk: 84,
+        def: 65,
+        sp_atk: 70,
+        sp_def: 70,
+        speed: 70,
+    ),
+    species: "Dragon",
+    height: 40,
+    weight: 165,
+    training: (
+        base_exp: 147,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

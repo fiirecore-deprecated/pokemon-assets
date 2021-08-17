@@ -3,26 +3,6 @@
     name: "Kecleon",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 90,
-        def: 70,
-        sp_atk: 60,
-        sp_def: 120,
-        speed: 40,
-    ),
-    data: (
-        species: "Color",
-        height: 10,
-        weight: 220,
-    ),
-    training: (
-        base_exp: 154,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -77,4 +57,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 90,
+        def: 70,
+        sp_atk: 60,
+        sp_def: 120,
+        speed: 40,
+    ),
+    species: "Color",
+    height: 10,
+    weight: 220,
+    training: (
+        base_exp: 154,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

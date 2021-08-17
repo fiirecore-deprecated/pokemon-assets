@@ -3,26 +3,6 @@
     name: "Dratini",
     primary_type: Dragon,
     secondary_type: None,
-    base: (
-        hp: 41,
-        atk: 64,
-        def: 45,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 50,
-    ),
-    data: (
-        species: "Dragon",
-        height: 18,
-        weight: 33,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "slam",
@@ -65,4 +45,22 @@
             level: 15,
         ),
     ],
+    base: (
+        hp: 41,
+        atk: 64,
+        def: 45,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 50,
+    ),
+    species: "Dragon",
+    height: 18,
+    weight: 33,
+    training: (
+        base_exp: 60,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Omanyte",
     primary_type: Rock,
     secondary_type: Some(Water),
-    base: (
-        hp: 35,
-        atk: 40,
-        def: 100,
-        sp_atk: 90,
-        sp_def: 55,
-        speed: 35,
-    ),
-    data: (
-        species: "Spiral",
-        height: 4,
-        weight: 75,
-    ),
-    training: (
-        base_exp: 71,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "leer",
@@ -65,4 +45,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 35,
+        atk: 40,
+        def: 100,
+        sp_atk: 90,
+        sp_def: 55,
+        speed: 35,
+    ),
+    species: "Spiral",
+    height: 4,
+    weight: 75,
+    training: (
+        base_exp: 71,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

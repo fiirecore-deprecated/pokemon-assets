@@ -3,26 +3,6 @@
     name: "Illumise",
     primary_type: Bug,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 47,
-        def: 75,
-        sp_atk: 73,
-        sp_def: 85,
-        speed: 85,
-    ),
-    data: (
-        species: "Firefly",
-        height: 6,
-        weight: 177,
-    ),
-    training: (
-        base_exp: 151,
-        growth_rate: FastThenVerySlow,
-    ),
-    breeding: (
-        gender: Some(8),
-    ),
     moves: [
         (
             move: "tackle",
@@ -65,4 +45,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 47,
+        def: 75,
+        sp_atk: 73,
+        sp_def: 85,
+        speed: 85,
+    ),
+    species: "Firefly",
+    height: 6,
+    weight: 177,
+    training: (
+        base_exp: 151,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
 )

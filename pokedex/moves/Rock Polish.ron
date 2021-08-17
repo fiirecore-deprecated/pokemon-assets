@@ -6,11 +6,13 @@
     accuracy: None,
     pp: 20,
     priority: 0,
-    usage: [
-        StatStage(Basic(Speed), 2),
-    ],
-    target: User,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Stat(Basic(Speed), 2),
+        ]),
+        target: User,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

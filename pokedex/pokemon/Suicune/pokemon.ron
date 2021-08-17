@@ -3,26 +3,6 @@
     name: "Suicune",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 100,
-        atk: 75,
-        def: 115,
-        sp_atk: 90,
-        sp_def: 115,
-        speed: 85,
-    ),
-    data: (
-        species: "Aurora",
-        height: 20,
-        weight: 1870,
-    ),
-    training: (
-        base_exp: 261,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "gust",
@@ -65,4 +45,22 @@
             level: 81,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 75,
+        def: 115,
+        sp_atk: 90,
+        sp_def: 115,
+        speed: 85,
+    ),
+    species: "Aurora",
+    height: 20,
+    weight: 1870,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

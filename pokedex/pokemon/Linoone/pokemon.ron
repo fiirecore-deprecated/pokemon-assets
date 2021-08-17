@@ -3,26 +3,6 @@
     name: "Linoone",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 78,
-        atk: 70,
-        def: 61,
-        sp_atk: 50,
-        sp_def: 61,
-        speed: 100,
-    ),
-    data: (
-        species: "Rushing",
-        height: 5,
-        weight: 325,
-    ),
-    training: (
-        base_exp: 147,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -81,4 +61,22 @@
             level: 35,
         ),
     ],
+    base: (
+        hp: 78,
+        atk: 70,
+        def: 61,
+        sp_atk: 50,
+        sp_def: 61,
+        speed: 100,
+    ),
+    species: "Rushing",
+    height: 5,
+    weight: 325,
+    training: (
+        base_exp: 147,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

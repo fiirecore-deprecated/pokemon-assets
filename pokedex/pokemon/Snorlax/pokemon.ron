@@ -3,26 +3,6 @@
     name: "Snorlax",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 160,
-        atk: 110,
-        def: 65,
-        sp_atk: 65,
-        sp_def: 110,
-        speed: 30,
-    ),
-    data: (
-        species: "Sleeping",
-        height: 21,
-        weight: 4600,
-    ),
-    training: (
-        base_exp: 189,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -81,4 +61,22 @@
             level: 45,
         ),
     ],
+    base: (
+        hp: 160,
+        atk: 110,
+        def: 65,
+        sp_atk: 65,
+        sp_def: 110,
+        speed: 30,
+    ),
+    species: "Sleeping",
+    height: 21,
+    weight: 4600,
+    training: (
+        base_exp: 189,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

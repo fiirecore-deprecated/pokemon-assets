@@ -3,26 +3,6 @@
     name: "Exeggcute",
     primary_type: Grass,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 60,
-        atk: 40,
-        def: 80,
-        sp_atk: 60,
-        sp_def: 45,
-        speed: 40,
-    ),
-    data: (
-        species: "Egg",
-        height: 4,
-        weight: 25,
-    ),
-    training: (
-        base_exp: 65,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "leech-seed",
@@ -65,4 +45,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 40,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 45,
+        speed: 40,
+    ),
+    species: "Egg",
+    height: 4,
+    weight: 25,
+    training: (
+        base_exp: 65,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

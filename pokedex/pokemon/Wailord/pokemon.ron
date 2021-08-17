@@ -3,26 +3,6 @@
     name: "Wailord",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 170,
-        atk: 90,
-        def: 45,
-        sp_atk: 90,
-        sp_def: 45,
-        speed: 60,
-    ),
-    data: (
-        species: "Float",
-        height: 145,
-        weight: 3980,
-    ),
-    training: (
-        base_exp: 175,
-        growth_rate: FastThenVerySlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -85,4 +65,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 170,
+        atk: 90,
+        def: 45,
+        sp_atk: 90,
+        sp_def: 45,
+        speed: 60,
+    ),
+    species: "Float",
+    height: 145,
+    weight: 3980,
+    training: (
+        base_exp: 175,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

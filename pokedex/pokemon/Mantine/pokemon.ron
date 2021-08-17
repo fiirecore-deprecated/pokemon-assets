@@ -3,26 +3,6 @@
     name: "Mantine",
     primary_type: Water,
     secondary_type: Some(Flying),
-    base: (
-        hp: 85,
-        atk: 40,
-        def: 70,
-        sp_atk: 80,
-        sp_def: 140,
-        speed: 70,
-    ),
-    data: (
-        species: "Kite",
-        height: 21,
-        weight: 2200,
-    ),
-    training: (
-        base_exp: 170,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wing-attack",
@@ -61,4 +41,22 @@
             level: 43,
         ),
     ],
+    base: (
+        hp: 85,
+        atk: 40,
+        def: 70,
+        sp_atk: 80,
+        sp_def: 140,
+        speed: 70,
+    ),
+    species: "Kite",
+    height: 21,
+    weight: 2200,
+    training: (
+        base_exp: 170,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

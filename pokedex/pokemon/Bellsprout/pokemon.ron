@@ -3,26 +3,6 @@
     name: "Bellsprout",
     primary_type: Grass,
     secondary_type: Some(Poison),
-    base: (
-        hp: 50,
-        atk: 75,
-        def: 35,
-        sp_atk: 70,
-        sp_def: 30,
-        speed: 40,
-    ),
-    data: (
-        species: "Flower",
-        height: 7,
-        weight: 40,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "slam",
@@ -65,4 +45,22 @@
             level: 30,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 75,
+        def: 35,
+        sp_atk: 70,
+        sp_def: 30,
+        speed: 40,
+    ),
+    species: "Flower",
+    height: 7,
+    weight: 40,
+    training: (
+        base_exp: 60,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

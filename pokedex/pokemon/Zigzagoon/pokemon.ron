@@ -3,26 +3,6 @@
     name: "Zigzagoon",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 38,
-        atk: 30,
-        def: 41,
-        sp_atk: 30,
-        sp_def: 41,
-        speed: 60,
-    ),
-    data: (
-        species: "Tiny",
-        height: 4,
-        weight: 175,
-    ),
-    training: (
-        base_exp: 56,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -73,4 +53,22 @@
             level: 29,
         ),
     ],
+    base: (
+        hp: 38,
+        atk: 30,
+        def: 41,
+        sp_atk: 30,
+        sp_def: 41,
+        speed: 60,
+    ),
+    species: "Tiny",
+    height: 4,
+    weight: 175,
+    training: (
+        base_exp: 56,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

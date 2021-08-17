@@ -3,26 +3,6 @@
     name: "Aron",
     primary_type: Steel,
     secondary_type: Some(Rock),
-    base: (
-        hp: 50,
-        atk: 70,
-        def: 100,
-        sp_atk: 40,
-        sp_def: 40,
-        speed: 30,
-    ),
-    data: (
-        species: "Iron",
-        height: 4,
-        weight: 600,
-    ),
-    training: (
-        base_exp: 66,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -73,4 +53,22 @@
             level: 17,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 70,
+        def: 100,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 30,
+    ),
+    species: "Iron",
+    height: 4,
+    weight: 600,
+    training: (
+        base_exp: 66,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

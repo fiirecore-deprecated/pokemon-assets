@@ -3,26 +3,6 @@
     name: "Minun",
     primary_type: Electric,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 40,
-        def: 50,
-        sp_atk: 75,
-        sp_def: 85,
-        speed: 95,
-    ),
-    data: (
-        species: "Cheering",
-        height: 4,
-        weight: 42,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -69,4 +49,22 @@
             level: 13,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 40,
+        def: 50,
+        sp_atk: 75,
+        sp_def: 85,
+        speed: 95,
+    ),
+    species: "Cheering",
+    height: 4,
+    weight: 42,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

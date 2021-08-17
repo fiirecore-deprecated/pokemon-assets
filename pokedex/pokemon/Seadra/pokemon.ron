@@ -3,26 +3,6 @@
     name: "Seadra",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 55,
-        atk: 65,
-        def: 95,
-        sp_atk: 95,
-        sp_def: 45,
-        speed: 85,
-    ),
-    data: (
-        species: "Dragon",
-        height: 12,
-        weight: 250,
-    ),
-    training: (
-        base_exp: 154,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "leer",
@@ -69,4 +49,22 @@
             level: 62,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 65,
+        def: 95,
+        sp_atk: 95,
+        sp_def: 45,
+        speed: 85,
+    ),
+    species: "Dragon",
+    height: 12,
+    weight: 250,
+    training: (
+        base_exp: 154,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

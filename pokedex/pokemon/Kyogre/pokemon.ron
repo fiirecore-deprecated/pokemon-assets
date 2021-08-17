@@ -3,26 +3,6 @@
     name: "Kyogre",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 100,
-        atk: 100,
-        def: 90,
-        sp_atk: 150,
-        sp_def: 140,
-        speed: 90,
-    ),
-    data: (
-        species: "Sea",
-        height: 45,
-        weight: 3520,
-    ),
-    training: (
-        base_exp: 302,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "body-slam",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 100,
+        def: 90,
+        sp_atk: 150,
+        sp_def: 140,
+        speed: 90,
+    ),
+    species: "Sea",
+    height: 45,
+    weight: 3520,
+    training: (
+        base_exp: 302,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

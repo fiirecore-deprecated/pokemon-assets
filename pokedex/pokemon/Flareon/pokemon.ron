@@ -3,26 +3,6 @@
     name: "Flareon",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 130,
-        def: 60,
-        sp_atk: 95,
-        sp_def: 110,
-        speed: 65,
-    ),
-    data: (
-        species: "Flame",
-        height: 9,
-        weight: 250,
-    ),
-    training: (
-        base_exp: 184,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -69,4 +49,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 130,
+        def: 60,
+        sp_atk: 95,
+        sp_def: 110,
+        speed: 65,
+    ),
+    species: "Flame",
+    height: 9,
+    weight: 250,
+    training: (
+        base_exp: 184,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

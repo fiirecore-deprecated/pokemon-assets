@@ -3,26 +3,6 @@
     name: "Staryu",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 30,
-        atk: 45,
-        def: 55,
-        sp_atk: 70,
-        sp_def: 55,
-        speed: 85,
-    ),
-    data: (
-        species: "Star",
-        height: 8,
-        weight: 345,
-    ),
-    training: (
-        base_exp: 68,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "tackle",
@@ -73,4 +53,22 @@
             level: 42,
         ),
     ],
+    base: (
+        hp: 30,
+        atk: 45,
+        def: 55,
+        sp_atk: 70,
+        sp_def: 55,
+        speed: 85,
+    ),
+    species: "Star",
+    height: 8,
+    weight: 345,
+    training: (
+        base_exp: 68,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

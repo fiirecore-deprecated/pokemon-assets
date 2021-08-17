@@ -3,26 +3,6 @@
     name: "Cacnea",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 85,
-        def: 40,
-        sp_atk: 85,
-        sp_def: 40,
-        speed: 35,
-    ),
-    data: (
-        species: "Cactus",
-        height: 4,
-        weight: 513,
-    ),
-    training: (
-        base_exp: 67,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -81,4 +61,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 85,
+        def: 40,
+        sp_atk: 85,
+        sp_def: 40,
+        speed: 35,
+    ),
+    species: "Cactus",
+    height: 4,
+    weight: 513,
+    training: (
+        base_exp: 67,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

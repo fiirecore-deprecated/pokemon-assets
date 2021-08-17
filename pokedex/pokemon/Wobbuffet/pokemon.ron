@@ -3,26 +3,6 @@
     name: "Wobbuffet",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 190,
-        atk: 33,
-        def: 58,
-        sp_atk: 33,
-        sp_def: 58,
-        speed: 33,
-    ),
-    data: (
-        species: "Patient",
-        height: 13,
-        weight: 285,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "counter",
@@ -41,4 +21,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 190,
+        atk: 33,
+        def: 58,
+        sp_atk: 33,
+        sp_def: 58,
+        speed: 33,
+    ),
+    species: "Patient",
+    height: 13,
+    weight: 285,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

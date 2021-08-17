@@ -3,26 +3,6 @@
     name: "Swellow",
     primary_type: Normal,
     secondary_type: Some(Flying),
-    base: (
-        hp: 60,
-        atk: 85,
-        def: 60,
-        sp_atk: 75,
-        sp_def: 50,
-        speed: 125,
-    ),
-    data: (
-        species: "Swallow",
-        height: 7,
-        weight: 198,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wing-attack",
@@ -69,4 +49,22 @@
             level: 38,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 85,
+        def: 60,
+        sp_atk: 75,
+        sp_def: 50,
+        speed: 125,
+    ),
+    species: "Swallow",
+    height: 7,
+    weight: 198,
+    training: (
+        base_exp: 159,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

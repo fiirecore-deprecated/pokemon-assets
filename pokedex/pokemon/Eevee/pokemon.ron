@@ -3,26 +3,6 @@
     name: "Eevee",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 55,
-        atk: 55,
-        def: 50,
-        sp_atk: 45,
-        sp_def: 65,
-        speed: 55,
-    ),
-    data: (
-        species: "Evolution",
-        height: 3,
-        weight: 65,
-    ),
-    training: (
-        base_exp: 65,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -61,4 +41,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 55,
+        def: 50,
+        sp_atk: 45,
+        sp_def: 65,
+        speed: 55,
+    ),
+    species: "Evolution",
+    height: 3,
+    weight: 65,
+    training: (
+        base_exp: 65,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

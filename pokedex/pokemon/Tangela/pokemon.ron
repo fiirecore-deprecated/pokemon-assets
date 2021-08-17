@@ -3,26 +3,6 @@
     name: "Tangela",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 55,
-        def: 115,
-        sp_atk: 100,
-        sp_def: 40,
-        speed: 60,
-    ),
-    data: (
-        species: "Vine",
-        height: 10,
-        weight: 350,
-    ),
-    training: (
-        base_exp: 87,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "bind",
@@ -73,4 +53,22 @@
             level: 46,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 55,
+        def: 115,
+        sp_atk: 100,
+        sp_def: 40,
+        speed: 60,
+    ),
+    species: "Vine",
+    height: 10,
+    weight: 350,
+    training: (
+        base_exp: 87,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

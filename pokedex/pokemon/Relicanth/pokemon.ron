@@ -3,26 +3,6 @@
     name: "Relicanth",
     primary_type: Water,
     secondary_type: Some(Rock),
-    base: (
-        hp: 100,
-        atk: 90,
-        def: 130,
-        sp_atk: 45,
-        sp_def: 65,
-        speed: 55,
-    ),
-    data: (
-        species: "Longevity",
-        height: 10,
-        weight: 234,
-    ),
-    training: (
-        base_exp: 170,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -69,4 +49,22 @@
             level: 15,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 90,
+        def: 130,
+        sp_atk: 45,
+        sp_def: 65,
+        speed: 55,
+    ),
+    species: "Longevity",
+    height: 10,
+    weight: 234,
+    training: (
+        base_exp: 170,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

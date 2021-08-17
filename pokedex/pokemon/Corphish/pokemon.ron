@@ -3,26 +3,6 @@
     name: "Corphish",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 43,
-        atk: 80,
-        def: 65,
-        sp_atk: 50,
-        sp_def: 35,
-        speed: 35,
-    ),
-    data: (
-        species: "Ruffian",
-        height: 6,
-        weight: 115,
-    ),
-    training: (
-        base_exp: 62,
-        growth_rate: FastThenVerySlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "vise-grip",
@@ -73,4 +53,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 43,
+        atk: 80,
+        def: 65,
+        sp_atk: 50,
+        sp_def: 35,
+        speed: 35,
+    ),
+    species: "Ruffian",
+    height: 6,
+    weight: 115,
+    training: (
+        base_exp: 62,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

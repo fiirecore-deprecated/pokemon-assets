@@ -3,26 +3,6 @@
     name: "Marowak",
     primary_type: Ground,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 80,
-        def: 110,
-        sp_atk: 50,
-        sp_def: 80,
-        speed: 45,
-    ),
-    data: (
-        species: "Bone",
-        height: 10,
-        weight: 450,
-    ),
-    training: (
-        base_exp: 149,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -85,4 +65,22 @@
             level: 39,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 80,
+        def: 110,
+        sp_atk: 50,
+        sp_def: 80,
+        speed: 45,
+    ),
+    species: "Bone",
+    height: 10,
+    weight: 450,
+    training: (
+        base_exp: 149,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

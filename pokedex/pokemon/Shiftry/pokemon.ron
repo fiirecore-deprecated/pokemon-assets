@@ -3,26 +3,6 @@
     name: "Shiftry",
     primary_type: Grass,
     secondary_type: Some(Dark),
-    base: (
-        hp: 90,
-        atk: 100,
-        def: 60,
-        sp_atk: 90,
-        sp_def: 60,
-        speed: 80,
-    ),
-    data: (
-        species: "Wicked",
-        height: 13,
-        weight: 596,
-    ),
-    training: (
-        base_exp: 216,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "pound",
@@ -41,4 +21,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 100,
+        def: 60,
+        sp_atk: 90,
+        sp_def: 60,
+        speed: 80,
+    ),
+    species: "Wicked",
+    height: 13,
+    weight: 596,
+    training: (
+        base_exp: 216,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

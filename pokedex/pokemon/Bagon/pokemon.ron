@@ -3,26 +3,6 @@
     name: "Bagon",
     primary_type: Dragon,
     secondary_type: None,
-    base: (
-        hp: 45,
-        atk: 75,
-        def: 60,
-        sp_atk: 40,
-        sp_def: 30,
-        speed: 50,
-    ),
-    data: (
-        species: "Rock",
-        height: 6,
-        weight: 421,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -69,4 +49,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 45,
+        atk: 75,
+        def: 60,
+        sp_atk: 40,
+        sp_def: 30,
+        speed: 50,
+    ),
+    species: "Rock",
+    height: 6,
+    weight: 421,
+    training: (
+        base_exp: 60,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -1,0 +1,16 @@
+(
+    id: "false-swipe",
+    name: "False Swipe",
+    category: Physical,
+    type: Normal,
+    accuracy: Some(100),
+    pp: 40,
+    priority: 0,
+    usage: (
+        execute: Script,
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
+)

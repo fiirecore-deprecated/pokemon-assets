@@ -3,26 +3,6 @@
     name: "Seedot",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 40,
-        def: 50,
-        sp_atk: 30,
-        sp_def: 30,
-        speed: 30,
-    ),
-    data: (
-        species: "Acorn",
-        height: 5,
-        weight: 40,
-    ),
-    training: (
-        base_exp: 44,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growth",
@@ -53,4 +33,22 @@
             level: 13,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 40,
+        def: 50,
+        sp_atk: 30,
+        sp_def: 30,
+        speed: 30,
+    ),
+    species: "Acorn",
+    height: 5,
+    weight: 40,
+    training: (
+        base_exp: 44,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

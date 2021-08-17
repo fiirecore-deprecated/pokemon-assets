@@ -3,26 +3,6 @@
     name: "Machoke",
     primary_type: Fighting,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 100,
-        def: 70,
-        sp_atk: 50,
-        sp_def: 60,
-        speed: 45,
-    ),
-    data: (
-        species: "Superpower",
-        height: 15,
-        weight: 705,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(2),
-    ),
     moves: [
         (
             move: "karate-chop",
@@ -77,4 +57,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 100,
+        def: 70,
+        sp_atk: 50,
+        sp_def: 60,
+        speed: 45,
+    ),
+    species: "Superpower",
+    height: 15,
+    weight: 705,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
 )

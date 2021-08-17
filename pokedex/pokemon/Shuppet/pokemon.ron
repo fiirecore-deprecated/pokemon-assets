@@ -3,26 +3,6 @@
     name: "Shuppet",
     primary_type: Ghost,
     secondary_type: None,
-    base: (
-        hp: 44,
-        atk: 75,
-        def: 35,
-        sp_atk: 63,
-        sp_def: 33,
-        speed: 45,
-    ),
-    data: (
-        species: "Puppet",
-        height: 6,
-        weight: 23,
-    ),
-    training: (
-        base_exp: 59,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "night-shade",
@@ -65,4 +45,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 44,
+        atk: 75,
+        def: 35,
+        sp_atk: 63,
+        sp_def: 33,
+        speed: 45,
+    ),
+    species: "Puppet",
+    height: 6,
+    weight: 23,
+    training: (
+        base_exp: 59,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Feraligatr",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 85,
-        atk: 105,
-        def: 100,
-        sp_atk: 79,
-        sp_def: 83,
-        speed: 78,
-    ),
-    data: (
-        species: "Big",
-        height: 23,
-        weight: 888,
-    ),
-    training: (
-        base_exp: 239,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 85,
+        atk: 105,
+        def: 100,
+        sp_atk: 79,
+        sp_def: 83,
+        speed: 78,
+    ),
+    species: "Big",
+    height: 23,
+    weight: 888,
+    training: (
+        base_exp: 239,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

@@ -3,6 +3,12 @@
     name: "Delibird",
     primary_type: Ice,
     secondary_type: Some(Flying),
+    moves: [
+        (
+            move: "present",
+            level: 1,
+        ),
+    ],
     base: (
         hp: 45,
         atk: 55,
@@ -11,11 +17,9 @@
         sp_def: 45,
         speed: 75,
     ),
-    data: (
-        species: "Delivery",
-        height: 9,
-        weight: 160,
-    ),
+    species: "Delivery",
+    height: 9,
+    weight: 160,
     training: (
         base_exp: 116,
         growth_rate: Fast,
@@ -23,10 +27,4 @@
     breeding: (
         gender: Some(4),
     ),
-    moves: [
-        (
-            move: "present",
-            level: 1,
-        ),
-    ],
 )

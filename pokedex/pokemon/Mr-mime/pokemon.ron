@@ -3,26 +3,6 @@
     name: "Mr-mime",
     primary_type: Psychic,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 40,
-        atk: 45,
-        def: 65,
-        sp_atk: 100,
-        sp_def: 120,
-        speed: 90,
-    ),
-    data: (
-        species: "Barrier",
-        height: 13,
-        weight: 545,
-    ),
-    training: (
-        base_exp: 161,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "double-slap",
@@ -89,4 +69,22 @@
             level: 22,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 65,
+        sp_atk: 100,
+        sp_def: 120,
+        speed: 90,
+    ),
+    species: "Barrier",
+    height: 13,
+    weight: 545,
+    training: (
+        base_exp: 161,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

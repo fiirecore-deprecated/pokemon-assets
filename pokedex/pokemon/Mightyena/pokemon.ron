@@ -3,26 +3,6 @@
     name: "Mightyena",
     primary_type: Dark,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 90,
-        def: 70,
-        sp_atk: 60,
-        sp_def: 60,
-        speed: 70,
-    ),
-    data: (
-        species: "Bite",
-        height: 10,
-        weight: 370,
-    ),
-    training: (
-        base_exp: 147,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -85,4 +65,22 @@
             level: 5,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 90,
+        def: 70,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 70,
+    ),
+    species: "Bite",
+    height: 10,
+    weight: 370,
+    training: (
+        base_exp: 147,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Dragonite",
     primary_type: Dragon,
     secondary_type: Some(Flying),
-    base: (
-        hp: 91,
-        atk: 134,
-        def: 95,
-        sp_atk: 100,
-        sp_def: 100,
-        speed: 80,
-    ),
-    data: (
-        species: "Dragon",
-        height: 22,
-        weight: 2100,
-    ),
-    training: (
-        base_exp: 270,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wing-attack",
@@ -77,4 +57,22 @@
             level: 15,
         ),
     ],
+    base: (
+        hp: 91,
+        atk: 134,
+        def: 95,
+        sp_atk: 100,
+        sp_def: 100,
+        speed: 80,
+    ),
+    species: "Dragon",
+    height: 22,
+    weight: 2100,
+    training: (
+        base_exp: 270,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

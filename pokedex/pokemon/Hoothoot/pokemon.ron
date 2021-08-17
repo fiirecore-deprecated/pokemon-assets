@@ -3,26 +3,6 @@
     name: "Hoothoot",
     primary_type: Normal,
     secondary_type: Some(Flying),
-    base: (
-        hp: 60,
-        atk: 30,
-        def: 30,
-        sp_atk: 36,
-        sp_def: 56,
-        speed: 50,
-    ),
-    data: (
-        species: "Owl",
-        height: 7,
-        weight: 212,
-    ),
-    training: (
-        base_exp: 52,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -61,4 +41,22 @@
             level: 6,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 30,
+        def: 30,
+        sp_atk: 36,
+        sp_def: 56,
+        speed: 50,
+    ),
+    species: "Owl",
+    height: 7,
+    weight: 212,
+    training: (
+        base_exp: 52,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

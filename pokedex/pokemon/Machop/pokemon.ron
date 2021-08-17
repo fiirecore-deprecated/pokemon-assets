@@ -3,26 +3,6 @@
     name: "Machop",
     primary_type: Fighting,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 80,
-        def: 50,
-        sp_atk: 35,
-        sp_def: 35,
-        speed: 35,
-    ),
-    data: (
-        species: "Superpower",
-        height: 8,
-        weight: 195,
-    ),
-    training: (
-        base_exp: 61,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(2),
-    ),
     moves: [
         (
             move: "karate-chop",
@@ -73,4 +53,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 80,
+        def: 50,
+        sp_atk: 35,
+        sp_def: 35,
+        speed: 35,
+    ),
+    species: "Superpower",
+    height: 8,
+    weight: 195,
+    training: (
+        base_exp: 61,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
 )

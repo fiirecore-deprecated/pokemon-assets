@@ -3,26 +3,6 @@
     name: "Electrike",
     primary_type: Electric,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 45,
-        def: 40,
-        sp_atk: 65,
-        sp_def: 40,
-        speed: 65,
-    ),
-    data: (
-        species: "Lightning",
-        height: 6,
-        weight: 152,
-    ),
-    training: (
-        base_exp: 59,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -69,4 +49,22 @@
             level: 12,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 40,
+        sp_atk: 65,
+        sp_def: 40,
+        speed: 65,
+    ),
+    species: "Lightning",
+    height: 6,
+    weight: 152,
+    training: (
+        base_exp: 59,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

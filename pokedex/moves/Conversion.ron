@@ -6,11 +6,11 @@
     accuracy: None,
     pp: 30,
     priority: 0,
-    usage: [
-        Todo,
-    ],
-    target: User,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: None,
+        target: User,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

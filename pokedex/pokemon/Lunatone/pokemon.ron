@@ -3,26 +3,6 @@
     name: "Lunatone",
     primary_type: Rock,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 90,
-        atk: 55,
-        def: 65,
-        sp_atk: 95,
-        sp_def: 85,
-        speed: 70,
-    ),
-    data: (
-        species: "Meteorite",
-        height: 10,
-        weight: 1680,
-    ),
-    training: (
-        base_exp: 161,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "tackle",
@@ -65,4 +45,22 @@
             level: 31,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 55,
+        def: 65,
+        sp_atk: 95,
+        sp_def: 85,
+        speed: 70,
+    ),
+    species: "Meteorite",
+    height: 10,
+    weight: 1680,
+    training: (
+        base_exp: 161,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

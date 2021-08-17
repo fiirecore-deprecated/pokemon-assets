@@ -6,11 +6,13 @@
     accuracy: Some(80),
     pp: 5,
     priority: 0,
-    usage: [
-        Damage(Power(110)),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Damage(Power(110)),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

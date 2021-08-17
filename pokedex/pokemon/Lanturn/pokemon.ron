@@ -3,26 +3,6 @@
     name: "Lanturn",
     primary_type: Water,
     secondary_type: Some(Electric),
-    base: (
-        hp: 125,
-        atk: 58,
-        def: 58,
-        sp_atk: 76,
-        sp_def: 76,
-        speed: 67,
-    ),
-    data: (
-        species: "Light",
-        height: 12,
-        weight: 225,
-    ),
-    training: (
-        base_exp: 161,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "take-down",
@@ -69,4 +49,22 @@
             level: 61,
         ),
     ],
+    base: (
+        hp: 125,
+        atk: 58,
+        def: 58,
+        sp_atk: 76,
+        sp_def: 76,
+        speed: 67,
+    ),
+    species: "Light",
+    height: 12,
+    weight: 225,
+    training: (
+        base_exp: 161,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Sandslash",
     primary_type: Ground,
     secondary_type: None,
-    base: (
-        hp: 75,
-        atk: 100,
-        def: 110,
-        sp_atk: 45,
-        sp_def: 55,
-        speed: 65,
-    ),
-    data: (
-        species: "Mouse",
-        height: 10,
-        weight: 295,
-    ),
-    training: (
-        base_exp: 158,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 52,
         ),
     ],
+    base: (
+        hp: 75,
+        atk: 100,
+        def: 110,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 65,
+    ),
+    species: "Mouse",
+    height: 10,
+    weight: 295,
+    training: (
+        base_exp: 158,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

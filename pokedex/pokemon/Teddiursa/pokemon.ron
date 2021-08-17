@@ -3,26 +3,6 @@
     name: "Teddiursa",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 80,
-        def: 50,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 40,
-    ),
-    data: (
-        species: "Little",
-        height: 6,
-        weight: 88,
-    ),
-    training: (
-        base_exp: 66,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 19,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 80,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 40,
+    ),
+    species: "Little",
+    height: 6,
+    weight: 88,
+    training: (
+        base_exp: 66,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Ivysaur",
     primary_type: Grass,
     secondary_type: Some(Poison),
-    base: (
-        hp: 60,
-        atk: 62,
-        def: 63,
-        sp_atk: 80,
-        sp_def: 80,
-        speed: 60,
-    ),
-    data: (
-        species: "Seed",
-        height: 10,
-        weight: 130,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "vine-whip",
@@ -77,4 +57,22 @@
             level: 47,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 62,
+        def: 63,
+        sp_atk: 80,
+        sp_def: 80,
+        speed: 60,
+    ),
+    species: "Seed",
+    height: 10,
+    weight: 130,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

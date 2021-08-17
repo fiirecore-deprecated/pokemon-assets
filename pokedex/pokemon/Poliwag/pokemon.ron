@@ -3,26 +3,6 @@
     name: "Poliwag",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 50,
-        def: 40,
-        sp_atk: 40,
-        sp_def: 40,
-        speed: 90,
-    ),
-    data: (
-        species: "Tadpole",
-        height: 6,
-        weight: 124,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "double-slap",
@@ -57,4 +37,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 50,
+        def: 40,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 90,
+    ),
+    species: "Tadpole",
+    height: 6,
+    weight: 124,
+    training: (
+        base_exp: 60,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

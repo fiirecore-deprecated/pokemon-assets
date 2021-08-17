@@ -3,26 +3,6 @@
     name: "Aggron",
     primary_type: Steel,
     secondary_type: Some(Rock),
-    base: (
-        hp: 70,
-        atk: 110,
-        def: 180,
-        sp_atk: 60,
-        sp_def: 60,
-        speed: 50,
-    ),
-    data: (
-        species: "Iron",
-        height: 21,
-        weight: 3600,
-    ),
-    training: (
-        base_exp: 239,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -85,4 +65,22 @@
             level: 17,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 110,
+        def: 180,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 50,
+    ),
+    species: "Iron",
+    height: 21,
+    weight: 3600,
+    training: (
+        base_exp: 239,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

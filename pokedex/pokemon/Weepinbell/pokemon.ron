@@ -3,26 +3,6 @@
     name: "Weepinbell",
     primary_type: Grass,
     secondary_type: Some(Poison),
-    base: (
-        hp: 65,
-        atk: 90,
-        def: 50,
-        sp_atk: 85,
-        sp_def: 45,
-        speed: 55,
-    ),
-    data: (
-        species: "Flycatcher",
-        height: 10,
-        weight: 64,
-    ),
-    training: (
-        base_exp: 137,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "slam",
@@ -73,4 +53,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 90,
+        def: 50,
+        sp_atk: 85,
+        sp_def: 45,
+        speed: 55,
+    ),
+    species: "Flycatcher",
+    height: 10,
+    weight: 64,
+    training: (
+        base_exp: 137,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

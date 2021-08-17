@@ -3,26 +3,6 @@
     name: "Parasect",
     primary_type: Bug,
     secondary_type: Some(Grass),
-    base: (
-        hp: 60,
-        atk: 95,
-        def: 80,
-        sp_atk: 60,
-        sp_def: 80,
-        speed: 30,
-    ),
-    data: (
-        species: "Mushroom",
-        height: 10,
-        weight: 295,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -69,4 +49,22 @@
             level: 59,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 95,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 80,
+        speed: 30,
+    ),
+    species: "Mushroom",
+    height: 10,
+    weight: 295,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

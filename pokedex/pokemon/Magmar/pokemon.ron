@@ -3,26 +3,6 @@
     name: "Magmar",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 95,
-        def: 57,
-        sp_atk: 100,
-        sp_def: 85,
-        speed: 93,
-    ),
-    data: (
-        species: "Spitfire",
-        height: 13,
-        weight: 445,
-    ),
-    training: (
-        base_exp: 173,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(2),
-    ),
     moves: [
         (
             move: "fire-punch",
@@ -73,4 +53,22 @@
             level: 33,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 95,
+        def: 57,
+        sp_atk: 100,
+        sp_def: 85,
+        speed: 93,
+    ),
+    species: "Spitfire",
+    height: 13,
+    weight: 445,
+    training: (
+        base_exp: 173,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
 )

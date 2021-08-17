@@ -3,26 +3,6 @@
     name: "Dugtrio",
     primary_type: Ground,
     secondary_type: None,
-    base: (
-        hp: 35,
-        atk: 100,
-        def: 50,
-        sp_atk: 50,
-        sp_def: 70,
-        speed: 120,
-    ),
-    data: (
-        species: "Mole",
-        height: 7,
-        weight: 333,
-    ),
-    training: (
-        base_exp: 149,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -77,4 +57,22 @@
             level: 26,
         ),
     ],
+    base: (
+        hp: 35,
+        atk: 100,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 70,
+        speed: 120,
+    ),
+    species: "Mole",
+    height: 7,
+    weight: 333,
+    training: (
+        base_exp: 149,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

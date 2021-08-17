@@ -3,26 +3,6 @@
     name: "Vibrava",
     primary_type: Ground,
     secondary_type: Some(Dragon),
-    base: (
-        hp: 50,
-        atk: 70,
-        def: 50,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 70,
-    ),
-    data: (
-        species: "Vibration",
-        height: 11,
-        weight: 153,
-    ),
-    training: (
-        base_exp: 119,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "sand-attack",
@@ -73,4 +53,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 70,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 70,
+    ),
+    species: "Vibration",
+    height: 11,
+    weight: 153,
+    training: (
+        base_exp: 119,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

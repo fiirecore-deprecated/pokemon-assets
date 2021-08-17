@@ -3,26 +3,6 @@
     name: "Mudkip",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 70,
-        def: 50,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 40,
-    ),
-    data: (
-        species: "Mud",
-        height: 4,
-        weight: 76,
-    ),
-    training: (
-        base_exp: 62,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -73,4 +53,22 @@
             level: 24,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 70,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 40,
+    ),
+    species: "Mud",
+    height: 4,
+    weight: 76,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

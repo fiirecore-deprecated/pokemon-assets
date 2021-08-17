@@ -3,26 +3,6 @@
     name: "Grovyle",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 65,
-        def: 45,
-        sp_atk: 85,
-        sp_def: 65,
-        speed: 95,
-    ),
-    data: (
-        species: "Wood",
-        height: 9,
-        weight: 216,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "pound",
@@ -81,4 +61,22 @@
             level: 29,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 65,
+        def: 45,
+        sp_atk: 85,
+        sp_def: 65,
+        speed: 95,
+    ),
+    species: "Wood",
+    height: 9,
+    weight: 216,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

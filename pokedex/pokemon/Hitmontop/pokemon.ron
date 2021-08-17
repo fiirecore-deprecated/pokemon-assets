@@ -3,26 +3,6 @@
     name: "Hitmontop",
     primary_type: Fighting,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 95,
-        def: 95,
-        sp_atk: 35,
-        sp_def: 110,
-        speed: 70,
-    ),
-    data: (
-        species: "Handstand",
-        height: 14,
-        weight: 480,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(0),
-    ),
     moves: [
         (
             move: "rolling-kick",
@@ -69,4 +49,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 95,
+        def: 95,
+        sp_atk: 35,
+        sp_def: 110,
+        speed: 70,
+    ),
+    species: "Handstand",
+    height: 14,
+    weight: 480,
+    training: (
+        base_exp: 159,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Magikarp",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 20,
-        atk: 10,
-        def: 55,
-        sp_atk: 15,
-        sp_def: 20,
-        speed: 80,
-    ),
-    data: (
-        species: "Fish",
-        height: 9,
-        weight: 100,
-    ),
-    training: (
-        base_exp: 40,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -37,4 +17,22 @@
             level: 30,
         ),
     ],
+    base: (
+        hp: 20,
+        atk: 10,
+        def: 55,
+        sp_atk: 15,
+        sp_def: 20,
+        speed: 80,
+    ),
+    species: "Fish",
+    height: 9,
+    weight: 100,
+    training: (
+        base_exp: 40,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Misdreavus",
     primary_type: Ghost,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 60,
-        def: 60,
-        sp_atk: 85,
-        sp_def: 85,
-        speed: 85,
-    ),
-    data: (
-        species: "Screech",
-        height: 7,
-        weight: 10,
-    ),
-    training: (
-        base_exp: 87,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -65,4 +45,22 @@
             level: 11,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 60,
+        def: 60,
+        sp_atk: 85,
+        sp_def: 85,
+        speed: 85,
+    ),
+    species: "Screech",
+    height: 7,
+    weight: 10,
+    training: (
+        base_exp: 87,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Corsola",
     primary_type: Water,
     secondary_type: Some(Rock),
-    base: (
-        hp: 65,
-        atk: 55,
-        def: 95,
-        sp_atk: 65,
-        sp_def: 95,
-        speed: 35,
-    ),
-    data: (
-        species: "Coral",
-        height: 6,
-        weight: 50,
-    ),
-    training: (
-        base_exp: 144,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "tackle",
@@ -65,4 +45,22 @@
             level: 34,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 55,
+        def: 95,
+        sp_atk: 65,
+        sp_def: 95,
+        speed: 35,
+    ),
+    species: "Coral",
+    height: 6,
+    weight: 50,
+    training: (
+        base_exp: 144,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

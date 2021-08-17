@@ -3,26 +3,6 @@
     name: "Paras",
     primary_type: Bug,
     secondary_type: Some(Grass),
-    base: (
-        hp: 35,
-        atk: 70,
-        def: 55,
-        sp_atk: 45,
-        sp_def: 55,
-        speed: 25,
-    ),
-    data: (
-        species: "Mushroom",
-        height: 3,
-        weight: 54,
-    ),
-    training: (
-        base_exp: 57,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -61,4 +41,22 @@
             level: 49,
         ),
     ],
+    base: (
+        hp: 35,
+        atk: 70,
+        def: 55,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 25,
+    ),
+    species: "Mushroom",
+    height: 3,
+    weight: 54,
+    training: (
+        base_exp: 57,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

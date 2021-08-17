@@ -3,26 +3,6 @@
     name: "Azurill",
     primary_type: Normal,
     secondary_type: Some(Fairy),
-    base: (
-        hp: 50,
-        atk: 20,
-        def: 40,
-        sp_atk: 20,
-        sp_def: 40,
-        speed: 20,
-    ),
-    data: (
-        species: "Polka",
-        height: 2,
-        weight: 20,
-    ),
-    training: (
-        base_exp: 38,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(6),
-    ),
     moves: [
         (
             move: "slam",
@@ -49,4 +29,22 @@
             level: 3,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 20,
+        def: 40,
+        sp_atk: 20,
+        sp_def: 40,
+        speed: 20,
+    ),
+    species: "Polka",
+    height: 2,
+    weight: 20,
+    training: (
+        base_exp: 38,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
 )

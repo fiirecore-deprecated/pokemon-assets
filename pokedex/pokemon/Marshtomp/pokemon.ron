@@ -3,26 +3,6 @@
     name: "Marshtomp",
     primary_type: Water,
     secondary_type: Some(Ground),
-    base: (
-        hp: 70,
-        atk: 85,
-        def: 70,
-        sp_atk: 60,
-        sp_def: 70,
-        speed: 50,
-    ),
-    data: (
-        species: "Mud",
-        height: 7,
-        weight: 280,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -85,4 +65,22 @@
             level: 16,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 85,
+        def: 70,
+        sp_atk: 60,
+        sp_def: 70,
+        speed: 50,
+    ),
+    species: "Mud",
+    height: 7,
+    weight: 280,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

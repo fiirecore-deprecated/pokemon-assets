@@ -3,26 +3,6 @@
     name: "Seviper",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 73,
-        atk: 100,
-        def: 60,
-        sp_atk: 100,
-        sp_def: 60,
-        speed: 65,
-    ),
-    data: (
-        species: "Fang",
-        height: 27,
-        weight: 525,
-    ),
-    training: (
-        base_exp: 160,
-        growth_rate: FastThenVerySlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "wrap",
@@ -65,4 +45,22 @@
             level: 16,
         ),
     ],
+    base: (
+        hp: 73,
+        atk: 100,
+        def: 60,
+        sp_atk: 100,
+        sp_def: 60,
+        speed: 65,
+    ),
+    species: "Fang",
+    height: 27,
+    weight: 525,
+    training: (
+        base_exp: 160,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

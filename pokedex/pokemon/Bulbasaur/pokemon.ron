@@ -3,26 +3,6 @@
     name: "Bulbasaur",
     primary_type: Grass,
     secondary_type: Some(Poison),
-    base: (
-        hp: 45,
-        atk: 49,
-        def: 49,
-        sp_atk: 65,
-        sp_def: 65,
-        speed: 45,
-    ),
-    data: (
-        species: "Seed",
-        height: 7,
-        weight: 69,
-    ),
-    training: (
-        base_exp: 64,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "vine-whip",
@@ -69,4 +49,22 @@
             level: 39,
         ),
     ],
+    base: (
+        hp: 45,
+        atk: 49,
+        def: 49,
+        sp_atk: 65,
+        sp_def: 65,
+        speed: 45,
+    ),
+    species: "Seed",
+    height: 7,
+    weight: 69,
+    training: (
+        base_exp: 64,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

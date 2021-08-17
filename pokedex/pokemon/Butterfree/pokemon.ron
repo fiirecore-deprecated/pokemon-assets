@@ -3,26 +3,6 @@
     name: "Butterfree",
     primary_type: Bug,
     secondary_type: Some(Flying),
-    base: (
-        hp: 60,
-        atk: 45,
-        def: 50,
-        sp_atk: 90,
-        sp_def: 80,
-        speed: 70,
-    ),
-    data: (
-        species: "Butterfly",
-        height: 11,
-        weight: 320,
-    ),
-    training: (
-        base_exp: 178,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "gust",
@@ -69,4 +49,22 @@
             level: 47,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 45,
+        def: 50,
+        sp_atk: 90,
+        sp_def: 80,
+        speed: 70,
+    ),
+    species: "Butterfly",
+    height: 11,
+    weight: 320,
+    training: (
+        base_exp: 178,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

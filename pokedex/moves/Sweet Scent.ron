@@ -6,11 +6,13 @@
     accuracy: Some(100),
     pp: 20,
     priority: 0,
-    usage: [
-        StatStage(Evasion, -2),
-    ],
-    target: AllOpponents,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Stat(Evasion, -2),
+        ]),
+        target: AllOpponents,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

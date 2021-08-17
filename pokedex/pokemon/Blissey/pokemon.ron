@@ -3,26 +3,6 @@
     name: "Blissey",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 255,
-        atk: 10,
-        def: 10,
-        sp_atk: 75,
-        sp_def: 135,
-        speed: 55,
-    ),
-    data: (
-        species: "Happiness",
-        height: 15,
-        weight: 468,
-    ),
-    training: (
-        base_exp: 608,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(8),
-    ),
     moves: [
         (
             move: "pound",
@@ -73,4 +53,22 @@
             level: 7,
         ),
     ],
+    base: (
+        hp: 255,
+        atk: 10,
+        def: 10,
+        sp_atk: 75,
+        sp_def: 135,
+        speed: 55,
+    ),
+    species: "Happiness",
+    height: 15,
+    weight: 468,
+    training: (
+        base_exp: 608,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Manectric",
     primary_type: Electric,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 75,
-        def: 60,
-        sp_atk: 105,
-        sp_def: 60,
-        speed: 105,
-    ),
-    data: (
-        species: "Discharge",
-        height: 15,
-        weight: 402,
-    ),
-    training: (
-        base_exp: 166,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -81,4 +61,22 @@
             level: 12,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 75,
+        def: 60,
+        sp_atk: 105,
+        sp_def: 60,
+        speed: 105,
+    ),
+    species: "Discharge",
+    height: 15,
+    weight: 402,
+    training: (
+        base_exp: 166,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

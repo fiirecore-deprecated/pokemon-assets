@@ -3,26 +3,6 @@
     name: "Jynx",
     primary_type: Ice,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 65,
-        atk: 50,
-        def: 35,
-        sp_atk: 115,
-        sp_def: 95,
-        speed: 95,
-    ),
-    data: (
-        species: "Human",
-        height: 14,
-        weight: 406,
-    ),
-    training: (
-        base_exp: 159,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(8),
-    ),
     moves: [
         (
             move: "pound",
@@ -77,4 +57,22 @@
             level: 41,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 50,
+        def: 35,
+        sp_atk: 115,
+        sp_def: 95,
+        speed: 95,
+    ),
+    species: "Human",
+    height: 14,
+    weight: 406,
+    training: (
+        base_exp: 159,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
 )

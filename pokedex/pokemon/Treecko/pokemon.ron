@@ -3,26 +3,6 @@
     name: "Treecko",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 40,
-        atk: 45,
-        def: 35,
-        sp_atk: 65,
-        sp_def: 55,
-        speed: 70,
-    ),
-    data: (
-        species: "Wood",
-        height: 5,
-        weight: 50,
-    ),
-    training: (
-        base_exp: 62,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "pound",
@@ -69,4 +49,22 @@
             level: 16,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 35,
+        sp_atk: 65,
+        sp_def: 55,
+        speed: 70,
+    ),
+    species: "Wood",
+    height: 5,
+    weight: 50,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

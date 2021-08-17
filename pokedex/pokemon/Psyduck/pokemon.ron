@@ -3,26 +3,6 @@
     name: "Psyduck",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 52,
-        def: 48,
-        sp_atk: 65,
-        sp_def: 50,
-        speed: 55,
-    ),
-    data: (
-        species: "Duck",
-        height: 8,
-        weight: 196,
-    ),
-    training: (
-        base_exp: 64,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -61,4 +41,22 @@
             level: 1,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 52,
+        def: 48,
+        sp_atk: 65,
+        sp_def: 50,
+        speed: 55,
+    ),
+    species: "Duck",
+    height: 8,
+    weight: 196,
+    training: (
+        base_exp: 64,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

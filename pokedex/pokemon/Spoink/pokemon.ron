@@ -3,26 +3,6 @@
     name: "Spoink",
     primary_type: Psychic,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 25,
-        def: 35,
-        sp_atk: 70,
-        sp_def: 80,
-        speed: 60,
-    ),
-    data: (
-        species: "Bounce",
-        height: 7,
-        weight: 306,
-    ),
-    training: (
-        base_exp: 66,
-        growth_rate: Fast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "psybeam",
@@ -69,4 +49,22 @@
             level: 43,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 25,
+        def: 35,
+        sp_atk: 70,
+        sp_def: 80,
+        speed: 60,
+    ),
+    species: "Bounce",
+    height: 7,
+    weight: 306,
+    training: (
+        base_exp: 66,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

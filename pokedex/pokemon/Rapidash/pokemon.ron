@@ -3,26 +3,6 @@
     name: "Rapidash",
     primary_type: Fire,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 100,
-        def: 70,
-        sp_atk: 80,
-        sp_def: 80,
-        speed: 105,
-    ),
-    data: (
-        species: "Fire",
-        height: 17,
-        weight: 950,
-    ),
-    training: (
-        base_exp: 175,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "stomp",
@@ -81,4 +61,22 @@
             level: 50,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 100,
+        def: 70,
+        sp_atk: 80,
+        sp_def: 80,
+        speed: 105,
+    ),
+    species: "Fire",
+    height: 17,
+    weight: 950,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

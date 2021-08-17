@@ -3,26 +3,6 @@
     name: "Lugia",
     primary_type: Psychic,
     secondary_type: Some(Flying),
-    base: (
-        hp: 106,
-        atk: 90,
-        def: 130,
-        sp_atk: 90,
-        sp_def: 154,
-        speed: 110,
-    ),
-    data: (
-        species: "Diving",
-        height: 52,
-        weight: 2160,
-    ),
-    training: (
-        base_exp: 306,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "gust",
@@ -65,4 +45,22 @@
             level: 99,
         ),
     ],
+    base: (
+        hp: 106,
+        atk: 90,
+        def: 130,
+        sp_atk: 90,
+        sp_def: 154,
+        speed: 110,
+    ),
+    species: "Diving",
+    height: 52,
+    weight: 2160,
+    training: (
+        base_exp: 306,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

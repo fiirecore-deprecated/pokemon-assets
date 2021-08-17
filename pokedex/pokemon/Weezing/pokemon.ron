@@ -3,26 +3,6 @@
     name: "Weezing",
     primary_type: Poison,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 90,
-        def: 120,
-        sp_atk: 85,
-        sp_def: 70,
-        speed: 60,
-    ),
-    data: (
-        species: "Poison",
-        height: 12,
-        weight: 95,
-    ),
-    training: (
-        base_exp: 172,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -73,4 +53,22 @@
             level: 58,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 90,
+        def: 120,
+        sp_atk: 85,
+        sp_def: 70,
+        speed: 60,
+    ),
+    species: "Poison",
+    height: 12,
+    weight: 95,
+    training: (
+        base_exp: 172,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

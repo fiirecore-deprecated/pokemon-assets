@@ -3,26 +3,6 @@
     name: "Dewgong",
     primary_type: Water,
     secondary_type: Some(Ice),
-    base: (
-        hp: 90,
-        atk: 70,
-        def: 80,
-        sp_atk: 70,
-        sp_def: 95,
-        speed: 70,
-    ),
-    data: (
-        species: "Sea",
-        height: 17,
-        weight: 1200,
-    ),
-    training: (
-        base_exp: 166,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -77,4 +57,22 @@
             level: 34,
         ),
     ],
+    base: (
+        hp: 90,
+        atk: 70,
+        def: 80,
+        sp_atk: 70,
+        sp_def: 95,
+        speed: 70,
+    ),
+    species: "Sea",
+    height: 17,
+    weight: 1200,
+    training: (
+        base_exp: 166,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

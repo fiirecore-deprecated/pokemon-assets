@@ -3,26 +3,6 @@
     name: "Nincada",
     primary_type: Bug,
     secondary_type: Some(Ground),
-    base: (
-        hp: 31,
-        atk: 45,
-        def: 90,
-        sp_atk: 30,
-        sp_def: 30,
-        speed: 40,
-    ),
-    data: (
-        species: "Trainee",
-        height: 5,
-        weight: 55,
-    ),
-    training: (
-        base_exp: 53,
-        growth_rate: SlowThenVeryFast,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 38,
         ),
     ],
+    base: (
+        hp: 31,
+        atk: 45,
+        def: 90,
+        sp_atk: 30,
+        sp_def: 30,
+        speed: 40,
+    ),
+    species: "Trainee",
+    height: 5,
+    weight: 55,
+    training: (
+        base_exp: 53,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -3,26 +3,6 @@
     name: "Bayleef",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 60,
-        atk: 62,
-        def: 80,
-        sp_atk: 63,
-        sp_def: 80,
-        speed: 60,
-    ),
-    data: (
-        species: "Leaf",
-        height: 12,
-        weight: 158,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -73,4 +53,22 @@
             level: 23,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 62,
+        def: 80,
+        sp_atk: 63,
+        sp_def: 80,
+        speed: 60,
+    ),
+    species: "Leaf",
+    height: 12,
+    weight: 158,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

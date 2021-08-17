@@ -3,26 +3,6 @@
     name: "Skiploom",
     primary_type: Grass,
     secondary_type: Some(Flying),
-    base: (
-        hp: 55,
-        atk: 45,
-        def: 50,
-        sp_atk: 45,
-        sp_def: 65,
-        speed: 80,
-    ),
-    data: (
-        species: "Cottonweed",
-        height: 6,
-        weight: 10,
-    ),
-    training: (
-        base_exp: 119,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "tackle",
@@ -77,4 +57,22 @@
             level: 5,
         ),
     ],
+    base: (
+        hp: 55,
+        atk: 45,
+        def: 50,
+        sp_atk: 45,
+        sp_def: 65,
+        speed: 80,
+    ),
+    species: "Cottonweed",
+    height: 6,
+    weight: 10,
+    training: (
+        base_exp: 119,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

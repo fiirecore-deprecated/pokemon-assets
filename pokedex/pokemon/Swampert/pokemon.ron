@@ -3,26 +3,6 @@
     name: "Swampert",
     primary_type: Water,
     secondary_type: Some(Ground),
-    base: (
-        hp: 100,
-        atk: 110,
-        def: 90,
-        sp_atk: 85,
-        sp_def: 90,
-        speed: 60,
-    ),
-    data: (
-        species: "Mud",
-        height: 15,
-        weight: 819,
-    ),
-    training: (
-        base_exp: 241,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -85,4 +65,22 @@
             level: 16,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 110,
+        def: 90,
+        sp_atk: 85,
+        sp_def: 90,
+        speed: 60,
+    ),
+    species: "Mud",
+    height: 15,
+    weight: 819,
+    training: (
+        base_exp: 241,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

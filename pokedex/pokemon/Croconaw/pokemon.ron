@@ -3,26 +3,6 @@
     name: "Croconaw",
     primary_type: Water,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 80,
-        def: 80,
-        sp_atk: 59,
-        sp_def: 63,
-        speed: 58,
-    ),
-    data: (
-        species: "Big",
-        height: 11,
-        weight: 250,
-    ),
-    training: (
-        base_exp: 142,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "scratch",
@@ -65,4 +45,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 80,
+        def: 80,
+        sp_atk: 59,
+        sp_def: 63,
+        speed: 58,
+    ),
+    species: "Big",
+    height: 11,
+    weight: 250,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

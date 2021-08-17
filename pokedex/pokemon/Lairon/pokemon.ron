@@ -3,26 +3,6 @@
     name: "Lairon",
     primary_type: Steel,
     secondary_type: Some(Rock),
-    base: (
-        hp: 60,
-        atk: 90,
-        def: 140,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 40,
-    ),
-    data: (
-        species: "Iron",
-        height: 9,
-        weight: 1200,
-    ),
-    training: (
-        base_exp: 151,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -85,4 +65,22 @@
             level: 17,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 90,
+        def: 140,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 40,
+    ),
+    species: "Iron",
+    height: 9,
+    weight: 1200,
+    training: (
+        base_exp: 151,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

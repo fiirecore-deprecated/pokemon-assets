@@ -3,26 +3,6 @@
     name: "Medicham",
     primary_type: Fighting,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 60,
-        atk: 60,
-        def: 75,
-        sp_atk: 60,
-        sp_def: 75,
-        speed: 80,
-    ),
-    data: (
-        species: "Meditate",
-        height: 13,
-        weight: 315,
-    ),
-    training: (
-        base_exp: 144,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "fire-punch",
@@ -97,4 +77,22 @@
             level: 28,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 60,
+        def: 75,
+        sp_atk: 60,
+        sp_def: 75,
+        speed: 80,
+    ),
+    species: "Meditate",
+    height: 13,
+    weight: 315,
+    training: (
+        base_exp: 144,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

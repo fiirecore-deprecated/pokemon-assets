@@ -3,26 +3,6 @@
     name: "Elekid",
     primary_type: Electric,
     secondary_type: None,
-    base: (
-        hp: 45,
-        atk: 63,
-        def: 37,
-        sp_atk: 65,
-        sp_def: 55,
-        speed: 95,
-    ),
-    data: (
-        species: "Electric",
-        height: 6,
-        weight: 235,
-    ),
-    training: (
-        base_exp: 72,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(2),
-    ),
     moves: [
         (
             move: "thunder-punch",
@@ -57,4 +37,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 45,
+        atk: 63,
+        def: 37,
+        sp_atk: 65,
+        sp_def: 55,
+        speed: 95,
+    ),
+    species: "Electric",
+    height: 6,
+    weight: 235,
+    training: (
+        base_exp: 72,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
 )

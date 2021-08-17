@@ -3,26 +3,6 @@
     name: "Baltoy",
     primary_type: Ground,
     secondary_type: Some(Psychic),
-    base: (
-        hp: 40,
-        atk: 40,
-        def: 55,
-        sp_atk: 40,
-        sp_def: 70,
-        speed: 55,
-    ),
-    data: (
-        species: "Clay",
-        height: 5,
-        weight: 215,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: None,
-    ),
     moves: [
         (
             move: "psybeam",
@@ -69,4 +49,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 40,
+        atk: 40,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 70,
+        speed: 55,
+    ),
+    species: "Clay",
+    height: 5,
+    weight: 215,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: None,
+    ),
 )

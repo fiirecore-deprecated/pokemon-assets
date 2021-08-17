@@ -3,26 +3,6 @@
     name: "Sceptile",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 70,
-        atk: 85,
-        def: 65,
-        sp_atk: 105,
-        sp_def: 85,
-        speed: 120,
-    ),
-    data: (
-        species: "Forest",
-        height: 17,
-        weight: 522,
-    ),
-    training: (
-        base_exp: 239,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "pound",
@@ -81,4 +61,22 @@
             level: 29,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 85,
+        def: 65,
+        sp_atk: 105,
+        sp_def: 85,
+        speed: 120,
+    ),
+    species: "Forest",
+    height: 17,
+    weight: 522,
+    training: (
+        base_exp: 239,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

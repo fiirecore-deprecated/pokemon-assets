@@ -3,26 +3,6 @@
     name: "Snorunt",
     primary_type: Ice,
     secondary_type: None,
-    base: (
-        hp: 50,
-        atk: 50,
-        def: 50,
-        sp_atk: 50,
-        sp_def: 50,
-        speed: 50,
-    ),
-    data: (
-        species: "Snow",
-        height: 7,
-        weight: 168,
-    ),
-    training: (
-        base_exp: 60,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -69,4 +49,22 @@
             level: 37,
         ),
     ],
+    base: (
+        hp: 50,
+        atk: 50,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 50,
+    ),
+    species: "Snow",
+    height: 7,
+    weight: 168,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

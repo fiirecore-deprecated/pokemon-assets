@@ -3,26 +3,6 @@
     name: "Pinsir",
     primary_type: Bug,
     secondary_type: None,
-    base: (
-        hp: 65,
-        atk: 125,
-        def: 100,
-        sp_atk: 55,
-        sp_def: 70,
-        speed: 85,
-    ),
-    data: (
-        species: "Stag",
-        height: 15,
-        weight: 550,
-    ),
-    training: (
-        base_exp: 175,
-        growth_rate: Slow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "vise-grip",
@@ -65,4 +45,22 @@
             level: 31,
         ),
     ],
+    base: (
+        hp: 65,
+        atk: 125,
+        def: 100,
+        sp_atk: 55,
+        sp_def: 70,
+        speed: 85,
+    ),
+    species: "Stag",
+    height: 15,
+    weight: 550,
+    training: (
+        base_exp: 175,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

@@ -6,12 +6,14 @@
     accuracy: Some(70),
     pp: 20,
     priority: 0,
-    usage: [
-        Damage(Power(30)),
-        Status(Poison, Permanent, 40),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Damage(Power(30)),
+            Ailment(Poison, Permanent, 40),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

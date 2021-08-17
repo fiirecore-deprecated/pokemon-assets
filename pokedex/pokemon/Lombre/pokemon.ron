@@ -3,26 +3,6 @@
     name: "Lombre",
     primary_type: Water,
     secondary_type: Some(Grass),
-    base: (
-        hp: 60,
-        atk: 50,
-        def: 50,
-        sp_atk: 60,
-        sp_def: 70,
-        speed: 50,
-    ),
-    data: (
-        species: "Jolly",
-        height: 12,
-        weight: 325,
-    ),
-    training: (
-        base_exp: 119,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "growl",
@@ -65,4 +45,22 @@
             level: 31,
         ),
     ],
+    base: (
+        hp: 60,
+        atk: 50,
+        def: 50,
+        sp_atk: 60,
+        sp_def: 70,
+        speed: 50,
+    ),
+    species: "Jolly",
+    height: 12,
+    weight: 325,
+    training: (
+        base_exp: 119,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

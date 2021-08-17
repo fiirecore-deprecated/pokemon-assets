@@ -3,6 +3,12 @@
     name: "Tyrogue",
     primary_type: Fighting,
     secondary_type: None,
+    moves: [
+        (
+            move: "tackle",
+            level: 1,
+        ),
+    ],
     base: (
         hp: 35,
         atk: 35,
@@ -11,11 +17,9 @@
         sp_def: 35,
         speed: 35,
     ),
-    data: (
-        species: "Scuffle",
-        height: 7,
-        weight: 210,
-    ),
+    species: "Scuffle",
+    height: 7,
+    weight: 210,
     training: (
         base_exp: 42,
         growth_rate: Medium,
@@ -23,10 +27,4 @@
     breeding: (
         gender: Some(0),
     ),
-    moves: [
-        (
-            move: "tackle",
-            level: 1,
-        ),
-    ],
 )

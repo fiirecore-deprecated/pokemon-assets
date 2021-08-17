@@ -6,11 +6,13 @@
     accuracy: Some(90),
     pp: 10,
     priority: 0,
-    usage: [
-        Status(Poison, Temporary(15, 15), 0),
-    ],
-    target: Any,
-    contact: false,
-    crit_rate: 0,
-    field_id: None,
+    usage: (
+        execute: Actions([
+            Ailment(Poison, Temporary(15, 15), 0),
+        ]),
+        target: Any,
+        contact: false,
+        crit_rate: 0,
+    ),
+    world: false,
 )

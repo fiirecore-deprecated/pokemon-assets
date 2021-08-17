@@ -3,26 +3,6 @@
     name: "Omastar",
     primary_type: Rock,
     secondary_type: Some(Water),
-    base: (
-        hp: 70,
-        atk: 60,
-        def: 125,
-        sp_atk: 115,
-        sp_def: 70,
-        speed: 55,
-    ),
-    data: (
-        species: "Spiral",
-        height: 10,
-        weight: 350,
-    ),
-    training: (
-        base_exp: 173,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "leer",
@@ -77,4 +57,22 @@
             level: 25,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 60,
+        def: 125,
+        sp_atk: 115,
+        sp_def: 70,
+        speed: 55,
+    ),
+    species: "Spiral",
+    height: 10,
+    weight: 350,
+    training: (
+        base_exp: 173,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )

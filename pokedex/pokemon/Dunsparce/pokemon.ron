@@ -3,26 +3,6 @@
     name: "Dunsparce",
     primary_type: Normal,
     secondary_type: None,
-    base: (
-        hp: 100,
-        atk: 70,
-        def: 70,
-        sp_atk: 65,
-        sp_def: 65,
-        speed: 45,
-    ),
-    data: (
-        species: "Land",
-        height: 15,
-        weight: 140,
-    ),
-    training: (
-        base_exp: 145,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "take-down",
@@ -69,4 +49,22 @@
             level: 51,
         ),
     ],
+    base: (
+        hp: 100,
+        atk: 70,
+        def: 70,
+        sp_atk: 65,
+        sp_def: 65,
+        speed: 45,
+    ),
+    species: "Land",
+    height: 15,
+    weight: 140,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

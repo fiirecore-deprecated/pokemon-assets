@@ -3,26 +3,6 @@
     name: "Glalie",
     primary_type: Ice,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 80,
-        def: 80,
-        sp_atk: 80,
-        sp_def: 80,
-        speed: 80,
-    ),
-    data: (
-        species: "Face",
-        height: 15,
-        weight: 2565,
-    ),
-    training: (
-        base_exp: 168,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "headbutt",
@@ -81,4 +61,22 @@
             level: 61,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 80,
+        def: 80,
+        sp_atk: 80,
+        sp_def: 80,
+        speed: 80,
+    ),
+    species: "Face",
+    height: 15,
+    weight: 2565,
+    training: (
+        base_exp: 168,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

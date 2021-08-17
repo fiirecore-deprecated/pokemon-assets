@@ -3,26 +3,6 @@
     name: "Scyther",
     primary_type: Bug,
     secondary_type: Some(Flying),
-    base: (
-        hp: 70,
-        atk: 110,
-        def: 80,
-        sp_atk: 55,
-        sp_def: 80,
-        speed: 105,
-    ),
-    data: (
-        species: "Mantis",
-        height: 15,
-        weight: 560,
-    ),
-    training: (
-        base_exp: 100,
-        growth_rate: Medium,
-    ),
-    breeding: (
-        gender: Some(4),
-    ),
     moves: [
         (
             move: "swords-dance",
@@ -69,4 +49,22 @@
             level: 11,
         ),
     ],
+    base: (
+        hp: 70,
+        atk: 110,
+        def: 80,
+        sp_atk: 55,
+        sp_def: 80,
+        speed: 105,
+    ),
+    species: "Mantis",
+    height: 15,
+    weight: 560,
+    training: (
+        base_exp: 100,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
 )

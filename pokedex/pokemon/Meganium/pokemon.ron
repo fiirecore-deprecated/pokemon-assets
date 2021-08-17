@@ -3,26 +3,6 @@
     name: "Meganium",
     primary_type: Grass,
     secondary_type: None,
-    base: (
-        hp: 80,
-        atk: 82,
-        def: 100,
-        sp_atk: 83,
-        sp_def: 100,
-        speed: 80,
-    ),
-    data: (
-        species: "Herb",
-        height: 18,
-        weight: 1005,
-    ),
-    training: (
-        base_exp: 236,
-        growth_rate: MediumSlow,
-    ),
-    breeding: (
-        gender: Some(1),
-    ),
     moves: [
         (
             move: "tackle",
@@ -73,4 +53,22 @@
             level: 23,
         ),
     ],
+    base: (
+        hp: 80,
+        atk: 82,
+        def: 100,
+        sp_atk: 83,
+        sp_def: 100,
+        speed: 80,
+    ),
+    species: "Herb",
+    height: 18,
+    weight: 1005,
+    training: (
+        base_exp: 236,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
 )
