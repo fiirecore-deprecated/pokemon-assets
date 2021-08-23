@@ -4,10 +4,10 @@
     description: [
         "Heals a pokemon for 200 HP."
     ],
-    use: Script((
+    usage: (
         consume: true,
-        actions: [
+        kind: Actions([
             HealPokemon(200),
-        ],
-    )),
+        ]),
+    ),
 )

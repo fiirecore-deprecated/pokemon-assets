@@ -4,6 +4,9 @@
     description: [
         "Catches a Pokemon"
     ],
-    use: Pokeball,
+    usage: (
+        kind: Pokeball,
+        consume: true,
+    ),
     // target: Opponent,
 )
