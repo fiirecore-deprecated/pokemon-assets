@@ -5,7 +5,7 @@
         "Catches a Pokemon"
     ],
     usage: (
-        kind: Pokeball,
+        type: Pokeball,
         consume: true,
     ),
     // target: Opponent,

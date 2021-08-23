@@ -6,7 +6,7 @@
     ],
     usage: (
         consume: true,
-        kind: Actions([
+        type: Actions([
             HealPokemon(50),
         ]),
     ),

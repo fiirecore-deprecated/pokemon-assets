@@ -8,7 +8,7 @@
     ],
     usage: (
         consume: true,
-        kind: Actions([
+        type: Actions([
             CurePokemon(Some(Poison)),
         ]),
     ),
