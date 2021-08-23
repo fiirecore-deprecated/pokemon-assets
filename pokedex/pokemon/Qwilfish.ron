@@ -1,0 +1,37 @@
+(
+    id: 211,
+    name: "Qwilfish",
+    primary_type: Water,
+    secondary_type: Some(Poison),
+    moves: [
+        (1, "tackle"),
+        (33, "take-down"),
+        (1, "poison-sting"),
+        (21, "pin-missile"),
+        (13, "water-gun"),
+        (37, "hydro-pump"),
+        (9, "harden"),
+        (9, "minimize"),
+        (1, "spikes"),
+        (45, "destiny-bond"),
+        (25, "revenge"),
+    ],
+    base: (
+        hp: 65,
+        atk: 95,
+        def: 85,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 85,
+    ),
+    species: "Balloon",
+    height: 5,
+    weight: 39,
+    training: (
+        base_exp: 88,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

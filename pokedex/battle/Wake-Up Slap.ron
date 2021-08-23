@@ -1,0 +1,7 @@
+("wake-up-slap", (
+    execute: Actions([
+        Damage(Power(70)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

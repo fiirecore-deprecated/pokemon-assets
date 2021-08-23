@@ -4,18 +4,9 @@
     category: Special,
     type: Electric,
     accuracy: Some(90),
+    power: Some(50),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(50)),
-            Chance([
-                Stat(Basic(SpAttack), 1),
-            ], 70),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

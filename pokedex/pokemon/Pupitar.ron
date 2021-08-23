@@ -1,0 +1,38 @@
+(
+    id: 247,
+    name: "Pupitar",
+    primary_type: Rock,
+    secondary_type: Some(Ground),
+    moves: [
+        (29, "thrash"),
+        (1, "leer"),
+        (1, "bite"),
+        (65, "hyper-beam"),
+        (56, "earthquake"),
+        (1, "screech"),
+        (15, "screech"),
+        (22, "rock-slide"),
+        (38, "scary-face"),
+        (1, "sandstorm"),
+        (8, "sandstorm"),
+        (47, "crunch"),
+    ],
+    base: (
+        hp: 70,
+        atk: 84,
+        def: 70,
+        sp_atk: 65,
+        sp_def: 70,
+        speed: 51,
+    ),
+    species: "Hard",
+    height: 12,
+    weight: 1520,
+    training: (
+        base_exp: 144,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

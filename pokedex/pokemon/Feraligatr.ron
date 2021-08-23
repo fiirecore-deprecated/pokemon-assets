@@ -1,0 +1,37 @@
+(
+    id: 160,
+    name: "Feraligatr",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "leer"),
+        (21, "bite"),
+        (1, "water-gun"),
+        (13, "water-gun"),
+        (58, "hydro-pump"),
+        (1, "rage"),
+        (7, "rage"),
+        (47, "screech"),
+        (38, "slash"),
+        (28, "scary-face"),
+    ],
+    base: (
+        hp: 85,
+        atk: 105,
+        def: 100,
+        sp_atk: 79,
+        sp_def: 83,
+        speed: 78,
+    ),
+    species: "Big",
+    height: 23,
+    weight: 888,
+    training: (
+        base_exp: 239,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

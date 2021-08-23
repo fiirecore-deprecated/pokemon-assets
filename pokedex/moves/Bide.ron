@@ -4,13 +4,9 @@
     category: Physical,
     type: Normal,
     accuracy: None,
+    power: None,
     pp: 10,
     priority: 1,
-    usage: (
-        execute: None,
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

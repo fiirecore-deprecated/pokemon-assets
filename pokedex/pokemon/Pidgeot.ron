@@ -1,0 +1,38 @@
+(
+    id: 18,
+    name: "Pidgeot",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "gust"),
+        (9, "gust"),
+        (27, "wing-attack"),
+        (20, "whirlwind"),
+        (1, "sand-attack"),
+        (5, "sand-attack"),
+        (1, "tackle"),
+        (48, "agility"),
+        (1, "quick-attack"),
+        (13, "quick-attack"),
+        (62, "mirror-move"),
+        (34, "feather-dance"),
+    ],
+    base: (
+        hp: 83,
+        atk: 80,
+        def: 75,
+        sp_atk: 70,
+        sp_def: 70,
+        speed: 101,
+    ),
+    species: "Bird",
+    height: 15,
+    weight: 395,
+    training: (
+        base_exp: 216,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

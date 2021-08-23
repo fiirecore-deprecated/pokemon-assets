@@ -1,0 +1,36 @@
+(
+    id: 138,
+    name: "Omanyte",
+    primary_type: Rock,
+    secondary_type: Some(Water),
+    moves: [
+        (31, "leer"),
+        (13, "bite"),
+        (19, "water-gun"),
+        (55, "hydro-pump"),
+        (1, "withdraw"),
+        (1, "constrict"),
+        (37, "protect"),
+        (49, "ancient-power"),
+        (43, "tickle"),
+        (25, "mud-shot"),
+    ],
+    base: (
+        hp: 35,
+        atk: 40,
+        def: 100,
+        sp_atk: 90,
+        sp_def: 55,
+        speed: 35,
+    ),
+    species: "Spiral",
+    height: 4,
+    weight: 75,
+    training: (
+        base_exp: 71,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

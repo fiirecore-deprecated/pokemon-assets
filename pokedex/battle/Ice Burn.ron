@@ -1,0 +1,8 @@
+("ice-burn", (
+    execute: Actions([
+        Damage(Power(140)),
+        Ailment(Burn, Permanent, 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

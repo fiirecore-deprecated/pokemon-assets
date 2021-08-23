@@ -1,0 +1,33 @@
+(
+    id: 71,
+    name: "Victreebel",
+    primary_type: Grass,
+    secondary_type: Some(Poison),
+    moves: [
+        (1, "vine-whip"),
+        (1, "razor-leaf"),
+        (1, "sleep-powder"),
+        (1, "sweet-scent"),
+        (1, "stockpile"),
+        (1, "spit-up"),
+        (1, "swallow"),
+    ],
+    base: (
+        hp: 80,
+        atk: 105,
+        def: 65,
+        sp_atk: 100,
+        sp_def: 70,
+        speed: 70,
+    ),
+    species: "Flycatcher",
+    height: 17,
+    weight: 155,
+    training: (
+        base_exp: 221,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,10 @@
+("bubble", (
+    execute: Actions([
+        Damage(Power(40)),
+        Chance([
+            Stat(Basic(Speed), -1),
+        ], 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

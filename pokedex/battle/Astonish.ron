@@ -1,0 +1,10 @@
+("astonish", (
+    execute: Actions([
+        Damage(Power(30)),
+        Chance([
+            Flinch,
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

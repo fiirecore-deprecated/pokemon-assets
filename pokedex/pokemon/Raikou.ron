@@ -1,0 +1,36 @@
+(
+    id: 243,
+    name: "Raikou",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (1, "leer"),
+        (1, "bite"),
+        (21, "roar"),
+        (11, "thunder-shock"),
+        (71, "thunder"),
+        (31, "quick-attack"),
+        (51, "reflect"),
+        (41, "spark"),
+        (61, "crunch"),
+        (81, "calm-mind"),
+    ],
+    base: (
+        hp: 90,
+        atk: 85,
+        def: 75,
+        sp_atk: 115,
+        sp_def: 100,
+        speed: 115,
+    ),
+    species: "Thunder",
+    height: 19,
+    weight: 1780,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

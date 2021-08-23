@@ -1,0 +1,38 @@
+(
+    id: 242,
+    name: "Blissey",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (13, "double-slap"),
+        (47, "double-edge"),
+        (4, "tail-whip"),
+        (1, "growl"),
+        (23, "sing"),
+        (18, "minimize"),
+        (33, "defense-curl"),
+        (40, "light-screen"),
+        (28, "egg-bomb"),
+        (10, "soft-boiled"),
+        (7, "refresh"),
+    ],
+    base: (
+        hp: 255,
+        atk: 10,
+        def: 10,
+        sp_atk: 75,
+        sp_def: 135,
+        speed: 55,
+    ),
+    species: "Happiness",
+    height: 15,
+    weight: 468,
+    training: (
+        base_exp: 608,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
+)

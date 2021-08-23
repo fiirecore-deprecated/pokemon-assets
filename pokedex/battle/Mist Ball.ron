@@ -1,0 +1,10 @@
+("mist-ball", (
+    execute: Actions([
+        Damage(Power(70)),
+        Chance([
+            Stat(Basic(SpAttack), -1),
+        ], 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

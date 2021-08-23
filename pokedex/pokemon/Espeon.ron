@@ -1,0 +1,37 @@
+(
+    id: 196,
+    name: "Espeon",
+    primary_type: Psychic,
+    secondary_type: None,
+    moves: [
+        (8, "sand-attack"),
+        (1, "tackle"),
+        (1, "tail-whip"),
+        (36, "psybeam"),
+        (16, "confusion"),
+        (47, "psychic"),
+        (23, "quick-attack"),
+        (30, "swift"),
+        (52, "morning-sun"),
+        (42, "psych-up"),
+        (1, "helping-hand"),
+    ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 60,
+        sp_atk: 130,
+        sp_def: 95,
+        speed: 110,
+    ),
+    species: "Sun",
+    height: 9,
+    weight: 265,
+    training: (
+        base_exp: 184,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

@@ -1,0 +1,37 @@
+(
+    id: 238,
+    name: "Smoochum",
+    primary_type: Ice,
+    secondary_type: Some(Psychic),
+    moves: [
+        (1, "pound"),
+        (25, "sing"),
+        (57, "blizzard"),
+        (21, "confusion"),
+        (45, "psychic"),
+        (1, "lick"),
+        (13, "powder-snow"),
+        (9, "sweet-kiss"),
+        (49, "perish-song"),
+        (33, "mean-look"),
+        (37, "fake-tears"),
+    ],
+    base: (
+        hp: 45,
+        atk: 30,
+        def: 15,
+        sp_atk: 85,
+        sp_def: 65,
+        speed: 65,
+    ),
+    species: "Kiss",
+    height: 4,
+    weight: 60,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
+)

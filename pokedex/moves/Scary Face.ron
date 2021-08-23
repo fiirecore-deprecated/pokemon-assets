@@ -4,15 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: Some(100),
+    power: None,
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Basic(Speed), -2),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

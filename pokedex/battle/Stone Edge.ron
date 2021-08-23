@@ -1,0 +1,7 @@
+("stone-edge", (
+    execute: Actions([
+        Damage(Power(100)),
+    ]),
+    contact: false,
+    crit_rate: 1,
+))

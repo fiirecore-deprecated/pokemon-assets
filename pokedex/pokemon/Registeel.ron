@@ -1,0 +1,36 @@
+(
+    id: 379,
+    name: "Registeel",
+    primary_type: Steel,
+    secondary_type: None,
+    moves: [
+        (65, "hyper-beam"),
+        (41, "amnesia"),
+        (1, "explosion"),
+        (17, "curse"),
+        (49, "zap-cannon"),
+        (57, "lock-on"),
+        (9, "metal-claw"),
+        (33, "ancient-power"),
+        (25, "superpower"),
+        (41, "iron-defense"),
+    ],
+    base: (
+        hp: 80,
+        atk: 75,
+        def: 150,
+        sp_atk: 75,
+        sp_def: 150,
+        speed: 50,
+    ),
+    species: "Iron",
+    height: 19,
+    weight: 2050,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

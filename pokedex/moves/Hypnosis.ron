@@ -4,15 +4,9 @@
     category: Status,
     type: Psychic,
     accuracy: Some(60),
+    power: None,
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Ailment(Sleep, Temporary(2, 4), 0),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

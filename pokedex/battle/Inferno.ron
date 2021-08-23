@@ -1,0 +1,8 @@
+("inferno", (
+    execute: Actions([
+        Damage(Power(100)),
+        Ailment(Burn, Permanent, 100),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

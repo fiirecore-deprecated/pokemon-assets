@@ -1,0 +1,37 @@
+(
+    id: 229,
+    name: "Houndoom",
+    primary_type: Dark,
+    secondary_type: Some(Fire),
+    moves: [
+        (1, "leer"),
+        (27, "bite"),
+        (19, "roar"),
+        (1, "ember"),
+        (51, "flamethrower"),
+        (13, "smog"),
+        (43, "feint-attack"),
+        (59, "crunch"),
+        (35, "odor-sleuth"),
+        (1, "howl"),
+        (7, "howl"),
+    ],
+    base: (
+        hp: 75,
+        atk: 90,
+        def: 50,
+        sp_atk: 110,
+        sp_def: 80,
+        speed: 95,
+    ),
+    species: "Dark",
+    height: 14,
+    weight: 350,
+    training: (
+        base_exp: 175,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

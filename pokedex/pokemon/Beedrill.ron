@@ -1,0 +1,35 @@
+(
+    id: 15,
+    name: "Beedrill",
+    primary_type: Bug,
+    secondary_type: Some(Poison),
+    moves: [
+        (1, "fury-attack"),
+        (10, "fury-attack"),
+        (20, "twineedle"),
+        (35, "pin-missile"),
+        (40, "agility"),
+        (25, "rage"),
+        (15, "focus-energy"),
+        (30, "pursuit"),
+        (45, "endeavor"),
+    ],
+    base: (
+        hp: 65,
+        atk: 90,
+        def: 40,
+        sp_atk: 45,
+        sp_def: 80,
+        speed: 75,
+    ),
+    species: "Poison",
+    height: 10,
+    weight: 295,
+    training: (
+        base_exp: 178,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

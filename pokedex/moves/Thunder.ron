@@ -4,16 +4,9 @@
     category: Special,
     type: Electric,
     accuracy: Some(70),
+    power: Some(110),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(110)),
-            Ailment(Paralysis, Permanent, 30),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

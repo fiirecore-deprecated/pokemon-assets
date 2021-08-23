@@ -1,0 +1,7 @@
+("absorb", (
+    execute: Actions([
+        Drain(Power(20), 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

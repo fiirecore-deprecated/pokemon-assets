@@ -1,0 +1,34 @@
+(
+    id: 191,
+    name: "Sunkern",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (1, "absorb"),
+        (13, "mega-drain"),
+        (6, "growth"),
+        (42, "giga-drain"),
+        (37, "synthesis"),
+        (30, "sunny-day"),
+        (18, "ingrain"),
+        (25, "endeavor"),
+    ],
+    base: (
+        hp: 30,
+        atk: 30,
+        def: 30,
+        sp_atk: 30,
+        sp_def: 30,
+        speed: 30,
+    ),
+    species: "Seed",
+    height: 3,
+    weight: 18,
+    training: (
+        base_exp: 36,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

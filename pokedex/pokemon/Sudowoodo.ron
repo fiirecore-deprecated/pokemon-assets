@@ -1,0 +1,35 @@
+(
+    id: 185,
+    name: "Sudowoodo",
+    primary_type: Rock,
+    secondary_type: None,
+    moves: [
+        (49, "slam"),
+        (57, "double-edge"),
+        (17, "low-kick"),
+        (1, "rock-throw"),
+        (1, "mimic"),
+        (25, "rock-slide"),
+        (9, "flail"),
+        (41, "feint-attack"),
+        (33, "block"),
+    ],
+    base: (
+        hp: 70,
+        atk: 100,
+        def: 115,
+        sp_atk: 30,
+        sp_def: 65,
+        speed: 30,
+    ),
+    species: "Imitation",
+    height: 12,
+    weight: 380,
+    training: (
+        base_exp: 144,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

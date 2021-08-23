@@ -1,0 +1,10 @@
+("earth-power", (
+    execute: Actions([
+        Damage(Power(90)),
+        Chance([
+            Stat(Basic(SpDefense), -1),
+        ], 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -4,18 +4,9 @@
     category: Physical,
     type: Fire,
     accuracy: Some(95),
+    power: Some(180),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(180)),
-            Stat(Basic(Defense), -1),
-            Stat(Basic(SpDefense), -1),
-            Stat(Basic(Speed), -1),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

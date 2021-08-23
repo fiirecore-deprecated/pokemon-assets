@@ -1,0 +1,36 @@
+(
+    id: 30,
+    name: "Nidorina",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (12, "double-kick"),
+        (8, "tail-whip"),
+        (18, "poison-sting"),
+        (22, "bite"),
+        (1, "growl"),
+        (34, "fury-swipes"),
+        (53, "crunch"),
+        (43, "flatter"),
+        (26, "helping-hand"),
+    ],
+    base: (
+        hp: 70,
+        atk: 62,
+        def: 67,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 56,
+    ),
+    species: "Poison",
+    height: 8,
+    weight: 200,
+    training: (
+        base_exp: 128,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
+)

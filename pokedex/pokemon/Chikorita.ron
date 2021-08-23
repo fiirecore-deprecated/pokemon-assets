@@ -1,0 +1,36 @@
+(
+    id: 152,
+    name: "Chikorita",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (29, "body-slam"),
+        (1, "growl"),
+        (8, "razor-leaf"),
+        (50, "solar-beam"),
+        (15, "poison-powder"),
+        (36, "light-screen"),
+        (12, "reflect"),
+        (43, "safeguard"),
+        (22, "synthesis"),
+    ],
+    base: (
+        hp: 45,
+        atk: 49,
+        def: 65,
+        sp_atk: 49,
+        sp_def: 65,
+        speed: 45,
+    ),
+    species: "Leaf",
+    height: 9,
+    weight: 64,
+    training: (
+        base_exp: 64,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

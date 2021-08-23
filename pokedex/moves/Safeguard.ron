@@ -4,13 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: None,
+    power: None,
     pp: 25,
     priority: 0,
-    usage: (
-        execute: None,
-        target: None,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: None,
     world: false,
 )

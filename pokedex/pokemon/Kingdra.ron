@@ -1,0 +1,37 @@
+(
+    id: 230,
+    name: "Kingdra",
+    primary_type: Water,
+    secondary_type: Some(Dragon),
+    moves: [
+        (1, "leer"),
+        (15, "leer"),
+        (1, "water-gun"),
+        (22, "water-gun"),
+        (51, "hydro-pump"),
+        (40, "agility"),
+        (1, "smokescreen"),
+        (8, "smokescreen"),
+        (1, "bubble"),
+        (29, "twister"),
+        (62, "dragon-dance"),
+    ],
+    base: (
+        hp: 75,
+        atk: 95,
+        def: 95,
+        sp_atk: 95,
+        sp_def: 95,
+        speed: 85,
+    ),
+    species: "Dragon",
+    height: 18,
+    weight: 1520,
+    training: (
+        base_exp: 243,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

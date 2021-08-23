@@ -4,15 +4,9 @@
     category: Status,
     type: Ground,
     accuracy: Some(100),
+    power: None,
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Accuracy, -1),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

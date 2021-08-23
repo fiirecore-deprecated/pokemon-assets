@@ -1,0 +1,8 @@
+("blizzard", (
+    execute: Actions([
+        Damage(Power(110)),
+        Ailment(Freeze, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,37 @@
+(
+    id: 164,
+    name: "Noctowl",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "tackle"),
+        (33, "take-down"),
+        (1, "growl"),
+        (1, "peck"),
+        (11, "peck"),
+        (41, "confusion"),
+        (16, "hypnosis"),
+        (25, "reflect"),
+        (57, "dream-eater"),
+        (1, "foresight"),
+        (6, "foresight"),
+    ],
+    base: (
+        hp: 100,
+        atk: 50,
+        def: 50,
+        sp_atk: 86,
+        sp_def: 96,
+        speed: 70,
+    ),
+    species: "Owl",
+    height: 16,
+    weight: 408,
+    training: (
+        base_exp: 158,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

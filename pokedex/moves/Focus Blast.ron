@@ -4,18 +4,9 @@
     category: Special,
     type: Fighting,
     accuracy: Some(70),
+    power: Some(120),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(120)),
-            Chance([
-                Stat(Basic(SpDefense), -1),
-            ], 10),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

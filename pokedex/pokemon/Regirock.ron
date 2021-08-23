@@ -1,0 +1,35 @@
+(
+    id: 377,
+    name: "Regirock",
+    primary_type: Rock,
+    secondary_type: None,
+    moves: [
+        (65, "hyper-beam"),
+        (9, "rock-throw"),
+        (1, "explosion"),
+        (17, "curse"),
+        (49, "zap-cannon"),
+        (57, "lock-on"),
+        (33, "ancient-power"),
+        (25, "superpower"),
+        (41, "iron-defense"),
+    ],
+    base: (
+        hp: 80,
+        atk: 100,
+        def: 200,
+        sp_atk: 50,
+        sp_def: 100,
+        speed: 50,
+    ),
+    species: "Rock",
+    height: 17,
+    weight: 2300,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

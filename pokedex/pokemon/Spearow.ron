@@ -1,0 +1,35 @@
+(
+    id: 21,
+    name: "Spearow",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (13, "fury-attack"),
+        (7, "leer"),
+        (1, "growl"),
+        (1, "peck"),
+        (37, "drill-peck"),
+        (43, "agility"),
+        (31, "mirror-move"),
+        (19, "pursuit"),
+        (25, "aerial-ace"),
+    ],
+    base: (
+        hp: 40,
+        atk: 60,
+        def: 30,
+        sp_atk: 31,
+        sp_def: 31,
+        speed: 70,
+    ),
+    species: "Tiny",
+    height: 3,
+    weight: 20,
+    training: (
+        base_exp: 52,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

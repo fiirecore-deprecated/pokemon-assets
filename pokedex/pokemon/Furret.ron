@@ -1,0 +1,37 @@
+(
+    id: 162,
+    name: "Furret",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (28, "slam"),
+        (1, "quick-attack"),
+        (7, "quick-attack"),
+        (1, "defense-curl"),
+        (4, "defense-curl"),
+        (59, "amnesia"),
+        (12, "fury-swipes"),
+        (48, "rest"),
+        (37, "follow-me"),
+        (19, "helping-hand"),
+    ],
+    base: (
+        hp: 85,
+        atk: 76,
+        def: 64,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 90,
+    ),
+    species: "Long",
+    height: 18,
+    weight: 325,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

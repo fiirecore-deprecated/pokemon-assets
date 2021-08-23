@@ -1,0 +1,36 @@
+(
+    id: 41,
+    name: "Zubat",
+    primary_type: Poison,
+    secondary_type: Some(Flying),
+    moves: [
+        (21, "wing-attack"),
+        (16, "bite"),
+        (11, "supersonic"),
+        (26, "confuse-ray"),
+        (46, "haze"),
+        (1, "leech-life"),
+        (36, "mean-look"),
+        (41, "poison-fang"),
+        (6, "astonish"),
+        (31, "air-cutter"),
+    ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 35,
+        sp_atk: 30,
+        sp_def: 40,
+        speed: 55,
+    ),
+    species: "Bat",
+    height: 8,
+    weight: 75,
+    training: (
+        base_exp: 49,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,36 @@
+(
+    id: 285,
+    name: "Shroomish",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (22, "headbutt"),
+        (4, "tackle"),
+        (1, "absorb"),
+        (16, "mega-drain"),
+        (10, "leech-seed"),
+        (36, "growth"),
+        (28, "poison-powder"),
+        (7, "stun-spore"),
+        (54, "spore"),
+        (45, "giga-drain"),
+    ],
+    base: (
+        hp: 60,
+        atk: 40,
+        def: 60,
+        sp_atk: 40,
+        sp_def: 60,
+        speed: 35,
+    ),
+    species: "Mushroom",
+    height: 4,
+    weight: 45,
+    training: (
+        base_exp: 59,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

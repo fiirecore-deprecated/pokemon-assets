@@ -4,16 +4,9 @@
     category: Physical,
     type: Flying,
     accuracy: Some(85),
+    power: Some(85),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(85)),
-            Ailment(Paralysis, Permanent, 30),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

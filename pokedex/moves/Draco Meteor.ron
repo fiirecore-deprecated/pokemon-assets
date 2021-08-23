@@ -4,16 +4,9 @@
     category: Special,
     type: Dragon,
     accuracy: Some(90),
+    power: Some(130),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(130)),
-            Stat(Basic(SpAttack), -2),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

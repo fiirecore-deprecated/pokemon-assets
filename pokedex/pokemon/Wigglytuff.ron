@@ -1,0 +1,30 @@
+(
+    id: 40,
+    name: "Wigglytuff",
+    primary_type: Normal,
+    secondary_type: Some(Fairy),
+    moves: [
+        (1, "double-slap"),
+        (1, "sing"),
+        (1, "disable"),
+        (1, "defense-curl"),
+    ],
+    base: (
+        hp: 140,
+        atk: 70,
+        def: 45,
+        sp_atk: 85,
+        sp_def: 50,
+        speed: 45,
+    ),
+    species: "Balloon",
+    height: 10,
+    weight: 120,
+    training: (
+        base_exp: 196,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

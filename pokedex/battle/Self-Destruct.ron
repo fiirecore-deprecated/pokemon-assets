@@ -1,0 +1,7 @@
+("self-destruct", (
+    execute: Actions([
+        Damage(Power(200)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

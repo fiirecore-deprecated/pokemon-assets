@@ -1,0 +1,30 @@
+(
+    id: 202,
+    name: "Wobbuffet",
+    primary_type: Psychic,
+    secondary_type: None,
+    moves: [
+        (1, "counter"),
+        (1, "destiny-bond"),
+        (1, "safeguard"),
+        (1, "mirror-coat"),
+    ],
+    base: (
+        hp: 190,
+        atk: 33,
+        def: 58,
+        sp_atk: 33,
+        sp_def: 58,
+        speed: 33,
+    ),
+    species: "Patient",
+    height: 13,
+    weight: 285,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,7 @@
+("dream-eater", (
+    execute: Actions([
+        Drain(Power(100), 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

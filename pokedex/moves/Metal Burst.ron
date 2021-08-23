@@ -4,13 +4,9 @@
     category: Physical,
     type: Steel,
     accuracy: Some(100),
+    power: None,
     pp: 10,
     priority: 0,
-    usage: (
-        execute: None,
-        target: None,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: None,
     world: false,
 )

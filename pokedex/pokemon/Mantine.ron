@@ -1,0 +1,35 @@
+(
+    id: 226,
+    name: "Mantine",
+    primary_type: Water,
+    secondary_type: Some(Flying),
+    moves: [
+        (36, "wing-attack"),
+        (1, "tackle"),
+        (22, "take-down"),
+        (8, "supersonic"),
+        (15, "bubble-beam"),
+        (29, "agility"),
+        (50, "confuse-ray"),
+        (1, "bubble"),
+        (43, "water-pulse"),
+    ],
+    base: (
+        hp: 85,
+        atk: 40,
+        def: 70,
+        sp_atk: 80,
+        sp_def: 140,
+        speed: 70,
+    ),
+    species: "Kite",
+    height: 21,
+    weight: 2200,
+    training: (
+        base_exp: 170,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

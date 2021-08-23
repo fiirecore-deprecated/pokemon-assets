@@ -1,0 +1,30 @@
+(
+    id: 272,
+    name: "Ludicolo",
+    primary_type: Water,
+    secondary_type: Some(Grass),
+    moves: [
+        (1, "growl"),
+        (1, "absorb"),
+        (1, "nature-power"),
+        (1, "astonish"),
+    ],
+    base: (
+        hp: 80,
+        atk: 70,
+        def: 70,
+        sp_atk: 90,
+        sp_def: 100,
+        speed: 70,
+    ),
+    species: "Carefree",
+    height: 15,
+    weight: 550,
+    training: (
+        base_exp: 216,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,38 @@
+(
+    id: 110,
+    name: "Weezing",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (25, "smokescreen"),
+        (33, "haze"),
+        (1, "self-destruct"),
+        (17, "self-destruct"),
+        (1, "smog"),
+        (9, "smog"),
+        (21, "sludge"),
+        (1, "poison-gas"),
+        (44, "explosion"),
+        (51, "destiny-bond"),
+        (58, "memento"),
+    ],
+    base: (
+        hp: 65,
+        atk: 90,
+        def: 120,
+        sp_atk: 85,
+        sp_def: 70,
+        speed: 60,
+    ),
+    species: "Poison",
+    height: 12,
+    weight: 95,
+    training: (
+        base_exp: 172,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

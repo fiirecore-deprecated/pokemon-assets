@@ -1,0 +1,32 @@
+(
+    id: 186,
+    name: "Politoed",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "double-slap"),
+        (1, "water-gun"),
+        (1, "hypnosis"),
+        (1, "perish-song"),
+        (35, "perish-song"),
+        (51, "swagger"),
+    ],
+    base: (
+        hp: 90,
+        atk: 75,
+        def: 75,
+        sp_atk: 90,
+        sp_def: 100,
+        speed: 70,
+    ),
+    species: "Frog",
+    height: 11,
+    weight: 339,
+    training: (
+        base_exp: 225,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

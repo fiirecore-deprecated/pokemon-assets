@@ -1,0 +1,36 @@
+(
+    id: 147,
+    name: "Dratini",
+    primary_type: Dragon,
+    secondary_type: None,
+    moves: [
+        (29, "slam"),
+        (1, "wrap"),
+        (1, "leer"),
+        (57, "hyper-beam"),
+        (22, "dragon-rage"),
+        (8, "thunder-wave"),
+        (36, "agility"),
+        (50, "outrage"),
+        (43, "safeguard"),
+        (15, "twister"),
+    ],
+    base: (
+        hp: 41,
+        atk: 64,
+        def: 45,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 50,
+    ),
+    species: "Dragon",
+    height: 18,
+    weight: 33,
+    training: (
+        base_exp: 60,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

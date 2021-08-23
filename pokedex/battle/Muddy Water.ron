@@ -1,0 +1,10 @@
+("muddy-water", (
+    execute: Actions([
+        Damage(Power(90)),
+        Chance([
+            Stat(Accuracy, -1),
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

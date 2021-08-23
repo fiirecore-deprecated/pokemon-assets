@@ -1,0 +1,38 @@
+(
+    id: 153,
+    name: "Bayleef",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (31, "body-slam"),
+        (1, "growl"),
+        (1, "razor-leaf"),
+        (8, "razor-leaf"),
+        (55, "solar-beam"),
+        (15, "poison-powder"),
+        (39, "light-screen"),
+        (1, "reflect"),
+        (12, "reflect"),
+        (47, "safeguard"),
+        (23, "synthesis"),
+    ],
+    base: (
+        hp: 60,
+        atk: 62,
+        def: 80,
+        sp_atk: 63,
+        sp_def: 80,
+        speed: 60,
+    ),
+    species: "Leaf",
+    height: 12,
+    weight: 158,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

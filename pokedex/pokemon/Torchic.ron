@@ -1,0 +1,37 @@
+(
+    id: 255,
+    name: "Torchic",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (19, "sand-attack"),
+        (1, "growl"),
+        (10, "ember"),
+        (43, "flamethrower"),
+        (16, "peck"),
+        (25, "fire-spin"),
+        (28, "quick-attack"),
+        (7, "focus-energy"),
+        (37, "mirror-move"),
+        (34, "slash"),
+    ],
+    base: (
+        hp: 45,
+        atk: 60,
+        def: 40,
+        sp_atk: 70,
+        sp_def: 50,
+        speed: 45,
+    ),
+    species: "Chick",
+    height: 4,
+    weight: 25,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

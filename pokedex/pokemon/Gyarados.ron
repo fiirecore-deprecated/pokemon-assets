@@ -1,0 +1,35 @@
+(
+    id: 130,
+    name: "Gyarados",
+    primary_type: Water,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "thrash"),
+        (30, "leer"),
+        (20, "bite"),
+        (40, "hydro-pump"),
+        (55, "hyper-beam"),
+        (25, "dragon-rage"),
+        (35, "twister"),
+        (45, "rain-dance"),
+        (50, "dragon-dance"),
+    ],
+    base: (
+        hp: 95,
+        atk: 125,
+        def: 79,
+        sp_atk: 60,
+        sp_def: 100,
+        speed: 81,
+    ),
+    species: "Atrocious",
+    height: 65,
+    weight: 2350,
+    training: (
+        base_exp: 189,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

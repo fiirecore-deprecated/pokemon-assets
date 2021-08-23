@@ -4,16 +4,9 @@
     category: Special,
     type: Poison,
     accuracy: Some(100),
+    power: Some(95),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(95)),
-            Ailment(Poison, Permanent, 10),
-        ]),
-        target: AllOtherPokemon,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOtherPokemon,
     world: false,
 )

@@ -1,0 +1,8 @@
+("fake-out", (
+    execute: Actions([
+        Damage(Power(40)),
+        Flinch,
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

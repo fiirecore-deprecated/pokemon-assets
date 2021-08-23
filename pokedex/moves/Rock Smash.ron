@@ -4,18 +4,9 @@
     category: Physical,
     type: Fighting,
     accuracy: Some(100),
+    power: Some(40),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(40)),
-            Chance([
-                Stat(Basic(Defense), -1),
-            ], 50),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: true,
 )

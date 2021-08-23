@@ -1,0 +1,10 @@
+("aurora-beam", (
+    execute: Actions([
+        Damage(Power(65)),
+        Chance([
+            Stat(Basic(Attack), -1),
+        ], 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

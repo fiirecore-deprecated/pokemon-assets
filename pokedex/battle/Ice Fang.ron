@@ -1,0 +1,11 @@
+("ice-fang", (
+    execute: Actions([
+        Damage(Power(65)),
+        Chance([
+            Flinch,
+        ], 10),
+        Ailment(Freeze, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

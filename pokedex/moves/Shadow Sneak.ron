@@ -4,15 +4,9 @@
     category: Physical,
     type: Ghost,
     accuracy: Some(100),
+    power: Some(40),
     pp: 30,
     priority: 1,
-    usage: (
-        execute: Actions([
-            Damage(Power(40)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

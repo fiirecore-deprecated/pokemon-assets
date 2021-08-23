@@ -1,0 +1,36 @@
+(
+    id: 322,
+    name: "Numel",
+    primary_type: Fire,
+    secondary_type: Some(Ground),
+    moves: [
+        (1, "tackle"),
+        (29, "take-down"),
+        (49, "double-edge"),
+        (1, "growl"),
+        (11, "ember"),
+        (41, "flamethrower"),
+        (35, "earthquake"),
+        (25, "focus-energy"),
+        (31, "amnesia"),
+        (19, "magnitude"),
+    ],
+    base: (
+        hp: 60,
+        atk: 60,
+        def: 40,
+        sp_atk: 65,
+        sp_def: 45,
+        speed: 35,
+    ),
+    species: "Numb",
+    height: 7,
+    weight: 240,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

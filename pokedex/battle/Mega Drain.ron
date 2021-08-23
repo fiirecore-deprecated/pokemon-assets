@@ -1,0 +1,7 @@
+("mega-drain", (
+    execute: Actions([
+        Drain(Power(40), 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,7 @@
+("nasty-plot", (
+    execute: Actions([
+        Stat(Basic(SpAttack), 2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

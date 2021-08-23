@@ -1,0 +1,37 @@
+(
+    id: 359,
+    name: "Absol",
+    primary_type: Dark,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (17, "razor-wind"),
+        (26, "swords-dance"),
+        (5, "leer"),
+        (21, "bite"),
+        (13, "quick-attack"),
+        (31, "double-team"),
+        (36, "slash"),
+        (46, "perish-song"),
+        (41, "future-sight"),
+        (9, "taunt"),
+    ],
+    base: (
+        hp: 65,
+        atk: 130,
+        def: 60,
+        sp_atk: 75,
+        sp_def: 60,
+        speed: 75,
+    ),
+    species: "Disaster",
+    height: 12,
+    weight: 470,
+    training: (
+        base_exp: 163,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

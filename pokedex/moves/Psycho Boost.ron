@@ -4,16 +4,9 @@
     category: Special,
     type: Psychic,
     accuracy: Some(90),
+    power: Some(140),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(140)),
-            Stat(Basic(SpAttack), -2),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

@@ -1,0 +1,37 @@
+(
+    id: 136,
+    name: "Flareon",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (8, "sand-attack"),
+        (1, "tackle"),
+        (1, "tail-whip"),
+        (47, "leer"),
+        (30, "bite"),
+        (16, "ember"),
+        (52, "flamethrower"),
+        (36, "fire-spin"),
+        (23, "quick-attack"),
+        (42, "smog"),
+        (1, "helping-hand"),
+    ],
+    base: (
+        hp: 65,
+        atk: 130,
+        def: 60,
+        sp_atk: 95,
+        sp_def: 110,
+        speed: 65,
+    ),
+    species: "Flame",
+    height: 9,
+    weight: 250,
+    training: (
+        base_exp: 184,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

@@ -4,18 +4,9 @@
     category: Special,
     type: Dragon,
     accuracy: Some(100),
+    power: Some(40),
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(40)),
-            Chance([
-                Flinch,
-            ], 20),
-        ]),
-        target: AllOpponents,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOpponents,
     world: false,
 )

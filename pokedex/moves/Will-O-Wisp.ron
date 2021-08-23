@@ -4,15 +4,9 @@
     category: Status,
     type: Fire,
     accuracy: Some(85),
+    power: None,
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Ailment(Burn, Permanent, 0),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

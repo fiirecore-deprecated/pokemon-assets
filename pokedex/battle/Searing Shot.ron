@@ -1,0 +1,8 @@
+("searing-shot", (
+    execute: Actions([
+        Damage(Power(100)),
+        Ailment(Burn, Permanent, 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

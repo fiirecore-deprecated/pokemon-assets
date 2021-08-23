@@ -1,0 +1,7 @@
+("pin-missile", (
+    execute: Actions([
+        Damage(Power(25)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

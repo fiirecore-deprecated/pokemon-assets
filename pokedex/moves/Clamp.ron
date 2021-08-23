@@ -4,15 +4,9 @@
     category: Physical,
     type: Water,
     accuracy: Some(85),
+    power: Some(35),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(35)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

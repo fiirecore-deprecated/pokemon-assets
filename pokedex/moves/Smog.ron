@@ -4,16 +4,9 @@
     category: Special,
     type: Poison,
     accuracy: Some(70),
+    power: Some(30),
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(30)),
-            Ailment(Poison, Permanent, 40),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

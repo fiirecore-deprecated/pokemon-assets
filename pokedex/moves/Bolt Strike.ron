@@ -4,16 +4,9 @@
     category: Physical,
     type: Electric,
     accuracy: Some(85),
+    power: Some(130),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(130)),
-            Ailment(Paralysis, Permanent, 20),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

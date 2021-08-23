@@ -1,0 +1,7 @@
+("charge", (
+    execute: Actions([
+        Stat(Basic(SpDefense), 1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

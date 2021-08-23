@@ -1,0 +1,37 @@
+(
+    id: 55,
+    name: "Golduck",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "tail-whip"),
+        (5, "tail-whip"),
+        (1, "disable"),
+        (10, "disable"),
+        (58, "hydro-pump"),
+        (16, "confusion"),
+        (23, "screech"),
+        (44, "fury-swipes"),
+        (31, "psych-up"),
+        (1, "water-sport"),
+    ],
+    base: (
+        hp: 80,
+        atk: 82,
+        def: 78,
+        sp_atk: 95,
+        sp_def: 80,
+        speed: 85,
+    ),
+    species: "Duck",
+    height: 17,
+    weight: 766,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

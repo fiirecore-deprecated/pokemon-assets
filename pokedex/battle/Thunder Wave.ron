@@ -1,0 +1,7 @@
+("thunder-wave", (
+    execute: Actions([
+        Ailment(Paralysis, Permanent, 0),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

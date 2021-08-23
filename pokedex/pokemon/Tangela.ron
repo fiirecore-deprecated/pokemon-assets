@@ -1,0 +1,38 @@
+(
+    id: 114,
+    name: "Tangela",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (28, "bind"),
+        (40, "slam"),
+        (22, "vine-whip"),
+        (10, "absorb"),
+        (31, "mega-drain"),
+        (13, "growth"),
+        (19, "poison-powder"),
+        (37, "stun-spore"),
+        (4, "sleep-powder"),
+        (1, "constrict"),
+        (1, "ingrain"),
+        (46, "tickle"),
+    ],
+    base: (
+        hp: 65,
+        atk: 55,
+        def: 115,
+        sp_atk: 100,
+        sp_def: 40,
+        speed: 60,
+    ),
+    species: "Vine",
+    height: 10,
+    weight: 350,
+    training: (
+        base_exp: 87,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

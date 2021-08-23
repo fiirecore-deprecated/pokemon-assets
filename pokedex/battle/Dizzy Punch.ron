@@ -1,0 +1,7 @@
+("dizzy-punch", (
+    execute: Actions([
+        Damage(Power(70)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

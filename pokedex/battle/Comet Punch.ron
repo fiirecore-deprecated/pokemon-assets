@@ -1,0 +1,7 @@
+("comet-punch", (
+    execute: Actions([
+        Damage(Power(18)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

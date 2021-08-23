@@ -4,15 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: Some(55),
+    power: None,
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Ailment(Sleep, Temporary(2, 4), 0),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

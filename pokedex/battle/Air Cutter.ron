@@ -1,0 +1,7 @@
+("air-cutter", (
+    execute: Actions([
+        Damage(Power(60)),
+    ]),
+    contact: false,
+    crit_rate: 1,
+))

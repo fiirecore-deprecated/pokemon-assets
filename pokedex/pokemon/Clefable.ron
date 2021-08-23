@@ -1,0 +1,30 @@
+(
+    id: 36,
+    name: "Clefable",
+    primary_type: Fairy,
+    secondary_type: None,
+    moves: [
+        (1, "double-slap"),
+        (1, "sing"),
+        (1, "minimize"),
+        (1, "metronome"),
+    ],
+    base: (
+        hp: 95,
+        atk: 70,
+        def: 73,
+        sp_atk: 95,
+        sp_def: 90,
+        speed: 60,
+    ),
+    species: "Fairy",
+    height: 13,
+    weight: 400,
+    training: (
+        base_exp: 217,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

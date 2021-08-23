@@ -4,15 +4,9 @@
     category: Physical,
     type: Ground,
     accuracy: Some(100),
+    power: Some(100),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(100)),
-        ]),
-        target: AllOtherPokemon,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOtherPokemon,
     world: false,
 )

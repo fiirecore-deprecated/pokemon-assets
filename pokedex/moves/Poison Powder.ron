@@ -4,15 +4,9 @@
     category: Status,
     type: Poison,
     accuracy: Some(75),
+    power: None,
     pp: 35,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Ailment(Poison, Permanent, 0),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

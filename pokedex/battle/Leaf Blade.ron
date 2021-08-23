@@ -1,0 +1,7 @@
+("leaf-blade", (
+    execute: Actions([
+        Damage(Power(90)),
+    ]),
+    contact: false,
+    crit_rate: 1,
+))

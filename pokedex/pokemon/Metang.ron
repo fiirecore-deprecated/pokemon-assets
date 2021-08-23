@@ -1,0 +1,36 @@
+(
+    id: 375,
+    name: "Metang",
+    primary_type: Steel,
+    secondary_type: Some(Psychic),
+    moves: [
+        (1, "take-down"),
+        (62, "hyper-beam"),
+        (20, "confusion"),
+        (38, "psychic"),
+        (56, "agility"),
+        (26, "scary-face"),
+        (32, "pursuit"),
+        (20, "metal-claw"),
+        (50, "meteor-mash"),
+        (44, "iron-defense"),
+    ],
+    base: (
+        hp: 60,
+        atk: 75,
+        def: 100,
+        sp_atk: 55,
+        sp_def: 80,
+        speed: 50,
+    ),
+    species: "Iron",
+    height: 12,
+    weight: 2025,
+    training: (
+        base_exp: 147,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

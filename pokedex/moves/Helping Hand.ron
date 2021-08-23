@@ -4,13 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: None,
+    power: None,
     pp: 20,
     priority: 5,
-    usage: (
-        execute: None,
-        target: Ally,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Ally,
     world: false,
 )

@@ -1,0 +1,7 @@
+("arm-thrust", (
+    execute: Actions([
+        Damage(Power(15)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

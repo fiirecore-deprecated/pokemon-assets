@@ -1,0 +1,37 @@
+(
+    id: 205,
+    name: "Forretress",
+    primary_type: Bug,
+    secondary_type: Some(Steel),
+    moves: [
+        (1, "tackle"),
+        (15, "take-down"),
+        (59, "double-edge"),
+        (29, "bide"),
+        (1, "self-destruct"),
+        (8, "self-destruct"),
+        (39, "explosion"),
+        (1, "protect"),
+        (49, "spikes"),
+        (31, "zap-cannon"),
+        (22, "rapid-spin"),
+    ],
+    base: (
+        hp: 75,
+        atk: 90,
+        def: 140,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 40,
+    ),
+    species: "Bagworm",
+    height: 12,
+    weight: 1258,
+    training: (
+        base_exp: 163,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,32 @@
+(
+    id: 173,
+    name: "Cleffa",
+    primary_type: Fairy,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (8, "sing"),
+        (13, "sweet-kiss"),
+        (1, "charm"),
+        (4, "encore"),
+        (17, "magical-leaf"),
+    ],
+    base: (
+        hp: 50,
+        atk: 25,
+        def: 28,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 15,
+    ),
+    species: "Star",
+    height: 3,
+    weight: 30,
+    training: (
+        base_exp: 44,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

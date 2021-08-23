@@ -1,0 +1,35 @@
+(
+    id: 240,
+    name: "Magby",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (19, "fire-punch"),
+        (7, "leer"),
+        (1, "ember"),
+        (37, "flamethrower"),
+        (25, "smokescreen"),
+        (43, "confuse-ray"),
+        (13, "smog"),
+        (49, "fire-blast"),
+        (31, "sunny-day"),
+    ],
+    base: (
+        hp: 45,
+        atk: 75,
+        def: 37,
+        sp_atk: 70,
+        sp_def: 55,
+        speed: 83,
+    ),
+    species: "Live",
+    height: 7,
+    weight: 214,
+    training: (
+        base_exp: 73,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
+)

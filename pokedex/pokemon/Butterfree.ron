@@ -1,0 +1,37 @@
+(
+    id: 12,
+    name: "Butterfree",
+    primary_type: Bug,
+    secondary_type: Some(Flying),
+    moves: [
+        (28, "gust"),
+        (23, "whirlwind"),
+        (18, "supersonic"),
+        (34, "psybeam"),
+        (13, "poison-powder"),
+        (14, "stun-spore"),
+        (15, "sleep-powder"),
+        (1, "confusion"),
+        (10, "confusion"),
+        (40, "safeguard"),
+        (47, "silver-wind"),
+    ],
+    base: (
+        hp: 60,
+        atk: 45,
+        def: 50,
+        sp_atk: 90,
+        sp_def: 80,
+        speed: 70,
+    ),
+    species: "Butterfly",
+    height: 11,
+    weight: 320,
+    training: (
+        base_exp: 178,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

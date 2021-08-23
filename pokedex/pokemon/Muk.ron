@@ -1,0 +1,37 @@
+(
+    id: 89,
+    name: "Muk",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (8, "disable"),
+        (26, "screech"),
+        (1, "harden"),
+        (4, "harden"),
+        (19, "minimize"),
+        (13, "sludge"),
+        (1, "poison-gas"),
+        (34, "acid-armor"),
+        (47, "sludge-bomb"),
+        (61, "memento"),
+    ],
+    base: (
+        hp: 105,
+        atk: 105,
+        def: 75,
+        sp_atk: 65,
+        sp_def: 100,
+        speed: 50,
+    ),
+    species: "Sludge",
+    height: 12,
+    weight: 300,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

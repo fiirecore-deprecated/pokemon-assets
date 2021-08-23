@@ -1,0 +1,38 @@
+(
+    id: 184,
+    name: "Azumarill",
+    primary_type: Water,
+    secondary_type: Some(Fairy),
+    moves: [
+        (1, "tackle"),
+        (34, "double-edge"),
+        (1, "tail-whip"),
+        (6, "tail-whip"),
+        (1, "water-gun"),
+        (10, "water-gun"),
+        (57, "hydro-pump"),
+        (24, "bubble-beam"),
+        (1, "defense-curl"),
+        (3, "defense-curl"),
+        (15, "rollout"),
+        (45, "rain-dance"),
+    ],
+    base: (
+        hp: 100,
+        atk: 50,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 80,
+        speed: 50,
+    ),
+    species: "Aqua",
+    height: 8,
+    weight: 285,
+    training: (
+        base_exp: 189,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

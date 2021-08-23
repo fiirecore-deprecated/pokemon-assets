@@ -1,0 +1,37 @@
+(
+    id: 37,
+    name: "Vulpix",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (5, "tail-whip"),
+        (9, "roar"),
+        (1, "ember"),
+        (29, "flamethrower"),
+        (41, "fire-spin"),
+        (13, "quick-attack"),
+        (21, "confuse-ray"),
+        (33, "safeguard"),
+        (17, "will-o-wisp"),
+        (25, "imprison"),
+        (37, "grudge"),
+    ],
+    base: (
+        hp: 38,
+        atk: 41,
+        def: 40,
+        sp_atk: 50,
+        sp_def: 65,
+        speed: 65,
+    ),
+    species: "Fox",
+    height: 6,
+    weight: 99,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

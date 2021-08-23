@@ -1,0 +1,36 @@
+(
+    id: 109,
+    name: "Koffing",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (25, "smokescreen"),
+        (33, "haze"),
+        (17, "self-destruct"),
+        (9, "smog"),
+        (21, "sludge"),
+        (1, "poison-gas"),
+        (41, "explosion"),
+        (45, "destiny-bond"),
+        (49, "memento"),
+    ],
+    base: (
+        hp: 40,
+        atk: 65,
+        def: 95,
+        sp_atk: 60,
+        sp_def: 45,
+        speed: 35,
+    ),
+    species: "Poison",
+    height: 6,
+    weight: 10,
+    training: (
+        base_exp: 68,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

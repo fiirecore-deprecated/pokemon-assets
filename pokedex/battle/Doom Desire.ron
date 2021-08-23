@@ -1,0 +1,7 @@
+("doom-desire", (
+    execute: Actions([
+        Damage(Power(140)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

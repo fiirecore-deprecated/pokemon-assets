@@ -1,0 +1,36 @@
+(
+    id: 157,
+    name: "Typhlosion",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (1, "leer"),
+        (1, "ember"),
+        (12, "ember"),
+        (60, "flamethrower"),
+        (21, "quick-attack"),
+        (1, "smokescreen"),
+        (6, "smokescreen"),
+        (45, "swift"),
+        (31, "flame-wheel"),
+    ],
+    base: (
+        hp: 78,
+        atk: 84,
+        def: 78,
+        sp_atk: 109,
+        sp_def: 85,
+        speed: 100,
+    ),
+    species: "Volcano",
+    height: 17,
+    weight: 795,
+    training: (
+        base_exp: 240,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

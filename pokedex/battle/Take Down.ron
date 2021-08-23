@@ -1,0 +1,7 @@
+("take-down", (
+    execute: Actions([
+        Drain(Power(90), -25),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

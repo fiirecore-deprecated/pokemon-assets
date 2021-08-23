@@ -1,0 +1,34 @@
+(
+    id: 180,
+    name: "Flaaffy",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (1, "growl"),
+        (1, "thunder-shock"),
+        (9, "thunder-shock"),
+        (18, "thunder-wave"),
+        (45, "thunder"),
+        (36, "light-screen"),
+        (27, "cotton-spore"),
+    ],
+    base: (
+        hp: 70,
+        atk: 55,
+        def: 55,
+        sp_atk: 80,
+        sp_def: 60,
+        speed: 45,
+    ),
+    species: "Wool",
+    height: 8,
+    weight: 133,
+    training: (
+        base_exp: 128,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

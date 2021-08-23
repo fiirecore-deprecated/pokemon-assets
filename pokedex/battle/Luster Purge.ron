@@ -1,0 +1,10 @@
+("luster-purge", (
+    execute: Actions([
+        Damage(Power(70)),
+        Chance([
+            Stat(Basic(SpDefense), -1),
+        ], 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

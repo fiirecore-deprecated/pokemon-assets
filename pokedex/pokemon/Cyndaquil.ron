@@ -1,0 +1,34 @@
+(
+    id: 155,
+    name: "Cyndaquil",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (1, "leer"),
+        (12, "ember"),
+        (46, "flamethrower"),
+        (19, "quick-attack"),
+        (6, "smokescreen"),
+        (36, "swift"),
+        (27, "flame-wheel"),
+    ],
+    base: (
+        hp: 39,
+        atk: 52,
+        def: 43,
+        sp_atk: 60,
+        sp_def: 50,
+        speed: 65,
+    ),
+    species: "Fire",
+    height: 5,
+    weight: 79,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

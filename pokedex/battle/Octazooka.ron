@@ -1,0 +1,10 @@
+("octazooka", (
+    execute: Actions([
+        Damage(Power(65)),
+        Chance([
+            Stat(Accuracy, -1),
+        ], 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

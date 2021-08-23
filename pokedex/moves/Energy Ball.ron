@@ -4,18 +4,9 @@
     category: Special,
     type: Grass,
     accuracy: Some(100),
+    power: Some(90),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(90)),
-            Chance([
-                Stat(Basic(SpDefense), -1),
-            ], 10),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

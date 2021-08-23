@@ -5,14 +5,7 @@
 	type: Dragon,
 	accuracy: None,
 	pp: 255,
-    usage: (
-        execute: Actions([
-            Drain(Power(255), 100),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
-	target: Any,
+    target: Any,
+    power: Some(255),
 	priority: 127,
 )

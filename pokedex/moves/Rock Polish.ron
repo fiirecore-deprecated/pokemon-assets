@@ -4,15 +4,9 @@
     category: Status,
     type: Rock,
     accuracy: None,
+    power: None,
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Basic(Speed), 2),
-        ]),
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

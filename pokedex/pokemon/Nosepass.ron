@@ -1,0 +1,36 @@
+(
+    id: 299,
+    name: "Nosepass",
+    primary_type: Rock,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (22, "thunder-wave"),
+        (13, "rock-throw"),
+        (7, "harden"),
+        (37, "rest"),
+        (28, "rock-slide"),
+        (43, "zap-cannon"),
+        (46, "lock-on"),
+        (31, "sandstorm"),
+        (16, "block"),
+    ],
+    base: (
+        hp: 30,
+        atk: 45,
+        def: 135,
+        sp_atk: 45,
+        sp_def: 90,
+        speed: 30,
+    ),
+    species: "Compass",
+    height: 10,
+    weight: 970,
+    training: (
+        base_exp: 75,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

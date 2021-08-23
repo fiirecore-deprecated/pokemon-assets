@@ -1,0 +1,8 @@
+("low-sweep", (
+    execute: Actions([
+        Damage(Power(65)),
+        Stat(Basic(Speed), -1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

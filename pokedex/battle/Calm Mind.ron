@@ -1,0 +1,8 @@
+("calm-mind", (
+    execute: Actions([
+        Stat(Basic(SpAttack), 1),
+        Stat(Basic(SpDefense), 1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,37 @@
+(
+    id: 312,
+    name: "Minun",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (1, "growl"),
+        (4, "thunder-wave"),
+        (37, "thunder"),
+        (47, "agility"),
+        (10, "quick-attack"),
+        (28, "charm"),
+        (19, "spark"),
+        (40, "baton-pass"),
+        (22, "encore"),
+        (31, "charge"),
+        (13, "helping-hand"),
+    ],
+    base: (
+        hp: 60,
+        atk: 40,
+        def: 50,
+        sp_atk: 75,
+        sp_def: 85,
+        speed: 95,
+    ),
+    species: "Cheering",
+    height: 4,
+    weight: 42,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

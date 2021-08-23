@@ -1,0 +1,7 @@
+("poison-gas", (
+    execute: Actions([
+        Ailment(Poison, Permanent, 0),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

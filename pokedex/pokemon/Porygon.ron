@@ -1,0 +1,37 @@
+(
+    id: 137,
+    name: "Porygon",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (12, "psybeam"),
+        (9, "agility"),
+        (20, "recover"),
+        (24, "sharpen"),
+        (1, "conversion"),
+        (36, "tri-attack"),
+        (1, "conversion-2"),
+        (48, "zap-cannon"),
+        (32, "lock-on"),
+        (44, "recycle"),
+    ],
+    base: (
+        hp: 65,
+        atk: 60,
+        def: 70,
+        sp_atk: 85,
+        sp_def: 75,
+        speed: 40,
+    ),
+    species: "Virtual",
+    height: 8,
+    weight: 365,
+    training: (
+        base_exp: 79,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

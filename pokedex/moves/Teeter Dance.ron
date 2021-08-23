@@ -4,13 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: Some(100),
+    power: None,
     pp: 20,
     priority: 0,
-    usage: (
-        execute: None,
-        target: AllOtherPokemon,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOtherPokemon,
     world: false,
 )

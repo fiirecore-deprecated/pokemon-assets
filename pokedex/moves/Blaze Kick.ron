@@ -4,16 +4,9 @@
     category: Physical,
     type: Fire,
     accuracy: Some(90),
+    power: Some(85),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(85)),
-            Ailment(Burn, Permanent, 10),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 1,
-    ),
+    target: Any,
     world: false,
 )

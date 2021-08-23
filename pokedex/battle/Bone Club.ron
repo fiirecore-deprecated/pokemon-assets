@@ -1,0 +1,10 @@
+("bone-club", (
+    execute: Actions([
+        Damage(Power(65)),
+        Chance([
+            Flinch,
+        ], 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,37 @@
+(
+    id: 199,
+    name: "Slowking",
+    primary_type: Water,
+    secondary_type: Some(Psychic),
+    moves: [
+        (29, "headbutt"),
+        (1, "tackle"),
+        (6, "growl"),
+        (24, "disable"),
+        (13, "water-gun"),
+        (17, "confusion"),
+        (40, "psychic"),
+        (1, "curse"),
+        (36, "swagger"),
+        (47, "psych-up"),
+        (1, "yawn"),
+    ],
+    base: (
+        hp: 95,
+        atk: 75,
+        def: 80,
+        sp_atk: 100,
+        sp_def: 110,
+        speed: 30,
+    ),
+    species: "Royal",
+    height: 20,
+    weight: 795,
+    training: (
+        base_exp: 172,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

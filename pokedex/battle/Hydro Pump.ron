@@ -1,0 +1,7 @@
+("hydro-pump", (
+    execute: Actions([
+        Damage(Power(110)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

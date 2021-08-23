@@ -1,0 +1,34 @@
+(
+    id: 278,
+    name: "Wingull",
+    primary_type: Water,
+    secondary_type: Some(Flying),
+    moves: [
+        (13, "wing-attack"),
+        (1, "growl"),
+        (7, "supersonic"),
+        (21, "mist"),
+        (1, "water-gun"),
+        (55, "agility"),
+        (31, "quick-attack"),
+        (43, "pursuit"),
+    ],
+    base: (
+        hp: 40,
+        atk: 30,
+        def: 30,
+        sp_atk: 55,
+        sp_def: 30,
+        speed: 85,
+    ),
+    species: "Seagull",
+    height: 6,
+    weight: 95,
+    training: (
+        base_exp: 54,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

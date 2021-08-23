@@ -1,0 +1,7 @@
+("giga-impact", (
+    execute: Actions([
+        Damage(Power(150)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

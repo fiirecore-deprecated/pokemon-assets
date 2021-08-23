@@ -1,0 +1,8 @@
+("poison-tail", (
+    execute: Actions([
+        Damage(Power(50)),
+        Ailment(Poison, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 1,
+))

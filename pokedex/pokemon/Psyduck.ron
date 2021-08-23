@@ -1,0 +1,35 @@
+(
+    id: 54,
+    name: "Psyduck",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (5, "tail-whip"),
+        (10, "disable"),
+        (50, "hydro-pump"),
+        (16, "confusion"),
+        (23, "screech"),
+        (40, "fury-swipes"),
+        (31, "psych-up"),
+        (1, "water-sport"),
+    ],
+    base: (
+        hp: 50,
+        atk: 52,
+        def: 48,
+        sp_atk: 65,
+        sp_def: 50,
+        speed: 55,
+    ),
+    species: "Duck",
+    height: 8,
+    weight: 196,
+    training: (
+        base_exp: 64,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

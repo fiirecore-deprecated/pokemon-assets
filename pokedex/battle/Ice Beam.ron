@@ -1,0 +1,8 @@
+("ice-beam", (
+    execute: Actions([
+        Damage(Power(90)),
+        Ailment(Freeze, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

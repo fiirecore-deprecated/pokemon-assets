@@ -1,0 +1,38 @@
+(
+    id: 288,
+    name: "Vigoroth",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (37, "counter"),
+        (1, "focus-energy"),
+        (19, "fury-swipes"),
+        (31, "slash"),
+        (49, "reversal"),
+        (25, "endure"),
+        (1, "encore"),
+        (7, "encore"),
+        (1, "uproar"),
+        (13, "uproar"),
+        (43, "focus-punch"),
+    ],
+    base: (
+        hp: 80,
+        atk: 80,
+        def: 80,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 90,
+    ),
+    species: "Wild",
+    height: 14,
+    weight: 465,
+    training: (
+        base_exp: 154,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

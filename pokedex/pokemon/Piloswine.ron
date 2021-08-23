@@ -1,0 +1,37 @@
+(
+    id: 221,
+    name: "Piloswine",
+    primary_type: Ice,
+    secondary_type: Some(Ground),
+    moves: [
+        (1, "horn-attack"),
+        (33, "fury-attack"),
+        (28, "take-down"),
+        (42, "mist"),
+        (56, "blizzard"),
+        (70, "amnesia"),
+        (1, "powder-snow"),
+        (10, "powder-snow"),
+        (1, "endure"),
+        (19, "endure"),
+        (1, "odor-sleuth"),
+    ],
+    base: (
+        hp: 100,
+        atk: 100,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 50,
+    ),
+    species: "Swine",
+    height: 11,
+    weight: 558,
+    training: (
+        base_exp: 158,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

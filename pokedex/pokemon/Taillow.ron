@@ -1,0 +1,35 @@
+(
+    id: 276,
+    name: "Taillow",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (13, "wing-attack"),
+        (1, "growl"),
+        (1, "peck"),
+        (43, "agility"),
+        (8, "quick-attack"),
+        (19, "double-team"),
+        (4, "focus-energy"),
+        (26, "endeavor"),
+        (34, "aerial-ace"),
+    ],
+    base: (
+        hp: 40,
+        atk: 55,
+        def: 30,
+        sp_atk: 30,
+        sp_def: 30,
+        speed: 85,
+    ),
+    species: "Tiny",
+    height: 3,
+    weight: 23,
+    training: (
+        base_exp: 54,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,7 @@
+("acid-armor", (
+    execute: Actions([
+        Stat(Basic(Defense), 2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

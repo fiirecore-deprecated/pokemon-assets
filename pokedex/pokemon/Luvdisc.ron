@@ -1,0 +1,35 @@
+(
+    id: 370,
+    name: "Luvdisc",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (24, "take-down"),
+        (12, "water-gun"),
+        (16, "agility"),
+        (40, "flail"),
+        (36, "sweet-kiss"),
+        (4, "charm"),
+        (28, "attract"),
+        (48, "safeguard"),
+    ],
+    base: (
+        hp: 43,
+        atk: 30,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 65,
+        speed: 97,
+    ),
+    species: "Rendezvous",
+    height: 6,
+    weight: 87,
+    training: (
+        base_exp: 116,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

@@ -1,0 +1,36 @@
+(
+    id: 347,
+    name: "Anorith",
+    primary_type: Rock,
+    secondary_type: Some(Bug),
+    moves: [
+        (1, "scratch"),
+        (19, "water-gun"),
+        (7, "harden"),
+        (49, "slash"),
+        (31, "protect"),
+        (43, "fury-cutter"),
+        (25, "metal-claw"),
+        (37, "ancient-power"),
+        (13, "mud-sport"),
+        (55, "rock-blast"),
+    ],
+    base: (
+        hp: 45,
+        atk: 95,
+        def: 50,
+        sp_atk: 40,
+        sp_def: 50,
+        speed: 75,
+    ),
+    species: "Old",
+    height: 7,
+    weight: 125,
+    training: (
+        base_exp: 71,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

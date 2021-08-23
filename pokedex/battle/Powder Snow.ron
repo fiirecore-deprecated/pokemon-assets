@@ -1,0 +1,8 @@
+("powder-snow", (
+    execute: Actions([
+        Damage(Power(40)),
+        Ailment(Freeze, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

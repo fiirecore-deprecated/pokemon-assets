@@ -1,0 +1,32 @@
+(
+    id: 62,
+    name: "Poliwrath",
+    primary_type: Water,
+    secondary_type: Some(Fighting),
+    moves: [
+        (1, "double-slap"),
+        (1, "water-gun"),
+        (1, "submission"),
+        (35, "submission"),
+        (1, "hypnosis"),
+        (51, "mind-reader"),
+    ],
+    base: (
+        hp: 90,
+        atk: 95,
+        def: 95,
+        sp_atk: 70,
+        sp_def: 90,
+        speed: 70,
+    ),
+    species: "Tadpole",
+    height: 13,
+    weight: 540,
+    training: (
+        base_exp: 230,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

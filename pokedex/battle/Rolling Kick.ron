@@ -1,0 +1,10 @@
+("rolling-kick", (
+    execute: Actions([
+        Damage(Power(60)),
+        Chance([
+            Flinch,
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

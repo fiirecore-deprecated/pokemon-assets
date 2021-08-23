@@ -4,13 +4,9 @@
     category: Status,
     type: Psychic,
     accuracy: None,
+    power: None,
     pp: 15,
     priority: 4,
-    usage: (
-        execute: None,
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

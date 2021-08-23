@@ -1,0 +1,34 @@
+(
+    id: 351,
+    name: "Castform",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (10, "ember"),
+        (10, "water-gun"),
+        (10, "powder-snow"),
+        (20, "rain-dance"),
+        (20, "sunny-day"),
+        (20, "hail"),
+        (30, "weather-ball"),
+    ],
+    base: (
+        hp: 70,
+        atk: 70,
+        def: 70,
+        sp_atk: 70,
+        sp_def: 70,
+        speed: 70,
+    ),
+    species: "Weather",
+    height: 3,
+    weight: 8,
+    training: (
+        base_exp: 147,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

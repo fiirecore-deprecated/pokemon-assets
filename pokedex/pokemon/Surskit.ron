@@ -1,0 +1,34 @@
+(
+    id: 283,
+    name: "Surskit",
+    primary_type: Bug,
+    secondary_type: Some(Water),
+    moves: [
+        (37, "mist"),
+        (25, "bubble-beam"),
+        (31, "agility"),
+        (7, "quick-attack"),
+        (37, "haze"),
+        (1, "bubble"),
+        (13, "sweet-scent"),
+        (19, "water-sport"),
+    ],
+    base: (
+        hp: 40,
+        atk: 30,
+        def: 32,
+        sp_atk: 50,
+        sp_def: 52,
+        speed: 65,
+    ),
+    species: "Pond",
+    height: 5,
+    weight: 17,
+    training: (
+        base_exp: 54,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

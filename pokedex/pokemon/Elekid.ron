@@ -1,0 +1,34 @@
+(
+    id: 239,
+    name: "Elekid",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (9, "thunder-punch"),
+        (1, "leer"),
+        (41, "thunderbolt"),
+        (49, "thunder"),
+        (1, "quick-attack"),
+        (33, "screech"),
+        (17, "light-screen"),
+        (25, "swift"),
+    ],
+    base: (
+        hp: 45,
+        atk: 63,
+        def: 37,
+        sp_atk: 65,
+        sp_def: 55,
+        speed: 95,
+    ),
+    species: "Electric",
+    height: 6,
+    weight: 235,
+    training: (
+        base_exp: 72,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
+)

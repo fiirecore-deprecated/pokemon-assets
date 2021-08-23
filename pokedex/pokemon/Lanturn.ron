@@ -1,0 +1,37 @@
+(
+    id: 171,
+    name: "Lanturn",
+    primary_type: Water,
+    secondary_type: Some(Electric),
+    moves: [
+        (43, "take-down"),
+        (1, "supersonic"),
+        (5, "supersonic"),
+        (17, "water-gun"),
+        (50, "hydro-pump"),
+        (1, "thunder-wave"),
+        (32, "confuse-ray"),
+        (1, "bubble"),
+        (13, "flail"),
+        (25, "spark"),
+        (61, "charge"),
+    ],
+    base: (
+        hp: 125,
+        atk: 58,
+        def: 58,
+        sp_atk: 76,
+        sp_def: 76,
+        speed: 67,
+    ),
+    species: "Light",
+    height: 12,
+    weight: 225,
+    training: (
+        base_exp: 161,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

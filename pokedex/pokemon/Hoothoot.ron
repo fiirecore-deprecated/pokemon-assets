@@ -1,0 +1,35 @@
+(
+    id: 163,
+    name: "Hoothoot",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "tackle"),
+        (28, "take-down"),
+        (1, "growl"),
+        (11, "peck"),
+        (34, "confusion"),
+        (16, "hypnosis"),
+        (22, "reflect"),
+        (48, "dream-eater"),
+        (6, "foresight"),
+    ],
+    base: (
+        hp: 60,
+        atk: 30,
+        def: 30,
+        sp_atk: 36,
+        sp_def: 56,
+        speed: 50,
+    ),
+    species: "Owl",
+    height: 7,
+    weight: 212,
+    training: (
+        base_exp: 52,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

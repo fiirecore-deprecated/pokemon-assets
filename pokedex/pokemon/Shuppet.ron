@@ -1,0 +1,36 @@
+(
+    id: 353,
+    name: "Shuppet",
+    primary_type: Ghost,
+    secondary_type: None,
+    moves: [
+        (13, "night-shade"),
+        (8, "screech"),
+        (20, "curse"),
+        (25, "spite"),
+        (37, "feint-attack"),
+        (44, "shadow-ball"),
+        (32, "will-o-wisp"),
+        (1, "knock-off"),
+        (56, "grudge"),
+        (49, "snatch"),
+    ],
+    base: (
+        hp: 44,
+        atk: 75,
+        def: 35,
+        sp_atk: 63,
+        sp_def: 33,
+        speed: 45,
+    ),
+    species: "Puppet",
+    height: 6,
+    weight: 23,
+    training: (
+        base_exp: 59,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

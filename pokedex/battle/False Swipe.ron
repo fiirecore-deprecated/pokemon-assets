@@ -1,0 +1,5 @@
+("false-swipe", (
+    execute: Script("false-swipe"),
+    contact: false,
+    crit_rate: 0,
+))

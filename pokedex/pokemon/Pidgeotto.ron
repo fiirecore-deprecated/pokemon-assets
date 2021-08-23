@@ -1,0 +1,37 @@
+(
+    id: 17,
+    name: "Pidgeotto",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "gust"),
+        (9, "gust"),
+        (27, "wing-attack"),
+        (20, "whirlwind"),
+        (1, "sand-attack"),
+        (5, "sand-attack"),
+        (1, "tackle"),
+        (43, "agility"),
+        (13, "quick-attack"),
+        (52, "mirror-move"),
+        (34, "feather-dance"),
+    ],
+    base: (
+        hp: 63,
+        atk: 60,
+        def: 55,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 71,
+    ),
+    species: "Bird",
+    height: 11,
+    weight: 300,
+    training: (
+        base_exp: 122,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

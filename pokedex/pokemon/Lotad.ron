@@ -1,0 +1,33 @@
+(
+    id: 270,
+    name: "Lotad",
+    primary_type: Water,
+    secondary_type: Some(Grass),
+    moves: [
+        (3, "growl"),
+        (21, "mist"),
+        (7, "absorb"),
+        (43, "mega-drain"),
+        (31, "rain-dance"),
+        (13, "nature-power"),
+        (1, "astonish"),
+    ],
+    base: (
+        hp: 40,
+        atk: 30,
+        def: 30,
+        sp_atk: 40,
+        sp_def: 50,
+        speed: 30,
+    ),
+    species: "Water",
+    height: 5,
+    weight: 26,
+    training: (
+        base_exp: 44,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

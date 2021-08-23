@@ -1,0 +1,34 @@
+(
+    id: 43,
+    name: "Oddish",
+    primary_type: Grass,
+    secondary_type: Some(Poison),
+    moves: [
+        (23, "acid"),
+        (1, "absorb"),
+        (14, "poison-powder"),
+        (16, "stun-spore"),
+        (18, "sleep-powder"),
+        (39, "petal-dance"),
+        (7, "sweet-scent"),
+        (32, "moonlight"),
+    ],
+    base: (
+        hp: 45,
+        atk: 50,
+        def: 55,
+        sp_atk: 75,
+        sp_def: 65,
+        speed: 30,
+    ),
+    species: "Weed",
+    height: 5,
+    weight: 54,
+    training: (
+        base_exp: 64,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

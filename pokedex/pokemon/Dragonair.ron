@@ -1,0 +1,38 @@
+(
+    id: 148,
+    name: "Dragonair",
+    primary_type: Dragon,
+    secondary_type: None,
+    moves: [
+        (29, "slam"),
+        (1, "wrap"),
+        (1, "leer"),
+        (65, "hyper-beam"),
+        (22, "dragon-rage"),
+        (1, "thunder-wave"),
+        (8, "thunder-wave"),
+        (38, "agility"),
+        (56, "outrage"),
+        (47, "safeguard"),
+        (1, "twister"),
+        (15, "twister"),
+    ],
+    base: (
+        hp: 61,
+        atk: 84,
+        def: 65,
+        sp_atk: 70,
+        sp_def: 70,
+        speed: 70,
+    ),
+    species: "Dragon",
+    height: 40,
+    weight: 165,
+    training: (
+        base_exp: 147,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,36 @@
+(
+    id: 115,
+    name: "Kangaskhan",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "comet-punch"),
+        (25, "mega-punch"),
+        (13, "tail-whip"),
+        (1, "leer"),
+        (7, "bite"),
+        (31, "rage"),
+        (43, "dizzy-punch"),
+        (49, "reversal"),
+        (37, "endure"),
+        (19, "fake-out"),
+    ],
+    base: (
+        hp: 105,
+        atk: 95,
+        def: 80,
+        sp_atk: 40,
+        sp_def: 80,
+        speed: 90,
+    ),
+    species: "Parent",
+    height: 22,
+    weight: 800,
+    training: (
+        base_exp: 172,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
+)

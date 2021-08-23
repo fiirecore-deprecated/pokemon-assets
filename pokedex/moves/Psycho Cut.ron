@@ -4,15 +4,9 @@
     category: Physical,
     type: Psychic,
     accuracy: Some(100),
+    power: Some(70),
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(70)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 1,
-    ),
+    target: Any,
     world: false,
 )

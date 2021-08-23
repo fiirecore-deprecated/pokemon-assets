@@ -1,0 +1,36 @@
+(
+    id: 58,
+    name: "Growlithe",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (25, "take-down"),
+        (13, "leer"),
+        (1, "bite"),
+        (1, "roar"),
+        (7, "ember"),
+        (49, "flamethrower"),
+        (43, "agility"),
+        (31, "flame-wheel"),
+        (37, "helping-hand"),
+        (19, "odor-sleuth"),
+    ],
+    base: (
+        hp: 55,
+        atk: 70,
+        def: 45,
+        sp_atk: 70,
+        sp_def: 50,
+        speed: 60,
+    ),
+    species: "Puppy",
+    height: 7,
+    weight: 190,
+    training: (
+        base_exp: 70,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
+)

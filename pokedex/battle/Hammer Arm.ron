@@ -1,0 +1,8 @@
+("hammer-arm", (
+    execute: Actions([
+        Damage(Power(100)),
+        Stat(Basic(Speed), -1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

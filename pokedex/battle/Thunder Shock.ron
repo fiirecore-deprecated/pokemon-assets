@@ -1,0 +1,8 @@
+("thunder-shock", (
+    execute: Actions([
+        Damage(Power(40)),
+        Ailment(Paralysis, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

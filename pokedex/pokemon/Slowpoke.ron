@@ -1,0 +1,37 @@
+(
+    id: 79,
+    name: "Slowpoke",
+    primary_type: Water,
+    secondary_type: Some(Psychic),
+    moves: [
+        (29, "headbutt"),
+        (1, "tackle"),
+        (6, "growl"),
+        (24, "disable"),
+        (13, "water-gun"),
+        (17, "confusion"),
+        (40, "psychic"),
+        (36, "amnesia"),
+        (1, "curse"),
+        (47, "psych-up"),
+        (1, "yawn"),
+    ],
+    base: (
+        hp: 90,
+        atk: 65,
+        def: 65,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 15,
+    ),
+    species: "Dopey",
+    height: 12,
+    weight: 360,
+    training: (
+        base_exp: 63,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

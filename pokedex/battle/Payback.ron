@@ -1,0 +1,7 @@
+("payback", (
+    execute: Actions([
+        Damage(Power(50)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

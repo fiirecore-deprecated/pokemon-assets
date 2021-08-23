@@ -1,0 +1,7 @@
+("triple-kick", (
+    execute: Actions([
+        Damage(Power(10)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,7 @@
+("solar-beam", (
+    execute: Actions([
+        Damage(Power(120)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

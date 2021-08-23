@@ -1,0 +1,36 @@
+(
+    id: 227,
+    name: "Skarmory",
+    primary_type: Steel,
+    secondary_type: Some(Flying),
+    moves: [
+        (10, "sand-attack"),
+        (26, "fury-attack"),
+        (1, "leer"),
+        (1, "peck"),
+        (16, "agility"),
+        (13, "swift"),
+        (42, "spikes"),
+        (32, "steel-wing"),
+        (29, "air-cutter"),
+        (45, "metal-sound"),
+    ],
+    base: (
+        hp: 65,
+        atk: 80,
+        def: 140,
+        sp_atk: 40,
+        sp_def: 70,
+        speed: 70,
+    ),
+    species: "Armor",
+    height: 17,
+    weight: 505,
+    training: (
+        base_exp: 163,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

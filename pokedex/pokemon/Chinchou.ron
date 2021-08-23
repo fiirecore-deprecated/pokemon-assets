@@ -1,0 +1,36 @@
+(
+    id: 170,
+    name: "Chinchou",
+    primary_type: Water,
+    secondary_type: Some(Electric),
+    moves: [
+        (37, "take-down"),
+        (5, "supersonic"),
+        (17, "water-gun"),
+        (41, "hydro-pump"),
+        (1, "thunder-wave"),
+        (29, "confuse-ray"),
+        (1, "bubble"),
+        (13, "flail"),
+        (25, "spark"),
+        (49, "charge"),
+    ],
+    base: (
+        hp: 75,
+        atk: 38,
+        def: 38,
+        sp_atk: 56,
+        sp_def: 56,
+        speed: 67,
+    ),
+    species: "Angler",
+    height: 5,
+    weight: 120,
+    training: (
+        base_exp: 66,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

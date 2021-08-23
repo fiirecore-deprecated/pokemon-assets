@@ -1,0 +1,38 @@
+(
+    id: 175,
+    name: "Togepi",
+    primary_type: Fairy,
+    secondary_type: None,
+    moves: [
+        (37, "double-edge"),
+        (1, "growl"),
+        (4, "metronome"),
+        (9, "sweet-kiss"),
+        (1, "charm"),
+        (33, "safeguard"),
+        (41, "baton-pass"),
+        (17, "encore"),
+        (21, "ancient-power"),
+        (25, "follow-me"),
+        (29, "wish"),
+        (13, "yawn"),
+    ],
+    base: (
+        hp: 35,
+        atk: 20,
+        def: 65,
+        sp_atk: 40,
+        sp_def: 65,
+        speed: 20,
+    ),
+    species: "Spike",
+    height: 3,
+    weight: 15,
+    training: (
+        base_exp: 49,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

@@ -1,0 +1,38 @@
+(
+    id: 320,
+    name: "Wailmer",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (5, "growl"),
+        (32, "mist"),
+        (10, "water-gun"),
+        (50, "hydro-pump"),
+        (46, "amnesia"),
+        (1, "splash"),
+        (37, "rest"),
+        (14, "rollout"),
+        (19, "whirlpool"),
+        (23, "astonish"),
+        (41, "water-spout"),
+        (28, "water-pulse"),
+    ],
+    base: (
+        hp: 130,
+        atk: 70,
+        def: 35,
+        sp_atk: 70,
+        sp_def: 35,
+        speed: 60,
+    ),
+    species: "Ball",
+    height: 20,
+    weight: 1300,
+    training: (
+        base_exp: 80,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

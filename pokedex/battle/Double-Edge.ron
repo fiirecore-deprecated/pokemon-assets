@@ -1,0 +1,7 @@
+("double-edge", (
+    execute: Actions([
+        Drain(Power(120), -33),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

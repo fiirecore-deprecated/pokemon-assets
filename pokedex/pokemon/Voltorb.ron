@@ -1,0 +1,37 @@
+(
+    id: 100,
+    name: "Voltorb",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (15, "sonic-boom"),
+        (8, "screech"),
+        (37, "light-screen"),
+        (27, "self-destruct"),
+        (42, "swift"),
+        (46, "explosion"),
+        (32, "rollout"),
+        (21, "spark"),
+        (49, "mirror-coat"),
+        (1, "charge"),
+    ],
+    base: (
+        hp: 40,
+        atk: 30,
+        def: 50,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 100,
+    ),
+    species: "Ball",
+    height: 5,
+    weight: 104,
+    training: (
+        base_exp: 66,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

@@ -4,18 +4,9 @@
     category: Physical,
     type: Steel,
     accuracy: Some(75),
+    power: Some(100),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(100)),
-            Chance([
-                Stat(Basic(Defense), -1),
-            ], 30),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

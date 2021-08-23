@@ -1,0 +1,38 @@
+(
+    id: 248,
+    name: "Tyranitar",
+    primary_type: Rock,
+    secondary_type: Some(Dark),
+    moves: [
+        (29, "thrash"),
+        (1, "leer"),
+        (1, "bite"),
+        (75, "hyper-beam"),
+        (61, "earthquake"),
+        (1, "screech"),
+        (15, "screech"),
+        (22, "rock-slide"),
+        (38, "scary-face"),
+        (1, "sandstorm"),
+        (8, "sandstorm"),
+        (47, "crunch"),
+    ],
+    base: (
+        hp: 100,
+        atk: 134,
+        def: 110,
+        sp_atk: 95,
+        sp_def: 100,
+        speed: 61,
+    ),
+    species: "Armor",
+    height: 20,
+    weight: 2020,
+    training: (
+        base_exp: 270,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

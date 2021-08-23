@@ -4,15 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: None,
+    power: None,
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Evasion, 1),
-        ]),
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

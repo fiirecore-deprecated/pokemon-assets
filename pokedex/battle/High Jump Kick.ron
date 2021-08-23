@@ -1,0 +1,7 @@
+("high-jump-kick", (
+    execute: Actions([
+        Damage(Power(130)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

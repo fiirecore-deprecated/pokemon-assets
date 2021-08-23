@@ -1,0 +1,36 @@
+(
+    id: 88,
+    name: "Grimer",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (8, "disable"),
+        (26, "screech"),
+        (4, "harden"),
+        (19, "minimize"),
+        (13, "sludge"),
+        (1, "poison-gas"),
+        (34, "acid-armor"),
+        (43, "sludge-bomb"),
+        (53, "memento"),
+    ],
+    base: (
+        hp: 80,
+        atk: 80,
+        def: 50,
+        sp_atk: 40,
+        sp_def: 50,
+        speed: 25,
+    ),
+    species: "Sludge",
+    height: 9,
+    weight: 300,
+    training: (
+        base_exp: 65,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

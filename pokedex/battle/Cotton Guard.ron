@@ -1,0 +1,7 @@
+("cotton-guard", (
+    execute: Actions([
+        Stat(Basic(Defense), 3),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

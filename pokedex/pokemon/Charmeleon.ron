@@ -1,0 +1,37 @@
+(
+    id: 5,
+    name: "Charmeleon",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "growl"),
+        (1, "ember"),
+        (7, "ember"),
+        (34, "flamethrower"),
+        (48, "dragon-rage"),
+        (55, "fire-spin"),
+        (20, "smokescreen"),
+        (41, "slash"),
+        (27, "scary-face"),
+        (13, "metal-claw"),
+    ],
+    base: (
+        hp: 58,
+        atk: 64,
+        def: 58,
+        sp_atk: 80,
+        sp_def: 65,
+        speed: 80,
+    ),
+    species: "Flame",
+    height: 11,
+    weight: 190,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

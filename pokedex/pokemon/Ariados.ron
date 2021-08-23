@@ -1,0 +1,38 @@
+(
+    id: 168,
+    name: "Ariados",
+    primary_type: Bug,
+    secondary_type: Some(Poison),
+    moves: [
+        (1, "poison-sting"),
+        (1, "string-shot"),
+        (63, "psychic"),
+        (53, "agility"),
+        (17, "night-shade"),
+        (1, "constrict"),
+        (11, "constrict"),
+        (25, "leech-life"),
+        (34, "fury-swipes"),
+        (43, "spider-web"),
+        (1, "scary-face"),
+        (6, "scary-face"),
+    ],
+    base: (
+        hp: 70,
+        atk: 90,
+        def: 70,
+        sp_atk: 60,
+        sp_def: 70,
+        speed: 40,
+    ),
+    species: "Long",
+    height: 11,
+    weight: 335,
+    training: (
+        base_exp: 140,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

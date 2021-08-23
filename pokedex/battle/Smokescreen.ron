@@ -1,0 +1,7 @@
+("smokescreen", (
+    execute: Actions([
+        Stat(Accuracy, -1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

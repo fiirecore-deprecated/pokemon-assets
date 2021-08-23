@@ -1,0 +1,36 @@
+(
+    id: 33,
+    name: "Nidorino",
+    primary_type: Poison,
+    secondary_type: None,
+    moves: [
+        (12, "double-kick"),
+        (22, "horn-attack"),
+        (34, "fury-attack"),
+        (53, "horn-drill"),
+        (18, "poison-sting"),
+        (1, "leer"),
+        (1, "peck"),
+        (8, "focus-energy"),
+        (43, "flatter"),
+        (26, "helping-hand"),
+    ],
+    base: (
+        hp: 61,
+        atk: 72,
+        def: 57,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 65,
+    ),
+    species: "Poison",
+    height: 9,
+    weight: 195,
+    training: (
+        base_exp: 128,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
+)

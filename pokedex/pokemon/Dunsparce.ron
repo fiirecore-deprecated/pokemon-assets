@@ -1,0 +1,37 @@
+(
+    id: 206,
+    name: "Dunsparce",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (41, "take-down"),
+        (1, "rage"),
+        (34, "screech"),
+        (4, "defense-curl"),
+        (14, "glare"),
+        (44, "flail"),
+        (24, "spite"),
+        (21, "rollout"),
+        (31, "pursuit"),
+        (11, "yawn"),
+        (51, "endeavor"),
+    ],
+    base: (
+        hp: 100,
+        atk: 70,
+        def: 70,
+        sp_atk: 65,
+        sp_def: 65,
+        speed: 45,
+    ),
+    species: "Land",
+    height: 15,
+    weight: 140,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

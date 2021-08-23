@@ -1,0 +1,7 @@
+("shadow-punch", (
+    execute: Actions([
+        Damage(Power(60)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

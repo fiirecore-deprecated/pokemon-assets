@@ -1,0 +1,37 @@
+(
+    id: 325,
+    name: "Spoink",
+    primary_type: Psychic,
+    secondary_type: None,
+    moves: [
+        (16, "psybeam"),
+        (34, "psychic"),
+        (25, "confuse-ray"),
+        (7, "psywave"),
+        (1, "splash"),
+        (37, "rest"),
+        (37, "snore"),
+        (19, "psych-up"),
+        (28, "magic-coat"),
+        (10, "odor-sleuth"),
+        (43, "bounce"),
+    ],
+    base: (
+        hp: 60,
+        atk: 25,
+        def: 35,
+        sp_atk: 70,
+        sp_def: 80,
+        speed: 60,
+    ),
+    species: "Bounce",
+    height: 7,
+    weight: 306,
+    training: (
+        base_exp: 66,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

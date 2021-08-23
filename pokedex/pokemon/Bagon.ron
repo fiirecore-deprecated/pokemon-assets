@@ -1,0 +1,37 @@
+(
+    id: 371,
+    name: "Bagon",
+    primary_type: Dragon,
+    secondary_type: None,
+    moves: [
+        (17, "headbutt"),
+        (53, "double-edge"),
+        (9, "leer"),
+        (5, "bite"),
+        (25, "ember"),
+        (1, "rage"),
+        (21, "focus-energy"),
+        (37, "scary-face"),
+        (33, "dragon-breath"),
+        (41, "crunch"),
+        (49, "dragon-claw"),
+    ],
+    base: (
+        hp: 45,
+        atk: 75,
+        def: 60,
+        sp_atk: 40,
+        sp_def: 30,
+        speed: 50,
+    ),
+    species: "Rock",
+    height: 6,
+    weight: 421,
+    training: (
+        base_exp: 60,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

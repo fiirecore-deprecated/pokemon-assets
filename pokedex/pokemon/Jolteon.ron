@@ -1,0 +1,37 @@
+(
+    id: 135,
+    name: "Jolteon",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (30, "double-kick"),
+        (8, "sand-attack"),
+        (1, "tackle"),
+        (1, "tail-whip"),
+        (36, "pin-missile"),
+        (16, "thunder-shock"),
+        (42, "thunder-wave"),
+        (52, "thunder"),
+        (47, "agility"),
+        (23, "quick-attack"),
+        (1, "helping-hand"),
+    ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 60,
+        sp_atk: 110,
+        sp_def: 95,
+        speed: 130,
+    ),
+    species: "Lightning",
+    height: 8,
+    weight: 245,
+    training: (
+        base_exp: 184,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

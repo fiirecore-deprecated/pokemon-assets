@@ -1,0 +1,38 @@
+(
+    id: 120,
+    name: "Staryu",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (6, "water-gun"),
+        (46, "hydro-pump"),
+        (28, "bubble-beam"),
+        (15, "recover"),
+        (1, "harden"),
+        (33, "minimize"),
+        (37, "light-screen"),
+        (24, "swift"),
+        (10, "rapid-spin"),
+        (19, "camouflage"),
+        (42, "cosmic-power"),
+    ],
+    base: (
+        hp: 30,
+        atk: 45,
+        def: 55,
+        sp_atk: 70,
+        sp_def: 55,
+        speed: 85,
+    ),
+    species: "Star",
+    height: 8,
+    weight: 345,
+    training: (
+        base_exp: 68,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

@@ -1,0 +1,7 @@
+("cotton-spore", (
+    execute: Actions([
+        Stat(Basic(Speed), -2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

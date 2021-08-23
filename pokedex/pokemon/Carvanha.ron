@@ -1,0 +1,36 @@
+(
+    id: 318,
+    name: "Carvanha",
+    primary_type: Water,
+    secondary_type: Some(Dark),
+    moves: [
+        (31, "take-down"),
+        (1, "leer"),
+        (1, "bite"),
+        (43, "agility"),
+        (7, "rage"),
+        (28, "screech"),
+        (13, "focus-energy"),
+        (16, "scary-face"),
+        (37, "swagger"),
+        (22, "crunch"),
+    ],
+    base: (
+        hp: 45,
+        atk: 90,
+        def: 20,
+        sp_atk: 65,
+        sp_def: 20,
+        speed: 65,
+    ),
+    species: "Savage",
+    height: 8,
+    weight: 208,
+    training: (
+        base_exp: 61,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

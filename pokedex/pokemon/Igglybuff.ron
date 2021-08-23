@@ -1,0 +1,31 @@
+(
+    id: 174,
+    name: "Igglybuff",
+    primary_type: Normal,
+    secondary_type: Some(Fairy),
+    moves: [
+        (9, "pound"),
+        (1, "sing"),
+        (4, "defense-curl"),
+        (14, "sweet-kiss"),
+        (1, "charm"),
+    ],
+    base: (
+        hp: 90,
+        atk: 30,
+        def: 15,
+        sp_atk: 40,
+        sp_def: 20,
+        speed: 15,
+    ),
+    species: "Balloon",
+    height: 3,
+    weight: 10,
+    training: (
+        base_exp: 42,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

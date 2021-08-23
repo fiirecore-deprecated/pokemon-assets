@@ -4,18 +4,9 @@
     category: Physical,
     type: Bug,
     accuracy: Some(100),
+    power: Some(65),
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(65)),
-            Chance([
-                Flinch,
-            ], 30),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

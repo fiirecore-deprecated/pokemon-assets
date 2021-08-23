@@ -1,0 +1,36 @@
+(
+    id: 246,
+    name: "Larvitar",
+    primary_type: Rock,
+    secondary_type: Some(Ground),
+    moves: [
+        (29, "thrash"),
+        (1, "leer"),
+        (1, "bite"),
+        (57, "hyper-beam"),
+        (50, "earthquake"),
+        (15, "screech"),
+        (22, "rock-slide"),
+        (36, "scary-face"),
+        (8, "sandstorm"),
+        (43, "crunch"),
+    ],
+    base: (
+        hp: 50,
+        atk: 64,
+        def: 50,
+        sp_atk: 45,
+        sp_def: 50,
+        speed: 41,
+    ),
+    species: "Rock",
+    height: 6,
+    weight: 720,
+    training: (
+        base_exp: 60,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

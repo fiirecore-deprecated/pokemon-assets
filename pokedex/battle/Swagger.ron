@@ -1,0 +1,7 @@
+("swagger", (
+    execute: Actions([
+        Stat(Basic(Attack), 2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,38 @@
+(
+    id: 341,
+    name: "Corphish",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (10, "vise-grip"),
+        (46, "guillotine"),
+        (37, "swords-dance"),
+        (13, "leer"),
+        (19, "bubble-beam"),
+        (7, "harden"),
+        (1, "bubble"),
+        (34, "crabhammer"),
+        (22, "protect"),
+        (43, "crunch"),
+        (31, "taunt"),
+        (25, "knock-off"),
+    ],
+    base: (
+        hp: 43,
+        atk: 80,
+        def: 65,
+        sp_atk: 50,
+        sp_def: 35,
+        speed: 35,
+    ),
+    species: "Ruffian",
+    height: 6,
+    weight: 115,
+    training: (
+        base_exp: 62,
+        growth_rate: FastThenVerySlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

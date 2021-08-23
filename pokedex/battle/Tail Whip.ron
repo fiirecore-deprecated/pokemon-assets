@@ -1,0 +1,7 @@
+("tail-whip", (
+    execute: Actions([
+        Stat(Basic(Defense), -1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

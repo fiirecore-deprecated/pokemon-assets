@@ -1,0 +1,38 @@
+(
+    id: 300,
+    name: "Skitty",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (15, "double-slap"),
+        (1, "tackle"),
+        (39, "double-edge"),
+        (3, "tail-whip"),
+        (1, "growl"),
+        (13, "sing"),
+        (27, "feint-attack"),
+        (25, "charm"),
+        (7, "attract"),
+        (37, "heal-bell"),
+        (19, "assist"),
+        (31, "covet"),
+    ],
+    base: (
+        hp: 50,
+        atk: 45,
+        def: 45,
+        sp_atk: 35,
+        sp_def: 35,
+        speed: 50,
+    ),
+    species: "Kitten",
+    height: 6,
+    weight: 110,
+    training: (
+        base_exp: 52,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(6),
+    ),
+)

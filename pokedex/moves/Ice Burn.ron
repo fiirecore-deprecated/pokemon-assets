@@ -4,16 +4,9 @@
     category: Special,
     type: Ice,
     accuracy: Some(90),
+    power: Some(140),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(140)),
-            Ailment(Burn, Permanent, 30),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

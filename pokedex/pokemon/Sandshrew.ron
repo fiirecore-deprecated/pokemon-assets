@@ -1,0 +1,35 @@
+(
+    id: 27,
+    name: "Sandshrew",
+    primary_type: Ground,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (11, "sand-attack"),
+        (17, "poison-sting"),
+        (6, "defense-curl"),
+        (30, "swift"),
+        (37, "fury-swipes"),
+        (23, "slash"),
+        (53, "sandstorm"),
+        (45, "sand-tomb"),
+    ],
+    base: (
+        hp: 50,
+        atk: 75,
+        def: 85,
+        sp_atk: 20,
+        sp_def: 30,
+        speed: 40,
+    ),
+    species: "Mouse",
+    height: 6,
+    weight: 120,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -4,18 +4,9 @@
     category: Special,
     type: Poison,
     accuracy: Some(100),
+    power: Some(40),
     pp: 30,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(40)),
-            Chance([
-                Stat(Basic(SpDefense), -1),
-            ], 10),
-        ]),
-        target: AllOpponents,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOpponents,
     world: false,
 )

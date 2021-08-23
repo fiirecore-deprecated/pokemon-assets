@@ -1,0 +1,7 @@
+("acrobatics", (
+    execute: Actions([
+        Damage(Power(55)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

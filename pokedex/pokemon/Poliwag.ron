@@ -1,0 +1,34 @@
+(
+    id: 60,
+    name: "Poliwag",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (19, "double-slap"),
+        (31, "body-slam"),
+        (13, "water-gun"),
+        (43, "hydro-pump"),
+        (7, "hypnosis"),
+        (1, "bubble"),
+        (37, "belly-drum"),
+        (25, "rain-dance"),
+    ],
+    base: (
+        hp: 40,
+        atk: 50,
+        def: 40,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 90,
+    ),
+    species: "Tadpole",
+    height: 6,
+    weight: 124,
+    training: (
+        base_exp: 60,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

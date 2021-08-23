@@ -1,0 +1,8 @@
+("sludge", (
+    execute: Actions([
+        Damage(Power(65)),
+        Ailment(Poison, Permanent, 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,7 @@
+("howl", (
+    execute: Actions([
+        Stat(Basic(Attack), 1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,10 @@
+("iron-head", (
+    execute: Actions([
+        Damage(Power(80)),
+        Chance([
+            Flinch,
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

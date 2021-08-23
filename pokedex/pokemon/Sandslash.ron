@@ -1,0 +1,37 @@
+(
+    id: 28,
+    name: "Sandslash",
+    primary_type: Ground,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "sand-attack"),
+        (11, "sand-attack"),
+        (17, "poison-sting"),
+        (1, "defense-curl"),
+        (6, "defense-curl"),
+        (33, "swift"),
+        (42, "fury-swipes"),
+        (24, "slash"),
+        (62, "sandstorm"),
+        (52, "sand-tomb"),
+    ],
+    base: (
+        hp: 75,
+        atk: 100,
+        def: 110,
+        sp_atk: 45,
+        sp_def: 55,
+        speed: 65,
+    ),
+    species: "Mouse",
+    height: 10,
+    weight: 295,
+    training: (
+        base_exp: 158,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

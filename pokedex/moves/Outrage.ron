@@ -4,15 +4,9 @@
     category: Physical,
     type: Dragon,
     accuracy: Some(100),
+    power: Some(120),
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(120)),
-        ]),
-        target: None,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: None,
     world: false,
 )

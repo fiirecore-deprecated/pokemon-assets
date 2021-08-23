@@ -1,0 +1,37 @@
+(
+    id: 252,
+    name: "Treecko",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (36, "slam"),
+        (1, "leer"),
+        (6, "absorb"),
+        (26, "mega-drain"),
+        (31, "agility"),
+        (11, "quick-attack"),
+        (21, "screech"),
+        (41, "detect"),
+        (46, "giga-drain"),
+        (16, "pursuit"),
+    ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 35,
+        sp_atk: 65,
+        sp_def: 55,
+        speed: 70,
+    ),
+    species: "Wood",
+    height: 5,
+    weight: 50,
+    training: (
+        base_exp: 62,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

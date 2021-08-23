@@ -1,0 +1,37 @@
+(
+    id: 85,
+    name: "Dodrio",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "fury-attack"),
+        (13, "fury-attack"),
+        (1, "growl"),
+        (1, "peck"),
+        (47, "drill-peck"),
+        (60, "agility"),
+        (25, "rage"),
+        (21, "tri-attack"),
+        (1, "pursuit"),
+        (9, "pursuit"),
+        (38, "uproar"),
+    ],
+    base: (
+        hp: 60,
+        atk: 110,
+        def: 70,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 110,
+    ),
+    species: "Triple",
+    height: 18,
+    weight: 852,
+    training: (
+        base_exp: 165,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

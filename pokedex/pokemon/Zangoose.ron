@@ -1,0 +1,37 @@
+(
+    id: 335,
+    name: "Zangoose",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (10, "swords-dance"),
+        (4, "leer"),
+        (7, "quick-attack"),
+        (19, "slash"),
+        (46, "detect"),
+        (55, "false-swipe"),
+        (13, "fury-cutter"),
+        (25, "pursuit"),
+        (37, "taunt"),
+        (31, "crush-claw"),
+    ],
+    base: (
+        hp: 73,
+        atk: 115,
+        def: 60,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 90,
+    ),
+    species: "Cat",
+    height: 13,
+    weight: 403,
+    training: (
+        base_exp: 160,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

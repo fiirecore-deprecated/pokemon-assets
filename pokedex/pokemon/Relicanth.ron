@@ -1,0 +1,37 @@
+(
+    id: 369,
+    name: "Relicanth",
+    primary_type: Water,
+    secondary_type: Some(Rock),
+    moves: [
+        (1, "tackle"),
+        (29, "take-down"),
+        (57, "double-edge"),
+        (8, "water-gun"),
+        (64, "hydro-pump"),
+        (1, "harden"),
+        (50, "rest"),
+        (43, "ancient-power"),
+        (22, "yawn"),
+        (36, "mud-sport"),
+        (15, "rock-tomb"),
+    ],
+    base: (
+        hp: 100,
+        atk: 90,
+        def: 130,
+        sp_atk: 45,
+        sp_def: 65,
+        speed: 55,
+    ),
+    species: "Longevity",
+    height: 10,
+    weight: 234,
+    training: (
+        base_exp: 170,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

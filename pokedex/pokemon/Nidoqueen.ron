@@ -1,0 +1,32 @@
+(
+    id: 31,
+    name: "Nidoqueen",
+    primary_type: Poison,
+    secondary_type: Some(Ground),
+    moves: [
+        (1, "scratch"),
+        (1, "double-kick"),
+        (22, "body-slam"),
+        (1, "tail-whip"),
+        (1, "poison-sting"),
+        (43, "superpower"),
+    ],
+    base: (
+        hp: 90,
+        atk: 92,
+        def: 87,
+        sp_atk: 75,
+        sp_def: 85,
+        speed: 76,
+    ),
+    species: "Drill",
+    height: 13,
+    weight: 600,
+    training: (
+        base_exp: 227,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(8),
+    ),
+)

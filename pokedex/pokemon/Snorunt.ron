@@ -1,0 +1,37 @@
+(
+    id: 361,
+    name: "Snorunt",
+    primary_type: Ice,
+    secondary_type: None,
+    moves: [
+        (19, "headbutt"),
+        (1, "leer"),
+        (10, "bite"),
+        (34, "ice-beam"),
+        (43, "blizzard"),
+        (7, "double-team"),
+        (1, "powder-snow"),
+        (25, "protect"),
+        (16, "icy-wind"),
+        (28, "crunch"),
+        (37, "hail"),
+    ],
+    base: (
+        hp: 50,
+        atk: 50,
+        def: 50,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 50,
+    ),
+    species: "Snow",
+    height: 7,
+    weight: 168,
+    training: (
+        base_exp: 60,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

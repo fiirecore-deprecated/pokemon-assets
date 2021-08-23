@@ -1,0 +1,38 @@
+(
+    id: 95,
+    name: "Onix",
+    primary_type: Rock,
+    secondary_type: Some(Ground),
+    moves: [
+        (8, "bind"),
+        (41, "slam"),
+        (1, "tackle"),
+        (56, "double-edge"),
+        (12, "rock-throw"),
+        (23, "rage"),
+        (1, "screech"),
+        (19, "harden"),
+        (34, "sandstorm"),
+        (30, "dragon-breath"),
+        (45, "iron-tail"),
+        (52, "sand-tomb"),
+    ],
+    base: (
+        hp: 35,
+        atk: 45,
+        def: 160,
+        sp_atk: 30,
+        sp_def: 45,
+        speed: 70,
+    ),
+    species: "Rock",
+    height: 88,
+    weight: 2100,
+    training: (
+        base_exp: 77,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

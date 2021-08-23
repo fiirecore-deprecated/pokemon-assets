@@ -1,0 +1,37 @@
+(
+    id: 25,
+    name: "Pikachu",
+    primary_type: Electric,
+    secondary_type: None,
+    moves: [
+        (20, "slam"),
+        (6, "tail-whip"),
+        (1, "growl"),
+        (1, "thunder-shock"),
+        (26, "thunderbolt"),
+        (8, "thunder-wave"),
+        (41, "thunder"),
+        (33, "agility"),
+        (11, "quick-attack"),
+        (15, "double-team"),
+        (50, "light-screen"),
+    ],
+    base: (
+        hp: 35,
+        atk: 55,
+        def: 40,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 90,
+    ),
+    species: "Mouse",
+    height: 4,
+    weight: 60,
+    training: (
+        base_exp: 112,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

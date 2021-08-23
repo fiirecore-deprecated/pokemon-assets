@@ -4,13 +4,9 @@
     category: Physical,
     type: Ground,
     accuracy: Some(100),
+    power: None,
     pp: 30,
     priority: 0,
-    usage: (
-        execute: None,
-        target: AllOtherPokemon,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOtherPokemon,
     world: false,
 )

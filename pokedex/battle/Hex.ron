@@ -1,0 +1,7 @@
+("hex", (
+    execute: Actions([
+        Damage(Power(65)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

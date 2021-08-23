@@ -1,0 +1,37 @@
+(
+    id: 150,
+    name: "Mewtwo",
+    primary_type: Psychic,
+    secondary_type: None,
+    moves: [
+        (1, "disable"),
+        (22, "mist"),
+        (1, "confusion"),
+        (66, "psychic"),
+        (44, "recover"),
+        (11, "barrier"),
+        (33, "swift"),
+        (99, "amnesia"),
+        (55, "safeguard"),
+        (77, "psych-up"),
+        (88, "future-sight"),
+    ],
+    base: (
+        hp: 106,
+        atk: 110,
+        def: 90,
+        sp_atk: 154,
+        sp_def: 90,
+        speed: 130,
+    ),
+    species: "Genetic",
+    height: 20,
+    weight: 1220,
+    training: (
+        base_exp: 306,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

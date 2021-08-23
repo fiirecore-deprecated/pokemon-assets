@@ -1,0 +1,7 @@
+("head-charge", (
+    execute: Actions([
+        Drain(Power(120), -25),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

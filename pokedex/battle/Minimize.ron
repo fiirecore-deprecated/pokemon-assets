@@ -1,0 +1,7 @@
+("minimize", (
+    execute: Actions([
+        Stat(Evasion, 2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

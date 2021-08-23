@@ -1,0 +1,35 @@
+(
+    id: 16,
+    name: "Pidgey",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (9, "gust"),
+        (25, "wing-attack"),
+        (19, "whirlwind"),
+        (5, "sand-attack"),
+        (1, "tackle"),
+        (39, "agility"),
+        (13, "quick-attack"),
+        (47, "mirror-move"),
+        (31, "feather-dance"),
+    ],
+    base: (
+        hp: 40,
+        atk: 45,
+        def: 40,
+        sp_atk: 35,
+        sp_def: 35,
+        speed: 56,
+    ),
+    species: "Tiny",
+    height: 3,
+    weight: 18,
+    training: (
+        base_exp: 50,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

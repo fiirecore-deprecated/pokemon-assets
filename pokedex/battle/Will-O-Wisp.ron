@@ -1,0 +1,7 @@
+("will-o-wisp", (
+    execute: Actions([
+        Ailment(Burn, Permanent, 0),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

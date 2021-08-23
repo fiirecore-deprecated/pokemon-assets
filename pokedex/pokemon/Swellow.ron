@@ -1,0 +1,37 @@
+(
+    id: 277,
+    name: "Swellow",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (13, "wing-attack"),
+        (1, "growl"),
+        (1, "peck"),
+        (49, "agility"),
+        (1, "quick-attack"),
+        (8, "quick-attack"),
+        (19, "double-team"),
+        (1, "focus-energy"),
+        (4, "focus-energy"),
+        (28, "endeavor"),
+        (38, "aerial-ace"),
+    ],
+    base: (
+        hp: 60,
+        atk: 85,
+        def: 60,
+        sp_atk: 75,
+        sp_def: 50,
+        speed: 125,
+    ),
+    species: "Swallow",
+    height: 7,
+    weight: 198,
+    training: (
+        base_exp: 159,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

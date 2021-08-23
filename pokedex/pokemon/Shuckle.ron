@@ -1,0 +1,33 @@
+(
+    id: 213,
+    name: "Shuckle",
+    primary_type: Bug,
+    secondary_type: Some(Rock),
+    moves: [
+        (9, "wrap"),
+        (1, "withdraw"),
+        (28, "bide"),
+        (1, "constrict"),
+        (37, "rest"),
+        (23, "safeguard"),
+        (14, "encore"),
+    ],
+    base: (
+        hp: 20,
+        atk: 10,
+        def: 230,
+        sp_atk: 10,
+        sp_def: 230,
+        speed: 5,
+    ),
+    species: "Mold",
+    height: 6,
+    weight: 205,
+    training: (
+        base_exp: 177,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

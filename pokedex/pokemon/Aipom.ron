@@ -1,0 +1,36 @@
+(
+    id: 190,
+    name: "Aipom",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (6, "sand-attack"),
+        (1, "tail-whip"),
+        (50, "agility"),
+        (43, "screech"),
+        (38, "swift"),
+        (31, "fury-swipes"),
+        (18, "baton-pass"),
+        (13, "astonish"),
+        (25, "tickle"),
+    ],
+    base: (
+        hp: 55,
+        atk: 70,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 55,
+        speed: 85,
+    ),
+    species: "Long",
+    height: 8,
+    weight: 115,
+    training: (
+        base_exp: 72,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

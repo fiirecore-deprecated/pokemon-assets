@@ -1,0 +1,36 @@
+(
+    id: 235,
+    name: "Smeargle",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "sketch"),
+        (11, "sketch"),
+        (21, "sketch"),
+        (31, "sketch"),
+        (41, "sketch"),
+        (51, "sketch"),
+        (61, "sketch"),
+        (71, "sketch"),
+        (81, "sketch"),
+        (91, "sketch"),
+    ],
+    base: (
+        hp: 55,
+        atk: 20,
+        def: 35,
+        sp_atk: 20,
+        sp_def: 45,
+        speed: 75,
+    ),
+    species: "Painter",
+    height: 12,
+    weight: 580,
+    training: (
+        base_exp: 88,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

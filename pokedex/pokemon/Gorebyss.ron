@@ -1,0 +1,34 @@
+(
+    id: 368,
+    name: "Gorebyss",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (50, "hydro-pump"),
+        (8, "confusion"),
+        (36, "psychic"),
+        (15, "agility"),
+        (29, "amnesia"),
+        (43, "baton-pass"),
+        (1, "whirlpool"),
+        (22, "water-pulse"),
+    ],
+    base: (
+        hp: 55,
+        atk: 84,
+        def: 105,
+        sp_atk: 114,
+        sp_def: 75,
+        speed: 52,
+    ),
+    species: "South",
+    height: 18,
+    weight: 226,
+    training: (
+        base_exp: 170,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

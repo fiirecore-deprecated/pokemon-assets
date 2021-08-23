@@ -1,0 +1,36 @@
+(
+    id: 234,
+    name: "Stantler",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (21, "stomp"),
+        (27, "sand-attack"),
+        (1, "tackle"),
+        (37, "take-down"),
+        (7, "leer"),
+        (17, "hypnosis"),
+        (41, "confuse-ray"),
+        (31, "role-play"),
+        (11, "astonish"),
+        (47, "calm-mind"),
+    ],
+    base: (
+        hp: 73,
+        atk: 95,
+        def: 62,
+        sp_atk: 85,
+        sp_def: 65,
+        speed: 85,
+    ),
+    species: "Big",
+    height: 14,
+    weight: 712,
+    training: (
+        base_exp: 163,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

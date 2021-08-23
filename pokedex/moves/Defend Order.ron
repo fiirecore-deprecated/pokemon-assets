@@ -4,16 +4,9 @@
     category: Status,
     type: Bug,
     accuracy: None,
+    power: None,
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Basic(Defense), 1),
-            Stat(Basic(SpDefense), 1),
-        ]),
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

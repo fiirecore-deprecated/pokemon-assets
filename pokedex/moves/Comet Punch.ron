@@ -4,15 +4,9 @@
     category: Physical,
     type: Normal,
     accuracy: Some(85),
+    power: Some(18),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(18)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

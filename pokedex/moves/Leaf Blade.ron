@@ -4,15 +4,9 @@
     category: Physical,
     type: Grass,
     accuracy: Some(100),
+    power: Some(90),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(90)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 1,
-    ),
+    target: Any,
     world: false,
 )

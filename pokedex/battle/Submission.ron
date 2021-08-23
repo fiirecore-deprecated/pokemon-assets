@@ -1,0 +1,7 @@
+("submission", (
+    execute: Actions([
+        Drain(Power(80), -25),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

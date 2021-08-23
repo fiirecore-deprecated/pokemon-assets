@@ -1,0 +1,8 @@
+("struggle-bug", (
+    execute: Actions([
+        Damage(Power(50)),
+        Stat(Basic(SpAttack), -1),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

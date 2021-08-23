@@ -1,0 +1,37 @@
+(
+    id: 48,
+    name: "Venonat",
+    primary_type: Bug,
+    secondary_type: Some(Poison),
+    moves: [
+        (1, "tackle"),
+        (9, "supersonic"),
+        (1, "disable"),
+        (33, "psybeam"),
+        (20, "poison-powder"),
+        (28, "stun-spore"),
+        (36, "sleep-powder"),
+        (17, "confusion"),
+        (41, "psychic"),
+        (25, "leech-life"),
+        (1, "foresight"),
+    ],
+    base: (
+        hp: 60,
+        atk: 55,
+        def: 50,
+        sp_atk: 40,
+        sp_def: 55,
+        speed: 45,
+    ),
+    species: "Insect",
+    height: 10,
+    weight: 300,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,38 @@
+(
+    id: 289,
+    name: "Slaking",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (37, "counter"),
+        (25, "amnesia"),
+        (43, "flail"),
+        (19, "feint-attack"),
+        (36, "swagger"),
+        (1, "encore"),
+        (7, "encore"),
+        (1, "yawn"),
+        (1, "slack-off"),
+        (13, "slack-off"),
+        (31, "covet"),
+    ],
+    base: (
+        hp: 150,
+        atk: 160,
+        def: 100,
+        sp_atk: 95,
+        sp_def: 65,
+        speed: 100,
+    ),
+    species: "Lazy",
+    height: 20,
+    weight: 1305,
+    training: (
+        base_exp: 252,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,36 @@
+(
+    id: 127,
+    name: "Pinsir",
+    primary_type: Bug,
+    secondary_type: None,
+    moves: [
+        (1, "vise-grip"),
+        (37, "guillotine"),
+        (49, "swords-dance"),
+        (7, "bind"),
+        (43, "submission"),
+        (13, "seismic-toss"),
+        (19, "harden"),
+        (1, "focus-energy"),
+        (25, "revenge"),
+        (31, "brick-break"),
+    ],
+    base: (
+        hp: 65,
+        atk: 125,
+        def: 100,
+        sp_atk: 55,
+        sp_def: 70,
+        speed: 85,
+    ),
+    species: "Stag",
+    height: 15,
+    weight: 550,
+    training: (
+        base_exp: 175,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

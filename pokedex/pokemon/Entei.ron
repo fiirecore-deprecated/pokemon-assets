@@ -1,0 +1,36 @@
+(
+    id: 244,
+    name: "Entei",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (41, "stomp"),
+        (1, "leer"),
+        (1, "bite"),
+        (21, "roar"),
+        (11, "ember"),
+        (51, "flamethrower"),
+        (31, "fire-spin"),
+        (71, "fire-blast"),
+        (61, "swagger"),
+        (81, "calm-mind"),
+    ],
+    base: (
+        hp: 115,
+        atk: 115,
+        def: 85,
+        sp_atk: 90,
+        sp_def: 75,
+        speed: 100,
+    ),
+    species: "Volcano",
+    height: 21,
+    weight: 1980,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

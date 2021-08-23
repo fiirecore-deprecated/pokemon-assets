@@ -1,0 +1,8 @@
+("volt-tackle", (
+    execute: Actions([
+        Drain(Power(120), -33),
+        Ailment(Paralysis, Permanent, 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,37 @@
+(
+    id: 118,
+    name: "Goldeen",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (15, "horn-attack"),
+        (29, "fury-attack"),
+        (43, "horn-drill"),
+        (1, "tail-whip"),
+        (10, "supersonic"),
+        (1, "peck"),
+        (52, "agility"),
+        (38, "waterfall"),
+        (24, "flail"),
+        (57, "megahorn"),
+        (1, "water-sport"),
+    ],
+    base: (
+        hp: 45,
+        atk: 67,
+        def: 60,
+        sp_atk: 35,
+        sp_def: 50,
+        speed: 63,
+    ),
+    species: "Goldfish",
+    height: 6,
+    weight: 150,
+    training: (
+        base_exp: 64,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

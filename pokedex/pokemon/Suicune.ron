@@ -1,0 +1,36 @@
+(
+    id: 245,
+    name: "Suicune",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (31, "gust"),
+        (1, "leer"),
+        (1, "bite"),
+        (51, "mist"),
+        (71, "hydro-pump"),
+        (11, "bubble-beam"),
+        (41, "aurora-beam"),
+        (21, "rain-dance"),
+        (61, "mirror-coat"),
+        (81, "calm-mind"),
+    ],
+    base: (
+        hp: 100,
+        atk: 75,
+        def: 115,
+        sp_atk: 90,
+        sp_def: 115,
+        speed: 85,
+    ),
+    species: "Aurora",
+    height: 20,
+    weight: 1870,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

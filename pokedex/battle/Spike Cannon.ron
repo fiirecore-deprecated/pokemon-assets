@@ -1,0 +1,7 @@
+("spike-cannon", (
+    execute: Actions([
+        Damage(Power(20)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

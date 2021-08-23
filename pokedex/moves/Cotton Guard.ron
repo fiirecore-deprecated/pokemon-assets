@@ -4,15 +4,9 @@
     category: Status,
     type: Grass,
     accuracy: None,
+    power: None,
     pp: 10,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Basic(Defense), 3),
-        ]),
-        target: User,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: User,
     world: false,
 )

@@ -1,0 +1,36 @@
+(
+    id: 44,
+    name: "Gloom",
+    primary_type: Grass,
+    secondary_type: Some(Poison),
+    moves: [
+        (24, "acid"),
+        (1, "absorb"),
+        (1, "poison-powder"),
+        (14, "poison-powder"),
+        (16, "stun-spore"),
+        (18, "sleep-powder"),
+        (44, "petal-dance"),
+        (1, "sweet-scent"),
+        (7, "sweet-scent"),
+        (35, "moonlight"),
+    ],
+    base: (
+        hp: 60,
+        atk: 65,
+        def: 70,
+        sp_atk: 85,
+        sp_def: 75,
+        speed: 40,
+    ),
+    species: "Weed",
+    height: 8,
+    weight: 86,
+    training: (
+        base_exp: 138,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

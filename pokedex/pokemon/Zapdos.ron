@@ -1,0 +1,35 @@
+(
+    id: 145,
+    name: "Zapdos",
+    primary_type: Electric,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "peck"),
+        (49, "drill-peck"),
+        (1, "thunder-shock"),
+        (13, "thunder-wave"),
+        (85, "thunder"),
+        (25, "agility"),
+        (73, "light-screen"),
+        (37, "detect"),
+        (61, "charge"),
+    ],
+    base: (
+        hp: 90,
+        atk: 90,
+        def: 85,
+        sp_atk: 125,
+        sp_def: 90,
+        speed: 100,
+    ),
+    species: "Electric",
+    height: 16,
+    weight: 526,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

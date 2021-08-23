@@ -1,0 +1,34 @@
+(
+    id: 328,
+    name: "Trapinch",
+    primary_type: Ground,
+    secondary_type: None,
+    moves: [
+        (9, "sand-attack"),
+        (1, "bite"),
+        (57, "hyper-beam"),
+        (41, "dig"),
+        (17, "feint-attack"),
+        (49, "sandstorm"),
+        (33, "crunch"),
+        (25, "sand-tomb"),
+    ],
+    base: (
+        hp: 45,
+        atk: 100,
+        def: 45,
+        sp_atk: 45,
+        sp_def: 45,
+        speed: 10,
+    ),
+    species: "Ant",
+    height: 7,
+    weight: 150,
+    training: (
+        base_exp: 58,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

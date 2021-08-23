@@ -1,0 +1,38 @@
+(
+    id: 104,
+    name: "Cubone",
+    primary_type: Ground,
+    secondary_type: None,
+    moves: [
+        (13, "headbutt"),
+        (37, "thrash"),
+        (45, "double-edge"),
+        (5, "tail-whip"),
+        (17, "leer"),
+        (1, "growl"),
+        (29, "rage"),
+        (21, "focus-energy"),
+        (9, "bone-club"),
+        (25, "bonemerang"),
+        (41, "bone-rush"),
+        (33, "false-swipe"),
+    ],
+    base: (
+        hp: 50,
+        atk: 50,
+        def: 95,
+        sp_atk: 40,
+        sp_def: 50,
+        speed: 35,
+    ),
+    species: "Lonely",
+    height: 4,
+    weight: 65,
+    training: (
+        base_exp: 64,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

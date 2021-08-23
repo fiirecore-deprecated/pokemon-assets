@@ -1,0 +1,7 @@
+("toxic", (
+    execute: Actions([
+        Ailment(Poison, Temporary(15, 15), 0),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,36 @@
+(
+    id: 61,
+    name: "Poliwhirl",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (19, "double-slap"),
+        (35, "body-slam"),
+        (1, "water-gun"),
+        (13, "water-gun"),
+        (51, "hydro-pump"),
+        (1, "hypnosis"),
+        (7, "hypnosis"),
+        (1, "bubble"),
+        (43, "belly-drum"),
+        (27, "rain-dance"),
+    ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 65,
+        sp_atk: 50,
+        sp_def: 50,
+        speed: 90,
+    ),
+    species: "Tadpole",
+    height: 10,
+    weight: 200,
+    training: (
+        base_exp: 135,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

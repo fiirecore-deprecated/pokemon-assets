@@ -1,0 +1,37 @@
+(
+    id: 47,
+    name: "Parasect",
+    primary_type: Bug,
+    secondary_type: Some(Grass),
+    moves: [
+        (1, "scratch"),
+        (43, "growth"),
+        (1, "poison-powder"),
+        (13, "poison-powder"),
+        (1, "stun-spore"),
+        (7, "stun-spore"),
+        (19, "leech-life"),
+        (27, "spore"),
+        (35, "slash"),
+        (51, "giga-drain"),
+        (59, "aromatherapy"),
+    ],
+    base: (
+        hp: 60,
+        atk: 95,
+        def: 80,
+        sp_atk: 60,
+        sp_def: 80,
+        speed: 30,
+    ),
+    species: "Mushroom",
+    height: 10,
+    weight: 295,
+    training: (
+        base_exp: 142,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

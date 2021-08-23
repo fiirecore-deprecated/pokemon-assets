@@ -1,0 +1,37 @@
+(
+    id: 333,
+    name: "Swablu",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (18, "fury-attack"),
+        (31, "take-down"),
+        (1, "growl"),
+        (11, "sing"),
+        (28, "mist"),
+        (1, "peck"),
+        (38, "mirror-move"),
+        (48, "perish-song"),
+        (21, "safeguard"),
+        (41, "refresh"),
+        (8, "astonish"),
+    ],
+    base: (
+        hp: 45,
+        atk: 40,
+        def: 60,
+        sp_atk: 40,
+        sp_def: 75,
+        speed: 50,
+    ),
+    species: "Cotton",
+    height: 4,
+    weight: 12,
+    training: (
+        base_exp: 62,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

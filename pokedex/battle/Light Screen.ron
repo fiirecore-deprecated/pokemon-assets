@@ -1,0 +1,5 @@
+("light-screen", (
+    execute: None,
+    contact: false,
+    crit_rate: 0,
+))

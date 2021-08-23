@@ -1,0 +1,36 @@
+(
+    id: 269,
+    name: "Dustox",
+    primary_type: Bug,
+    secondary_type: Some(Poison),
+    moves: [
+        (13, "gust"),
+        (27, "whirlwind"),
+        (24, "psybeam"),
+        (38, "toxic"),
+        (1, "confusion"),
+        (10, "confusion"),
+        (31, "light-screen"),
+        (17, "protect"),
+        (20, "moonlight"),
+        (34, "silver-wind"),
+    ],
+    base: (
+        hp: 60,
+        atk: 50,
+        def: 70,
+        sp_atk: 50,
+        sp_def: 90,
+        speed: 65,
+    ),
+    species: "Poison",
+    height: 12,
+    weight: 316,
+    training: (
+        base_exp: 173,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

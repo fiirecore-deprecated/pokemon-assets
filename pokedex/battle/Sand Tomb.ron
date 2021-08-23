@@ -1,0 +1,7 @@
+("sand-tomb", (
+    execute: Actions([
+        Damage(Power(35)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

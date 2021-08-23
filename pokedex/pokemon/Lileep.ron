@@ -1,0 +1,36 @@
+(
+    id: 345,
+    name: "Lileep",
+    primary_type: Rock,
+    secondary_type: Some(Grass),
+    moves: [
+        (15, "acid"),
+        (29, "confuse-ray"),
+        (8, "constrict"),
+        (36, "amnesia"),
+        (43, "ancient-power"),
+        (50, "stockpile"),
+        (50, "spit-up"),
+        (50, "swallow"),
+        (22, "ingrain"),
+        (1, "astonish"),
+    ],
+    base: (
+        hp: 66,
+        atk: 41,
+        def: 77,
+        sp_atk: 61,
+        sp_def: 87,
+        speed: 23,
+    ),
+    species: "Sea",
+    height: 10,
+    weight: 238,
+    training: (
+        base_exp: 71,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

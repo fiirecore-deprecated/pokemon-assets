@@ -4,16 +4,9 @@
     category: Special,
     type: Dark,
     accuracy: Some(95),
+    power: Some(55),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(55)),
-            Stat(Basic(SpAttack), -1),
-        ]),
-        target: AllOpponents,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOpponents,
     world: false,
 )

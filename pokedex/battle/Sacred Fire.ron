@@ -1,0 +1,8 @@
+("sacred-fire", (
+    execute: Actions([
+        Damage(Power(100)),
+        Ailment(Burn, Permanent, 50),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,38 @@
+(
+    id: 307,
+    name: "Meditite",
+    primary_type: Fighting,
+    secondary_type: Some(Psychic),
+    moves: [
+        (9, "confusion"),
+        (4, "meditate"),
+        (44, "recover"),
+        (1, "bide"),
+        (33, "high-jump-kick"),
+        (25, "mind-reader"),
+        (41, "reversal"),
+        (12, "detect"),
+        (20, "swagger"),
+        (17, "hidden-power"),
+        (36, "psych-up"),
+        (28, "calm-mind"),
+    ],
+    base: (
+        hp: 30,
+        atk: 40,
+        def: 55,
+        sp_atk: 40,
+        sp_def: 55,
+        speed: 60,
+    ),
+    species: "Meditate",
+    height: 6,
+    weight: 112,
+    training: (
+        base_exp: 56,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

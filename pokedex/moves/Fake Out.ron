@@ -4,16 +4,9 @@
     category: Physical,
     type: Normal,
     accuracy: Some(100),
+    power: Some(40),
     pp: 10,
     priority: 3,
-    usage: (
-        execute: Actions([
-            Damage(Power(40)),
-            Flinch,
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

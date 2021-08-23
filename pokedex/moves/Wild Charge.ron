@@ -4,15 +4,9 @@
     category: Physical,
     type: Electric,
     accuracy: Some(100),
+    power: Some(90),
     pp: 15,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Drain(Power(90), -25),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

@@ -1,0 +1,36 @@
+(
+    id: 200,
+    name: "Misdreavus",
+    primary_type: Ghost,
+    secondary_type: None,
+    moves: [
+        (1, "growl"),
+        (30, "psybeam"),
+        (17, "confuse-ray"),
+        (1, "psywave"),
+        (6, "spite"),
+        (45, "perish-song"),
+        (23, "mean-look"),
+        (37, "pain-split"),
+        (53, "grudge"),
+        (11, "astonish"),
+    ],
+    base: (
+        hp: 60,
+        atk: 60,
+        def: 60,
+        sp_atk: 85,
+        sp_def: 85,
+        speed: 85,
+    ),
+    species: "Screech",
+    height: 7,
+    weight: 10,
+    training: (
+        base_exp: 87,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

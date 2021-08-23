@@ -1,0 +1,35 @@
+(
+    id: 218,
+    name: "Slugma",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (50, "body-slam"),
+        (8, "ember"),
+        (36, "flamethrower"),
+        (15, "rock-throw"),
+        (22, "harden"),
+        (1, "smog"),
+        (29, "amnesia"),
+        (43, "rock-slide"),
+        (1, "yawn"),
+    ],
+    base: (
+        hp: 40,
+        atk: 40,
+        def: 40,
+        sp_atk: 70,
+        sp_def: 40,
+        speed: 20,
+    ),
+    species: "Lava",
+    height: 7,
+    weight: 350,
+    training: (
+        base_exp: 50,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

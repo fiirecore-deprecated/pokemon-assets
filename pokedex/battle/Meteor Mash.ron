@@ -1,0 +1,10 @@
+("meteor-mash", (
+    execute: Actions([
+        Damage(Power(90)),
+        Chance([
+            Stat(Basic(Attack), 1),
+        ], 20),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

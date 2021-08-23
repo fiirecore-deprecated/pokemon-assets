@@ -1,0 +1,8 @@
+("poison-sting", (
+    execute: Actions([
+        Damage(Power(15)),
+        Ailment(Poison, Permanent, 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

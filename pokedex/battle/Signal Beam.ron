@@ -1,0 +1,7 @@
+("signal-beam", (
+    execute: Actions([
+        Damage(Power(75)),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

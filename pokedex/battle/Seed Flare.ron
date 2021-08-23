@@ -1,0 +1,10 @@
+("seed-flare", (
+    execute: Actions([
+        Damage(Power(120)),
+        Chance([
+            Stat(Basic(SpDefense), -2),
+        ], 40),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

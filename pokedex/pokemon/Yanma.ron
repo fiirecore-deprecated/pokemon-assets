@@ -1,0 +1,37 @@
+(
+    id: 193,
+    name: "Yanma",
+    primary_type: Bug,
+    secondary_type: Some(Flying),
+    moves: [
+        (39, "wing-attack"),
+        (1, "tackle"),
+        (45, "supersonic"),
+        (17, "sonic-boom"),
+        (23, "hypnosis"),
+        (6, "quick-attack"),
+        (50, "screech"),
+        (12, "double-team"),
+        (1, "foresight"),
+        (28, "detect"),
+        (34, "uproar"),
+    ],
+    base: (
+        hp: 65,
+        atk: 65,
+        def: 45,
+        sp_atk: 75,
+        sp_def: 45,
+        speed: 95,
+    ),
+    species: "Clear",
+    height: 12,
+    weight: 380,
+    training: (
+        base_exp: 78,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

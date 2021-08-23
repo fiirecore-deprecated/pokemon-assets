@@ -1,0 +1,35 @@
+(
+    id: 156,
+    name: "Quilava",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (1, "leer"),
+        (12, "ember"),
+        (54, "flamethrower"),
+        (21, "quick-attack"),
+        (1, "smokescreen"),
+        (6, "smokescreen"),
+        (42, "swift"),
+        (31, "flame-wheel"),
+    ],
+    base: (
+        hp: 58,
+        atk: 64,
+        def: 58,
+        sp_atk: 80,
+        sp_def: 65,
+        speed: 80,
+    ),
+    species: "Volcano",
+    height: 9,
+    weight: 190,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

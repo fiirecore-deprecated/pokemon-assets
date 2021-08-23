@@ -1,0 +1,35 @@
+(
+    id: 84,
+    name: "Doduo",
+    primary_type: Normal,
+    secondary_type: Some(Flying),
+    moves: [
+        (13, "fury-attack"),
+        (1, "growl"),
+        (1, "peck"),
+        (37, "drill-peck"),
+        (45, "agility"),
+        (25, "rage"),
+        (21, "tri-attack"),
+        (9, "pursuit"),
+        (33, "uproar"),
+    ],
+    base: (
+        hp: 35,
+        atk: 85,
+        def: 45,
+        sp_atk: 35,
+        sp_def: 35,
+        speed: 75,
+    ),
+    species: "Twin",
+    height: 14,
+    weight: 392,
+    training: (
+        base_exp: 62,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

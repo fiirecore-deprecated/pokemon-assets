@@ -1,0 +1,37 @@
+(
+    id: 56,
+    name: "Mankey",
+    primary_type: Fighting,
+    secondary_type: None,
+    moves: [
+        (11, "karate-chop"),
+        (1, "scratch"),
+        (46, "thrash"),
+        (1, "leer"),
+        (6, "low-kick"),
+        (26, "seismic-toss"),
+        (41, "screech"),
+        (21, "focus-energy"),
+        (16, "fury-swipes"),
+        (36, "swagger"),
+        (31, "cross-chop"),
+    ],
+    base: (
+        hp: 40,
+        atk: 80,
+        def: 35,
+        sp_atk: 35,
+        sp_def: 45,
+        speed: 70,
+    ),
+    species: "Pig",
+    height: 5,
+    weight: 280,
+    training: (
+        base_exp: 61,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

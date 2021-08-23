@@ -1,0 +1,35 @@
+(
+    id: 192,
+    name: "Sunflora",
+    primary_type: Grass,
+    secondary_type: None,
+    moves: [
+        (1, "pound"),
+        (1, "absorb"),
+        (6, "growth"),
+        (13, "razor-leaf"),
+        (42, "solar-beam"),
+        (37, "petal-dance"),
+        (30, "sunny-day"),
+        (18, "ingrain"),
+        (25, "bullet-seed"),
+    ],
+    base: (
+        hp: 75,
+        atk: 75,
+        def: 55,
+        sp_atk: 105,
+        sp_def: 85,
+        speed: 30,
+    ),
+    species: "Sun",
+    height: 8,
+    weight: 85,
+    training: (
+        base_exp: 149,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

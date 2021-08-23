@@ -1,0 +1,32 @@
+(
+    id: 34,
+    name: "Nidoking",
+    primary_type: Poison,
+    secondary_type: Some(Ground),
+    moves: [
+        (1, "double-kick"),
+        (22, "thrash"),
+        (1, "poison-sting"),
+        (1, "peck"),
+        (1, "focus-energy"),
+        (43, "megahorn"),
+    ],
+    base: (
+        hp: 81,
+        atk: 102,
+        def: 77,
+        sp_atk: 85,
+        sp_def: 75,
+        speed: 85,
+    ),
+    species: "Drill",
+    height: 14,
+    weight: 620,
+    training: (
+        base_exp: 227,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
+)

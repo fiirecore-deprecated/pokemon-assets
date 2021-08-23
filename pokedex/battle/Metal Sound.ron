@@ -1,0 +1,7 @@
+("metal-sound", (
+    execute: Actions([
+        Stat(Basic(SpDefense), -2),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

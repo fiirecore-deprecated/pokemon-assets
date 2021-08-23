@@ -1,0 +1,38 @@
+(
+    id: 304,
+    name: "Aron",
+    primary_type: Steel,
+    secondary_type: Some(Rock),
+    moves: [
+        (10, "headbutt"),
+        (1, "tackle"),
+        (25, "take-down"),
+        (44, "double-edge"),
+        (21, "roar"),
+        (4, "harden"),
+        (34, "protect"),
+        (7, "mud-slap"),
+        (29, "iron-tail"),
+        (13, "metal-claw"),
+        (39, "metal-sound"),
+        (17, "iron-defense"),
+    ],
+    base: (
+        hp: 50,
+        atk: 70,
+        def: 100,
+        sp_atk: 40,
+        sp_def: 40,
+        speed: 30,
+    ),
+    species: "Iron",
+    height: 4,
+    weight: 600,
+    training: (
+        base_exp: 66,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

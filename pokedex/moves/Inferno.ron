@@ -4,16 +4,9 @@
     category: Special,
     type: Fire,
     accuracy: Some(50),
+    power: Some(100),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(100)),
-            Ailment(Burn, Permanent, 100),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

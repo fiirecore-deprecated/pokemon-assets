@@ -1,0 +1,37 @@
+(
+    id: 357,
+    name: "Tropius",
+    primary_type: Grass,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "gust"),
+        (27, "whirlwind"),
+        (17, "stomp"),
+        (37, "body-slam"),
+        (1, "leer"),
+        (7, "growth"),
+        (11, "razor-leaf"),
+        (41, "solar-beam"),
+        (21, "sweet-scent"),
+        (47, "synthesis"),
+        (31, "magical-leaf"),
+    ],
+    base: (
+        hp: 99,
+        atk: 68,
+        def: 83,
+        sp_atk: 72,
+        sp_def: 87,
+        speed: 51,
+    ),
+    species: "Fruit",
+    height: 20,
+    weight: 1000,
+    training: (
+        base_exp: 161,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

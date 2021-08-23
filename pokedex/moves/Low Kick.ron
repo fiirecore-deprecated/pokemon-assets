@@ -4,13 +4,9 @@
     category: Physical,
     type: Fighting,
     accuracy: Some(100),
+    power: None,
     pp: 20,
     priority: 0,
-    usage: (
-        execute: None,
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

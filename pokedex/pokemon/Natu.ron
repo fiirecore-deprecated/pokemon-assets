@@ -1,0 +1,34 @@
+(
+    id: 177,
+    name: "Natu",
+    primary_type: Psychic,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "leer"),
+        (1, "peck"),
+        (50, "psychic"),
+        (20, "teleport"),
+        (10, "night-shade"),
+        (40, "confuse-ray"),
+        (30, "future-sight"),
+        (30, "wish"),
+    ],
+    base: (
+        hp: 40,
+        atk: 50,
+        def: 45,
+        sp_atk: 70,
+        sp_def: 45,
+        speed: 70,
+    ),
+    species: "Tiny",
+    height: 2,
+    weight: 20,
+    training: (
+        base_exp: 64,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,31 @@
+(
+    id: 59,
+    name: "Arcanine",
+    primary_type: Fire,
+    secondary_type: None,
+    moves: [
+        (1, "bite"),
+        (1, "roar"),
+        (1, "ember"),
+        (49, "extreme-speed"),
+        (1, "odor-sleuth"),
+    ],
+    base: (
+        hp: 90,
+        atk: 110,
+        def: 80,
+        sp_atk: 100,
+        sp_def: 80,
+        speed: 95,
+    ),
+    species: "Legendary",
+    height: 19,
+    weight: 1550,
+    training: (
+        base_exp: 194,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: Some(2),
+    ),
+)

@@ -1,0 +1,38 @@
+(
+    id: 330,
+    name: "Flygon",
+    primary_type: Ground,
+    secondary_type: Some(Dragon),
+    moves: [
+        (1, "sand-attack"),
+        (9, "sand-attack"),
+        (1, "bite"),
+        (65, "hyper-beam"),
+        (41, "screech"),
+        (1, "feint-attack"),
+        (17, "feint-attack"),
+        (53, "sandstorm"),
+        (35, "dragon-breath"),
+        (33, "crunch"),
+        (1, "sand-tomb"),
+        (25, "sand-tomb"),
+    ],
+    base: (
+        hp: 80,
+        atk: 100,
+        def: 80,
+        sp_atk: 80,
+        sp_def: 80,
+        speed: 100,
+    ),
+    species: "Mystic",
+    height: 20,
+    weight: 820,
+    training: (
+        base_exp: 234,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,7 @@
+("test", (
+    execute: Actions([
+        Drain(Power(255), 100),
+    ]),
+    contact: false,
+    crit_rate: 4,
+))

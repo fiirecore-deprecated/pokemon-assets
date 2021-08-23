@@ -1,0 +1,35 @@
+(
+    id: 232,
+    name: "Donphan",
+    primary_type: Ground,
+    secondary_type: None,
+    moves: [
+        (1, "horn-attack"),
+        (25, "fury-attack"),
+        (1, "growl"),
+        (49, "earthquake"),
+        (9, "defense-curl"),
+        (17, "flail"),
+        (33, "rollout"),
+        (41, "rapid-spin"),
+        (1, "odor-sleuth"),
+    ],
+    base: (
+        hp: 90,
+        atk: 120,
+        def: 120,
+        sp_atk: 60,
+        sp_def: 60,
+        speed: 50,
+    ),
+    species: "Armor",
+    height: 11,
+    weight: 1200,
+    training: (
+        base_exp: 175,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

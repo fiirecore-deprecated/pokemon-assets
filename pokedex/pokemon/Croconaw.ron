@@ -1,0 +1,36 @@
+(
+    id: 159,
+    name: "Croconaw",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "leer"),
+        (21, "bite"),
+        (13, "water-gun"),
+        (55, "hydro-pump"),
+        (1, "rage"),
+        (7, "rage"),
+        (45, "screech"),
+        (37, "slash"),
+        (28, "scary-face"),
+    ],
+    base: (
+        hp: 65,
+        atk: 80,
+        def: 80,
+        sp_atk: 59,
+        sp_def: 63,
+        speed: 58,
+    ),
+    species: "Big",
+    height: 11,
+    weight: 250,
+    training: (
+        base_exp: 142,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

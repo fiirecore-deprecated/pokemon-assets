@@ -1,0 +1,38 @@
+(
+    id: 303,
+    name: "Mawile",
+    primary_type: Steel,
+    secondary_type: Some(Fairy),
+    moves: [
+        (21, "vise-grip"),
+        (11, "bite"),
+        (26, "feint-attack"),
+        (31, "baton-pass"),
+        (16, "sweet-scent"),
+        (36, "crunch"),
+        (46, "stockpile"),
+        (46, "spit-up"),
+        (46, "swallow"),
+        (1, "astonish"),
+        (6, "fake-tears"),
+        (41, "iron-defense"),
+    ],
+    base: (
+        hp: 50,
+        atk: 85,
+        def: 85,
+        sp_atk: 55,
+        sp_def: 55,
+        speed: 50,
+    ),
+    species: "Deceiver",
+    height: 6,
+    weight: 115,
+    training: (
+        base_exp: 133,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

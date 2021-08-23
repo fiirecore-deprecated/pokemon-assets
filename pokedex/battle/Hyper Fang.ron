@@ -1,0 +1,10 @@
+("hyper-fang", (
+    execute: Actions([
+        Damage(Power(80)),
+        Chance([
+            Flinch,
+        ], 10),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

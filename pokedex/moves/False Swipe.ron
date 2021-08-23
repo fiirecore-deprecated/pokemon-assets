@@ -4,13 +4,9 @@
     category: Physical,
     type: Normal,
     accuracy: Some(100),
+    power: Some(40),
     pp: 40,
     priority: 0,
-    usage: (
-        execute: Script,
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )

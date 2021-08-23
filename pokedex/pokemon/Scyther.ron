@@ -1,0 +1,37 @@
+(
+    id: 123,
+    name: "Scyther",
+    primary_type: Bug,
+    secondary_type: Some(Flying),
+    moves: [
+        (36, "swords-dance"),
+        (26, "wing-attack"),
+        (1, "leer"),
+        (21, "agility"),
+        (1, "quick-attack"),
+        (41, "double-team"),
+        (6, "focus-energy"),
+        (31, "slash"),
+        (16, "false-swipe"),
+        (46, "fury-cutter"),
+        (11, "pursuit"),
+    ],
+    base: (
+        hp: 70,
+        atk: 110,
+        def: 80,
+        sp_atk: 55,
+        sp_def: 80,
+        speed: 105,
+    ),
+    species: "Mantis",
+    height: 15,
+    weight: 560,
+    training: (
+        base_exp: 100,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

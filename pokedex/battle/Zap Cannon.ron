@@ -1,0 +1,8 @@
+("zap-cannon", (
+    execute: Actions([
+        Damage(Power(120)),
+        Ailment(Paralysis, Permanent, 100),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

@@ -1,0 +1,35 @@
+(
+    id: 144,
+    name: "Articuno",
+    primary_type: Ice,
+    secondary_type: Some(Flying),
+    moves: [
+        (1, "gust"),
+        (13, "mist"),
+        (49, "ice-beam"),
+        (73, "blizzard"),
+        (25, "agility"),
+        (61, "reflect"),
+        (37, "mind-reader"),
+        (1, "powder-snow"),
+        (85, "sheer-cold"),
+    ],
+    base: (
+        hp: 90,
+        atk: 85,
+        def: 100,
+        sp_atk: 95,
+        sp_def: 125,
+        speed: 85,
+    ),
+    species: "Freeze",
+    height: 17,
+    weight: 554,
+    training: (
+        base_exp: 261,
+        growth_rate: Slow,
+    ),
+    breeding: (
+        gender: None,
+    ),
+)

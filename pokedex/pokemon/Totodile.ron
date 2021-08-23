@@ -1,0 +1,35 @@
+(
+    id: 158,
+    name: "Totodile",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (1, "scratch"),
+        (1, "leer"),
+        (20, "bite"),
+        (13, "water-gun"),
+        (52, "hydro-pump"),
+        (7, "rage"),
+        (43, "screech"),
+        (35, "slash"),
+        (27, "scary-face"),
+    ],
+    base: (
+        hp: 50,
+        atk: 65,
+        def: 64,
+        sp_atk: 44,
+        sp_def: 48,
+        speed: 43,
+    ),
+    species: "Big",
+    height: 6,
+    weight: 95,
+    training: (
+        base_exp: 63,
+        growth_rate: MediumSlow,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

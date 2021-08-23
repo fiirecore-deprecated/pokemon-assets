@@ -1,0 +1,33 @@
+(
+    id: 360,
+    name: "Wynaut",
+    primary_type: Psychic,
+    secondary_type: None,
+    moves: [
+        (15, "counter"),
+        (1, "splash"),
+        (15, "destiny-bond"),
+        (1, "charm"),
+        (15, "safeguard"),
+        (1, "encore"),
+        (15, "mirror-coat"),
+    ],
+    base: (
+        hp: 95,
+        atk: 23,
+        def: 48,
+        sp_atk: 23,
+        sp_def: 48,
+        speed: 23,
+    ),
+    species: "Bright",
+    height: 6,
+    weight: 140,
+    training: (
+        base_exp: 52,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

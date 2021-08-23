@@ -1,0 +1,10 @@
+("stomp", (
+    execute: Actions([
+        Damage(Power(65)),
+        Chance([
+            Flinch,
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

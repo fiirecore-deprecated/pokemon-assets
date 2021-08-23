@@ -1,0 +1,36 @@
+(
+    id: 165,
+    name: "Ledyba",
+    primary_type: Bug,
+    secondary_type: Some(Flying),
+    moves: [
+        (15, "comet-punch"),
+        (1, "tackle"),
+        (50, "double-edge"),
+        (8, "supersonic"),
+        (43, "agility"),
+        (22, "light-screen"),
+        (22, "reflect"),
+        (36, "swift"),
+        (22, "safeguard"),
+        (29, "baton-pass"),
+    ],
+    base: (
+        hp: 40,
+        atk: 20,
+        def: 30,
+        sp_atk: 40,
+        sp_def: 80,
+        speed: 55,
+    ),
+    species: "Five",
+    height: 10,
+    weight: 108,
+    training: (
+        base_exp: 53,
+        growth_rate: Fast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

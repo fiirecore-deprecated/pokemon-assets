@@ -4,15 +4,9 @@
     category: Status,
     type: Normal,
     accuracy: Some(100),
+    power: None,
     pp: 20,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Stat(Basic(SpAttack), -2),
-        ]),
-        target: AllOpponents,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: AllOpponents,
     world: false,
 )

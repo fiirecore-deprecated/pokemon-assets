@@ -1,0 +1,35 @@
+(
+    id: 20,
+    name: "Raticate",
+    primary_type: Normal,
+    secondary_type: None,
+    moves: [
+        (1, "tackle"),
+        (1, "tail-whip"),
+        (1, "quick-attack"),
+        (7, "quick-attack"),
+        (13, "hyper-fang"),
+        (40, "super-fang"),
+        (20, "scary-face"),
+        (30, "pursuit"),
+        (50, "endeavor"),
+    ],
+    base: (
+        hp: 55,
+        atk: 81,
+        def: 60,
+        sp_atk: 50,
+        sp_def: 70,
+        speed: 97,
+    ),
+    species: "Mouse",
+    height: 7,
+    weight: 185,
+    training: (
+        base_exp: 145,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

@@ -1,0 +1,37 @@
+(
+    id: 197,
+    name: "Umbreon",
+    primary_type: Dark,
+    secondary_type: None,
+    moves: [
+        (8, "sand-attack"),
+        (1, "tackle"),
+        (1, "tail-whip"),
+        (23, "quick-attack"),
+        (47, "screech"),
+        (30, "confuse-ray"),
+        (36, "feint-attack"),
+        (42, "mean-look"),
+        (16, "pursuit"),
+        (52, "moonlight"),
+        (1, "helping-hand"),
+    ],
+    base: (
+        hp: 95,
+        atk: 65,
+        def: 110,
+        sp_atk: 60,
+        sp_def: 130,
+        speed: 65,
+    ),
+    species: "Moonlight",
+    height: 10,
+    weight: 270,
+    training: (
+        base_exp: 184,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(1),
+    ),
+)

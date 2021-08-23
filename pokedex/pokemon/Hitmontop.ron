@@ -1,0 +1,37 @@
+(
+    id: 237,
+    name: "Hitmontop",
+    primary_type: Fighting,
+    secondary_type: None,
+    moves: [
+        (1, "rolling-kick"),
+        (31, "counter"),
+        (37, "agility"),
+        (19, "quick-attack"),
+        (7, "focus-energy"),
+        (20, "triple-kick"),
+        (43, "detect"),
+        (13, "pursuit"),
+        (25, "rapid-spin"),
+        (1, "revenge"),
+        (49, "endeavor"),
+    ],
+    base: (
+        hp: 50,
+        atk: 95,
+        def: 95,
+        sp_atk: 35,
+        sp_def: 110,
+        speed: 70,
+    ),
+    species: "Handstand",
+    height: 14,
+    weight: 480,
+    training: (
+        base_exp: 159,
+        growth_rate: Medium,
+    ),
+    breeding: (
+        gender: Some(0),
+    ),
+)

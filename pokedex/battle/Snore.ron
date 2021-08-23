@@ -1,0 +1,10 @@
+("snore", (
+    execute: Actions([
+        Damage(Power(50)),
+        Chance([
+            Flinch,
+        ], 30),
+    ]),
+    contact: false,
+    crit_rate: 0,
+))

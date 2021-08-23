@@ -1,0 +1,34 @@
+(
+    id: 367,
+    name: "Huntail",
+    primary_type: Water,
+    secondary_type: None,
+    moves: [
+        (8, "bite"),
+        (50, "hydro-pump"),
+        (15, "screech"),
+        (29, "scary-face"),
+        (43, "baton-pass"),
+        (36, "crunch"),
+        (1, "whirlpool"),
+        (22, "water-pulse"),
+    ],
+    base: (
+        hp: 55,
+        atk: 104,
+        def: 105,
+        sp_atk: 94,
+        sp_def: 75,
+        speed: 52,
+    ),
+    species: "Deep",
+    height: 17,
+    weight: 270,
+    training: (
+        base_exp: 170,
+        growth_rate: SlowThenVeryFast,
+    ),
+    breeding: (
+        gender: Some(4),
+    ),
+)

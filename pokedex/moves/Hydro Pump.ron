@@ -4,15 +4,9 @@
     category: Special,
     type: Water,
     accuracy: Some(80),
+    power: Some(110),
     pp: 5,
     priority: 0,
-    usage: (
-        execute: Actions([
-            Damage(Power(110)),
-        ]),
-        target: Any,
-        contact: false,
-        crit_rate: 0,
-    ),
+    target: Any,
     world: false,
 )
