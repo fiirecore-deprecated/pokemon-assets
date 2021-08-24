@@ -1,5 +1,1 @@
-("gastro-acid", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("gastro-acid", None)

@@ -1,10 +1,6 @@
-("rock-smash", (
-    execute: Actions([
-        Damage(Power(40)),
-        Chance([
-            Stat(Basic(Defense), -1),
-        ], 50),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("rock-smash", Actions([
+    Damage(Power(40)),
+    Chance([
+        Stat(Basic(Defense), -1),
+    ], 50),
+]))

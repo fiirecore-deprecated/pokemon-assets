@@ -1,5 +1,1 @@
-("heavy-slam", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("heavy-slam", None)

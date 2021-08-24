@@ -1,8 +1,4 @@
-("hone-claws", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-        Stat(Accuracy, 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("hone-claws", Actions([
+    Stat(Basic(Attack), 1),
+    Stat(Accuracy, 1),
+]))

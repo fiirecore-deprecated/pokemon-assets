@@ -1,10 +1,6 @@
-("charge-beam", (
-    execute: Actions([
-        Damage(Power(50)),
-        Chance([
-            Stat(Basic(SpAttack), 1),
-        ], 70),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("charge-beam", Actions([
+    Damage(Power(50)),
+    Chance([
+        Stat(Basic(SpAttack), 1),
+    ], 70),
+]))

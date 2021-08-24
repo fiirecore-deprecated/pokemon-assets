@@ -1,5 +1,1 @@
-("gyro-ball", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("gyro-ball", None)

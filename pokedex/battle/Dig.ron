@@ -1,7 +1,3 @@
-("dig", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dig", Actions([
+    Damage(Power(80)),
+]))

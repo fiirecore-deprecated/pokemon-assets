@@ -1,7 +1,3 @@
-("last-resort", (
-    execute: Actions([
-        Damage(Power(140)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("last-resort", Actions([
+    Damage(Power(140)),
+]))

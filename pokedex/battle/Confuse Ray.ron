@@ -1,5 +1,1 @@
-("confuse-ray", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("confuse-ray", None)

@@ -1,8 +1,4 @@
-("twineedle", (
-    execute: Actions([
-        Damage(Power(25)),
-        Ailment(Poison, Permanent, 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("twineedle", Actions([
+    Damage(Power(25)),
+    Ailment(Poison, Permanent, 20),
+]))

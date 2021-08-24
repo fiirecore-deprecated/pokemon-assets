@@ -1,5 +1,1 @@
-("entrainment", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("entrainment", None)

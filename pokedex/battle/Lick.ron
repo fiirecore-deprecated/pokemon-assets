@@ -1,8 +1,4 @@
-("lick", (
-    execute: Actions([
-        Damage(Power(30)),
-        Ailment(Paralysis, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("lick", Actions([
+    Damage(Power(30)),
+    Ailment(Paralysis, Permanent, 30),
+]))

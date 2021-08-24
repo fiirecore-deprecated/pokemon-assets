@@ -8,5 +8,7 @@
     pp: 20,
     priority: 0,
     target: Any,
+    contact: false,
+    crit_rate: 1,
     world: false,
 )

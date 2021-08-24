@@ -1,7 +1,3 @@
-("fire-pledge", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("fire-pledge", Actions([
+    Damage(Power(80)),
+]))

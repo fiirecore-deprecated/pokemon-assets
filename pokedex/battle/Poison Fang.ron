@@ -1,8 +1,4 @@
-("poison-fang", (
-    execute: Actions([
-        Damage(Power(50)),
-        Ailment(Poison, Temporary(15, 15), 50),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("poison-fang", Actions([
+    Damage(Power(50)),
+    Ailment(Poison, Temporary(15, 15), 50),
+]))

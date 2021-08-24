@@ -1,8 +1,4 @@
-("spark", (
-    execute: Actions([
-        Damage(Power(65)),
-        Ailment(Paralysis, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("spark", Actions([
+    Damage(Power(65)),
+    Ailment(Paralysis, Permanent, 30),
+]))

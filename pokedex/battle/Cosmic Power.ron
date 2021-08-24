@@ -1,8 +1,4 @@
-("cosmic-power", (
-    execute: Actions([
-        Stat(Basic(Defense), 1),
-        Stat(Basic(SpDefense), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("cosmic-power", Actions([
+    Stat(Basic(Defense), 1),
+    Stat(Basic(SpDefense), 1),
+]))

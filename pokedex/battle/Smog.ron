@@ -1,8 +1,4 @@
-("smog", (
-    execute: Actions([
-        Damage(Power(30)),
-        Ailment(Poison, Permanent, 40),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("smog", Actions([
+    Damage(Power(30)),
+    Ailment(Poison, Permanent, 40),
+]))

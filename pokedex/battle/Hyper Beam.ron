@@ -1,7 +1,3 @@
-("hyper-beam", (
-    execute: Actions([
-        Damage(Power(150)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("hyper-beam", Actions([
+    Damage(Power(150)),
+]))

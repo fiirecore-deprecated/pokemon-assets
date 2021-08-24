@@ -1,5 +1,1 @@
-("power-swap", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("power-swap", None)

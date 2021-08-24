@@ -1,7 +1,3 @@
-("feint-attack", (
-    execute: Actions([
-        Damage(Power(60)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("feint-attack", Actions([
+    Damage(Power(60)),
+]))

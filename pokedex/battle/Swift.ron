@@ -1,7 +1,3 @@
-("swift", (
-    execute: Actions([
-        Damage(Power(60)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("swift", Actions([
+    Damage(Power(60)),
+]))

@@ -1,7 +1,3 @@
-("rock-throw", (
-    execute: Actions([
-        Damage(Power(50)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("rock-throw", Actions([
+    Damage(Power(50)),
+]))

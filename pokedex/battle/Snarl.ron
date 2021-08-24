@@ -1,8 +1,4 @@
-("snarl", (
-    execute: Actions([
-        Damage(Power(55)),
-        Stat(Basic(SpAttack), -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("snarl", Actions([
+    Damage(Power(55)),
+    Stat(Basic(SpAttack), -1),
+]))

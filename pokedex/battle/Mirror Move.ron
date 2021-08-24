@@ -1,5 +1,1 @@
-("mirror-move", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("mirror-move", None)

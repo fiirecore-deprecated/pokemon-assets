@@ -1,8 +1,4 @@
-("cross-poison", (
-    execute: Actions([
-        Damage(Power(70)),
-        Ailment(Poison, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 1,
-))
+("cross-poison", Actions([
+    Damage(Power(70)),
+    Ailment(Poison, Permanent, 10),
+]))

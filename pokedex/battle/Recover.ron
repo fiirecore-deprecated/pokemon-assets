@@ -1,5 +1,1 @@
-("recover", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("recover", None)

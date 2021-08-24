@@ -1,5 +1,1 @@
-("pain-split", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("pain-split", None)

@@ -1,7 +1,3 @@
-("extreme-speed", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("extreme-speed", Actions([
+    Damage(Power(80)),
+]))

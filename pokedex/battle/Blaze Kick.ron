@@ -1,8 +1,4 @@
-("blaze-kick", (
-    execute: Actions([
-        Damage(Power(85)),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 1,
-))
+("blaze-kick", Actions([
+    Damage(Power(85)),
+    Ailment(Burn, Permanent, 10),
+]))

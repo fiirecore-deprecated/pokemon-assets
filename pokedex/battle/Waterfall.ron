@@ -1,10 +1,6 @@
-("waterfall", (
-    execute: Actions([
-        Damage(Power(80)),
-        Chance([
-            Flinch,
-        ], 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("waterfall", Actions([
+    Damage(Power(80)),
+    Chance([
+        Flinch,
+    ], 20),
+]))

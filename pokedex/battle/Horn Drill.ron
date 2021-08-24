@@ -1,5 +1,1 @@
-("horn-drill", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("horn-drill", None)

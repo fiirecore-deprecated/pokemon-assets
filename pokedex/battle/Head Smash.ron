@@ -1,7 +1,3 @@
-("head-smash", (
-    execute: Actions([
-        Drain(Power(150), -50),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("head-smash", Actions([
+    Drain(Power(150), -50),
+]))

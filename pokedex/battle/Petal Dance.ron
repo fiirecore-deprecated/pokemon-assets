@@ -1,7 +1,3 @@
-("petal-dance", (
-    execute: Actions([
-        Damage(Power(120)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("petal-dance", Actions([
+    Damage(Power(120)),
+]))

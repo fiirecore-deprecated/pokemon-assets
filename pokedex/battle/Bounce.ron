@@ -1,8 +1,4 @@
-("bounce", (
-    execute: Actions([
-        Damage(Power(85)),
-        Ailment(Paralysis, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("bounce", Actions([
+    Damage(Power(85)),
+    Ailment(Paralysis, Permanent, 30),
+]))

@@ -1,10 +1,6 @@
-("night-daze", (
-    execute: Actions([
-        Damage(Power(85)),
-        Chance([
-            Stat(Accuracy, -1),
-        ], 40),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("night-daze", Actions([
+    Damage(Power(85)),
+    Chance([
+        Stat(Accuracy, -1),
+    ], 40),
+]))

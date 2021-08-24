@@ -1,7 +1,3 @@
-("dynamic-punch", (
-    execute: Actions([
-        Damage(Power(100)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dynamic-punch", Actions([
+    Damage(Power(100)),
+]))

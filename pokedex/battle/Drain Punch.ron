@@ -1,7 +1,3 @@
-("drain-punch", (
-    execute: Actions([
-        Drain(Power(75), 50),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("drain-punch", Actions([
+    Drain(Power(75), 50),
+]))

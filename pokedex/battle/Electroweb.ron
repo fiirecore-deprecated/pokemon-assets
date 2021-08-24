@@ -1,8 +1,4 @@
-("electroweb", (
-    execute: Actions([
-        Damage(Power(55)),
-        Stat(Basic(Speed), -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("electroweb", Actions([
+    Damage(Power(55)),
+    Stat(Basic(Speed), -1),
+]))

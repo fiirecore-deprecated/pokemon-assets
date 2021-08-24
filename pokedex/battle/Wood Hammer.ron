@@ -1,7 +1,3 @@
-("wood-hammer", (
-    execute: Actions([
-        Drain(Power(120), -33),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("wood-hammer", Actions([
+    Drain(Power(120), -33),
+]))

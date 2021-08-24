@@ -1,8 +1,4 @@
-("dragon-breath", (
-    execute: Actions([
-        Damage(Power(60)),
-        Ailment(Paralysis, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dragon-breath", Actions([
+    Damage(Power(60)),
+    Ailment(Paralysis, Permanent, 30),
+]))

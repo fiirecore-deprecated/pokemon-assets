@@ -5,7 +5,9 @@
 	type: Dragon,
 	accuracy: None,
 	pp: 255,
-    target: Any,
+    target: AllOpponents,
     power: Some(255),
+    contact: false,
+    crit_rate: 4,
 	priority: 127,
 )

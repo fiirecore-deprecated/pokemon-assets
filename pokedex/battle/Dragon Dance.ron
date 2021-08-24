@@ -1,8 +1,4 @@
-("dragon-dance", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-        Stat(Basic(Speed), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dragon-dance", Actions([
+    Stat(Basic(Attack), 1),
+    Stat(Basic(Speed), 1),
+]))

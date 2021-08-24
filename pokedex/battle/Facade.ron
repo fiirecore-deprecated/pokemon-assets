@@ -1,7 +1,3 @@
-("facade", (
-    execute: Actions([
-        Damage(Power(70)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("facade", Actions([
+    Damage(Power(70)),
+]))

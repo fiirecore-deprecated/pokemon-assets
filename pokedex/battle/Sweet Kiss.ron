@@ -1,5 +1,1 @@
-("sweet-kiss", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("sweet-kiss", None)

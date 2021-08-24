@@ -1,5 +1,1 @@
-("sheer-cold", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("sheer-cold", None)

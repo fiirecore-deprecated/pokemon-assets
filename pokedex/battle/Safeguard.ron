@@ -1,5 +1,1 @@
-("safeguard", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("safeguard", None)

@@ -1,10 +1,6 @@
-("flash-cannon", (
-    execute: Actions([
-        Damage(Power(80)),
-        Chance([
-            Stat(Basic(SpDefense), -1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flash-cannon", Actions([
+    Damage(Power(80)),
+    Chance([
+        Stat(Basic(SpDefense), -1),
+    ], 10),
+]))

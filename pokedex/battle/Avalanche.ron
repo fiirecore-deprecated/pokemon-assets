@@ -1,7 +1,3 @@
-("avalanche", (
-    execute: Actions([
-        Damage(Power(60)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("avalanche", Actions([
+    Damage(Power(60)),
+]))

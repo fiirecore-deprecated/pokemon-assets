@@ -1,5 +1,1 @@
-("belly-drum", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("belly-drum", None)

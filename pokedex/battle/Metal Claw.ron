@@ -1,10 +1,6 @@
-("metal-claw", (
-    execute: Actions([
-        Damage(Power(50)),
-        Chance([
-            Stat(Basic(Attack), 1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("metal-claw", Actions([
+    Damage(Power(50)),
+    Chance([
+        Stat(Basic(Attack), 1),
+    ], 10),
+]))

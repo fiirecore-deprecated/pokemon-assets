@@ -1,5 +1,1 @@
-("swallow", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("swallow", None)

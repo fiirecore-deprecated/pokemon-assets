@@ -1,7 +1,3 @@
-("focus-punch", (
-    execute: Actions([
-        Damage(Power(150)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("focus-punch", Actions([
+    Damage(Power(150)),
+]))

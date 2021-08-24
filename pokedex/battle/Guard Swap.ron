@@ -1,5 +1,1 @@
-("guard-swap", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("guard-swap", None)

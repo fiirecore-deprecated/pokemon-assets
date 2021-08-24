@@ -1,7 +1,3 @@
-("leer", (
-    execute: Actions([
-        Stat(Basic(Defense), -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("leer", Actions([
+    Stat(Basic(Defense), -1),
+]))

@@ -1,8 +1,4 @@
-("sludge-wave", (
-    execute: Actions([
-        Damage(Power(95)),
-        Ailment(Poison, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("sludge-wave", Actions([
+    Damage(Power(95)),
+    Ailment(Poison, Permanent, 10),
+]))

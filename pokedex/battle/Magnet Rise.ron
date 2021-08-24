@@ -1,5 +1,1 @@
-("magnet-rise", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("magnet-rise", None)

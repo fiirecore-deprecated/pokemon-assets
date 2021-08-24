@@ -1,7 +1,3 @@
-("foul-play", (
-    execute: Actions([
-        Damage(Power(95)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("foul-play", Actions([
+    Damage(Power(95)),
+]))

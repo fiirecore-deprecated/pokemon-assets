@@ -1,10 +1,6 @@
-("focus-blast", (
-    execute: Actions([
-        Damage(Power(120)),
-        Chance([
-            Stat(Basic(SpDefense), -1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("focus-blast", Actions([
+    Damage(Power(120)),
+    Chance([
+        Stat(Basic(SpDefense), -1),
+    ], 10),
+]))

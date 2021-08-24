@@ -1,7 +1,3 @@
-("stun-spore", (
-    execute: Actions([
-        Ailment(Paralysis, Permanent, 0),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("stun-spore", Actions([
+    Ailment(Paralysis, Permanent, 0),
+]))

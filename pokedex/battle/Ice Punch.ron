@@ -1,8 +1,4 @@
-("ice-punch", (
-    execute: Actions([
-        Damage(Power(75)),
-        Ailment(Freeze, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("ice-punch", Actions([
+    Damage(Power(75)),
+    Ailment(Freeze, Permanent, 10),
+]))

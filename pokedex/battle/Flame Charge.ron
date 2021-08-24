@@ -1,8 +1,4 @@
-("flame-charge", (
-    execute: Actions([
-        Damage(Power(50)),
-        Stat(Basic(Speed), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flame-charge", Actions([
+    Damage(Power(50)),
+    Stat(Basic(Speed), 1),
+]))

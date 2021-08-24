@@ -1,8 +1,4 @@
-("psycho-boost", (
-    execute: Actions([
-        Damage(Power(140)),
-        Stat(Basic(SpAttack), -2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("psycho-boost", Actions([
+    Damage(Power(140)),
+    Stat(Basic(SpAttack), -2),
+]))

@@ -1,8 +1,4 @@
-("freeze-shock", (
-    execute: Actions([
-        Damage(Power(140)),
-        Ailment(Paralysis, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("freeze-shock", Actions([
+    Damage(Power(140)),
+    Ailment(Paralysis, Permanent, 30),
+]))

@@ -1,5 +1,1 @@
-("aqua-ring", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("aqua-ring", None)

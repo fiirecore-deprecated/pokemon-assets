@@ -1,5 +1,1 @@
-("psych-up", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("psych-up", None)

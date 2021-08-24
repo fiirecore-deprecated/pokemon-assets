@@ -1,7 +1,3 @@
-("vine-whip", (
-    execute: Actions([
-        Damage(Power(45)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("vine-whip", Actions([
+    Damage(Power(45)),
+]))

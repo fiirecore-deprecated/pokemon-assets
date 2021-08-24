@@ -1,7 +1,3 @@
-("skull-bash", (
-    execute: Actions([
-        Damage(Power(130)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("skull-bash", Actions([
+    Damage(Power(130)),
+]))

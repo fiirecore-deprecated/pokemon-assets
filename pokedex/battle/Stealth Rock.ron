@@ -1,5 +1,1 @@
-("stealth-rock", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("stealth-rock", None)

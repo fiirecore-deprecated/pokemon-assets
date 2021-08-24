@@ -1,14 +1,10 @@
-("ominous-wind", (
-    execute: Actions([
-        Damage(Power(60)),
-        Chance([
-            Stat(Basic(Attack), 1),
-            Stat(Basic(Defense), 1),
-            Stat(Basic(SpAttack), 1),
-            Stat(Basic(SpDefense), 1),
-            Stat(Basic(Speed), 1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("ominous-wind", Actions([
+    Damage(Power(60)),
+    Chance([
+        Stat(Basic(Attack), 1),
+        Stat(Basic(Defense), 1),
+        Stat(Basic(SpAttack), 1),
+        Stat(Basic(SpDefense), 1),
+        Stat(Basic(Speed), 1),
+    ], 10),
+]))

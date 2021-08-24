@@ -1,7 +1,3 @@
-("egg-bomb", (
-    execute: Actions([
-        Damage(Power(100)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("egg-bomb", Actions([
+    Damage(Power(100)),
+]))

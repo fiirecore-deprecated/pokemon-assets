@@ -1,10 +1,6 @@
-("dark-pulse", (
-    execute: Actions([
-        Damage(Power(80)),
-        Chance([
-            Flinch,
-        ], 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dark-pulse", Actions([
+    Damage(Power(80)),
+    Chance([
+        Flinch,
+    ], 20),
+]))

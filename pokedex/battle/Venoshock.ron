@@ -1,7 +1,3 @@
-("venoshock", (
-    execute: Actions([
-        Damage(Power(65)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("venoshock", Actions([
+    Damage(Power(65)),
+]))

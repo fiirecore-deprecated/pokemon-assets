@@ -1,10 +1,6 @@
-("headbutt", (
-    execute: Actions([
-        Damage(Power(70)),
-        Chance([
-            Flinch,
-        ], 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("headbutt", Actions([
+    Damage(Power(70)),
+    Chance([
+        Flinch,
+    ], 30),
+]))

@@ -1,8 +1,4 @@
-("ember", (
-    execute: Actions([
-        Damage(Power(40)),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("ember", Actions([
+    Damage(Power(40)),
+    Ailment(Burn, Permanent, 10),
+]))

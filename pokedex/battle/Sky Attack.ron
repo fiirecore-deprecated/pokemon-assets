@@ -1,10 +1,6 @@
-("sky-attack", (
-    execute: Actions([
-        Damage(Power(140)),
-        Chance([
-            Flinch,
-        ], 30),
-    ]),
-    contact: false,
-    crit_rate: 1,
-))
+("sky-attack", Actions([
+    Damage(Power(140)),
+    Chance([
+        Flinch,
+    ], 30),
+]))

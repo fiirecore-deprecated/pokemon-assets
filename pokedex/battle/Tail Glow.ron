@@ -1,7 +1,3 @@
-("tail-glow", (
-    execute: Actions([
-        Stat(Basic(SpAttack), 3),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("tail-glow", Actions([
+    Stat(Basic(SpAttack), 3),
+]))

@@ -1,7 +1,3 @@
-("water-spout", (
-    execute: Actions([
-        Damage(Power(150)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("water-spout", Actions([
+    Damage(Power(150)),
+]))

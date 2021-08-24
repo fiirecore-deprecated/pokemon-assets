@@ -1,8 +1,4 @@
-("poison-jab", (
-    execute: Actions([
-        Damage(Power(80)),
-        Ailment(Poison, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("poison-jab", Actions([
+    Damage(Power(80)),
+    Ailment(Poison, Permanent, 30),
+]))

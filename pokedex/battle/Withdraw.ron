@@ -1,7 +1,3 @@
-("withdraw", (
-    execute: Actions([
-        Stat(Basic(Defense), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("withdraw", Actions([
+    Stat(Basic(Defense), 1),
+]))

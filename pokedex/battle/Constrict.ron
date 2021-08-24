@@ -1,10 +1,6 @@
-("constrict", (
-    execute: Actions([
-        Damage(Power(10)),
-        Chance([
-            Stat(Basic(Speed), -1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("constrict", Actions([
+    Damage(Power(10)),
+    Chance([
+        Stat(Basic(Speed), -1),
+    ], 10),
+]))

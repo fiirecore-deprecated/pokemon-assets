@@ -1,5 +1,1 @@
-("nature-power", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("nature-power", None)

@@ -1,7 +1,3 @@
-("shadow-claw", (
-    execute: Actions([
-        Damage(Power(70)),
-    ]),
-    contact: false,
-    crit_rate: 1,
-))
+("shadow-claw", Actions([
+    Damage(Power(70)),
+]))

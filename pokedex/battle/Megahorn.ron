@@ -1,7 +1,3 @@
-("megahorn", (
-    execute: Actions([
-        Damage(Power(120)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("megahorn", Actions([
+    Damage(Power(120)),
+]))

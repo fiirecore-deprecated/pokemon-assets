@@ -1,5 +1,1 @@
-("assist", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("assist", None)

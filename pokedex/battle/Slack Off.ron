@@ -1,5 +1,1 @@
-("slack-off", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("slack-off", None)

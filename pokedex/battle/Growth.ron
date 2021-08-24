@@ -1,8 +1,4 @@
-("growth", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-        Stat(Basic(SpAttack), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("growth", Actions([
+    Stat(Basic(Attack), 1),
+    Stat(Basic(SpAttack), 1),
+]))

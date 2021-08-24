@@ -1,7 +1,3 @@
-("surf", (
-    execute: Actions([
-        Damage(Power(90)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("surf", Actions([
+    Damage(Power(90)),
+]))

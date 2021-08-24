@@ -1,5 +1,1 @@
-("heal-order", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("heal-order", None)

@@ -8,5 +8,7 @@
     pp: 5,
     priority: 0,
     target: AllOpponents,
+    contact: false,
+    crit_rate: 0,
     world: false,
 )

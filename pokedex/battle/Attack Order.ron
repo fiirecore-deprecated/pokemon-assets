@@ -1,7 +1,3 @@
-("attack-order", (
-    execute: Actions([
-        Damage(Power(90)),
-    ]),
-    contact: false,
-    crit_rate: 1,
-))
+("attack-order", Actions([
+    Damage(Power(90)),
+]))

@@ -1,5 +1,1 @@
-("endeavor", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("endeavor", None)

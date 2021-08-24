@@ -1,8 +1,4 @@
-("flamethrower", (
-    execute: Actions([
-        Damage(Power(90)),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flamethrower", Actions([
+    Damage(Power(90)),
+    Ailment(Burn, Permanent, 10),
+]))

@@ -1,7 +1,3 @@
-("howl", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("howl", Actions([
+    Stat(Basic(Attack), 1),
+]))

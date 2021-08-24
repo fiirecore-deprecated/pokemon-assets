@@ -1,5 +1,1 @@
-("mirror-coat", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("mirror-coat", None)

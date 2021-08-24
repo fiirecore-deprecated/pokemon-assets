@@ -1,7 +1,3 @@
-("kinesis", (
-    execute: Actions([
-        Stat(Accuracy, -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("kinesis", Actions([
+    Stat(Accuracy, -1),
+]))

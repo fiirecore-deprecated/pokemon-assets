@@ -1,5 +1,1 @@
-("soak", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("soak", None)

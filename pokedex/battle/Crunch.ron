@@ -1,10 +1,6 @@
-("crunch", (
-    execute: Actions([
-        Damage(Power(80)),
-        Chance([
-            Stat(Basic(Defense), -1),
-        ], 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("crunch", Actions([
+    Damage(Power(80)),
+    Chance([
+        Stat(Basic(Defense), -1),
+    ], 20),
+]))

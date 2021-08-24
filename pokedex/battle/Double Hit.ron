@@ -1,7 +1,3 @@
-("double-hit", (
-    execute: Actions([
-        Damage(Power(35)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("double-hit", Actions([
+    Damage(Power(35)),
+]))

@@ -1,8 +1,4 @@
-("flare-blitz", (
-    execute: Actions([
-        Drain(Power(120), -33),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flare-blitz", Actions([
+    Drain(Power(120), -33),
+    Ailment(Burn, Permanent, 10),
+]))

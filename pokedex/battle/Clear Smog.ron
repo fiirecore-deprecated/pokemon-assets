@@ -1,7 +1,3 @@
-("clear-smog", (
-    execute: Actions([
-        Damage(Power(50)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("clear-smog", Actions([
+    Damage(Power(50)),
+]))

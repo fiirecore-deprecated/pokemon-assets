@@ -1,5 +1,1 @@
-("perish-song", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("perish-song", None)

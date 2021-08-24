@@ -1,7 +1,3 @@
-("harden", (
-    execute: Actions([
-        Stat(Basic(Defense), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("harden", Actions([
+    Stat(Basic(Defense), 1),
+]))

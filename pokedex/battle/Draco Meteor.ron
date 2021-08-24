@@ -1,8 +1,4 @@
-("draco-meteor", (
-    execute: Actions([
-        Damage(Power(130)),
-        Stat(Basic(SpAttack), -2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("draco-meteor", Actions([
+    Damage(Power(130)),
+    Stat(Basic(SpAttack), -2),
+]))

@@ -1,7 +1,3 @@
-("techno-blast", (
-    execute: Actions([
-        Damage(Power(120)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("techno-blast", Actions([
+    Damage(Power(120)),
+]))

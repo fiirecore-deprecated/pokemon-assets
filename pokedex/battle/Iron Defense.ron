@@ -1,7 +1,3 @@
-("iron-defense", (
-    execute: Actions([
-        Stat(Basic(Defense), 2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("iron-defense", Actions([
+    Stat(Basic(Defense), 2),
+]))

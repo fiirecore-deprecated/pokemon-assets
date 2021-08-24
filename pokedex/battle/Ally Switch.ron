@@ -1,5 +1,1 @@
-("ally-switch", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("ally-switch", None)

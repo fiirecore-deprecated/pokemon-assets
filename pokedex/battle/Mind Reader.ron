@@ -1,5 +1,1 @@
-("mind-reader", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("mind-reader", None)

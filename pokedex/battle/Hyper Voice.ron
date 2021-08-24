@@ -1,7 +1,3 @@
-("hyper-voice", (
-    execute: Actions([
-        Damage(Power(90)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("hyper-voice", Actions([
+    Damage(Power(90)),
+]))

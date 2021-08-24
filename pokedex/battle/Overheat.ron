@@ -1,8 +1,4 @@
-("overheat", (
-    execute: Actions([
-        Damage(Power(130)),
-        Stat(Basic(SpAttack), -2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("overheat", Actions([
+    Damage(Power(130)),
+    Stat(Basic(SpAttack), -2),
+]))

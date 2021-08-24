@@ -1,7 +1,3 @@
-("knock-off", (
-    execute: Actions([
-        Damage(Power(65)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("knock-off", Actions([
+    Damage(Power(65)),
+]))

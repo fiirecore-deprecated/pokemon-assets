@@ -1,5 +1,1 @@
-("baton-pass", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("baton-pass", None)

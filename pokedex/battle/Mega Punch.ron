@@ -1,7 +1,3 @@
-("mega-punch", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("mega-punch", Actions([
+    Damage(Power(80)),
+]))

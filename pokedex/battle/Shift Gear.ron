@@ -1,8 +1,4 @@
-("shift-gear", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-        Stat(Basic(Speed), 2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("shift-gear", Actions([
+    Stat(Basic(Attack), 1),
+    Stat(Basic(Speed), 2),
+]))

@@ -1,5 +1,1 @@
-("wring-out", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("wring-out", None)

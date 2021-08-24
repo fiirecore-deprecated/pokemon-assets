@@ -1,7 +1,3 @@
-("pursuit", (
-    execute: Actions([
-        Damage(Power(40)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("pursuit", Actions([
+    Damage(Power(40)),
+]))

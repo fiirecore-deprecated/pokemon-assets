@@ -1,5 +1,1 @@
-("conversion-2", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("conversion-2", None)

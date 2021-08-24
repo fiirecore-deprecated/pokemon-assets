@@ -1,5 +1,1 @@
-("electro-ball", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("electro-ball", None)

@@ -1,7 +1,3 @@
-("slam", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("slam", Actions([
+    Damage(Power(80)),
+]))

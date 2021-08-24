@@ -1,7 +1,3 @@
-("explosion", (
-    execute: Actions([
-        Damage(Power(250)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("explosion", Actions([
+    Damage(Power(250)),
+]))

@@ -1,7 +1,3 @@
-("seed-bomb", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("seed-bomb", Actions([
+    Damage(Power(80)),
+]))

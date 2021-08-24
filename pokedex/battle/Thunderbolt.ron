@@ -1,8 +1,4 @@
-("thunderbolt", (
-    execute: Actions([
-        Damage(Power(90)),
-        Ailment(Paralysis, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("thunderbolt", Actions([
+    Damage(Power(90)),
+    Ailment(Paralysis, Permanent, 10),
+]))

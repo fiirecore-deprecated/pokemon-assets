@@ -1,7 +1,3 @@
-("growl", (
-    execute: Actions([
-        Stat(Basic(Attack), -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("growl", Actions([
+    Stat(Basic(Attack), -1),
+]))

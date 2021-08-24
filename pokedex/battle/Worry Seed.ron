@@ -1,5 +1,1 @@
-("worry-seed", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("worry-seed", None)

@@ -1,5 +1,1 @@
-("magic-coat", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("magic-coat", None)

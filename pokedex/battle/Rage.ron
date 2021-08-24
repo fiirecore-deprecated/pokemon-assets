@@ -1,7 +1,3 @@
-("rage", (
-    execute: Actions([
-        Damage(Power(20)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("rage", Actions([
+    Damage(Power(20)),
+]))

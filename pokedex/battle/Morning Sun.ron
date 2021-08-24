@@ -1,5 +1,1 @@
-("morning-sun", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("morning-sun", None)

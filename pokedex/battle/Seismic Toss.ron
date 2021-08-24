@@ -1,5 +1,1 @@
-("seismic-toss", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("seismic-toss", None)

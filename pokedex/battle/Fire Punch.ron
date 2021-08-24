@@ -1,8 +1,4 @@
-("fire-punch", (
-    execute: Actions([
-        Damage(Power(75)),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("fire-punch", Actions([
+    Damage(Power(75)),
+    Ailment(Burn, Permanent, 10),
+]))

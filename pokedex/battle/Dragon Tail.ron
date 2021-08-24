@@ -1,7 +1,3 @@
-("dragon-tail", (
-    execute: Actions([
-        Damage(Power(60)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dragon-tail", Actions([
+    Damage(Power(60)),
+]))

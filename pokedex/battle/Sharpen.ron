@@ -1,7 +1,3 @@
-("sharpen", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("sharpen", Actions([
+    Stat(Basic(Attack), 1),
+]))

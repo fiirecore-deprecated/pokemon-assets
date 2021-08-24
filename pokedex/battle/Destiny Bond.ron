@@ -1,5 +1,1 @@
-("destiny-bond", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("destiny-bond", None)

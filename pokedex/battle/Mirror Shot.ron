@@ -1,10 +1,6 @@
-("mirror-shot", (
-    execute: Actions([
-        Damage(Power(65)),
-        Chance([
-            Stat(Accuracy, -1),
-        ], 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("mirror-shot", Actions([
+    Damage(Power(65)),
+    Chance([
+        Stat(Accuracy, -1),
+    ], 30),
+]))

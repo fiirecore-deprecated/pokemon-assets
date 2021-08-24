@@ -1,7 +1,3 @@
-("drill-peck", (
-    execute: Actions([
-        Damage(Power(80)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("drill-peck", Actions([
+    Damage(Power(80)),
+]))

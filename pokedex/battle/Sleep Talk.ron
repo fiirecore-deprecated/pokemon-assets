@@ -1,5 +1,1 @@
-("sleep-talk", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("sleep-talk", None)

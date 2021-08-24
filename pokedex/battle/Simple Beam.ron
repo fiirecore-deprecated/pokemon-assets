@@ -1,5 +1,1 @@
-("simple-beam", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("simple-beam", None)

@@ -1,8 +1,4 @@
-("acid-spray", (
-    execute: Actions([
-        Damage(Power(40)),
-        Stat(Basic(SpDefense), -2),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("acid-spray", Actions([
+    Damage(Power(40)),
+    Stat(Basic(SpDefense), -2),
+]))

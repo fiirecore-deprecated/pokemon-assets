@@ -1,5 +1,1 @@
-("leech-seed", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("leech-seed", None)

@@ -1,7 +1,3 @@
-("dragon-pulse", (
-    execute: Actions([
-        Damage(Power(85)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dragon-pulse", Actions([
+    Damage(Power(85)),
+]))

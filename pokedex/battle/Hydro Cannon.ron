@@ -1,7 +1,3 @@
-("hydro-cannon", (
-    execute: Actions([
-        Damage(Power(150)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("hydro-cannon", Actions([
+    Damage(Power(150)),
+]))

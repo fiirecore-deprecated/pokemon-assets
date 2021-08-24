@@ -1,7 +1,3 @@
-("fury-swipes", (
-    execute: Actions([
-        Damage(Power(18)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("fury-swipes", Actions([
+    Damage(Power(18)),
+]))

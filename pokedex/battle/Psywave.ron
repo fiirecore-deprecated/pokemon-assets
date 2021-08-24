@@ -1,5 +1,1 @@
-("psywave", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("psywave", None)

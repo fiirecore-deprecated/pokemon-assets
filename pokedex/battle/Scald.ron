@@ -1,8 +1,4 @@
-("scald", (
-    execute: Actions([
-        Damage(Power(80)),
-        Ailment(Burn, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("scald", Actions([
+    Damage(Power(80)),
+    Ailment(Burn, Permanent, 30),
+]))

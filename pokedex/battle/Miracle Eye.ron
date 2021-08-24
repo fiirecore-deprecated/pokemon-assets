@@ -1,5 +1,1 @@
-("miracle-eye", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("miracle-eye", None)

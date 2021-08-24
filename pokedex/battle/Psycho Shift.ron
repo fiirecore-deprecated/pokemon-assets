@@ -1,5 +1,1 @@
-("psycho-shift", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("psycho-shift", None)

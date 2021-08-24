@@ -1,7 +1,3 @@
-("flatter", (
-    execute: Actions([
-        Stat(Basic(SpAttack), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flatter", Actions([
+    Stat(Basic(SpAttack), 1),
+]))

@@ -1,5 +1,1 @@
-("healing-wish", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("healing-wish", None)

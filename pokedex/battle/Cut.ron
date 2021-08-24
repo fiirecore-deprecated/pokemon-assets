@@ -1,7 +1,3 @@
-("cut", (
-    execute: Actions([
-        Damage(Power(50)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("cut", Actions([
+    Damage(Power(50)),
+]))

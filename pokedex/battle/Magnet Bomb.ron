@@ -1,7 +1,3 @@
-("magnet-bomb", (
-    execute: Actions([
-        Damage(Power(60)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("magnet-bomb", Actions([
+    Damage(Power(60)),
+]))

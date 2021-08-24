@@ -1,7 +1,3 @@
-("leech-life", (
-    execute: Actions([
-        Drain(Power(80), 50),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("leech-life", Actions([
+    Drain(Power(80), 50),
+]))

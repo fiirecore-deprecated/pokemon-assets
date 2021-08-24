@@ -1,10 +1,6 @@
-("dragon-rush", (
-    execute: Actions([
-        Damage(Power(100)),
-        Chance([
-            Flinch,
-        ], 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("dragon-rush", Actions([
+    Damage(Power(100)),
+    Chance([
+        Flinch,
+    ], 20),
+]))

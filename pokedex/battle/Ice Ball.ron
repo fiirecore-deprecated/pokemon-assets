@@ -1,7 +1,3 @@
-("ice-ball", (
-    execute: Actions([
-        Damage(Power(30)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("ice-ball", Actions([
+    Damage(Power(30)),
+]))

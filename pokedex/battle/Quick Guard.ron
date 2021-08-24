@@ -1,5 +1,1 @@
-("quick-guard", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("quick-guard", None)

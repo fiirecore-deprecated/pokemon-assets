@@ -1,8 +1,4 @@
-("gunk-shot", (
-    execute: Actions([
-        Damage(Power(120)),
-        Ailment(Poison, Permanent, 30),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("gunk-shot", Actions([
+    Damage(Power(120)),
+    Ailment(Poison, Permanent, 30),
+]))

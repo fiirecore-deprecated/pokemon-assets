@@ -1,8 +1,4 @@
-("bulk-up", (
-    execute: Actions([
-        Stat(Basic(Attack), 1),
-        Stat(Basic(Defense), 1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("bulk-up", Actions([
+    Stat(Basic(Attack), 1),
+    Stat(Basic(Defense), 1),
+]))

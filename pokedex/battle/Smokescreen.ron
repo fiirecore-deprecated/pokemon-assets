@@ -1,7 +1,3 @@
-("smokescreen", (
-    execute: Actions([
-        Stat(Accuracy, -1),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("smokescreen", Actions([
+    Stat(Accuracy, -1),
+]))

@@ -1,5 +1,1 @@
-("me-first", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("me-first", None)

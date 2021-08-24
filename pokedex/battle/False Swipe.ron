@@ -1,5 +1,1 @@
-("false-swipe", (
-    execute: Script("false-swipe"),
-    contact: false,
-    crit_rate: 0,
-))
+("false-swipe", Script)

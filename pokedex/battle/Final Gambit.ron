@@ -1,5 +1,1 @@
-("final-gambit", (
-    execute: None,
-    contact: false,
-    crit_rate: 0,
-))
+("final-gambit", None)

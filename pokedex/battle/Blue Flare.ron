@@ -1,8 +1,4 @@
-("blue-flare", (
-    execute: Actions([
-        Damage(Power(130)),
-        Ailment(Burn, Permanent, 20),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("blue-flare", Actions([
+    Damage(Power(130)),
+    Ailment(Burn, Permanent, 20),
+]))

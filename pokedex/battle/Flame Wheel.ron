@@ -1,8 +1,4 @@
-("flame-wheel", (
-    execute: Actions([
-        Damage(Power(60)),
-        Ailment(Burn, Permanent, 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("flame-wheel", Actions([
+    Damage(Power(60)),
+    Ailment(Burn, Permanent, 10),
+]))

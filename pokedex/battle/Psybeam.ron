@@ -1,7 +1,3 @@
-("psybeam", (
-    execute: Actions([
-        Damage(Power(65)),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("psybeam", Actions([
+    Damage(Power(65)),
+]))

@@ -1,10 +1,6 @@
-("steel-wing", (
-    execute: Actions([
-        Damage(Power(70)),
-        Chance([
-            Stat(Basic(Defense), 1),
-        ], 10),
-    ]),
-    contact: false,
-    crit_rate: 0,
-))
+("steel-wing", Actions([
+    Damage(Power(70)),
+    Chance([
+        Stat(Basic(Defense), 1),
+    ], 10),
+]))
