@@ -1,11 +1,7 @@
 (
     id: "antidote",
     name: "Antidote",
-    description: [
-        "A spray-type medicine.",
-        "It heals one POKEMON from a",
-        "poisoning."
-    ],
+    description: "A spray-type medicine.\nIt heals one POKEMON from a\npoisoning.",
     usage: (
         consume: true,
         type: Actions([

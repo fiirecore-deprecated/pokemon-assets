@@ -1,9 +1,7 @@
 (
     id: "hyper_potion",
     name: "Hyper Potion",
-    description: [
-        "Heals a pokemon for 200 HP."
-    ],
+    description: "Heals a pokemon for 200 HP.",
     usage: (
         consume: true,
         type: Actions([
