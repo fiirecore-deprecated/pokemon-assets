@@ -10,5 +10,5 @@
     target: AllOtherPokemon,
     contact: false,
     crit_rate: 0,
-    world: false,
+    //world: false,
 )

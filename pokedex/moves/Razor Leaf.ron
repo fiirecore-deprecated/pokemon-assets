@@ -10,5 +10,5 @@
     target: AllOpponents,
     contact: false,
     crit_rate: 1,
-    world: false,
+    //world: false,
 )
