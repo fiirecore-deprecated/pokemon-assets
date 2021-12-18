@@ -28,11 +28,12 @@
         speed: 60,
     ),
     species: "Whiskers",
+    evolution: None,
     height: 9,
     weight: 236,
     training: (
         base_exp: 164,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

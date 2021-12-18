@@ -25,11 +25,12 @@
         speed: 70,
     ),
     species: "Owl",
+    evolution: None,
     height: 16,
     weight: 408,
     training: (
         base_exp: 158,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

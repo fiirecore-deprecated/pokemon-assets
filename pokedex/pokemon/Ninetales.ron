@@ -19,11 +19,12 @@
         speed: 100,
     ),
     species: "Fox",
+    evolution: None,
     height: 11,
     weight: 199,
     training: (
         base_exp: 177,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(6),

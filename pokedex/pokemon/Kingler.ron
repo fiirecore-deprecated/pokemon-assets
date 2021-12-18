@@ -28,11 +28,12 @@
         speed: 75,
     ),
     species: "Pincer",
+    evolution: None,
     height: 13,
     weight: 600,
     training: (
         base_exp: 166,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

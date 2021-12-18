@@ -23,11 +23,12 @@
         speed: 55,
     ),
     species: "Evolution",
+    evolution: None,
     height: 3,
     weight: 65,
     training: (
         base_exp: 65,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(1),

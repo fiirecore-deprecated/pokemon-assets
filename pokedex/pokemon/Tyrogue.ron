@@ -15,11 +15,12 @@
         speed: 35,
     ),
     species: "Scuffle",
+    evolution: None,
     height: 7,
     weight: 210,
     training: (
         base_exp: 42,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(0),

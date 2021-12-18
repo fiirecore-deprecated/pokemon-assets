@@ -25,11 +25,12 @@
         speed: 90,
     ),
     species: "Continent",
+    evolution: None,
     height: 35,
     weight: 9500,
     training: (
         base_exp: 302,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

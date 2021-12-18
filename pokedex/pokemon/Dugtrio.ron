@@ -27,11 +27,12 @@
         speed: 120,
     ),
     species: "Mole",
+    evolution: None,
     height: 7,
     weight: 333,
     training: (
         base_exp: 149,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

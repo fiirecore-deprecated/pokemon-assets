@@ -23,11 +23,12 @@
         speed: 30,
     ),
     species: "Imitation",
+    evolution: None,
     height: 12,
     weight: 380,
     training: (
         base_exp: 144,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

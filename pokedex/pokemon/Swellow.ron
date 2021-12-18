@@ -25,11 +25,12 @@
         speed: 125,
     ),
     species: "Swallow",
+    evolution: None,
     height: 7,
     weight: 198,
     training: (
         base_exp: 159,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

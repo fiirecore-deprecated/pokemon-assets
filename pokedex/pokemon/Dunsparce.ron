@@ -25,11 +25,12 @@
         speed: 45,
     ),
     species: "Land",
+    evolution: None,
     height: 15,
     weight: 140,
     training: (
         base_exp: 145,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

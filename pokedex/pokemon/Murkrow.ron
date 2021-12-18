@@ -22,11 +22,12 @@
         speed: 91,
     ),
     species: "Darkness",
+    evolution: None,
     height: 5,
     weight: 21,
     training: (
         base_exp: 81,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

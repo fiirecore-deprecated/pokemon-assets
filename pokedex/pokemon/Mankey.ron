@@ -25,11 +25,12 @@
         speed: 70,
     ),
     species: "Pig",
+    evolution: None,
     height: 5,
     weight: 280,
     training: (
         base_exp: 61,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

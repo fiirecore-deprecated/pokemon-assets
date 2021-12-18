@@ -18,11 +18,12 @@
         speed: 110,
     ),
     species: "Mouse",
+    evolution: None,
     height: 8,
     weight: 300,
     training: (
         base_exp: 218,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

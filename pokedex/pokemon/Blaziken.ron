@@ -30,11 +30,12 @@
         speed: 80,
     ),
     species: "Blaze",
+    evolution: None,
     height: 19,
     weight: 520,
     training: (
         base_exp: 239,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

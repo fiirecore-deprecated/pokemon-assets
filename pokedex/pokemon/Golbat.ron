@@ -27,11 +27,12 @@
         speed: 90,
     ),
     species: "Bat",
+    evolution: None,
     height: 16,
     weight: 550,
     training: (
         base_exp: 159,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

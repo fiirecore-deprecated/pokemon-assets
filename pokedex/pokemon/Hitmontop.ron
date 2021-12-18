@@ -25,11 +25,12 @@
         speed: 70,
     ),
     species: "Handstand",
+    evolution: None,
     height: 14,
     weight: 480,
     training: (
         base_exp: 159,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(0),

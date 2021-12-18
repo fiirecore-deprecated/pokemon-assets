@@ -26,11 +26,12 @@
         speed: 65,
     ),
     species: "Wind",
+    evolution: None,
     height: 6,
     weight: 10,
     training: (
         base_exp: 159,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

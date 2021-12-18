@@ -27,11 +27,12 @@
         speed: 25,
     ),
     species: "Guts",
+    evolution: None,
     height: 10,
     weight: 864,
     training: (
         base_exp: 47,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(2),

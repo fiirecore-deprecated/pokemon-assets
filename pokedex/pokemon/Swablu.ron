@@ -25,11 +25,12 @@
         speed: 50,
     ),
     species: "Cotton",
+    evolution: None,
     height: 4,
     weight: 12,
     training: (
         base_exp: 62,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

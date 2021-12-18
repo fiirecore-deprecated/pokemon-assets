@@ -28,11 +28,12 @@
         speed: 100,
     ),
     species: "Rushing",
+    evolution: None,
     height: 5,
     weight: 325,
     training: (
         base_exp: 147,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

@@ -25,11 +25,12 @@
         speed: 40,
     ),
     species: "Bagworm",
+    evolution: None,
     height: 12,
     weight: 1258,
     training: (
         base_exp: 163,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

@@ -25,11 +25,12 @@
         speed: 60,
     ),
     species: "Virtual",
+    evolution: None,
     height: 6,
     weight: 325,
     training: (
         base_exp: 180,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

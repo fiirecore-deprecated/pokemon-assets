@@ -26,11 +26,12 @@
         speed: 100,
     ),
     species: "Mystic",
+    evolution: None,
     height: 20,
     weight: 820,
     training: (
         base_exp: 234,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

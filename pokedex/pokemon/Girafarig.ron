@@ -24,11 +24,12 @@
         speed: 85,
     ),
     species: "Long",
+    evolution: None,
     height: 15,
     weight: 415,
     training: (
         base_exp: 159,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

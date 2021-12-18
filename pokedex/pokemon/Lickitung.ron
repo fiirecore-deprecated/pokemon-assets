@@ -24,11 +24,12 @@
         speed: 30,
     ),
     species: "Licking",
+    evolution: None,
     height: 12,
     weight: 655,
     training: (
         base_exp: 77,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

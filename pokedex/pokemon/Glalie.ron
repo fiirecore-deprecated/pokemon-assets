@@ -28,11 +28,12 @@
         speed: 80,
     ),
     species: "Face",
+    evolution: None,
     height: 15,
     weight: 2565,
     training: (
         base_exp: 168,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

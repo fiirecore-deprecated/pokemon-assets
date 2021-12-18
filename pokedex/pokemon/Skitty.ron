@@ -26,11 +26,12 @@
         speed: 50,
     ),
     species: "Kitten",
+    evolution: None,
     height: 6,
     weight: 110,
     training: (
         base_exp: 52,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

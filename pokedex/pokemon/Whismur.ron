@@ -25,11 +25,12 @@
         speed: 28,
     ),
     species: "Whisper",
+    evolution: None,
     height: 6,
     weight: 163,
     training: (
         base_exp: 48,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

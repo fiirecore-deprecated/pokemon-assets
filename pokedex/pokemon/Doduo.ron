@@ -23,11 +23,12 @@
         speed: 75,
     ),
     species: "Twin",
+    evolution: None,
     height: 14,
     weight: 392,
     training: (
         base_exp: 62,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

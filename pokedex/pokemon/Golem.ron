@@ -27,11 +27,12 @@
         speed: 45,
     ),
     species: "Megaton",
+    evolution: None,
     height: 14,
     weight: 3000,
     training: (
         base_exp: 223,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

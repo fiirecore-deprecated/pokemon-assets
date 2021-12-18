@@ -22,11 +22,12 @@
         speed: 52,
     ),
     species: "Deep",
+    evolution: None,
     height: 17,
     weight: 270,
     training: (
         base_exp: 170,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

@@ -27,11 +27,12 @@
         speed: 43,
     ),
     species: "Barnacle",
+    evolution: None,
     height: 15,
     weight: 604,
     training: (
         base_exp: 173,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(1),

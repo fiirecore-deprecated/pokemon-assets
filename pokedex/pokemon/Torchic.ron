@@ -25,11 +25,12 @@
         speed: 45,
     ),
     species: "Chick",
+    evolution: None,
     height: 4,
     weight: 25,
     training: (
         base_exp: 62,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

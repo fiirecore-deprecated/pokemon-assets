@@ -25,11 +25,12 @@
         speed: 42,
     ),
     species: "Hypnosis",
+    evolution: None,
     height: 10,
     weight: 324,
     training: (
         base_exp: 66,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

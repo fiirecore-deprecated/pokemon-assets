@@ -24,11 +24,12 @@
         speed: 110,
     ),
     species: "Diving",
+    evolution: None,
     height: 52,
     weight: 2160,
     training: (
         base_exp: 306,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

@@ -28,11 +28,12 @@
         speed: 70,
     ),
     species: "Mushroom",
+    evolution: None,
     height: 12,
     weight: 392,
     training: (
         base_exp: 161,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

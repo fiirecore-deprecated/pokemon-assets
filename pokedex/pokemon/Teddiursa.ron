@@ -24,11 +24,12 @@
         speed: 40,
     ),
     species: "Little",
+    evolution: None,
     height: 6,
     weight: 88,
     training: (
         base_exp: 66,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

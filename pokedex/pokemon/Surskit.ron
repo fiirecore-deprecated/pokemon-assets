@@ -22,11 +22,12 @@
         speed: 65,
     ),
     species: "Pond",
+    evolution: None,
     height: 5,
     weight: 17,
     training: (
         base_exp: 54,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

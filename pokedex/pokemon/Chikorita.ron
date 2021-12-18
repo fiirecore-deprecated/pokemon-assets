@@ -24,11 +24,12 @@
         speed: 45,
     ),
     species: "Leaf",
+    evolution: None,
     height: 9,
     weight: 64,
     training: (
         base_exp: 64,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

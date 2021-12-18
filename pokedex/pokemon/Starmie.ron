@@ -19,11 +19,12 @@
         speed: 115,
     ),
     species: "Mysterious",
+    evolution: None,
     height: 11,
     weight: 800,
     training: (
         base_exp: 182,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

@@ -29,11 +29,12 @@
         speed: 55,
     ),
     species: "Rogue",
+    evolution: None,
     height: 11,
     weight: 328,
     training: (
         base_exp: 164,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

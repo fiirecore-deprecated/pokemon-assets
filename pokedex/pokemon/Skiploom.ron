@@ -27,11 +27,12 @@
         speed: 80,
     ),
     species: "Cottonweed",
+    evolution: None,
     height: 6,
     weight: 10,
     training: (
         base_exp: 119,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

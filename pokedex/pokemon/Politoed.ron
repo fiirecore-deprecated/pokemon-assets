@@ -20,11 +20,12 @@
         speed: 70,
     ),
     species: "Frog",
+    evolution: None,
     height: 11,
     weight: 339,
     training: (
         base_exp: 225,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

@@ -24,11 +24,12 @@
         speed: 40,
     ),
     species: "Trainee",
+    evolution: None,
     height: 5,
     weight: 55,
     training: (
         base_exp: 53,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

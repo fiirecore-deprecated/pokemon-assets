@@ -28,11 +28,12 @@
         speed: 30,
     ),
     species: "Sleeping",
+    evolution: None,
     height: 21,
     weight: 4600,
     training: (
         base_exp: 189,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(1),

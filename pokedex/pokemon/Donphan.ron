@@ -23,11 +23,12 @@
         speed: 50,
     ),
     species: "Armor",
+    evolution: None,
     height: 11,
     weight: 1200,
     training: (
         base_exp: 175,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

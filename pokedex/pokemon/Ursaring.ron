@@ -26,11 +26,12 @@
         speed: 55,
     ),
     species: "Hibernator",
+    evolution: None,
     height: 18,
     weight: 1258,
     training: (
         base_exp: 175,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

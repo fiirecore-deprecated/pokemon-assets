@@ -28,11 +28,12 @@
         speed: 25,
     ),
     species: "Beckon",
+    evolution: None,
     height: 16,
     weight: 306,
     training: (
         base_exp: 159,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

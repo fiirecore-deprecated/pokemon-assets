@@ -23,11 +23,12 @@
         speed: 70,
     ),
     species: "Jellyfish",
+    evolution: None,
     height: 9,
     weight: 455,
     training: (
         base_exp: 67,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

@@ -24,11 +24,12 @@
         speed: 85,
     ),
     species: "Firefly",
+    evolution: None,
     height: 7,
     weight: 177,
     training: (
         base_exp: 151,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(0),

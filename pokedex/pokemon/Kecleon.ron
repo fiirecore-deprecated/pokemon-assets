@@ -27,11 +27,12 @@
         speed: 40,
     ),
     species: "Color",
+    evolution: None,
     height: 10,
     weight: 220,
     training: (
         base_exp: 154,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

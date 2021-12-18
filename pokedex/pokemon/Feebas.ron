@@ -17,11 +17,12 @@
         speed: 80,
     ),
     species: "Fish",
+    evolution: None,
     height: 6,
     weight: 74,
     training: (
         base_exp: 40,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

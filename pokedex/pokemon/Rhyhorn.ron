@@ -24,11 +24,12 @@
         speed: 25,
     ),
     species: "Spikes",
+    evolution: None,
     height: 10,
     weight: 1150,
     training: (
         base_exp: 69,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

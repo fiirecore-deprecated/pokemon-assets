@@ -26,11 +26,12 @@
         speed: 100,
     ),
     species: "Lazy",
+    evolution: None,
     height: 20,
     weight: 1305,
     training: (
         base_exp: 252,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

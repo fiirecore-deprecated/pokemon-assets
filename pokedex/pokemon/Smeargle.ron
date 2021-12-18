@@ -24,11 +24,12 @@
         speed: 75,
     ),
     species: "Painter",
+    evolution: None,
     height: 12,
     weight: 580,
     training: (
         base_exp: 88,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

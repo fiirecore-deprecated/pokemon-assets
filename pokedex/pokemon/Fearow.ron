@@ -24,11 +24,12 @@
         speed: 100,
     ),
     species: "Beak",
+    evolution: None,
     height: 12,
     weight: 380,
     training: (
         base_exp: 155,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

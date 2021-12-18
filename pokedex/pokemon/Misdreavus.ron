@@ -24,11 +24,12 @@
         speed: 85,
     ),
     species: "Screech",
+    evolution: None,
     height: 7,
     weight: 10,
     training: (
         base_exp: 87,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

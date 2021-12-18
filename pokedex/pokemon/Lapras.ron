@@ -26,11 +26,12 @@
         speed: 60,
     ),
     species: "Transport",
+    evolution: None,
     height: 25,
     weight: 2200,
     training: (
         base_exp: 187,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

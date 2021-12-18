@@ -24,11 +24,12 @@
         speed: 55,
     ),
     species: "Light",
+    evolution: None,
     height: 14,
     weight: 615,
     training: (
         base_exp: 230,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

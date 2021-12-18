@@ -18,11 +18,12 @@
         speed: 80,
     ),
     species: "Wicked",
+    evolution: None,
     height: 13,
     weight: 596,
     training: (
         base_exp: 216,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

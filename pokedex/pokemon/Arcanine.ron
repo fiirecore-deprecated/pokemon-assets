@@ -19,11 +19,12 @@
         speed: 95,
     ),
     species: "Legendary",
+    evolution: None,
     height: 19,
     weight: 1550,
     training: (
         base_exp: 194,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(2),

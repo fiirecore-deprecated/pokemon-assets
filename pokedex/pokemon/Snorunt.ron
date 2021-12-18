@@ -25,11 +25,12 @@
         speed: 50,
     ),
     species: "Snow",
+    evolution: None,
     height: 7,
     weight: 168,
     training: (
         base_exp: 60,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

@@ -29,11 +29,12 @@
         speed: 160,
     ),
     species: "Ninja",
+    evolution: None,
     height: 8,
     weight: 120,
     training: (
         base_exp: 160,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

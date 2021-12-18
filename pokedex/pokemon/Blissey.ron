@@ -26,11 +26,12 @@
         speed: 55,
     ),
     species: "Happiness",
+    evolution: None,
     height: 15,
     weight: 468,
     training: (
         base_exp: 608,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(8),

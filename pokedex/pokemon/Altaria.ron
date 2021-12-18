@@ -29,11 +29,12 @@
         speed: 80,
     ),
     species: "Humming",
+    evolution: None,
     height: 11,
     weight: 206,
     training: (
         base_exp: 172,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

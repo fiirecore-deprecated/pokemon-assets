@@ -25,11 +25,12 @@
         speed: 65,
     ),
     species: "Lightning",
+    evolution: None,
     height: 6,
     weight: 152,
     training: (
         base_exp: 59,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

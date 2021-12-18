@@ -23,11 +23,12 @@
         speed: 45,
     ),
     species: "Jet",
+    evolution: None,
     height: 9,
     weight: 285,
     training: (
         base_exp: 168,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

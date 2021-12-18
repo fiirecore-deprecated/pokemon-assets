@@ -17,11 +17,12 @@
         speed: 20,
     ),
     species: "Worm",
+    evolution: None,
     height: 3,
     weight: 36,
     training: (
         base_exp: 56,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

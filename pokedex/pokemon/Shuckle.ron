@@ -21,11 +21,12 @@
         speed: 5,
     ),
     species: "Mold",
+    evolution: None,
     height: 6,
     weight: 205,
     training: (
         base_exp: 177,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

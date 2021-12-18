@@ -27,11 +27,12 @@
         speed: 80,
     ),
     species: "Cobra",
+    evolution: None,
     height: 35,
     weight: 650,
     training: (
         base_exp: 157,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

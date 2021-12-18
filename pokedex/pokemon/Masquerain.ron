@@ -26,11 +26,12 @@
         speed: 80,
     ),
     species: "Eyeball",
+    evolution: None,
     height: 8,
     weight: 36,
     training: (
         base_exp: 159,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

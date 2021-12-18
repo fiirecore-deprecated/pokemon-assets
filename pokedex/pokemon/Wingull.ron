@@ -22,11 +22,12 @@
         speed: 85,
     ),
     species: "Seagull",
+    evolution: None,
     height: 6,
     weight: 95,
     training: (
         base_exp: 54,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

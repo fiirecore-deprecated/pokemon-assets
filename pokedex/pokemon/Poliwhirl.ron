@@ -24,11 +24,12 @@
         speed: 90,
     ),
     species: "Tadpole",
+    evolution: None,
     height: 10,
     weight: 200,
     training: (
         base_exp: 135,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

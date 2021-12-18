@@ -24,11 +24,12 @@
         speed: 40,
     ),
     species: "Shed",
+    evolution: None,
     height: 8,
     weight: 12,
     training: (
         base_exp: 83,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: None,

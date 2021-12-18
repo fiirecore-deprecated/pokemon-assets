@@ -20,11 +20,12 @@
         speed: 20,
     ),
     species: "Polka",
+    evolution: None,
     height: 2,
     weight: 20,
     training: (
         base_exp: 38,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

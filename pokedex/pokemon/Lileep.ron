@@ -24,11 +24,12 @@
         speed: 23,
     ),
     species: "Sea",
+    evolution: None,
     height: 10,
     weight: 238,
     training: (
         base_exp: 71,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(1),

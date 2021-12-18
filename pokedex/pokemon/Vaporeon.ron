@@ -25,11 +25,12 @@
         speed: 65,
     ),
     species: "Bubble",
+    evolution: None,
     height: 10,
     weight: 290,
     training: (
         base_exp: 184,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(1),

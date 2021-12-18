@@ -20,11 +20,12 @@
         speed: 85,
     ),
     species: "Drill",
+    evolution: None,
     height: 14,
     weight: 620,
     training: (
         base_exp: 227,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(0),

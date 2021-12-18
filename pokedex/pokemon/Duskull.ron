@@ -25,11 +25,12 @@
         speed: 25,
     ),
     species: "Requiem",
+    evolution: None,
     height: 8,
     weight: 150,
     training: (
         base_exp: 59,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

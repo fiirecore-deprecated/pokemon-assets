@@ -23,11 +23,12 @@
         speed: 20,
     ),
     species: "Scout",
+    evolution: None,
     height: 8,
     weight: 60,
     training: (
         base_exp: 43,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

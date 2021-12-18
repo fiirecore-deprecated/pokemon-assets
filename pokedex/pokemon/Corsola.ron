@@ -24,11 +24,12 @@
         speed: 35,
     ),
     species: "Coral",
+    evolution: None,
     height: 6,
     weight: 50,
     training: (
         base_exp: 144,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

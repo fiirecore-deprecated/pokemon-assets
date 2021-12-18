@@ -24,11 +24,12 @@
         speed: 100,
     ),
     species: "Volcano",
+    evolution: None,
     height: 21,
     weight: 1980,
     training: (
         base_exp: 261,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

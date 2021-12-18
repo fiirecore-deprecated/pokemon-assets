@@ -29,11 +29,12 @@
         speed: 60,
     ),
     species: "Float",
+    evolution: None,
     height: 145,
     weight: 3980,
     training: (
         base_exp: 175,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

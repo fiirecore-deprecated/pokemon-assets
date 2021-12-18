@@ -24,11 +24,12 @@
         speed: 35,
     ),
     species: "Numb",
+    evolution: None,
     height: 7,
     weight: 240,
     training: (
         base_exp: 61,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

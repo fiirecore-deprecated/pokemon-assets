@@ -25,11 +25,12 @@
         speed: 30,
     ),
     species: "Lava",
+    evolution: None,
     height: 8,
     weight: 550,
     training: (
         base_exp: 151,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

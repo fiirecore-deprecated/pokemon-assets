@@ -25,11 +25,12 @@
         speed: 81,
     ),
     species: "Tender",
+    evolution: None,
     height: 62,
     weight: 1620,
     training: (
         base_exp: 189,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

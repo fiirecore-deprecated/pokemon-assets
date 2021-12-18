@@ -24,11 +24,12 @@
         speed: 65,
     ),
     species: "Butterfly",
+    evolution: None,
     height: 10,
     weight: 284,
     training: (
         base_exp: 178,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

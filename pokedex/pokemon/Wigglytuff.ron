@@ -18,11 +18,12 @@
         speed: 45,
     ),
     species: "Balloon",
+    evolution: None,
     height: 10,
     weight: 120,
     training: (
         base_exp: 196,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

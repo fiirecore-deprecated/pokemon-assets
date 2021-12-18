@@ -25,11 +25,12 @@
         speed: 75,
     ),
     species: "Disaster",
+    evolution: None,
     height: 12,
     weight: 470,
     training: (
         base_exp: 163,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

@@ -24,11 +24,12 @@
         speed: 60,
     ),
     species: "Wily",
+    evolution: None,
     height: 10,
     weight: 280,
     training: (
         base_exp: 119,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

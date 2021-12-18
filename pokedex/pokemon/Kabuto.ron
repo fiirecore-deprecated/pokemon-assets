@@ -24,11 +24,12 @@
         speed: 55,
     ),
     species: "Shellfish",
+    evolution: None,
     height: 5,
     weight: 115,
     training: (
         base_exp: 71,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(1),

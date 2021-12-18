@@ -30,11 +30,12 @@
         speed: 90,
     ),
     species: "Barrier",
+    evolution: None,
     height: 13,
     weight: 545,
     training: (
         base_exp: 161,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

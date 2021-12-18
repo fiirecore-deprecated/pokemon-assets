@@ -24,11 +24,12 @@
         speed: 65,
     ),
     species: "Dark",
+    evolution: None,
     height: 6,
     weight: 108,
     training: (
         base_exp: 66,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

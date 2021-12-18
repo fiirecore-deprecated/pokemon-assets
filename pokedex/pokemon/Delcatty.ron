@@ -18,11 +18,12 @@
         speed: 90,
     ),
     species: "Prim",
+    evolution: None,
     height: 11,
     weight: 326,
     training: (
         base_exp: 140,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

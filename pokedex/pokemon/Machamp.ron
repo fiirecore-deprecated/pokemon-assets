@@ -27,11 +27,12 @@
         speed: 55,
     ),
     species: "Superpower",
+    evolution: None,
     height: 16,
     weight: 1300,
     training: (
         base_exp: 227,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(2),

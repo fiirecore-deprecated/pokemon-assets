@@ -23,11 +23,12 @@
         speed: 55,
     ),
     species: "Duck",
+    evolution: None,
     height: 8,
     weight: 196,
     training: (
         base_exp: 64,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

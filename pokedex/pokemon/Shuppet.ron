@@ -24,11 +24,12 @@
         speed: 45,
     ),
     species: "Puppet",
+    evolution: None,
     height: 6,
     weight: 23,
     training: (
         base_exp: 59,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

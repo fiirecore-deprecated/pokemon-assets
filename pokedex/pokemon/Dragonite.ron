@@ -27,11 +27,12 @@
         speed: 80,
     ),
     species: "Dragon",
+    evolution: None,
     height: 22,
     weight: 2100,
     training: (
         base_exp: 270,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

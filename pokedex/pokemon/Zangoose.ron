@@ -25,11 +25,12 @@
         speed: 90,
     ),
     species: "Cat",
+    evolution: None,
     height: 13,
     weight: 403,
     training: (
         base_exp: 160,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

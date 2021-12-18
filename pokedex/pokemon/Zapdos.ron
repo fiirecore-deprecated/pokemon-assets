@@ -23,11 +23,12 @@
         speed: 100,
     ),
     species: "Electric",
+    evolution: None,
     height: 16,
     weight: 526,
     training: (
         base_exp: 261,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

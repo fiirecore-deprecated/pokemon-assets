@@ -26,11 +26,12 @@
         speed: 115,
     ),
     species: "Sharp",
+    evolution: None,
     height: 9,
     weight: 280,
     training: (
         base_exp: 86,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

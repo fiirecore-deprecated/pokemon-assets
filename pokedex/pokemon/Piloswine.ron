@@ -25,11 +25,12 @@
         speed: 50,
     ),
     species: "Swine",
+    evolution: None,
     height: 11,
     weight: 558,
     training: (
         base_exp: 158,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

@@ -24,11 +24,12 @@
         speed: 70,
     ),
     species: "Meteorite",
+    evolution: None,
     height: 12,
     weight: 1540,
     training: (
         base_exp: 161,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: None,

@@ -29,11 +29,12 @@
         speed: 50,
     ),
     species: "Arm",
+    evolution: None,
     height: 23,
     weight: 2538,
     training: (
         base_exp: 166,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(2),

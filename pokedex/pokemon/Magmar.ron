@@ -26,11 +26,12 @@
         speed: 93,
     ),
     species: "Spitfire",
+    evolution: None,
     height: 13,
     weight: 445,
     training: (
         base_exp: 173,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(2),

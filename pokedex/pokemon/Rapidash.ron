@@ -28,11 +28,12 @@
         speed: 105,
     ),
     species: "Fire",
+    evolution: None,
     height: 17,
     weight: 950,
     training: (
         base_exp: 175,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

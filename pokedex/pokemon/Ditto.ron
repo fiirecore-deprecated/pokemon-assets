@@ -15,11 +15,12 @@
         speed: 48,
     ),
     species: "Transform",
+    evolution: None,
     height: 3,
     weight: 40,
     training: (
         base_exp: 101,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

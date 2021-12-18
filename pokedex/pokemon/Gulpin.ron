@@ -25,11 +25,12 @@
         speed: 40,
     ),
     species: "Stomach",
+    evolution: None,
     height: 4,
     weight: 103,
     training: (
         base_exp: 60,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

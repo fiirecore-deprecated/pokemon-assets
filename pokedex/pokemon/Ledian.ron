@@ -25,11 +25,12 @@
         speed: 85,
     ),
     species: "Five",
+    evolution: None,
     height: 14,
     weight: 356,
     training: (
         base_exp: 137,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

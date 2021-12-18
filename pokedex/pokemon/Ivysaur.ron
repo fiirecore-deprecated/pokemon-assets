@@ -27,11 +27,12 @@
         speed: 60,
     ),
     species: "Seed",
+    evolution: None,
     height: 10,
     weight: 130,
     training: (
         base_exp: 142,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

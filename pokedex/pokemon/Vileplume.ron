@@ -19,11 +19,12 @@
         speed: 50,
     ),
     species: "Flower",
+    evolution: None,
     height: 12,
     weight: 186,
     training: (
         base_exp: 221,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

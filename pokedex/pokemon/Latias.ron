@@ -25,11 +25,12 @@
         speed: 110,
     ),
     species: "Eon",
+    evolution: None,
     height: 14,
     weight: 400,
     training: (
         base_exp: 270,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(8),

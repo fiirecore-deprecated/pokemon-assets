@@ -24,11 +24,12 @@
         speed: 65,
     ),
     species: "Fang",
+    evolution: None,
     height: 27,
     weight: 525,
     training: (
         base_exp: 160,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

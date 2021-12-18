@@ -23,11 +23,12 @@
         speed: 100,
     ),
     species: "Milk",
+    evolution: None,
     height: 12,
     weight: 755,
     training: (
         base_exp: 172,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(8),

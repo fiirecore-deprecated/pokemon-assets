@@ -25,11 +25,12 @@
         speed: 105,
     ),
     species: "Mantis",
+    evolution: None,
     height: 15,
     weight: 560,
     training: (
         base_exp: 100,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

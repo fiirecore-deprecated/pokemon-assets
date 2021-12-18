@@ -25,11 +25,12 @@
         speed: 55,
     ),
     species: "Clay",
+    evolution: None,
     height: 5,
     weight: 215,
     training: (
         base_exp: 60,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

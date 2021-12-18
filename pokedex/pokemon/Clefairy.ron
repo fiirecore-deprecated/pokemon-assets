@@ -27,11 +27,12 @@
         speed: 35,
     ),
     species: "Fairy",
+    evolution: None,
     height: 6,
     weight: 75,
     training: (
         base_exp: 113,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

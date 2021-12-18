@@ -24,11 +24,12 @@
         speed: 67,
     ),
     species: "Angler",
+    evolution: None,
     height: 5,
     weight: 120,
     training: (
         base_exp: 66,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

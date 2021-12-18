@@ -26,11 +26,12 @@
         speed: 70,
     ),
     species: "Vibration",
+    evolution: None,
     height: 11,
     weight: 153,
     training: (
         base_exp: 119,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

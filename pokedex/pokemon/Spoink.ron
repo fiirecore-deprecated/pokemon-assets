@@ -25,11 +25,12 @@
         speed: 60,
     ),
     species: "Bounce",
+    evolution: None,
     height: 7,
     weight: 306,
     training: (
         base_exp: 66,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

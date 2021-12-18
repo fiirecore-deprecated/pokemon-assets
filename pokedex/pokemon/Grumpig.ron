@@ -28,11 +28,12 @@
         speed: 80,
     ),
     species: "Manipulate",
+    evolution: None,
     height: 9,
     weight: 715,
     training: (
         base_exp: 165,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

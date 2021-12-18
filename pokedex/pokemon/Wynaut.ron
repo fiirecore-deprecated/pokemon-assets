@@ -21,11 +21,12 @@
         speed: 23,
     ),
     species: "Bright",
+    evolution: None,
     height: 6,
     weight: 140,
     training: (
         base_exp: 52,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

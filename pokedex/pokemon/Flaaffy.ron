@@ -22,11 +22,12 @@
         speed: 45,
     ),
     species: "Wool",
+    evolution: None,
     height: 8,
     weight: 133,
     training: (
         base_exp: 128,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

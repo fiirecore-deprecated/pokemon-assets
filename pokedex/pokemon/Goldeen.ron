@@ -25,11 +25,12 @@
         speed: 63,
     ),
     species: "Goldfish",
+    evolution: None,
     height: 6,
     weight: 150,
     training: (
         base_exp: 64,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

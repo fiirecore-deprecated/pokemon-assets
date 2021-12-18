@@ -27,11 +27,12 @@
         speed: 40,
     ),
     species: "Eruption",
+    evolution: None,
     height: 19,
     weight: 2200,
     training: (
         base_exp: 161,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

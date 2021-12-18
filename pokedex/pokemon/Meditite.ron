@@ -26,11 +26,12 @@
         speed: 60,
     ),
     species: "Meditate",
+    evolution: None,
     height: 6,
     weight: 112,
     training: (
         base_exp: 56,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

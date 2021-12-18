@@ -15,11 +15,12 @@
         speed: 75,
     ),
     species: "Delivery",
+    evolution: None,
     height: 9,
     weight: 160,
     training: (
         base_exp: 116,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

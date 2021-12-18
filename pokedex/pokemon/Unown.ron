@@ -15,11 +15,12 @@
         speed: 48,
     ),
     species: "Symbol",
+    evolution: None,
     height: 5,
     weight: 50,
     training: (
         base_exp: 118,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

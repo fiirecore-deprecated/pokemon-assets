@@ -24,11 +24,12 @@
         speed: 75,
     ),
     species: "Old",
+    evolution: None,
     height: 7,
     weight: 125,
     training: (
         base_exp: 71,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(1),

@@ -22,11 +22,12 @@
         speed: 52,
     ),
     species: "South",
+    evolution: None,
     height: 18,
     weight: 226,
     training: (
         base_exp: 170,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

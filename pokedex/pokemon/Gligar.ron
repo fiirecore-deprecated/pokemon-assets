@@ -22,11 +22,12 @@
         speed: 85,
     ),
     species: "Fly",
+    evolution: None,
     height: 11,
     weight: 648,
     training: (
         base_exp: 86,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

@@ -24,11 +24,12 @@
         speed: 30,
     ),
     species: "Compass",
+    evolution: None,
     height: 10,
     weight: 970,
     training: (
         base_exp: 75,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

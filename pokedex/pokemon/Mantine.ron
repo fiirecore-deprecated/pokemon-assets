@@ -23,11 +23,12 @@
         speed: 70,
     ),
     species: "Kite",
+    evolution: None,
     height: 21,
     weight: 2200,
     training: (
         base_exp: 170,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

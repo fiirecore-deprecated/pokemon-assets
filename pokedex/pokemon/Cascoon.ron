@@ -16,11 +16,12 @@
         speed: 15,
     ),
     species: "Cocoon",
+    evolution: None,
     height: 7,
     weight: 115,
     training: (
         base_exp: 72,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

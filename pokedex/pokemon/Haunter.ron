@@ -27,11 +27,12 @@
         speed: 95,
     ),
     species: "Gas",
+    evolution: None,
     height: 16,
     weight: 1,
     training: (
         base_exp: 142,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

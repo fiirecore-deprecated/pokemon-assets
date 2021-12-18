@@ -24,11 +24,12 @@
         speed: 41,
     ),
     species: "Rock",
+    evolution: None,
     height: 6,
     weight: 720,
     training: (
         base_exp: 60,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

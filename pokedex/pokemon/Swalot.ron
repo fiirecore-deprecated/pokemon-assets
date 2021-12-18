@@ -29,11 +29,12 @@
         speed: 55,
     ),
     species: "Poison",
+    evolution: None,
     height: 17,
     weight: 800,
     training: (
         base_exp: 163,
-        growth_rate: FastThenVerySlow,
+        growth: FastThenVerySlow,
     ),
     breeding: (
         gender: Some(4),

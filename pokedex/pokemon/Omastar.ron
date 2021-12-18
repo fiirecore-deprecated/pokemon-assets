@@ -27,11 +27,12 @@
         speed: 55,
     ),
     species: "Spiral",
+    evolution: None,
     height: 10,
     weight: 350,
     training: (
         base_exp: 173,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(1),

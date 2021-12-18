@@ -27,11 +27,12 @@
         speed: 110,
     ),
     species: "Shadow",
+    evolution: None,
     height: 15,
     weight: 405,
     training: (
         base_exp: 225,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

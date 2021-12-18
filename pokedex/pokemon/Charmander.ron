@@ -24,11 +24,12 @@
         speed: 65,
     ),
     species: "Lizard",
+    evolution: None,
     height: 6,
     weight: 85,
     training: (
         base_exp: 62,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

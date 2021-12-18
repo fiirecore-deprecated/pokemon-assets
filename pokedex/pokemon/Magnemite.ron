@@ -25,11 +25,12 @@
         speed: 45,
     ),
     species: "Magnet",
+    evolution: None,
     height: 3,
     weight: 60,
     training: (
         base_exp: 65,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

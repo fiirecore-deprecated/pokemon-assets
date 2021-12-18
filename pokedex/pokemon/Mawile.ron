@@ -26,11 +26,12 @@
         speed: 50,
     ),
     species: "Deceiver",
+    evolution: None,
     height: 6,
     weight: 115,
     training: (
         base_exp: 133,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

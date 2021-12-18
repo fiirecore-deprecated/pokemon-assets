@@ -27,11 +27,12 @@
         speed: 65,
     ),
     species: "Marionette",
+    evolution: None,
     height: 11,
     weight: 125,
     training: (
         base_exp: 159,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

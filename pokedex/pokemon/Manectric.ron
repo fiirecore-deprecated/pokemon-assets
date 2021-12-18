@@ -28,11 +28,12 @@
         speed: 105,
     ),
     species: "Discharge",
+    evolution: None,
     height: 15,
     weight: 402,
     training: (
         base_exp: 166,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

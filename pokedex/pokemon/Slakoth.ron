@@ -23,11 +23,12 @@
         speed: 30,
     ),
     species: "Slacker",
+    evolution: None,
     height: 8,
     weight: 240,
     training: (
         base_exp: 56,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

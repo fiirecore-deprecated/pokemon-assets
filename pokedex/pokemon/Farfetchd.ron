@@ -24,11 +24,12 @@
         speed: 60,
     ),
     species: "Wild",
+    evolution: None,
     height: 8,
     weight: 150,
     training: (
         base_exp: 132,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

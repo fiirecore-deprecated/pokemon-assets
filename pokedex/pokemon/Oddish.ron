@@ -22,11 +22,12 @@
         speed: 30,
     ),
     species: "Weed",
+    evolution: None,
     height: 5,
     weight: 54,
     training: (
         base_exp: 64,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

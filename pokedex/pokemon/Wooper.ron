@@ -24,11 +24,12 @@
         speed: 15,
     ),
     species: "Water",
+    evolution: None,
     height: 4,
     weight: 85,
     training: (
         base_exp: 42,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

@@ -25,11 +25,12 @@
         speed: 78,
     ),
     species: "Big",
+    evolution: None,
     height: 23,
     weight: 888,
     training: (
         base_exp: 239,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(1),

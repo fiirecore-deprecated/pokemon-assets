@@ -26,11 +26,12 @@
         speed: 50,
     ),
     species: "Aqua",
+    evolution: None,
     height: 8,
     weight: 285,
     training: (
         base_exp: 189,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

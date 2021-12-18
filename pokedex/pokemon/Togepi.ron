@@ -26,11 +26,12 @@
         speed: 20,
     ),
     species: "Spike",
+    evolution: None,
     height: 3,
     weight: 15,
     training: (
         base_exp: 49,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(1),

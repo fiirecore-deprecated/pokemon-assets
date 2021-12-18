@@ -18,11 +18,12 @@
         speed: 32,
     ),
     species: "Bivalve",
+    evolution: None,
     height: 4,
     weight: 525,
     training: (
         base_exp: 69,
-        growth_rate: SlowThenVeryFast,
+        growth: SlowThenVeryFast,
     ),
     breeding: (
         gender: Some(4),

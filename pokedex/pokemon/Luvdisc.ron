@@ -23,11 +23,12 @@
         speed: 97,
     ),
     species: "Rendezvous",
+    evolution: None,
     height: 6,
     weight: 87,
     training: (
         base_exp: 116,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(6),

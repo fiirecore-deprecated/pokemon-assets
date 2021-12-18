@@ -23,11 +23,12 @@
         speed: 81,
     ),
     species: "Atrocious",
+    evolution: None,
     height: 65,
     weight: 2350,
     training: (
         base_exp: 189,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

@@ -22,11 +22,12 @@
         speed: 130,
     ),
     species: "Fossil",
+    evolution: None,
     height: 18,
     weight: 590,
     training: (
         base_exp: 180,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(1),

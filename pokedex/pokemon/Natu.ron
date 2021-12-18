@@ -22,11 +22,12 @@
         speed: 70,
     ),
     species: "Tiny",
+    evolution: None,
     height: 2,
     weight: 20,
     training: (
         base_exp: 64,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

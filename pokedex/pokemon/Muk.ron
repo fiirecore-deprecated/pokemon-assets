@@ -25,11 +25,12 @@
         speed: 50,
     ),
     species: "Sludge",
+    evolution: None,
     height: 12,
     weight: 300,
     training: (
         base_exp: 175,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

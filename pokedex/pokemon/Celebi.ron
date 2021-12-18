@@ -23,11 +23,12 @@
         speed: 100,
     ),
     species: "Time",
+    evolution: None,
     height: 6,
     weight: 50,
     training: (
         base_exp: 270,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: None,

@@ -29,11 +29,12 @@
         speed: 70,
     ),
     species: "Bite",
+    evolution: None,
     height: 10,
     weight: 370,
     training: (
         base_exp: 147,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

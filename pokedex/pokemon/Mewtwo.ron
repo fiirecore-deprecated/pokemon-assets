@@ -25,11 +25,12 @@
         speed: 130,
     ),
     species: "Genetic",
+    evolution: None,
     height: 20,
     weight: 1220,
     training: (
         base_exp: 306,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

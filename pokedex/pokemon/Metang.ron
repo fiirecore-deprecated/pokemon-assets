@@ -24,11 +24,12 @@
         speed: 50,
     ),
     species: "Iron",
+    evolution: None,
     height: 12,
     weight: 2025,
     training: (
         base_exp: 147,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: None,

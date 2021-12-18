@@ -24,11 +24,12 @@
         speed: 30,
     ),
     species: "String",
+    evolution: None,
     height: 5,
     weight: 85,
     training: (
         base_exp: 50,
-        growth_rate: Fast,
+        growth: Fast,
     ),
     breeding: (
         gender: Some(4),

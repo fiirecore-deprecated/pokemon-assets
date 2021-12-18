@@ -24,11 +24,12 @@
         speed: 60,
     ),
     species: "Puppy",
+    evolution: None,
     height: 7,
     weight: 190,
     training: (
         base_exp: 70,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(2),

@@ -25,11 +25,12 @@
         speed: 100,
     ),
     species: "Ball",
+    evolution: None,
     height: 5,
     weight: 104,
     training: (
         base_exp: 66,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: None,

@@ -20,11 +20,12 @@
         speed: 100,
     ),
     species: "New",
+    evolution: None,
     height: 4,
     weight: 40,
     training: (
         base_exp: 270,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: None,

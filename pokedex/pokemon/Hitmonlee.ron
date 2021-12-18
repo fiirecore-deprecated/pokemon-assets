@@ -27,11 +27,12 @@
         speed: 87,
     ),
     species: "Kicking",
+    evolution: None,
     height: 15,
     weight: 498,
     training: (
         base_exp: 159,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(0),

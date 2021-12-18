@@ -21,11 +21,12 @@
         speed: 70,
     ),
     species: "Flycatcher",
+    evolution: None,
     height: 17,
     weight: 155,
     training: (
         base_exp: 221,
-        growth_rate: MediumSlow,
+        growth: MediumSlow,
     ),
     breeding: (
         gender: Some(4),

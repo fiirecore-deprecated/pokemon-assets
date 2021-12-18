@@ -27,11 +27,12 @@
         speed: 80,
     ),
     species: "Embrace",
+    evolution: None,
     height: 16,
     weight: 484,
     training: (
         base_exp: 233,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),

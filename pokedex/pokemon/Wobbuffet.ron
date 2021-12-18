@@ -18,11 +18,12 @@
         speed: 33,
     ),
     species: "Patient",
+    evolution: None,
     height: 13,
     weight: 285,
     training: (
         base_exp: 142,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

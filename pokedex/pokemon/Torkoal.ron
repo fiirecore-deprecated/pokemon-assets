@@ -26,11 +26,12 @@
         speed: 20,
     ),
     species: "Coal",
+    evolution: None,
     height: 5,
     weight: 804,
     training: (
         base_exp: 165,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

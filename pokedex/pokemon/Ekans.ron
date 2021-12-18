@@ -25,11 +25,12 @@
         speed: 55,
     ),
     species: "Snake",
+    evolution: None,
     height: 20,
     weight: 69,
     training: (
         base_exp: 58,
-        growth_rate: Medium,
+        growth: Medium,
     ),
     breeding: (
         gender: Some(4),

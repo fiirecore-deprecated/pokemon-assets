@@ -24,11 +24,12 @@
         speed: 65,
     ),
     species: "Savage",
+    evolution: None,
     height: 8,
     weight: 208,
     training: (
         base_exp: 61,
-        growth_rate: Slow,
+        growth: Slow,
     ),
     breeding: (
         gender: Some(4),
