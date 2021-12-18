@@ -2,9 +2,9 @@
     id: "potion",
     name: "Potion",
     description: "Heals a pokemon for 20 HP.",
+    consume: true,
     usage: (
-        consume: true,
-        type: Actions([
+        execute: Actions([
             HealPokemon(20),
         ]),
     ),

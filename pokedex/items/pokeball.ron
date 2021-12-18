@@ -2,9 +2,7 @@
     id: "pokeball",
     name: "Pokeball",
     description: "Catches a Pokemon",
-    usage: (
-        type: Pokeball,
-        consume: true,
-    ),
+    category: Pokeballs,
+    consume: true,
     // target: Opponent,
 )
