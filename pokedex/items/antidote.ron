@@ -2,6 +2,7 @@
     id: "antidote",
     name: "Antidote",
     description: "A spray-type medicine.\nIt heals one POKEMON from a\npoisoning.",
+    price: 200,
     consume: true,
     usage: (
         execute: Actions([

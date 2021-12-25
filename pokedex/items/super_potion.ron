@@ -2,6 +2,7 @@
     id: "super_potion",
     name: "Super Potion",
     description: "Heals a pokemon for 50 HP.",
+    price: 700,
     consume: true,
     usage: (
         execute: Actions([

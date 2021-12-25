@@ -2,6 +2,7 @@
     id: "pokeball",
     name: "Pokeball",
     description: "Catches a Pokemon",
+    price: 200,
     category: Pokeballs,
     consume: true,
     // target: Opponent,
