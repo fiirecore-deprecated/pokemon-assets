@@ -1,0 +1,13 @@
+(
+    id: "thunder_stone",
+    name: "Thunderstone",
+    description: "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt has a thunderbolt pattern.",
+    category: Items,
+    price: 2100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

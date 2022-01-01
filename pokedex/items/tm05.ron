@@ -1,0 +1,13 @@
+(
+    id: "tm05",
+    name: "Tm05",
+    description: "A savage roar that causes the foe\\nto switch out of battle. In the\\nwild, ROAR ends the battle.",
+    category: Items,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

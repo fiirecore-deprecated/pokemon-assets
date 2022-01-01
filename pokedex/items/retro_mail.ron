@@ -1,0 +1,13 @@
+(
+    id: "retro_mail",
+    name: "Retro Mail",
+    description: "A piece of MAIL featuring a print\\nof three cute POKéMON.\\nIt is to be held by a POKéMON.",
+    category: Items,
+    price: 50,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

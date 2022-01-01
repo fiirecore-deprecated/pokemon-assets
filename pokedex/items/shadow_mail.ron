@@ -1,0 +1,13 @@
+(
+    id: "shadow_mail",
+    name: "Shadow Mail",
+    description: "A piece of MAIL featuring a cute\\nDUSKULL print.\\nIt is to be held by a POKéMON.",
+    category: Items,
+    price: 50,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

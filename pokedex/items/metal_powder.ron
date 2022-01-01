@@ -1,0 +1,13 @@
+(
+    id: "metal_powder",
+    name: "Metal Powder",
+    description: "A fine, hard powder to be held by\\na DITTO.\\nIt raises DITTO\'s DEFENSE stat.",
+    category: Items,
+    price: 10,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

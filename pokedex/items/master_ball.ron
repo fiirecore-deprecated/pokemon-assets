@@ -1,0 +1,13 @@
+(
+    id: "master_ball",
+    name: "Master Ball",
+    description: "The best BALL with the ultimate\\nperformance. It will catch any wild\\nPOKéMON without fail.",
+    category: Pokeballs,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

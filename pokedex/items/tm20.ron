@@ -1,0 +1,13 @@
+(
+    id: "tm20",
+    name: "Tm20",
+    description: "Protects the party with a shield\\nagainst all status problems over\\nfive turns.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

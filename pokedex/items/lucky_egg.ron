@@ -1,0 +1,13 @@
+(
+    id: "lucky_egg",
+    name: "Lucky Egg",
+    description: "An item to be held by a POKéMON.\\nAn egg filled with happiness that\\nearns extra EXP. points in battle.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

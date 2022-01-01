@@ -1,12 +1,13 @@
 (
     id: "hyper_potion",
     name: "Hyper Potion",
-    description: "Heals a pokemon for 200 HP.",
+    description: "A spray-type wound medicine.\\nIt restores the HP of one POKéMON\\nby 200 points.",
+    category: Items,
     price: 1200,
+    stackable: Stackable(999),
     consume: true,
     usage: (
-        execute: Actions([
-            HealPokemon(200),
-        ]),
+        conditions: [],
+        execute: None,
     ),
 )

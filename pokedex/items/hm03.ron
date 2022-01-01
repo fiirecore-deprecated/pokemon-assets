@@ -1,0 +1,13 @@
+(
+    id: "hm03",
+    name: "Hm03",
+    description: "Creates a huge wave, then crashes\\nit down on the foe. It can be used\\nfor traveling on water.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

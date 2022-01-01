@@ -1,0 +1,13 @@
+(
+    id: "full_restore",
+    name: "Full Restore",
+    description: "A medicine that fully restores the\\nHP and heals any status problems\\nof one POKéMON.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

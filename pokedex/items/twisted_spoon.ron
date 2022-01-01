@@ -1,0 +1,13 @@
+(
+    id: "twisted_spoon",
+    name: "Twistedspoon",
+    description: "An item to be held by a POKéMON.\\nA spoon imbued with telekinetic\\npower boosts PSYCHIC-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

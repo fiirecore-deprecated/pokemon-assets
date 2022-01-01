@@ -1,0 +1,13 @@
+(
+    id: "white_flute",
+    name: "White Flute",
+    description: "A white glass flute.\\nWhen blown, it makes wild POKéMON\\nmore likely to appear.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

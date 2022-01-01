@@ -1,0 +1,13 @@
+(
+    id: "macho_brace",
+    name: "Macho Brace",
+    description: "An item to be held by a POKéMON.\\nIt promotes strong growth but\\nlowers SPEED while it is held.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

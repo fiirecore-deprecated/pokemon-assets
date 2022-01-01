@@ -1,0 +1,13 @@
+(
+    id: "shoal_salt",
+    name: "Shoal Salt",
+    description: "Pure salt obtained from deep inside\\nthe SHOAL CAVE. It is extremely\\nsalty.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

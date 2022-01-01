@@ -1,0 +1,13 @@
+(
+    id: "guard_spec",
+    name: "Guard Spec.",
+    description: "An item that prevents stat reduction\\namong party POKéMON for five turns\\nafter use.",
+    category: Items,
+    price: 700,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

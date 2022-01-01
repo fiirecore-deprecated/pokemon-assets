@@ -1,0 +1,13 @@
+(
+    id: "hm07",
+    name: "Hm07",
+    description: "A powerful charge attack. It can\\nbe used for climbing a torrential\\nwaterfall.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

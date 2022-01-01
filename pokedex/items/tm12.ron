@@ -1,0 +1,13 @@
+(
+    id: "tm12",
+    name: "Tm12",
+    description: "A taunted foe may become enraged.\\nIt will then only be able to use\\nattack moves.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

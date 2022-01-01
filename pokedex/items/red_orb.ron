@@ -1,0 +1,13 @@
+(
+    id: "red_orb",
+    name: "Red Orb",
+    description: "An orb that glows red.\\nIt is said to contain an incredible\\npower from ancient times.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

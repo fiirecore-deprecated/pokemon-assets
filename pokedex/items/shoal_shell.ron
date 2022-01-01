@@ -1,0 +1,13 @@
+(
+    id: "shoal_shell",
+    name: "Shoal Shell",
+    description: "A pretty seashell found deep inside\\nthe SHOAL CAVE. It is striped in\\nblue and white.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

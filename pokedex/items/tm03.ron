@@ -1,0 +1,13 @@
+(
+    id: "tm03",
+    name: "Tm03",
+    description: "The foe is hit with a pulsing blast\\nof water. It may also confuse the\\ntarget.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

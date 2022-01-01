@@ -1,0 +1,13 @@
+(
+    id: "storage_key",
+    name: "Storage Key",
+    description: "A key that opens the storage hold\\ninside the ABANDONED SHIP.\\nIt is old and looks easily broken.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

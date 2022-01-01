@@ -1,0 +1,13 @@
+(
+    id: "yellow_flute",
+    name: "Yellow Flute",
+    description: "A yellow glass flute that snaps one\\nPOKéMON out of confusion.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

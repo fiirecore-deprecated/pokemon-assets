@@ -1,0 +1,13 @@
+(
+    id: "max_elixir",
+    name: "Max Elixir",
+    description: "Fully restores the PP of all moves\\nfor one POKéMON.",
+    category: Items,
+    price: 4500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

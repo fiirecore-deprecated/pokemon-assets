@@ -1,0 +1,13 @@
+(
+    id: "kings_rock",
+    name: "King\'s Rock",
+    description: "An item to be held by a POKéMON.\\nIt may cause the foe to flinch\\nupon taking damage.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

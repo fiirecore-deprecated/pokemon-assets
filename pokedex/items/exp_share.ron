@@ -1,0 +1,13 @@
+(
+    id: "exp_share",
+    name: "Exp. Share",
+    description: "An item to be held by a POKéMON.\\nThe holder gets a share of EXP.\\npoints without having to battle.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

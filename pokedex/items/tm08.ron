@@ -1,0 +1,13 @@
+(
+    id: "tm08",
+    name: "Tm08",
+    description: "The user tightens all its muscles\\nand bulks up, boosting both its\\nATTACK and DEFENSE stats.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

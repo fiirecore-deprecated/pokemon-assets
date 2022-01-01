@@ -1,0 +1,13 @@
+(
+    id: "tm33",
+    name: "Tm33",
+    description: "A tough barrier is put up over five\\nturns. It reduces damage from\\nphysical attacks over that time.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

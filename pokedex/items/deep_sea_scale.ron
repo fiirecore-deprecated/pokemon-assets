@@ -1,0 +1,13 @@
+(
+    id: "deep_sea_scale",
+    name: "Deepseascale",
+    description: "An item to be held by a POKéMON.\\nA scale that shines a faint pink.\\nIt raises the SP. DEF stat.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "hm02",
+    name: "Hm02",
+    description: "The user flies up on the first turn,\\nthen attacks next turn. It can be\\nused to fly to any known town.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

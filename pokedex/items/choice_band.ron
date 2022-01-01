@@ -1,0 +1,13 @@
+(
+    id: "choice_band",
+    name: "Choice Band",
+    description: "An item to be held by a POKéMON.\\nIt powers up one move, which\\nbecomes the only usable one.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

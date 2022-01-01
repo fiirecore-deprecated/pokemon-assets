@@ -1,0 +1,13 @@
+(
+    id: "blue_scarf",
+    name: "Blue Scarf",
+    description: "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON\'s\\nBEAUTY condition in CONTESTS.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

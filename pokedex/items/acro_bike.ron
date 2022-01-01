@@ -1,0 +1,13 @@
+(
+    id: "acro_bike",
+    name: "Acro Bike",
+    description: "A folding bicycle that is capable\\nof stunts like jumps and wheelies.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

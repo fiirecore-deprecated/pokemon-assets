@@ -1,0 +1,13 @@
+(
+    id: "room_1_key",
+    name: "Rm. 1 Key",
+    description: "A key that opens the door to Room\\n1 inside the ABANDONED SHIP.\\nIt is old and looks easily broken.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

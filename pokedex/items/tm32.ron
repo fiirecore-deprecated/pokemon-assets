@@ -1,0 +1,13 @@
+(
+    id: "tm32",
+    name: "Tm32",
+    description: "The user begins moving so quickly\\nthat it creates illusory copies to\\nraise its evasiveness.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

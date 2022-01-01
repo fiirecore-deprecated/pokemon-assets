@@ -1,0 +1,13 @@
+(
+    id: "lemonade",
+    name: "Lemonade",
+    description: "A very sweet drink.\\nIt restores the HP of one POKéMON\\nby 80 points.",
+    category: Items,
+    price: 350,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

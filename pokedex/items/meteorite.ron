@@ -1,0 +1,13 @@
+(
+    id: "meteorite",
+    name: "Meteorite",
+    description: "A meteorite that fell from space\\nonto MT. MOON long ago.\\nIt is very lumpy and hard.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

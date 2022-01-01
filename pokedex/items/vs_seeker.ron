@@ -1,0 +1,13 @@
+(
+    id: "vs_seeker",
+    name: "Vs Seeker",
+    description: "A device that indicates TRAINERS\\nwho want to battle. The battery\\ncharges while traveling.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

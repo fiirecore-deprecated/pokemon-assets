@@ -1,0 +1,13 @@
+(
+    id: "spell_tag",
+    name: "Spell Tag",
+    description: "An item to be held by a POKéMON.\\nA sinister, eerie tag that boosts\\nGHOST-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

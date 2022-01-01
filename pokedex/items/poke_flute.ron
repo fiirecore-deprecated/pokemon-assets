@@ -1,0 +1,13 @@
+(
+    id: "poke_flute",
+    name: "Poké Flute",
+    description: "A flute that is said to instantly\\nawaken any POKéMON. It has a\\nlovely tone.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

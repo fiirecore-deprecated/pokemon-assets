@@ -1,0 +1,13 @@
+(
+    id: "scope_lens",
+    name: "Scope Lens",
+    description: "An item to be held by a POKéMON.\\nA lens that boosts the critical-hit\\nratio of the holding POKéMON.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

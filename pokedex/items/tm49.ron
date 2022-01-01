@@ -1,0 +1,13 @@
+(
+    id: "tm49",
+    name: "Tm49",
+    description: "A move that steals the effects of\\nany status-changing or healing move\\nthat the foe tries to use.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

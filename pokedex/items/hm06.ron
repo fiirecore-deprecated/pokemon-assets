@@ -1,0 +1,13 @@
+(
+    id: "hm06",
+    name: "Hm06",
+    description: "Hits the foe with a rock-crushingly\\ntough attack. It can smash cracked\\nboulders.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

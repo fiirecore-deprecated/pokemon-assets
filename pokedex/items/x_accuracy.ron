@@ -1,0 +1,13 @@
+(
+    id: "x_accuracy",
+    name: "X Accuracy",
+    description: "Raises the accuracy stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+    category: Items,
+    price: 950,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

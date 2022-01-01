@@ -1,0 +1,13 @@
+(
+    id: "tm48",
+    name: "Tm48",
+    description: "A special power is transmitted to\\nthe foe, causing it to switch\\nabilities with the user.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

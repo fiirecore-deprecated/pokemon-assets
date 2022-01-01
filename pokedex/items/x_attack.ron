@@ -1,0 +1,13 @@
+(
+    id: "x_attack",
+    name: "X Attack",
+    description: "Raises the ATTACK stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

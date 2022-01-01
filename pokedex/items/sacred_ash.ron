@@ -1,0 +1,13 @@
+(
+    id: "sacred_ash",
+    name: "Sacred Ash",
+    description: "Revives all fainted POKéMON,\\nrestoring HP fully.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

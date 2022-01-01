@@ -1,0 +1,13 @@
+(
+    id: "tm44",
+    name: "Tm44",
+    description: "A move that makes the user fall\\nasleep over two turns to restore HP\\nand heal any status problems.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "burn_heal",
+    name: "Burn Heal",
+    description: "A spray-type medicine.\\nIt heals one POKéMON of a burn.",
+    category: Items,
+    price: 250,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

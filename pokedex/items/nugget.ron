@@ -1,0 +1,13 @@
+(
+    id: "nugget",
+    name: "Nugget",
+    description: "A nugget of pure gold that gives\\noff a lustrous gleam.\\nIt can be sold at a high price.",
+    category: Items,
+    price: 10000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

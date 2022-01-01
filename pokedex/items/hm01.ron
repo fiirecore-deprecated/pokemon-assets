@@ -1,0 +1,13 @@
+(
+    id: "hm01",
+    name: "Hm01",
+    description: "Attacks the foe with sharp blades\\nor claws. It can also cut down thin\\ntrees and grass outside of battle.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

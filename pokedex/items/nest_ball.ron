@@ -1,0 +1,13 @@
+(
+    id: "nest_ball",
+    name: "Nest Ball",
+    description: "A somewhat different BALL that\\nworks especially well on weaker\\nPOKéMON.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

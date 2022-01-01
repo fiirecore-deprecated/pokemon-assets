@@ -1,0 +1,13 @@
+(
+    id: "red_flute",
+    name: "Red Flute",
+    description: "A red glass flute that snaps one\\nPOKéMON out of infatuation.",
+    category: Items,
+    price: 300,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

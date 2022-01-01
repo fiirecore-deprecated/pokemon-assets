@@ -1,0 +1,13 @@
+(
+    id: "tm17",
+    name: "Tm17",
+    description: "The user is completely protected\\nfrom attack in the turn it is used.\\nIt may fail if used in succession.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

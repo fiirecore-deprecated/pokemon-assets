@@ -1,3 +1,0 @@
-("test", Actions([
-    Drain(Power(255), 100),
-]))

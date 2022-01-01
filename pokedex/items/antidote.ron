@@ -1,12 +1,13 @@
 (
     id: "antidote",
     name: "Antidote",
-    description: "A spray-type medicine.\nIt heals one POKEMON from a\npoisoning.",
-    price: 200,
+    description: "A spray-type medicine.\\nIt heals one POKéMON from a\\npoisoning.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
     consume: true,
     usage: (
-        execute: Actions([
-            CurePokemon(Some(Poison)),
-        ]),
+        conditions: [],
+        execute: None,
     ),
 )

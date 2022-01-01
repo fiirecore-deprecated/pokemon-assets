@@ -1,0 +1,13 @@
+(
+    id: "net_ball",
+    name: "Net Ball",
+    description: "A somewhat different BALL that\\nworks especially well on WATER- and\\nBUG-type POKéMON.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

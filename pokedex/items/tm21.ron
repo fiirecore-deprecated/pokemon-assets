@@ -1,0 +1,13 @@
+(
+    id: "tm21",
+    name: "Tm21",
+    description: "This attack move grows more\\npowerful the more the POKéMON\\ndislikes its TRAINER.",
+    category: Items,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

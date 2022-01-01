@@ -1,0 +1,13 @@
+(
+    id: "star_piece",
+    name: "Star Piece",
+    description: "A shard of a pretty gem that\\nsparkles in a red color.\\nIt can be sold at a high price.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "black_flute",
+    name: "Black Flute",
+    description: "A black glass flute.\\nWhen blown, it makes wild POKéMON\\nless likely to appear.",
+    category: Items,
+    price: 400,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

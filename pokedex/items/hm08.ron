@@ -1,0 +1,13 @@
+(
+    id: "hm08",
+    name: "Hm08",
+    description: "A 2-turn attack in which the user\\ndives underwater on the first turn,\\nthen strikes in the next turn.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

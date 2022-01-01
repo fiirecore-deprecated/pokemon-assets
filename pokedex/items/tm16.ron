@@ -1,0 +1,13 @@
+(
+    id: "tm16",
+    name: "Tm16",
+    description: "A wall of light is created over\\nfive turns. It reduces damage from\\nSP. ATK attacks.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

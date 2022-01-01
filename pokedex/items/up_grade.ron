@@ -1,0 +1,13 @@
+(
+    id: "up_grade",
+    name: "Up-grade",
+    description: "A transparent device filled with all\\nsorts of data.\\nIt is made by SILPH CO.",
+    category: Items,
+    price: 2100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

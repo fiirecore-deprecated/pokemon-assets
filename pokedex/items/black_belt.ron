@@ -1,0 +1,13 @@
+(
+    id: "black_belt",
+    name: "Black Belt",
+    description: "An item to be held by a POKéMON.\\nA belt that boosts determination\\nand FIGHTING-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

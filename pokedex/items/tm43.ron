@@ -1,0 +1,13 @@
+(
+    id: "tm43",
+    name: "Tm43",
+    description: "An attack move that may have an\\nadditional effect depending on the\\nbattle terrain.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

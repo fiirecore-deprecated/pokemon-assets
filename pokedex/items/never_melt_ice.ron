@@ -1,0 +1,13 @@
+(
+    id: "never_melt_ice",
+    name: "Nevermeltice",
+    description: "An item to be held by a POKéMON.\\nA piece of ice that repels heat\\nand boosts ICE-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

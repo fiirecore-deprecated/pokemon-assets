@@ -1,0 +1,13 @@
+(
+    id: "starf_berry",
+    name: "Starf Berry",
+    description: "When held by a POKéMON, it sharply\\nraises one stat in a pinch.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

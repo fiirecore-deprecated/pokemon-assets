@@ -1,0 +1,13 @@
+(
+    id: "sapphire",
+    name: "Sapphire",
+    description: "An exquisitely beautiful gem that\\nhas a blue glow.\\nIt symbolizes honesty.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

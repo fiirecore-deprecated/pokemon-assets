@@ -1,0 +1,13 @@
+(
+    id: "tm35",
+    name: "Tm35",
+    description: "The foe is roasted with a heavy\\nblast of fire. It may leave the\\ntarget with a burn.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "calcium",
+    name: "Calcium",
+    description: "A nutritious drink for POKéMON.\\nIt raises the base SP. ATK stat\\nof one POKéMON.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

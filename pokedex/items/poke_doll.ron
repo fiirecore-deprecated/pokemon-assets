@@ -1,0 +1,13 @@
+(
+    id: "poke_doll",
+    name: "Poké Doll",
+    description: "An attractive doll.\\nUse it to flee from any battle with\\na wild POKéMON.",
+    category: Items,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "fire_stone",
+    name: "Fire Stone",
+    description: "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is colored orange.",
+    category: Items,
+    price: 2100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

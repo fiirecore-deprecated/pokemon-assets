@@ -1,0 +1,13 @@
+(
+    id: "tm24",
+    name: "Tm24",
+    description: "A massive jolt of electricity is\\nlaunched at the foe. It may cause\\nparalysis.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "soda_pop",
+    name: "Soda Pop",
+    description: "A fizzy soda drink.\\nIt restores the HP of one POKéMON\\nby 60 points.",
+    category: Items,
+    price: 300,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

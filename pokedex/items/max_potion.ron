@@ -1,0 +1,13 @@
+(
+    id: "max_potion",
+    name: "Max Potion",
+    description: "A spray-type wound medicine.\\nIt fully restores the HP of one\\nPOKéMON.",
+    category: Items,
+    price: 2500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

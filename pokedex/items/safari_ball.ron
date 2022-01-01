@@ -1,0 +1,13 @@
+(
+    id: "safari_ball",
+    name: "Safari Ball",
+    description: "A special BALL that is used only in\\nthe SAFARI ZONE. It is finished in\\na camouflage pattern.",
+    category: Pokeballs,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

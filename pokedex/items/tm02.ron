@@ -1,0 +1,13 @@
+(
+    id: "tm02",
+    name: "Tm02",
+    description: "Sharp, huge claws hook and slash\\nthe foe quickly and with great\\npower.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "tm18",
+    name: "Tm18",
+    description: "A heavy rain is summoned for five\\nturns. Over that time, WATER-type\\nmoves are powered up.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

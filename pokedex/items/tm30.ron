@@ -1,0 +1,13 @@
+(
+    id: "tm30",
+    name: "Tm30",
+    description: "The foe is attacked with a shadowy\\nlump. It may lower the target\'s\\nSP. DEF stat.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

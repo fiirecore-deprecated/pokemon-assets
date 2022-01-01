@@ -1,0 +1,13 @@
+(
+    id: "rainbow_pass",
+    name: "Rainbow Pass",
+    description: "A pass for ferries between\\nVERMILION and the SEVII ISLANDS.\\nIt features a drawing of a rainbow.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

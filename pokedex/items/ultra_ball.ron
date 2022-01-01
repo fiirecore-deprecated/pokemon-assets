@@ -1,0 +1,13 @@
+(
+    id: "ultra_ball",
+    name: "Ultra Ball",
+    description: "A very high-grade BALL that offers\\na higher POKéMON catch rate than\\na GREAT BALL.",
+    category: Pokeballs,
+    price: 1200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

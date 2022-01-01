@@ -1,0 +1,13 @@
+(
+    id: "smoke_ball",
+    name: "Smoke Ball",
+    description: "An item to be held by a POKéMON.\\nThe holding POKéMON can flee from\\nany wild POKéMON for sure.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

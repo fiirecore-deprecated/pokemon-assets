@@ -1,0 +1,13 @@
+(
+    id: "cleanse_tag",
+    name: "Cleanse Tag",
+    description: "An item to be held by a POKéMON.\\nIt repels wild POKéMON if the\\nholder is first in the party.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

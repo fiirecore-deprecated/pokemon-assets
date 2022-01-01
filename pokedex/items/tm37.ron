@@ -1,0 +1,13 @@
+(
+    id: "tm37",
+    name: "Tm37",
+    description: "Summons a sandstorm that lasts for\\nfive turns. It damages all types\\nexcept ROCK, GROUND, and STEEL.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

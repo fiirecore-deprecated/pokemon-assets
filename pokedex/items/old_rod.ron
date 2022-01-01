@@ -1,0 +1,13 @@
+(
+    id: "old_rod",
+    name: "Old Rod",
+    description: "An old and beat-up fishing rod.\\nUse it by any body of water to \\nfish for wild POKéMON.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

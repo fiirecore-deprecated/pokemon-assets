@@ -1,0 +1,13 @@
+(
+    id: "shell_bell",
+    name: "Shell Bell",
+    description: "An item to be held by a POKéMON.\\nThe holding POKéMON regains some\\nHP upon striking the foe.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

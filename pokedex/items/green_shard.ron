@@ -1,0 +1,13 @@
+(
+    id: "green_shard",
+    name: "Green Shard",
+    description: "A small green shard.\\nIt appears to be from some sort of\\na tool made long ago.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

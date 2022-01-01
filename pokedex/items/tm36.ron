@@ -1,0 +1,13 @@
+(
+    id: "tm36",
+    name: "Tm36",
+    description: "Toxic sludge is hurled at the foe\\nwith great force. It may also\\npoison the target.",
+    category: Items,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

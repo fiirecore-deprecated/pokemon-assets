@@ -1,0 +1,13 @@
+(
+    id: "bright_powder",
+    name: "Brightpowder",
+    description: "An item to be held by a POKéMON.\\nIt casts a tricky glare that lowers\\nthe opponent\'s accuracy.",
+    category: Items,
+    price: 10,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "devon_scope",
+    name: "Devon Scope",
+    description: "A scope that signals the presence\\nof any unseeable POKéMON.\\nIt is made by the DEVON CORP.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

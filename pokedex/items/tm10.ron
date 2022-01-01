@@ -1,0 +1,13 @@
+(
+    id: "tm10",
+    name: "Tm10",
+    description: "A variable move that changes type\\nand power depending on the POKéMON\\nusing it.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

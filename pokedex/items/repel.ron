@@ -1,0 +1,13 @@
+(
+    id: "repel",
+    name: "Repel",
+    description: "Prevents weak wild POKéMON from\\nappearing for 100 steps.",
+    category: Items,
+    price: 350,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

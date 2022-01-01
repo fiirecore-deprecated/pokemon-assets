@@ -1,0 +1,13 @@
+(
+    id: "full_heal",
+    name: "Full Heal",
+    description: "A spray-type medicine.\\nIt heals all the status problems of\\none POKéMON.",
+    category: Items,
+    price: 600,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "moomoo_milk",
+    name: "Moomoo Milk",
+    description: "Highly nutritious milk.\\nIt restores the HP of one POKéMON\\nby 100 points.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

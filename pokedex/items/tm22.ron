@@ -1,0 +1,13 @@
+(
+    id: "tm22",
+    name: "Tm22",
+    description: "A 2-turn attack that uses the first\\nturn for absorbing sunlight, then\\nblasting the foe in the next turn.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

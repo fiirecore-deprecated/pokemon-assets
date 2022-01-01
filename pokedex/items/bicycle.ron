@@ -1,0 +1,13 @@
+(
+    id: "bicycle",
+    name: "Bicycle",
+    description: "A folding bicycle that allows\\nfaster movement than the RUNNING\\nSHOES.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

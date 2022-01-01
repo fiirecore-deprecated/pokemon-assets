@@ -1,0 +1,13 @@
+(
+    id: "revival_herb",
+    name: "Revival Herb",
+    description: "A very bitter medicinal herb.\\nIt revives a fainted POKéMON,\\nrestoring HP fully.",
+    category: Items,
+    price: 2800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

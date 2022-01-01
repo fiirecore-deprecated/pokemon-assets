@@ -1,0 +1,13 @@
+(
+    id: "berry_juice",
+    name: "Berry Juice",
+    description: "A 100% pure juice.\\nIt restores the HP of one POKéMON\\nby 20 points.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

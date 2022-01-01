@@ -1,0 +1,13 @@
+(
+    id: "heal_powder",
+    name: "Heal Powder",
+    description: "A very bitter medicine powder.\\nIt heals all the status problems of\\none POKéMON.",
+    category: Items,
+    price: 450,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

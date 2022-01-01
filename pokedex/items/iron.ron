@@ -1,0 +1,13 @@
+(
+    id: "iron",
+    name: "Iron",
+    description: "A nutritious drink for POKéMON.\\nIt raises the base DEFENSE stat of\\none POKéMON.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

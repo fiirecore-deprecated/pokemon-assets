@@ -1,0 +1,13 @@
+(
+    id: "salac_berry",
+    name: "Salac Berry",
+    description: "When held by a POKéMON, it raises\\nthe SPEED stat in a pinch.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

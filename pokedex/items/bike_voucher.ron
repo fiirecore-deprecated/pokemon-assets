@@ -1,0 +1,13 @@
+(
+    id: "bike_voucher",
+    name: "Bike Voucher",
+    description: "Take this voucher to the BIKE SHOP\\nin CERULEAN CITY and exchange it\\nfor a bicycle.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

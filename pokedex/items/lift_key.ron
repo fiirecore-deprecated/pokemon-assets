@@ -1,0 +1,13 @@
+(
+    id: "lift_key",
+    name: "Lift Key",
+    description: "A key that operates the elevator\\nin TEAM ROCKET\'s HIDEOUT.\\nIt bears the TEAM ROCKET logo.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

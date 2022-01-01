@@ -1,0 +1,13 @@
+(
+    id: "sea_incense",
+    name: "Sea Incense",
+    description: "An item to be held by a POKéMON.\\nIt slightly boosts the power of\\nWATER-type moves.",
+    category: Items,
+    price: 9600,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

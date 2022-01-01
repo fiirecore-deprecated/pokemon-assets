@@ -1,0 +1,13 @@
+(
+    id: "luxury_ball",
+    name: "Luxury Ball",
+    description: "A comfortable BALL that makes a\\ncaptured wild POKéMON quickly grow\\nfriendly.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

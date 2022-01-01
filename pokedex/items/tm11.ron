@@ -1,0 +1,13 @@
+(
+    id: "tm11",
+    name: "Tm11",
+    description: "The weather is turned sunny for\\nfive turns. Over that time, FIRE-\\ntype moves are powered up.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

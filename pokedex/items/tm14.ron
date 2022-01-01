@@ -1,0 +1,13 @@
+(
+    id: "tm14",
+    name: "Tm14",
+    description: "A vicious snow-and-wind attack that\\nstrikes all foes in battle. It may\\ncause freezing.",
+    category: Items,
+    price: 5500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

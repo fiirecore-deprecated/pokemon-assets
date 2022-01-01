@@ -1,0 +1,13 @@
+(
+    id: "thick_club",
+    name: "Thick Club",
+    description: "A hard bone of some sort to be\\nheld by a CUBONE or MAROWAK.\\nIt raises the ATTACK stat.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "pearl",
+    name: "Pearl",
+    description: "A relatively small pearl that\\nsparkles in a pretty silver color.\\nIt can be sold cheaply.",
+    category: Items,
+    price: 1400,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

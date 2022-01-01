@@ -1,0 +1,13 @@
+(
+    id: "amulet_coin",
+    name: "Amulet Coin",
+    description: "An item to be held by a POKéMON.\\nIt doubles the battle money if the\\nholding POKéMON takes part.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "aguav_berry",
+    name: "Aguav Berry",
+    description: "A hold item that restores HP but\\nmay cause confusion when used.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

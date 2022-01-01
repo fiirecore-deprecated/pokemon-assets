@@ -1,0 +1,13 @@
+(
+    id: "stick",
+    name: "Stick",
+    description: "A stick of leek to be held by a\\nFARFETCH\'D. It raises FARFETCH\'D\'s\\ncritical-hit ratio.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

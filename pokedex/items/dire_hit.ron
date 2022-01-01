@@ -1,0 +1,13 @@
+(
+    id: "dire_hit",
+    name: "Dire Hit",
+    description: "Raises the critical-hit ratio of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+    category: Items,
+    price: 650,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

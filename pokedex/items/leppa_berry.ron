@@ -1,0 +1,13 @@
+(
+    id: "leppa_berry",
+    name: "Leppa Berry",
+    description: "When held by a POKéMON, it will be\\nused in battle to restore 10 PP.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

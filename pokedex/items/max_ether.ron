@@ -1,0 +1,13 @@
+(
+    id: "max_ether",
+    name: "Max Ether",
+    description: "Fully restores a selected move\'s PP\\nfor one POKéMON.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

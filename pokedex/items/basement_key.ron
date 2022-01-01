@@ -1,0 +1,13 @@
+(
+    id: "basement_key",
+    name: "Basement Key",
+    description: "The key to NEW MAUVILLE, which\\nwas constructed beneath MAUVILLE\\nCITY.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

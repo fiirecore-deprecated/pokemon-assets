@@ -1,0 +1,13 @@
+(
+    id: "green_scarf",
+    name: "Green Scarf",
+    description: "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON\'s\\nSMART condition in CONTESTS.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

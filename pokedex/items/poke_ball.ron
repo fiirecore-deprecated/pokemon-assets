@@ -1,0 +1,13 @@
+(
+    id: "poke_ball",
+    name: "Poké Ball",
+    description: "A BALL thrown to catch a wild\\nPOKéMON. It is designed in a\\ncapsule style.",
+    category: Pokeballs,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

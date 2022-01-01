@@ -1,0 +1,13 @@
+(
+    id: "tm38",
+    name: "Tm38",
+    description: "The foe is incinerated with an\\nintense flame. It may leave the\\ntarget with a burn.",
+    category: Items,
+    price: 5500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

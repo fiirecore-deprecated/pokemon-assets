@@ -1,0 +1,13 @@
+(
+    id: "blue_orb",
+    name: "Blue Orb",
+    description: "An orb that glows blue.\\nIt is said to contain an incredible\\npower from ancient times.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

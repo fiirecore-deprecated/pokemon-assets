@@ -1,0 +1,13 @@
+(
+    id: "tm23",
+    name: "Tm23",
+    description: "The foe is slammed with a sturdy\\ntail of steel. It may lower the\\ntarget\'s DEFENSE stat.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

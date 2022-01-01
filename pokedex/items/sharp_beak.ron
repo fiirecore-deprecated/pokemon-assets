@@ -1,0 +1,13 @@
+(
+    id: "sharp_beak",
+    name: "Sharp Beak",
+    description: "An item to be held by a POKéMON.\\nA long, sharp beak that boosts the\\npower of FLYING-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

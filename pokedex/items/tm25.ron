@@ -1,0 +1,13 @@
+(
+    id: "tm25",
+    name: "Tm25",
+    description: "Strikes the foe with a huge\\nthunderbolt. It may cause\\nparalysis.",
+    category: Items,
+    price: 5500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

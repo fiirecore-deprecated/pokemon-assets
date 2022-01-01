@@ -1,0 +1,13 @@
+(
+    id: "energy_powder",
+    name: "Energypowder",
+    description: "A very bitter medicine powder.\\nIt restores the HP of one POKéMON\\nby 50 points.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

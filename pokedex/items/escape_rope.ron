@@ -1,0 +1,13 @@
+(
+    id: "escape_rope",
+    name: "Escape Rope",
+    description: "A long, durable rope.\\nUse it to escape instantly from a\\ncave or a dungeon.",
+    category: Items,
+    price: 550,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

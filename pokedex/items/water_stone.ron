@@ -1,0 +1,13 @@
+(
+    id: "water_stone",
+    name: "Water Stone",
+    description: "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is a clear light blue.",
+    category: Items,
+    price: 2100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

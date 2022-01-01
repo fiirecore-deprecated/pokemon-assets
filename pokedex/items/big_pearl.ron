@@ -1,0 +1,13 @@
+(
+    id: "big_pearl",
+    name: "Big Pearl",
+    description: "A quite-large pearl that sparkles\\nin a pretty silver color.\\nIt can be sold at a high price.",
+    category: Items,
+    price: 7500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

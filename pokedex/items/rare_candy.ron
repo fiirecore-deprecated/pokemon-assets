@@ -1,0 +1,13 @@
+(
+    id: "rare_candy",
+    name: "Rare Candy",
+    description: "A candy that is packed with energy.\\nIt raises the level of a POKéMON\\nby one.",
+    category: Items,
+    price: 4800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

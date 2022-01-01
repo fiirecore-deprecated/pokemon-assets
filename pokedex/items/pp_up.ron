@@ -1,0 +1,13 @@
+(
+    id: "pp_up",
+    name: "Pp Up",
+    description: "Slightly raises the maximum PP of\\na selected move for one POKéMON.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "tm07",
+    name: "Tm07",
+    description: "Summons a hailstorm that lasts for\\nfive turns. The hailstorm damages\\nall types except the ICE type.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

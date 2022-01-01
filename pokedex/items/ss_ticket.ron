@@ -1,0 +1,13 @@
+(
+    id: "ss_ticket",
+    name: "S.s. Ticket",
+    description: "The ticket required for sailing on\\nthe ferry S.S. ANNE.\\nIt has a drawing of a ship on it.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

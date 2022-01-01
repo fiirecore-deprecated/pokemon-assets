@@ -1,0 +1,13 @@
+(
+    id: "lucky_punch",
+    name: "Lucky Punch",
+    description: "A glove to be held by a CHANSEY.\\nIt raises CHANSEY\'s critical-hit\\nratio.",
+    category: Items,
+    price: 10,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

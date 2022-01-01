@@ -1,0 +1,13 @@
+(
+    id: "dragon_fang",
+    name: "Dragon Fang",
+    description: "An item to be held by a POKéMON.\\nA hard and sharp fang that boosts\\nthe power of DRAGON-type moves.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

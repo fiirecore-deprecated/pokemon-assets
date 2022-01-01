@@ -1,0 +1,13 @@
+(
+    id: "x_special",
+    name: "X Special",
+    description: "Raises the SP. ATK stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+    category: Items,
+    price: 350,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

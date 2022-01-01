@@ -1,0 +1,13 @@
+(
+    id: "dive_ball",
+    name: "Dive Ball",
+    description: "A somewhat different BALL that\\nworks especially well on POKéMON\\ndeep in the sea.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

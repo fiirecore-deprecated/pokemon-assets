@@ -1,0 +1,13 @@
+(
+    id: "bluk_berry",
+    name: "Bluk Berry",
+    description: "Can be ground up into a powder as\\nan ingredient for medicine.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "wailmer_pail",
+    name: "Wailmer Pail",
+    description: "A nifty watering pail.\\nUse it to promote strong growth in\\nBERRIES planted in soft soil.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

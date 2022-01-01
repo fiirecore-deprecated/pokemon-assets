@@ -1,0 +1,13 @@
+(
+    id: "lava_cookie",
+    name: "Lava Cookie",
+    description: "LAVARIDGE TOWN\'s local specialty.\\nIt heals all the status problems of\\none POKéMON.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

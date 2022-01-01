@@ -1,0 +1,13 @@
+(
+    id: "energy_root",
+    name: "Energy Root",
+    description: "A very bitter root.\\nIt restores the HP of one POKéMON\\nby 200 points.",
+    category: Items,
+    price: 800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

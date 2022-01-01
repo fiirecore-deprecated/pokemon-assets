@@ -1,0 +1,13 @@
+(
+    id: "heart_scale",
+    name: "Heart Scale",
+    description: "A pretty, heart-shaped scale that\\nis extremely rare. It glows faintly\\nin the colors of a rainbow.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "ruby",
+    name: "Ruby",
+    description: "An exquisitely beautiful gem that\\nhas a red glow.\\nIt symbolizes passion.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

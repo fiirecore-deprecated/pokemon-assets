@@ -1,0 +1,13 @@
+(
+    id: "tri_pass",
+    name: "Tri-pass",
+    description: "A pass for ferries between ONE,\\nTWO, and THREE ISLAND.\\nIt has a drawing of three islands.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

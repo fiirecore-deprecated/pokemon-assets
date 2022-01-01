@@ -1,0 +1,13 @@
+(
+    id: "tm19",
+    name: "Tm19",
+    description: "The user strikes the foe with\\ntentacles or roots, stealing the\\ntarget\'s HP and healing itself.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

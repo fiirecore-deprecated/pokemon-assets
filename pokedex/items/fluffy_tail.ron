@@ -1,0 +1,13 @@
+(
+    id: "fluffy_tail",
+    name: "Fluffy Tail",
+    description: "An attractive item.\\nUse it to flee from any battle with\\na wild POKéMON.",
+    category: Items,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

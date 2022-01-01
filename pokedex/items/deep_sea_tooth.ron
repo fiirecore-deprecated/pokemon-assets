@@ -1,0 +1,13 @@
+(
+    id: "deep_sea_tooth",
+    name: "Deepseatooth",
+    description: "An item to be held by a POKéMON.\\nA fang that gleams a sharp silver.\\nIt raises the SP. ATK stat.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

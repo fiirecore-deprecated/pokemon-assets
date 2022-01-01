@@ -1,0 +1,13 @@
+(
+    id: "max_revive",
+    name: "Max Revive",
+    description: "A medicine that revives a fainted\\nPOKéMON, restoring HP fully.",
+    category: Items,
+    price: 4000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

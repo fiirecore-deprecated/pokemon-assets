@@ -1,0 +1,13 @@
+(
+    id: "bead_mail",
+    name: "Bead Mail",
+    description: "A piece of MAIL to be held by a\\nPOKéMON. It will bear the print of\\nthe POKéMON holding it.",
+    category: Items,
+    price: 50,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

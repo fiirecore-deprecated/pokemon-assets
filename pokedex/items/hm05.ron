@@ -1,0 +1,13 @@
+(
+    id: "hm05",
+    name: "Hm05",
+    description: "Looses a powerful blast of light\\nthat reduces the foe\'s accuracy.\\nIt also lights up dark caves.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "blue_flute",
+    name: "Blue Flute",
+    description: "A blue glass flute that awakens\\na sleeping POKéMON.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

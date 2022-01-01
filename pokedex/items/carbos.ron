@@ -1,0 +1,13 @@
+(
+    id: "carbos",
+    name: "Carbos",
+    description: "A nutritious drink for POKéMON.\\nIt raises the base SPEED stat of\\none POKéMON.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

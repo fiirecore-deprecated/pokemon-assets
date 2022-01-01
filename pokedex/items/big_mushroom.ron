@@ -1,0 +1,13 @@
+(
+    id: "big_mushroom",
+    name: "Big Mushroom",
+    description: "A large and rare mushroom.\\nIt is very popular among certain\\npeople.",
+    category: Items,
+    price: 5000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

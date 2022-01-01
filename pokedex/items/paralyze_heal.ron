@@ -1,0 +1,13 @@
+(
+    id: "paralyze_heal",
+    name: "Parlyz Heal",
+    description: "A spray-type medicine.\\nIt heals one POKéMON from\\nparalysis.",
+    category: Items,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

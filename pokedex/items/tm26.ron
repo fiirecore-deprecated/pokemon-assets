@@ -1,0 +1,13 @@
+(
+    id: "tm26",
+    name: "Tm26",
+    description: "Causes an earthquake that strikes\\nall POKéMON in battle, excluding\\nthe user.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

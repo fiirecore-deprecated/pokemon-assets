@@ -1,0 +1,13 @@
+(
+    id: "repeat_ball",
+    name: "Repeat Ball",
+    description: "A somewhat different BALL that\\nworks especially well on POKéMON\\ncaught before.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

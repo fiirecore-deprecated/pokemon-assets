@@ -1,0 +1,13 @@
+(
+    id: "tm46",
+    name: "Tm46",
+    description: "An attack that gives the user an\\nopportunity to steal the foe\'s hold\\nitem.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

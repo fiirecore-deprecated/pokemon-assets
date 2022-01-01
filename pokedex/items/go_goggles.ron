@@ -1,0 +1,13 @@
+(
+    id: "go_goggles",
+    name: "Go-goggles",
+    description: "A pair of protective goggles.\\nThey enable a TRAINER to travel\\nthrough even desert sandstorms.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

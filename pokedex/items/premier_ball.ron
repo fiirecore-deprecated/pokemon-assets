@@ -1,0 +1,13 @@
+(
+    id: "premier_ball",
+    name: "Premier Ball",
+    description: "A rare BALL that has been\\nspecially made to commemorate an\\nevent of some sort.",
+    category: Pokeballs,
+    price: 200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "tm09",
+    name: "Tm09",
+    description: "The user shoots seeds at the foe\\nin rapid succession. Two to five\\nseeds are shot at once.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

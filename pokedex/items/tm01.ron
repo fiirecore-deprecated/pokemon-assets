@@ -1,0 +1,13 @@
+(
+    id: "tm01",
+    name: "Tm01",
+    description: "An extremely powerful attack.\\nHowever, if the user is hit before\\nusing the move, they will flinch.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

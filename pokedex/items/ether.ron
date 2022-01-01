@@ -1,0 +1,13 @@
+(
+    id: "ether",
+    name: "Ether",
+    description: "Restores a selected move\'s PP by\\n10 points for one POKéMON.",
+    category: Items,
+    price: 1200,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

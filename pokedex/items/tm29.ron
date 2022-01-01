@@ -1,0 +1,13 @@
+(
+    id: "tm29",
+    name: "Tm29",
+    description: "A powerful blast of telekinetic\\nenergy strikes the foe. It may\\nlower the target\'s SP. DEF stat.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "elixir",
+    name: "Elixir",
+    description: "Restores the PP of all moves for\\none POKéMON by 10 points each.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "tm39",
+    name: "Tm39",
+    description: "Boulders are hurled at the foe.\\nIt also lowers the target\'s SPEED\\nstat if it hits.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

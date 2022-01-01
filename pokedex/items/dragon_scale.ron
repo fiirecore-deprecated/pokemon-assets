@@ -1,0 +1,13 @@
+(
+    id: "dragon_scale",
+    name: "Dragon Scale",
+    description: "A thick and tough scale.\\nA DRAGON-type POKéMON may be\\nholding it.",
+    category: Items,
+    price: 2100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "tm50",
+    name: "Tm50",
+    description: "A maximum-power attack of great\\nferocity, but one that also sharply\\nreduces the user\'s SP. ATK stat.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

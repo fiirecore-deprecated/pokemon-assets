@@ -1,0 +1,13 @@
+(
+    id: "claw_fossil",
+    name: "Claw Fossil",
+    description: "A fossil of an ancient, seafloor-\\ndwelling POKéMON. It appears to be\\npart of a claw.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

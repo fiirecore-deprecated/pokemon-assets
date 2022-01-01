@@ -1,0 +1,13 @@
+(
+    id: "tm40",
+    name: "Tm40",
+    description: "An extremely fast attack against\\none target. It is impossible to\\nevade.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

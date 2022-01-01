@@ -1,0 +1,13 @@
+(
+    id: "max_repel",
+    name: "Max Repel",
+    description: "Prevents weak wild POKéMON from\\nappearing for 250 steps.",
+    category: Items,
+    price: 700,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "gold_teeth",
+    name: "Gold Teeth",
+    description: "A set of false teeth lost by the\\nSAFARI ZONE\'S WARDEN. It makes his\\nsmile sparkle.",
+    category: KeyItems,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

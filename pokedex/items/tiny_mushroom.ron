@@ -1,0 +1,13 @@
+(
+    id: "tiny_mushroom",
+    name: "Tinymushroom",
+    description: "A small and rare mushroom.\\nIt is quite popular among certain\\npeople.",
+    category: Items,
+    price: 500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

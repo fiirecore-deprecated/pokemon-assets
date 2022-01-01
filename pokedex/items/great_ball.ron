@@ -1,0 +1,13 @@
+(
+    id: "great_ball",
+    name: "Great Ball",
+    description: "A good, quality BALL that offers\\na higher POKéMON catch rate than\\na standard POKé BALL.",
+    category: Pokeballs,
+    price: 600,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

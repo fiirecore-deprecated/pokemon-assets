@@ -1,0 +1,13 @@
+(
+    id: "tm34",
+    name: "Tm34",
+    description: "A rapid jolt of electricity strikes\\nthe foe. This attack is impossible\\nto evade.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

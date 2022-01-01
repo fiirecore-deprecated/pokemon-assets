@@ -1,0 +1,13 @@
+(
+    id: "tm41",
+    name: "Tm41",
+    description: "If enraged by this move, the target\\nbecomes incapable of using the same\\nmove twice in a row.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

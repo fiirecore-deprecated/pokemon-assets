@@ -1,0 +1,13 @@
+(
+    id: "sitrus_berry",
+    name: "Sitrus Berry",
+    description: "When held by a POKéMON, it will be\\nused in battle to restore 30 HP.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

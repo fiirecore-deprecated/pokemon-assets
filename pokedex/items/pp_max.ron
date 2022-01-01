@@ -1,0 +1,13 @@
+(
+    id: "pp_max",
+    name: "Pp Max",
+    description: "Raises the PP of a selected move\\nto its maximum level for one\\nPOKéMON.",
+    category: Items,
+    price: 9800,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

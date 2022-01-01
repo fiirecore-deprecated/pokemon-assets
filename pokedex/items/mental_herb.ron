@@ -1,0 +1,13 @@
+(
+    id: "mental_herb",
+    name: "Mental Herb",
+    description: "An item to be held by a POKéMON.\\nIt snaps the holder out of\\ninfatuation. It can be used once.",
+    category: Items,
+    price: 100,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

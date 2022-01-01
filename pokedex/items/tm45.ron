@@ -1,0 +1,13 @@
+(
+    id: "tm45",
+    name: "Tm45",
+    description: "The foe, if it is the opposite\\ngender as the user, becomes\\ninfatuated and may not attack.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

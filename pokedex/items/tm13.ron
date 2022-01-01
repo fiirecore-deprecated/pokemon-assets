@@ -1,0 +1,13 @@
+(
+    id: "tm13",
+    name: "Tm13",
+    description: "An icy-cold beam is shot at the\\nfoe. It may leave the target\\nfrozen.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

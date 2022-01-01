@@ -1,0 +1,13 @@
+(
+    id: "timer_ball",
+    name: "Timer Ball",
+    description: "A somewhat different BALL that\\nbecomes progressively better the\\nmore turns there are in a battle.",
+    category: Pokeballs,
+    price: 1000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

@@ -1,0 +1,13 @@
+(
+    id: "hm04",
+    name: "Hm04",
+    description: "The user builds enormous power,\\nthen slams the foe. It can be used\\nfor moving large, round boulders.",
+    category: Items,
+    price: 0,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

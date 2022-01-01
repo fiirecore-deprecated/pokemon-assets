@@ -1,0 +1,13 @@
+(
+    id: "tm15",
+    name: "Tm15",
+    description: "A harsh attack that inflicts severe\\ndamage on the foe. However, the\\nuser must rest the next turn.",
+    category: Items,
+    price: 7500,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

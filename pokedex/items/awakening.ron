@@ -1,0 +1,13 @@
+(
+    id: "awakening",
+    name: "Awakening",
+    description: "A spray-type medicine.\\nIt awakens a sleeping POKéMON.",
+    category: Items,
+    price: 250,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

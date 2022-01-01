@@ -1,0 +1,13 @@
+(
+    id: "tm47",
+    name: "Tm47",
+    description: "The foe is struck with steel-hard\\nwings. It may also raise the user\'s\\nDEFENSE stat.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

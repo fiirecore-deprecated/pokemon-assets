@@ -1,0 +1,13 @@
+(
+    id: "stardust",
+    name: "Stardust",
+    description: "A pretty red sand with a loose,\\nsilky feel.\\nIt can be sold at a high price.",
+    category: Items,
+    price: 2000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

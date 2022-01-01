@@ -1,0 +1,13 @@
+(
+    id: "tm42",
+    name: "Tm42",
+    description: "An attack move that becomes very\\npowerful if the user is poisoned,\\nburned, or paralyzed.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

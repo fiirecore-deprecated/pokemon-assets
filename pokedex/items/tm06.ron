@@ -1,0 +1,13 @@
+(
+    id: "tm06",
+    name: "Tm06",
+    description: "A move that leaves the foe badly\\npoisoned. Its poison damage worsens\\nevery turn.",
+    category: Items,
+    price: 3000,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

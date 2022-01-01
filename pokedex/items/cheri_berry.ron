@@ -1,0 +1,13 @@
+(
+    id: "cheri_berry",
+    name: "Cheri Berry",
+    description: "When held by a POKéMON, it will be\\nused in battle to heal paralysis.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)

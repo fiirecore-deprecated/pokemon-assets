@@ -1,0 +1,13 @@
+(
+    id: "aspear_berry",
+    name: "Aspear Berry",
+    description: "When held by a POKéMON, it will be\\nused in battle for defrosting.",
+    category: Items,
+    price: 20,
+    stackable: Stackable(999),
+    consume: true,
+    usage: (
+        conditions: [],
+        execute: None,
+    ),
+)
