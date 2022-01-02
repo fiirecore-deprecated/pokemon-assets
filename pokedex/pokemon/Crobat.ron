@@ -1,8 +1,10 @@
 (
     id: 169,
     name: "Crobat",
-    primary_type: Poison,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Poison,
+        secondary: Some(Flying),
+    ),
     moves: [
         (21, "wing-attack"),
         (16, "bite"),

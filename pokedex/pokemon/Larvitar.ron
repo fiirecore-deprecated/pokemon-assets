@@ -1,8 +1,10 @@
 (
     id: 246,
     name: "Larvitar",
-    primary_type: Rock,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Rock,
+        secondary: Some(Ground),
+    ),
     moves: [
         (29, "thrash"),
         (1, "leer"),

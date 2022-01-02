@@ -1,8 +1,10 @@
 (
     id: 239,
     name: "Elekid",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (9, "thunder-punch"),
         (1, "leer"),

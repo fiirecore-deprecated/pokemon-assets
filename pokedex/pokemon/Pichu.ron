@@ -1,8 +1,10 @@
 (
     id: 172,
     name: "Pichu",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (6, "tail-whip"),
         (1, "thunder-shock"),

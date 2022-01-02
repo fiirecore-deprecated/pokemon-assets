@@ -1,8 +1,10 @@
 (
     id: 3,
     name: "Venusaur",
-    primary_type: Grass,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Grass,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "vine-whip"),
         (10, "vine-whip"),

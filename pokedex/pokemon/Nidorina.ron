@@ -1,8 +1,10 @@
 (
     id: 30,
     name: "Nidorina",
-    primary_type: Poison,
-    secondary_type: None,
+    types: (
+        primary: Poison,
+        secondary: None,
+    ),
     moves: [
         (1, "scratch"),
         (12, "double-kick"),

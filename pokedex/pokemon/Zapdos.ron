@@ -1,8 +1,10 @@
 (
     id: 145,
     name: "Zapdos",
-    primary_type: Electric,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Electric,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "peck"),
         (49, "drill-peck"),

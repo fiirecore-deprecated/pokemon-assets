@@ -1,8 +1,10 @@
 (
     id: 62,
     name: "Poliwrath",
-    primary_type: Water,
-    secondary_type: Some(Fighting),
+    types: (
+        primary: Water,
+        secondary: Some(Fighting),
+    ),
     moves: [
         (1, "double-slap"),
         (1, "water-gun"),

@@ -1,8 +1,10 @@
 (
     id: 144,
     name: "Articuno",
-    primary_type: Ice,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Ice,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "gust"),
         (13, "mist"),

@@ -1,8 +1,10 @@
 (
     id: 370,
     name: "Luvdisc",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (24, "take-down"),

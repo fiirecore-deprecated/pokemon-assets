@@ -1,8 +1,10 @@
 (
     id: 124,
     name: "Jynx",
-    primary_type: Ice,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Ice,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "pound"),
         (21, "double-slap"),

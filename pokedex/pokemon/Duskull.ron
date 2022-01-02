@@ -1,8 +1,10 @@
 (
     id: 355,
     name: "Duskull",
-    primary_type: Ghost,
-    secondary_type: None,
+    types: (
+        primary: Ghost,
+        secondary: None,
+    ),
     moves: [
         (1, "leer"),
         (5, "disable"),

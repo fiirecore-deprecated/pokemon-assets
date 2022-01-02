@@ -1,8 +1,10 @@
 (
     id: 215,
     name: "Sneasel",
-    primary_type: Dark,
-    secondary_type: Some(Ice),
+    types: (
+        primary: Dark,
+        secondary: Some(Ice),
+    ),
     moves: [
         (1, "scratch"),
         (1, "leer"),

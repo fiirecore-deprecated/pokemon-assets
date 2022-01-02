@@ -1,8 +1,10 @@
 (
     id: 111,
     name: "Rhyhorn",
-    primary_type: Ground,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Ground,
+        secondary: Some(Rock),
+    ),
     moves: [
         (10, "stomp"),
         (1, "horn-attack"),

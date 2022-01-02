@@ -1,8 +1,10 @@
 (
     id: 291,
     name: "Ninjask",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "scratch"),
         (25, "swords-dance"),

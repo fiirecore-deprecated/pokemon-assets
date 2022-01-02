@@ -1,8 +1,10 @@
 (
     id: 257,
     name: "Blaziken",
-    primary_type: Fire,
-    secondary_type: Some(Fighting),
+    types: (
+        primary: Fire,
+        secondary: Some(Fighting),
+    ),
     moves: [
         (1, "fire-punch"),
         (1, "scratch"),

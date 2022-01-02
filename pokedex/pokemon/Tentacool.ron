@@ -1,8 +1,10 @@
 (
     id: 72,
     name: "Tentacool",
-    primary_type: Water,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Water,
+        secondary: Some(Poison),
+    ),
     moves: [
         (30, "wrap"),
         (1, "poison-sting"),

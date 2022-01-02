@@ -1,8 +1,10 @@
 (
     id: 375,
     name: "Metang",
-    primary_type: Steel,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Steel,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "take-down"),
         (62, "hyper-beam"),

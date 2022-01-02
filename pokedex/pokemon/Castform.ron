@@ -1,8 +1,10 @@
 (
     id: 351,
     name: "Castform",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (10, "ember"),

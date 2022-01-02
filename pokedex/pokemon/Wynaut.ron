@@ -1,8 +1,10 @@
 (
     id: 360,
     name: "Wynaut",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (15, "counter"),
         (1, "splash"),

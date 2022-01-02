@@ -1,8 +1,10 @@
 (
     id: 104,
     name: "Cubone",
-    primary_type: Ground,
-    secondary_type: None,
+    types: (
+        primary: Ground,
+        secondary: None,
+    ),
     moves: [
         (13, "headbutt"),
         (37, "thrash"),

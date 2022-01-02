@@ -1,8 +1,10 @@
 (
     id: 270,
     name: "Lotad",
-    primary_type: Water,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Water,
+        secondary: Some(Grass),
+    ),
     moves: [
         (3, "growl"),
         (21, "mist"),

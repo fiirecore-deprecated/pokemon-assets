@@ -1,8 +1,10 @@
 (
     id: 258,
     name: "Mudkip",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (28, "take-down"),

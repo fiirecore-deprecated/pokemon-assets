@@ -1,8 +1,10 @@
 (
     id: 31,
     name: "Nidoqueen",
-    primary_type: Poison,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Poison,
+        secondary: Some(Ground),
+    ),
     moves: [
         (1, "scratch"),
         (1, "double-kick"),

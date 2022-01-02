@@ -1,8 +1,10 @@
 (
     id: 231,
     name: "Phanpy",
-    primary_type: Ground,
-    secondary_type: None,
+    types: (
+        primary: Ground,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (25, "take-down"),

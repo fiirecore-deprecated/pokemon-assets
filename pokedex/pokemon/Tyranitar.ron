@@ -1,8 +1,10 @@
 (
     id: 248,
     name: "Tyranitar",
-    primary_type: Rock,
-    secondary_type: Some(Dark),
+    types: (
+        primary: Rock,
+        secondary: Some(Dark),
+    ),
     moves: [
         (29, "thrash"),
         (1, "leer"),

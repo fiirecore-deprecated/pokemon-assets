@@ -1,8 +1,10 @@
 (
     id: 286,
     name: "Breloom",
-    primary_type: Grass,
-    secondary_type: Some(Fighting),
+    types: (
+        primary: Grass,
+        secondary: Some(Fighting),
+    ),
     moves: [
         (22, "headbutt"),
         (1, "tackle"),

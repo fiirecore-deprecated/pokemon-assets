@@ -1,8 +1,10 @@
 (
     id: 16,
     name: "Pidgey",
-    primary_type: Normal,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Normal,
+        secondary: Some(Flying),
+    ),
     moves: [
         (9, "gust"),
         (25, "wing-attack"),

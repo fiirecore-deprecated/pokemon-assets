@@ -1,8 +1,10 @@
 (
     id: 68,
     name: "Machamp",
-    primary_type: Fighting,
-    secondary_type: None,
+    types: (
+        primary: Fighting,
+        secondary: None,
+    ),
     moves: [
         (13, "karate-chop"),
         (1, "leer"),

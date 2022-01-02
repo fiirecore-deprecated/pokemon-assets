@@ -1,8 +1,10 @@
 (
     id: 49,
     name: "Venomoth",
-    primary_type: Bug,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Bug,
+        secondary: Some(Poison),
+    ),
     moves: [
         (31, "gust"),
         (1, "tackle"),

@@ -1,8 +1,10 @@
 (
     id: 191,
     name: "Sunkern",
-    primary_type: Grass,
-    secondary_type: None,
+    types: (
+        primary: Grass,
+        secondary: None,
+    ),
     moves: [
         (1, "absorb"),
         (13, "mega-drain"),

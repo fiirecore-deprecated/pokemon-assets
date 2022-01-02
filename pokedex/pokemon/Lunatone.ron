@@ -1,8 +1,10 @@
 (
     id: 337,
     name: "Lunatone",
-    primary_type: Rock,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Rock,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "tackle"),
         (13, "rock-throw"),

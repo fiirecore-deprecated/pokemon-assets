@@ -1,8 +1,10 @@
 (
     id: 142,
     name: "Aerodactyl",
-    primary_type: Rock,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Rock,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "wing-attack"),
         (43, "take-down"),

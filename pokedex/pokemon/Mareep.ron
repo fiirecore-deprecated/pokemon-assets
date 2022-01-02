@@ -1,8 +1,10 @@
 (
     id: 179,
     name: "Mareep",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (1, "growl"),

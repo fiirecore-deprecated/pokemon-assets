@@ -1,8 +1,10 @@
 (
     id: 228,
     name: "Houndour",
-    primary_type: Dark,
-    secondary_type: Some(Fire),
+    types: (
+        primary: Dark,
+        secondary: Some(Fire),
+    ),
     moves: [
         (1, "leer"),
         (25, "bite"),

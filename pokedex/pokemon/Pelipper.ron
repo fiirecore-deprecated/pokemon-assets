@@ -1,8 +1,10 @@
 (
     id: 279,
     name: "Pelipper",
-    primary_type: Water,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Water,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "wing-attack"),
         (13, "wing-attack"),

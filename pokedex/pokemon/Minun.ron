@@ -1,8 +1,10 @@
 (
     id: 312,
     name: "Minun",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (1, "growl"),
         (4, "thunder-wave"),

@@ -1,8 +1,10 @@
 (
     id: 24,
     name: "Arbok",
-    primary_type: Poison,
-    secondary_type: None,
+    types: (
+        primary: Poison,
+        secondary: None,
+    ),
     moves: [
         (1, "wrap"),
         (1, "poison-sting"),

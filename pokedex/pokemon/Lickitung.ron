@@ -1,8 +1,10 @@
 (
     id: 108,
     name: "Lickitung",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (40, "slam"),
         (23, "stomp"),

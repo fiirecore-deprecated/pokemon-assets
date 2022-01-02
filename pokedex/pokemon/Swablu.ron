@@ -1,8 +1,10 @@
 (
     id: 333,
     name: "Swablu",
-    primary_type: Normal,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Normal,
+        secondary: Some(Flying),
+    ),
     moves: [
         (18, "fury-attack"),
         (31, "take-down"),

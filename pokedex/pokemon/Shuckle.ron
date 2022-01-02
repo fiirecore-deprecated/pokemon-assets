@@ -1,8 +1,10 @@
 (
     id: 213,
     name: "Shuckle",
-    primary_type: Bug,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Bug,
+        secondary: Some(Rock),
+    ),
     moves: [
         (9, "wrap"),
         (1, "withdraw"),

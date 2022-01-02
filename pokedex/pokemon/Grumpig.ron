@@ -1,8 +1,10 @@
 (
     id: 326,
     name: "Grumpig",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (1, "psybeam"),
         (16, "psybeam"),

@@ -1,8 +1,10 @@
 (
     id: 265,
     name: "Wurmple",
-    primary_type: Bug,
-    secondary_type: None,
+    types: (
+        primary: Bug,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (5, "poison-sting"),

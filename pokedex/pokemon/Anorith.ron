@@ -1,8 +1,10 @@
 (
     id: 347,
     name: "Anorith",
-    primary_type: Rock,
-    secondary_type: Some(Bug),
+    types: (
+        primary: Rock,
+        secondary: Some(Bug),
+    ),
     moves: [
         (1, "scratch"),
         (19, "water-gun"),

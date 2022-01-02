@@ -1,8 +1,10 @@
 (
     id: 112,
     name: "Rhydon",
-    primary_type: Ground,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Ground,
+        secondary: Some(Rock),
+    ),
     moves: [
         (1, "stomp"),
         (10, "stomp"),

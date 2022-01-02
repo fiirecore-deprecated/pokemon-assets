@@ -1,8 +1,10 @@
 (
     id: 203,
     name: "Girafarig",
-    primary_type: Normal,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Normal,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (19, "stomp"),
         (1, "tackle"),

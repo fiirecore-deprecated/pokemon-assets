@@ -1,8 +1,10 @@
 (
     id: 193,
     name: "Yanma",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (39, "wing-attack"),
         (1, "tackle"),

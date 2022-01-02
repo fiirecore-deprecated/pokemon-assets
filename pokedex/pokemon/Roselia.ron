@@ -1,8 +1,10 @@
 (
     id: 315,
     name: "Roselia",
-    primary_type: Grass,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Grass,
+        secondary: Some(Poison),
+    ),
     moves: [
         (9, "poison-sting"),
         (1, "absorb"),

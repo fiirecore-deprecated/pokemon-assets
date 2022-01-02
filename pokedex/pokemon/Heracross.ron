@@ -1,8 +1,10 @@
 (
     id: 214,
     name: "Heracross",
-    primary_type: Bug,
-    secondary_type: Some(Fighting),
+    types: (
+        primary: Bug,
+        secondary: Some(Fighting),
+    ),
     moves: [
         (6, "horn-attack"),
         (17, "fury-attack"),

@@ -1,8 +1,10 @@
 (
     id: 69,
     name: "Bellsprout",
-    primary_type: Grass,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Grass,
+        secondary: Some(Poison),
+    ),
     moves: [
         (45, "slam"),
         (1, "vine-whip"),

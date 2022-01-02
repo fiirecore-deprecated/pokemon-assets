@@ -1,8 +1,10 @@
 (
     id: 199,
     name: "Slowking",
-    primary_type: Water,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Water,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (29, "headbutt"),
         (1, "tackle"),

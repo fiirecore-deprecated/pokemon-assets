@@ -1,8 +1,10 @@
 (
     id: 273,
     name: "Seedot",
-    primary_type: Grass,
-    secondary_type: None,
+    types: (
+        primary: Grass,
+        secondary: None,
+    ),
     moves: [
         (7, "growth"),
         (3, "harden"),

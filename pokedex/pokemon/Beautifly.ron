@@ -1,8 +1,10 @@
 (
     id: 267,
     name: "Beautifly",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (13, "gust"),
         (27, "whirlwind"),

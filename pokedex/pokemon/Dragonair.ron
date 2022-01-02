@@ -1,8 +1,10 @@
 (
     id: 148,
     name: "Dragonair",
-    primary_type: Dragon,
-    secondary_type: None,
+    types: (
+        primary: Dragon,
+        secondary: None,
+    ),
     moves: [
         (29, "slam"),
         (1, "wrap"),

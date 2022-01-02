@@ -1,8 +1,10 @@
 (
     id: 212,
     name: "Scizor",
-    primary_type: Bug,
-    secondary_type: Some(Steel),
+    types: (
+        primary: Bug,
+        secondary: Some(Steel),
+    ),
     moves: [
         (36, "swords-dance"),
         (1, "leer"),

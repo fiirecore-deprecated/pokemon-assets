@@ -1,8 +1,10 @@
 (
     id: 359,
     name: "Absol",
-    primary_type: Dark,
-    secondary_type: None,
+    types: (
+        primary: Dark,
+        secondary: None,
+    ),
     moves: [
         (1, "scratch"),
         (17, "razor-wind"),

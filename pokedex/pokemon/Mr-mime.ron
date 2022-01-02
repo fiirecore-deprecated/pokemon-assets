@@ -1,8 +1,10 @@
 (
     id: 122,
     name: "Mr-mime",
-    primary_type: Psychic,
-    secondary_type: Some(Fairy),
+    types: (
+        primary: Psychic,
+        secondary: Some(Fairy),
+    ),
     moves: [
         (15, "double-slap"),
         (29, "psybeam"),

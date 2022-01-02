@@ -1,10 +1,12 @@
 (
     id: 341,
     name: "Corphish",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
-        (10, "vise-grip"),
+        (10, "vice-grip"),
         (46, "guillotine"),
         (37, "swords-dance"),
         (13, "leer"),

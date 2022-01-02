@@ -1,8 +1,10 @@
 (
     id: 306,
     name: "Aggron",
-    primary_type: Steel,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Steel,
+        secondary: Some(Rock),
+    ),
     moves: [
         (1, "headbutt"),
         (10, "headbutt"),

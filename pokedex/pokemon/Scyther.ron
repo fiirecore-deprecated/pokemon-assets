@@ -1,8 +1,10 @@
 (
     id: 123,
     name: "Scyther",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (36, "swords-dance"),
         (26, "wing-attack"),

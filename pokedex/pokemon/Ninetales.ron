@@ -1,8 +1,10 @@
 (
     id: 38,
     name: "Ninetales",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (1, "ember"),
         (45, "fire-spin"),

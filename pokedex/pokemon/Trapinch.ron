@@ -1,8 +1,10 @@
 (
     id: 328,
     name: "Trapinch",
-    primary_type: Ground,
-    secondary_type: None,
+    types: (
+        primary: Ground,
+        secondary: None,
+    ),
     moves: [
         (9, "sand-attack"),
         (1, "bite"),

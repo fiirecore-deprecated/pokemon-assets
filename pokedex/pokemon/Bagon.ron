@@ -1,8 +1,10 @@
 (
     id: 371,
     name: "Bagon",
-    primary_type: Dragon,
-    secondary_type: None,
+    types: (
+        primary: Dragon,
+        secondary: None,
+    ),
     moves: [
         (17, "headbutt"),
         (53, "double-edge"),

@@ -1,8 +1,10 @@
 (
     id: 372,
     name: "Shelgon",
-    primary_type: Dragon,
-    secondary_type: None,
+    types: (
+        primary: Dragon,
+        secondary: None,
+    ),
     moves: [
         (1, "headbutt"),
         (17, "headbutt"),

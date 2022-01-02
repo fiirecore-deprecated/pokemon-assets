@@ -1,8 +1,10 @@
 (
     id: 290,
     name: "Nincada",
-    primary_type: Bug,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Bug,
+        secondary: Some(Ground),
+    ),
     moves: [
         (1, "scratch"),
         (9, "sand-attack"),

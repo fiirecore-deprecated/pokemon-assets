@@ -1,8 +1,10 @@
 (
     id: 354,
     name: "Banette",
-    primary_type: Ghost,
-    secondary_type: None,
+    types: (
+        primary: Ghost,
+        secondary: None,
+    ),
     moves: [
         (1, "night-shade"),
         (13, "night-shade"),

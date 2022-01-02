@@ -1,8 +1,10 @@
 (
     id: 242,
     name: "Blissey",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (1, "pound"),
         (13, "double-slap"),

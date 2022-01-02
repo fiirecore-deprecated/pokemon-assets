@@ -1,8 +1,10 @@
 (
     id: 13,
     name: "Weedle",
-    primary_type: Bug,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Bug,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "poison-sting"),
         (1, "string-shot"),

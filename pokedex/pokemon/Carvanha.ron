@@ -1,8 +1,10 @@
 (
     id: 318,
     name: "Carvanha",
-    primary_type: Water,
-    secondary_type: Some(Dark),
+    types: (
+        primary: Water,
+        secondary: Some(Dark),
+    ),
     moves: [
         (31, "take-down"),
         (1, "leer"),

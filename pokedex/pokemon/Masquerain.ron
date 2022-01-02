@@ -1,8 +1,10 @@
 (
     id: 284,
     name: "Masquerain",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (26, "gust"),
         (53, "whirlwind"),

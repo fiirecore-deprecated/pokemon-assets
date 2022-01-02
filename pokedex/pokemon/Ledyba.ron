@@ -1,8 +1,10 @@
 (
     id: 165,
     name: "Ledyba",
-    primary_type: Bug,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Bug,
+        secondary: Some(Flying),
+    ),
     moves: [
         (15, "comet-punch"),
         (1, "tackle"),

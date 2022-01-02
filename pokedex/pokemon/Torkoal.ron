@@ -1,8 +1,10 @@
 (
     id: 324,
     name: "Torkoal",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (20, "body-slam"),
         (1, "ember"),

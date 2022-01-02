@@ -1,8 +1,10 @@
 (
     id: 309,
     name: "Electrike",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (9, "leer"),

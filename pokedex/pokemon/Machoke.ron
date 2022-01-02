@@ -1,8 +1,10 @@
 (
     id: 67,
     name: "Machoke",
-    primary_type: Fighting,
-    secondary_type: None,
+    types: (
+        primary: Fighting,
+        secondary: None,
+    ),
     moves: [
         (13, "karate-chop"),
         (1, "leer"),

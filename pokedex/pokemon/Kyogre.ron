@@ -1,8 +1,10 @@
 (
     id: 382,
     name: "Kyogre",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (20, "body-slam"),
         (65, "double-edge"),

@@ -1,8 +1,10 @@
 (
     id: 146,
     name: "Moltres",
-    primary_type: Fire,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Fire,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "wing-attack"),
         (1, "ember"),

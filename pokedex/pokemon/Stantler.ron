@@ -1,8 +1,10 @@
 (
     id: 234,
     name: "Stantler",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (21, "stomp"),
         (27, "sand-attack"),

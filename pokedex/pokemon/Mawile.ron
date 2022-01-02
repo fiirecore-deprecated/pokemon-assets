@@ -1,10 +1,12 @@
 (
     id: 303,
     name: "Mawile",
-    primary_type: Steel,
-    secondary_type: Some(Fairy),
+    types: (
+        primary: Steel,
+        secondary: Some(Fairy),
+    ),
     moves: [
-        (21, "vise-grip"),
+        (21, "vice-grip"),
         (11, "bite"),
         (26, "feint-attack"),
         (31, "baton-pass"),

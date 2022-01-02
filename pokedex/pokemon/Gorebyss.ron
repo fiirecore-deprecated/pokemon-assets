@@ -1,8 +1,10 @@
 (
     id: 368,
     name: "Gorebyss",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (50, "hydro-pump"),
         (8, "confusion"),

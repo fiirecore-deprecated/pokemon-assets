@@ -1,8 +1,10 @@
 (
     id: 129,
     name: "Magikarp",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (15, "tackle"),
         (1, "splash"),

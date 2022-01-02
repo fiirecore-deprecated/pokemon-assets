@@ -1,8 +1,10 @@
 (
     id: 47,
     name: "Parasect",
-    primary_type: Bug,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Bug,
+        secondary: Some(Grass),
+    ),
     moves: [
         (1, "scratch"),
         (43, "growth"),

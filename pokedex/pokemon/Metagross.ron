@@ -1,8 +1,10 @@
 (
     id: 376,
     name: "Metagross",
-    primary_type: Steel,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Steel,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "take-down"),
         (77, "hyper-beam"),

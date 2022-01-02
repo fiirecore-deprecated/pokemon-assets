@@ -1,8 +1,10 @@
 (
     id: 26,
     name: "Raichu",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (1, "tail-whip"),
         (1, "thunder-shock"),

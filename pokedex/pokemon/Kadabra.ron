@@ -1,8 +1,10 @@
 (
     id: 64,
     name: "Kadabra",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (18, "disable"),
         (21, "psybeam"),

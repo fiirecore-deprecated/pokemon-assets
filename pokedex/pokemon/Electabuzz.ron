@@ -1,8 +1,10 @@
 (
     id: 125,
     name: "Electabuzz",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (1, "thunder-punch"),
         (9, "thunder-punch"),

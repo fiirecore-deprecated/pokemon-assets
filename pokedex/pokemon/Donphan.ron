@@ -1,8 +1,10 @@
 (
     id: 232,
     name: "Donphan",
-    primary_type: Ground,
-    secondary_type: None,
+    types: (
+        primary: Ground,
+        secondary: None,
+    ),
     moves: [
         (1, "horn-attack"),
         (25, "fury-attack"),

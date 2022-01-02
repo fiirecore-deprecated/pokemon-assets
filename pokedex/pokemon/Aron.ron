@@ -1,8 +1,10 @@
 (
     id: 304,
     name: "Aron",
-    primary_type: Steel,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Steel,
+        secondary: Some(Rock),
+    ),
     moves: [
         (10, "headbutt"),
         (1, "tackle"),

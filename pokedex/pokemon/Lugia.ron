@@ -1,8 +1,10 @@
 (
     id: 249,
     name: "Lugia",
-    primary_type: Psychic,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Psychic,
+        secondary: Some(Flying),
+    ),
     moves: [
         (22, "gust"),
         (1, "whirlwind"),

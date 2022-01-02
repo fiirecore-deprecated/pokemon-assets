@@ -1,8 +1,10 @@
 (
     id: 54,
     name: "Psyduck",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (1, "scratch"),
         (5, "tail-whip"),

@@ -1,8 +1,10 @@
 (
     id: 296,
     name: "Makuhita",
-    primary_type: Fighting,
-    secondary_type: None,
+    types: (
+        primary: Fighting,
+        secondary: None,
+    ),
     moves: [
         (22, "whirlwind"),
         (4, "sand-attack"),

@@ -1,8 +1,10 @@
 (
     id: 187,
     name: "Hoppip",
-    primary_type: Grass,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Grass,
+        secondary: Some(Flying),
+    ),
     moves: [
         (10, "tackle"),
         (5, "tail-whip"),

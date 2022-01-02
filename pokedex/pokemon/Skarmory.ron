@@ -1,8 +1,10 @@
 (
     id: 227,
     name: "Skarmory",
-    primary_type: Steel,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Steel,
+        secondary: Some(Flying),
+    ),
     moves: [
         (10, "sand-attack"),
         (26, "fury-attack"),

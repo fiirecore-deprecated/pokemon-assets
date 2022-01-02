@@ -1,8 +1,10 @@
 (
     id: 250,
     name: "Ho-oh",
-    primary_type: Fire,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Fire,
+        secondary: Some(Flying),
+    ),
     moves: [
         (22, "gust"),
         (1, "whirlwind"),

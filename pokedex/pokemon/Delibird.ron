@@ -1,8 +1,10 @@
 (
     id: 225,
     name: "Delibird",
-    primary_type: Ice,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Ice,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "present"),
     ],

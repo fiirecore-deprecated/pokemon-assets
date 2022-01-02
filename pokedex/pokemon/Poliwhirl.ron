@@ -1,8 +1,10 @@
 (
     id: 61,
     name: "Poliwhirl",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (19, "double-slap"),
         (35, "body-slam"),

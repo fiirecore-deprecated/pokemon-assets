@@ -1,8 +1,10 @@
 (
     id: 345,
     name: "Lileep",
-    primary_type: Rock,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Rock,
+        secondary: Some(Grass),
+    ),
     moves: [
         (15, "acid"),
         (29, "confuse-ray"),

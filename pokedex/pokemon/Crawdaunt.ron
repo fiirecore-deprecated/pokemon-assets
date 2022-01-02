@@ -1,11 +1,13 @@
 (
     id: 342,
     name: "Crawdaunt",
-    primary_type: Water,
-    secondary_type: Some(Dark),
+    types: (
+        primary: Water,
+        secondary: Some(Dark),
+    ),
     moves: [
-        (1, "vise-grip"),
-        (10, "vise-grip"),
+        (1, "vice-grip"),
+        (10, "vice-grip"),
         (56, "guillotine"),
         (43, "swords-dance"),
         (1, "leer"),

@@ -1,8 +1,10 @@
 (
     id: 255,
     name: "Torchic",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (1, "scratch"),
         (19, "sand-attack"),

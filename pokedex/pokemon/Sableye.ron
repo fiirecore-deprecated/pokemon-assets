@@ -1,8 +1,10 @@
 (
     id: 302,
     name: "Sableye",
-    primary_type: Dark,
-    secondary_type: Some(Ghost),
+    types: (
+        primary: Dark,
+        secondary: Some(Ghost),
+    ),
     moves: [
         (1, "scratch"),
         (1, "leer"),

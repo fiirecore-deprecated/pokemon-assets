@@ -1,8 +1,10 @@
 (
     id: 282,
     name: "Gardevoir",
-    primary_type: Psychic,
-    secondary_type: Some(Fairy),
+    types: (
+        primary: Psychic,
+        secondary: Some(Fairy),
+    ),
     moves: [
         (1, "growl"),
         (1, "confusion"),

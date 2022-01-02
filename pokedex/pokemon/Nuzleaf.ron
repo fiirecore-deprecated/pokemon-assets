@@ -1,8 +1,10 @@
 (
     id: 274,
     name: "Nuzleaf",
-    primary_type: Grass,
-    secondary_type: Some(Dark),
+    types: (
+        primary: Grass,
+        secondary: Some(Dark),
+    ),
     moves: [
         (1, "pound"),
         (37, "razor-wind"),

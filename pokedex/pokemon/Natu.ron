@@ -1,8 +1,10 @@
 (
     id: 177,
     name: "Natu",
-    primary_type: Psychic,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Psychic,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "leer"),
         (1, "peck"),

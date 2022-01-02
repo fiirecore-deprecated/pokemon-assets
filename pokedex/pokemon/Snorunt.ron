@@ -1,8 +1,10 @@
 (
     id: 361,
     name: "Snorunt",
-    primary_type: Ice,
-    secondary_type: None,
+    types: (
+        primary: Ice,
+        secondary: None,
+    ),
     moves: [
         (19, "headbutt"),
         (1, "leer"),

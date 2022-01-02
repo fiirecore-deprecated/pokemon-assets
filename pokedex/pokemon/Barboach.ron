@@ -1,8 +1,10 @@
 (
     id: 339,
     name: "Barboach",
-    primary_type: Water,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Water,
+        secondary: Some(Ground),
+    ),
     moves: [
         (11, "water-gun"),
         (31, "earthquake"),

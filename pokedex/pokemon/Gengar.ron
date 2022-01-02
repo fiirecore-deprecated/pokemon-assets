@@ -1,8 +1,10 @@
 (
     id: 94,
     name: "Gengar",
-    primary_type: Ghost,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Ghost,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "hypnosis"),
         (16, "night-shade"),

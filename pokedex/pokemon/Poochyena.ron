@@ -1,8 +1,10 @@
 (
     id: 261,
     name: "Poochyena",
-    primary_type: Dark,
-    secondary_type: None,
+    types: (
+        primary: Dark,
+        secondary: None,
+    ),
     moves: [
         (9, "sand-attack"),
         (1, "tackle"),

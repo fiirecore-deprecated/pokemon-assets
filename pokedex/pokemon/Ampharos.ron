@@ -1,8 +1,10 @@
 (
     id: 181,
     name: "Ampharos",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (30, "thunder-punch"),
         (1, "tackle"),

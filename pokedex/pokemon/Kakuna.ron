@@ -1,8 +1,10 @@
 (
     id: 14,
     name: "Kakuna",
-    primary_type: Bug,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Bug,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "harden"),
         (7, "harden"),

@@ -1,8 +1,10 @@
 (
     id: 78,
     name: "Rapidash",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (19, "stomp"),
         (40, "fury-attack"),

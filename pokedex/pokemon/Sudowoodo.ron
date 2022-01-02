@@ -1,8 +1,10 @@
 (
     id: 185,
     name: "Sudowoodo",
-    primary_type: Rock,
-    secondary_type: None,
+    types: (
+        primary: Rock,
+        secondary: None,
+    ),
     moves: [
         (49, "slam"),
         (57, "double-edge"),

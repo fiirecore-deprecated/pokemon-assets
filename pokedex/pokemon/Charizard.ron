@@ -1,8 +1,10 @@
 (
     id: 6,
     name: "Charizard",
-    primary_type: Fire,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Fire,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "scratch"),
         (36, "wing-attack"),

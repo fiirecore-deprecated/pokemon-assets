@@ -1,8 +1,10 @@
 (
     id: 90,
     name: "Shellder",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (36, "leer"),

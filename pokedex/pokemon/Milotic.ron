@@ -1,8 +1,10 @@
 (
     id: 350,
     name: "Milotic",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (5, "wrap"),
         (1, "water-gun"),

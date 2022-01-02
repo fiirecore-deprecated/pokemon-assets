@@ -1,8 +1,10 @@
 (
     id: 330,
     name: "Flygon",
-    primary_type: Ground,
-    secondary_type: Some(Dragon),
+    types: (
+        primary: Ground,
+        secondary: Some(Dragon),
+    ),
     moves: [
         (1, "sand-attack"),
         (9, "sand-attack"),

@@ -1,8 +1,10 @@
 (
     id: 107,
     name: "Hitmonchan",
-    primary_type: Fighting,
-    secondary_type: None,
+    types: (
+        primary: Fighting,
+        secondary: None,
+    ),
     moves: [
         (1, "comet-punch"),
         (38, "mega-punch"),

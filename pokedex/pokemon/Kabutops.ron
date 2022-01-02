@@ -1,8 +1,10 @@
 (
     id: 141,
     name: "Kabutops",
-    primary_type: Rock,
-    secondary_type: Some(Water),
+    types: (
+        primary: Rock,
+        secondary: Some(Water),
+    ),
     moves: [
         (1, "scratch"),
         (31, "sand-attack"),

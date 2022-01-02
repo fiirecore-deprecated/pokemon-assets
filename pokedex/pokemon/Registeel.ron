@@ -1,8 +1,10 @@
 (
     id: 379,
     name: "Registeel",
-    primary_type: Steel,
-    secondary_type: None,
+    types: (
+        primary: Steel,
+        secondary: None,
+    ),
     moves: [
         (65, "hyper-beam"),
         (41, "amnesia"),

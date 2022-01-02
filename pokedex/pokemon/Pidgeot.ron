@@ -1,8 +1,10 @@
 (
     id: 18,
     name: "Pidgeot",
-    primary_type: Normal,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Normal,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "gust"),
         (9, "gust"),

@@ -1,8 +1,10 @@
 (
     id: 238,
     name: "Smoochum",
-    primary_type: Ice,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Ice,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "pound"),
         (25, "sing"),

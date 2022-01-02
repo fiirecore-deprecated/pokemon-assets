@@ -1,8 +1,10 @@
 (
     id: 121,
     name: "Starmie",
-    primary_type: Water,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Water,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "water-gun"),
         (1, "recover"),

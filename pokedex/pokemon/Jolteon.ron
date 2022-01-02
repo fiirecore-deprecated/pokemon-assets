@@ -1,8 +1,10 @@
 (
     id: 135,
     name: "Jolteon",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (30, "double-kick"),
         (8, "sand-attack"),

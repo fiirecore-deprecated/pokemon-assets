@@ -1,8 +1,10 @@
 (
     id: 338,
     name: "Solrock",
-    primary_type: Rock,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Rock,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (1, "tackle"),
         (43, "solar-beam"),

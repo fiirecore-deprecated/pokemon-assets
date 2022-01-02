@@ -1,8 +1,10 @@
 (
     id: 119,
     name: "Seaking",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (15, "horn-attack"),
         (29, "fury-attack"),

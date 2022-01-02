@@ -1,8 +1,10 @@
 (
     id: 150,
     name: "Mewtwo",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (1, "disable"),
         (22, "mist"),

@@ -1,8 +1,10 @@
 (
     id: 381,
     name: "Latios",
-    primary_type: Dragon,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Dragon,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (40, "psychic"),
         (45, "recover"),

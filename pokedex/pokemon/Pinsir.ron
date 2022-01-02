@@ -1,10 +1,12 @@
 (
     id: 127,
     name: "Pinsir",
-    primary_type: Bug,
-    secondary_type: None,
+    types: (
+        primary: Bug,
+        secondary: None,
+    ),
     moves: [
-        (1, "vise-grip"),
+        (1, "vice-grip"),
         (37, "guillotine"),
         (49, "swords-dance"),
         (7, "bind"),

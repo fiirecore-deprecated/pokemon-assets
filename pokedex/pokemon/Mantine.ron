@@ -1,8 +1,10 @@
 (
     id: 226,
     name: "Mantine",
-    primary_type: Water,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Water,
+        secondary: Some(Flying),
+    ),
     moves: [
         (36, "wing-attack"),
         (1, "tackle"),

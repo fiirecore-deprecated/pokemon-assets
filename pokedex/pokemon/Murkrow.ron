@@ -1,8 +1,10 @@
 (
     id: 198,
     name: "Murkrow",
-    primary_type: Dark,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Dark,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "peck"),
         (27, "night-shade"),

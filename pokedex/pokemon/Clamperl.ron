@@ -1,8 +1,10 @@
 (
     id: 366,
     name: "Clamperl",
-    primary_type: Water,
-    secondary_type: None,
+    types: (
+        primary: Water,
+        secondary: None,
+    ),
     moves: [
         (1, "water-gun"),
         (1, "clamp"),

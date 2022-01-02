@@ -1,8 +1,10 @@
 (
     id: 114,
     name: "Tangela",
-    primary_type: Grass,
-    secondary_type: None,
+    types: (
+        primary: Grass,
+        secondary: None,
+    ),
     moves: [
         (28, "bind"),
         (40, "slam"),

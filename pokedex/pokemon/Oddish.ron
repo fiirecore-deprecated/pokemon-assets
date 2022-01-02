@@ -1,8 +1,10 @@
 (
     id: 43,
     name: "Oddish",
-    primary_type: Grass,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Grass,
+        secondary: Some(Poison),
+    ),
     moves: [
         (23, "acid"),
         (1, "absorb"),

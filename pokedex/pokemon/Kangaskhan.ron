@@ -1,8 +1,10 @@
 (
     id: 115,
     name: "Kangaskhan",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (1, "comet-punch"),
         (25, "mega-punch"),

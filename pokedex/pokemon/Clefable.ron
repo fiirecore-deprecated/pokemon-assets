@@ -1,8 +1,10 @@
 (
     id: 36,
     name: "Clefable",
-    primary_type: Fairy,
-    secondary_type: None,
+    types: (
+        primary: Fairy,
+        secondary: None,
+    ),
     moves: [
         (1, "double-slap"),
         (1, "sing"),

@@ -1,8 +1,10 @@
 (
     id: 102,
     name: "Exeggcute",
-    primary_type: Grass,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Grass,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (13, "leech-seed"),
         (43, "solar-beam"),

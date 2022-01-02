@@ -1,8 +1,10 @@
 (
     id: 251,
     name: "Celebi",
-    primary_type: Psychic,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Psychic,
+        secondary: Some(Grass),
+    ),
     moves: [
         (1, "leech-seed"),
         (1, "confusion"),

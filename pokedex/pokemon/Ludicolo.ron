@@ -1,8 +1,10 @@
 (
     id: 272,
     name: "Ludicolo",
-    primary_type: Water,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Water,
+        secondary: Some(Grass),
+    ),
     moves: [
         (1, "growl"),
         (1, "absorb"),

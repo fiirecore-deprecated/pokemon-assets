@@ -1,8 +1,10 @@
 (
     id: 278,
     name: "Wingull",
-    primary_type: Water,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Water,
+        secondary: Some(Flying),
+    ),
     moves: [
         (13, "wing-attack"),
         (1, "growl"),

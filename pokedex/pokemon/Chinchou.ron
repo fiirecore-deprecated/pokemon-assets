@@ -1,8 +1,10 @@
 (
     id: 170,
     name: "Chinchou",
-    primary_type: Water,
-    secondary_type: Some(Electric),
+    types: (
+        primary: Water,
+        secondary: Some(Electric),
+    ),
     moves: [
         (37, "take-down"),
         (5, "supersonic"),

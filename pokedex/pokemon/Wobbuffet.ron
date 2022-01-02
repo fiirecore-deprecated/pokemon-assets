@@ -1,8 +1,10 @@
 (
     id: 202,
     name: "Wobbuffet",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (1, "counter"),
         (1, "destiny-bond"),

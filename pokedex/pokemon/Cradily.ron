@@ -1,8 +1,10 @@
 (
     id: 346,
     name: "Cradily",
-    primary_type: Rock,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Rock,
+        secondary: Some(Grass),
+    ),
     moves: [
         (1, "acid"),
         (15, "acid"),

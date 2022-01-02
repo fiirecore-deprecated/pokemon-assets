@@ -1,8 +1,10 @@
 (
     id: 271,
     name: "Lombre",
-    primary_type: Water,
-    secondary_type: Some(Grass),
+    types: (
+        primary: Water,
+        secondary: Some(Grass),
+    ),
     moves: [
         (3, "growl"),
         (49, "hydro-pump"),

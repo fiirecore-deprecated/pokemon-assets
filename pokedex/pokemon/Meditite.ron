@@ -1,8 +1,10 @@
 (
     id: 307,
     name: "Meditite",
-    primary_type: Fighting,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Fighting,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (9, "confusion"),
         (4, "meditate"),

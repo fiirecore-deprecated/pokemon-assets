@@ -1,8 +1,10 @@
 (
     id: 162,
     name: "Furret",
-    primary_type: Normal,
-    secondary_type: None,
+    types: (
+        primary: Normal,
+        secondary: None,
+    ),
     moves: [
         (1, "scratch"),
         (28, "slam"),

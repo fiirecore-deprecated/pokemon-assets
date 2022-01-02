@@ -1,8 +1,10 @@
 (
     id: 79,
     name: "Slowpoke",
-    primary_type: Water,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Water,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (29, "headbutt"),
         (1, "tackle"),

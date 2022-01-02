@@ -1,8 +1,10 @@
 (
     id: 314,
     name: "Illumise",
-    primary_type: Bug,
-    secondary_type: None,
+    types: (
+        primary: Bug,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (17, "quick-attack"),

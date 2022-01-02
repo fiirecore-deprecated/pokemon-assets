@@ -1,8 +1,10 @@
 (
     id: 76,
     name: "Golem",
-    primary_type: Rock,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Rock,
+        secondary: Some(Ground),
+    ),
     moves: [
         (1, "tackle"),
         (62, "double-edge"),

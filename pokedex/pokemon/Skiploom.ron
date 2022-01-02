@@ -1,8 +1,10 @@
 (
     id: 188,
     name: "Skiploom",
-    primary_type: Grass,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Grass,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "tackle"),
         (10, "tackle"),

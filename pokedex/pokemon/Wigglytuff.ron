@@ -1,8 +1,10 @@
 (
     id: 40,
     name: "Wigglytuff",
-    primary_type: Normal,
-    secondary_type: Some(Fairy),
+    types: (
+        primary: Normal,
+        secondary: Some(Fairy),
+    ),
     moves: [
         (1, "double-slap"),
         (1, "sing"),

@@ -1,8 +1,10 @@
 (
     id: 173,
     name: "Cleffa",
-    primary_type: Fairy,
-    secondary_type: None,
+    types: (
+        primary: Fairy,
+        secondary: None,
+    ),
     moves: [
         (1, "pound"),
         (8, "sing"),

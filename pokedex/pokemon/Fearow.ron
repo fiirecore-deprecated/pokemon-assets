@@ -1,8 +1,10 @@
 (
     id: 22,
     name: "Fearow",
-    primary_type: Normal,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Normal,
+        secondary: Some(Flying),
+    ),
     moves: [
         (1, "fury-attack"),
         (13, "fury-attack"),

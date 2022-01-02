@@ -1,8 +1,10 @@
 (
     id: 71,
     name: "Victreebel",
-    primary_type: Grass,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Grass,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "vine-whip"),
         (1, "razor-leaf"),

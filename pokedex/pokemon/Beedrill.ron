@@ -1,8 +1,10 @@
 (
     id: 15,
     name: "Beedrill",
-    primary_type: Bug,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Bug,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "fury-attack"),
         (10, "fury-attack"),

@@ -1,8 +1,10 @@
 (
     id: 322,
     name: "Numel",
-    primary_type: Fire,
-    secondary_type: Some(Ground),
+    types: (
+        primary: Fire,
+        secondary: Some(Ground),
+    ),
     moves: [
         (1, "tackle"),
         (29, "take-down"),

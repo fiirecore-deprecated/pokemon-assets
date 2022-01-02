@@ -1,8 +1,10 @@
 (
     id: 325,
     name: "Spoink",
-    primary_type: Psychic,
-    secondary_type: None,
+    types: (
+        primary: Psychic,
+        secondary: None,
+    ),
     moves: [
         (16, "psybeam"),
         (34, "psychic"),

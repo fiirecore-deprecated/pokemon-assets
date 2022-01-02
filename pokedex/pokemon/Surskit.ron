@@ -1,8 +1,10 @@
 (
     id: 283,
     name: "Surskit",
-    primary_type: Bug,
-    secondary_type: Some(Water),
+    types: (
+        primary: Bug,
+        secondary: Some(Water),
+    ),
     moves: [
         (37, "mist"),
         (25, "bubble-beam"),

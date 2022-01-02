@@ -1,8 +1,10 @@
 (
     id: 184,
     name: "Azumarill",
-    primary_type: Water,
-    secondary_type: Some(Fairy),
+    types: (
+        primary: Water,
+        secondary: Some(Fairy),
+    ),
     moves: [
         (1, "tackle"),
         (34, "double-edge"),

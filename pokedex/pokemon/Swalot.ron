@@ -1,8 +1,10 @@
 (
     id: 317,
     name: "Swalot",
-    primary_type: Poison,
-    secondary_type: None,
+    types: (
+        primary: Poison,
+        secondary: None,
+    ),
     moves: [
         (1, "pound"),
         (26, "body-slam"),

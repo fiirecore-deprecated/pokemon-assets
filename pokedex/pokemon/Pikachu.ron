@@ -1,8 +1,10 @@
 (
     id: 25,
     name: "Pikachu",
-    primary_type: Electric,
-    secondary_type: None,
+    types: (
+        primary: Electric,
+        secondary: None,
+    ),
     moves: [
         (20, "slam"),
         (6, "tail-whip"),

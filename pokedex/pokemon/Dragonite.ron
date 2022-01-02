@@ -1,8 +1,10 @@
 (
     id: 149,
     name: "Dragonite",
-    primary_type: Dragon,
-    secondary_type: Some(Flying),
+    types: (
+        primary: Dragon,
+        secondary: Some(Flying),
+    ),
     moves: [
         (55, "wing-attack"),
         (29, "slam"),

@@ -1,8 +1,10 @@
 (
     id: 285,
     name: "Shroomish",
-    primary_type: Grass,
-    secondary_type: None,
+    types: (
+        primary: Grass,
+        secondary: None,
+    ),
     moves: [
         (22, "headbutt"),
         (4, "tackle"),

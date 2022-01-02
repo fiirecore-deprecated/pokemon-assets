@@ -1,8 +1,10 @@
 (
     id: 48,
     name: "Venonat",
-    primary_type: Bug,
-    secondary_type: Some(Poison),
+    types: (
+        primary: Bug,
+        secondary: Some(Poison),
+    ),
     moves: [
         (1, "tackle"),
         (9, "supersonic"),

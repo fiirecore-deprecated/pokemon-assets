@@ -1,8 +1,10 @@
 (
     id: 262,
     name: "Mightyena",
-    primary_type: Dark,
-    secondary_type: None,
+    types: (
+        primary: Dark,
+        secondary: None,
+    ),
     moves: [
         (1, "sand-attack"),
         (9, "sand-attack"),

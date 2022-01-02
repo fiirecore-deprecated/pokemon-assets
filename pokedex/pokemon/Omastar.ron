@@ -1,8 +1,10 @@
 (
     id: 139,
     name: "Omastar",
-    primary_type: Rock,
-    secondary_type: Some(Water),
+    types: (
+        primary: Rock,
+        secondary: Some(Water),
+    ),
     moves: [
         (31, "leer"),
         (1, "bite"),

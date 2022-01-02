@@ -1,8 +1,10 @@
 (
     id: 10,
     name: "Caterpie",
-    primary_type: Bug,
-    secondary_type: None,
+    types: (
+        primary: Bug,
+        secondary: None,
+    ),
     moves: [
         (1, "tackle"),
         (1, "string-shot"),

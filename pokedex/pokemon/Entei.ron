@@ -1,8 +1,10 @@
 (
     id: 244,
     name: "Entei",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (41, "stomp"),
         (1, "leer"),

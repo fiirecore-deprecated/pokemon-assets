@@ -1,8 +1,10 @@
 (
     id: 219,
     name: "Magcargo",
-    primary_type: Fire,
-    secondary_type: Some(Rock),
+    types: (
+        primary: Fire,
+        secondary: Some(Rock),
+    ),
     moves: [
         (60, "body-slam"),
         (1, "ember"),

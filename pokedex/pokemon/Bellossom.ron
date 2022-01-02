@@ -1,8 +1,10 @@
 (
     id: 182,
     name: "Bellossom",
-    primary_type: Grass,
-    secondary_type: None,
+    types: (
+        primary: Grass,
+        secondary: None,
+    ),
     moves: [
         (1, "absorb"),
         (55, "solar-beam"),

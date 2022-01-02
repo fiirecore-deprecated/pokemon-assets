@@ -1,8 +1,10 @@
 (
     id: 136,
     name: "Flareon",
-    primary_type: Fire,
-    secondary_type: None,
+    types: (
+        primary: Fire,
+        secondary: None,
+    ),
     moves: [
         (8, "sand-attack"),
         (1, "tackle"),

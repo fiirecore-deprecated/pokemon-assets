@@ -1,8 +1,10 @@
 (
     id: 343,
     name: "Baltoy",
-    primary_type: Ground,
-    secondary_type: Some(Psychic),
+    types: (
+        primary: Ground,
+        secondary: Some(Psychic),
+    ),
     moves: [
         (11, "psybeam"),
         (1, "confusion"),

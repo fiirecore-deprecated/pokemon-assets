@@ -1,8 +1,10 @@
 (
     id: 336,
     name: "Seviper",
-    primary_type: Poison,
-    secondary_type: None,
+    types: (
+        primary: Poison,
+        secondary: None,
+    ),
     moves: [
         (1, "wrap"),
         (10, "bite"),
