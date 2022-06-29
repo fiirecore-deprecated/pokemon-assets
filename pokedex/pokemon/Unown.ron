@@ -8,14 +8,14 @@
     moves: [
         (1, "hidden-power"),
     ],
-    base: (
-        hp: 48,
-        atk: 72,
-        def: 48,
-        sp_atk: 72,
-        sp_def: 48,
-        speed: 48,
-    ),
+    base: {
+        Health: 48,
+        Attack: 72,
+        Defense: 48,
+        SpAttack: 72,
+        SpDefense: 48,
+        Speed: 48,
+    },
     species: "Symbol",
     evolution: None,
     height: 5,

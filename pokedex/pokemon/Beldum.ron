@@ -8,14 +8,14 @@
     moves: [
         (1, "take-down"),
     ],
-    base: (
-        hp: 40,
-        atk: 55,
-        def: 80,
-        sp_atk: 35,
-        sp_def: 60,
-        speed: 30,
-    ),
+    base: {
+        Health: 40,
+        Attack: 55,
+        Defense: 80,
+        SpAttack: 35,
+        SpDefense: 60,
+        Speed: 30,
+    },
     species: "Iron",
     evolution: None,
     height: 6,

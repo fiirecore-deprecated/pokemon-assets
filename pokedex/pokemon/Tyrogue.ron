@@ -8,14 +8,14 @@
     moves: [
         (1, "tackle"),
     ],
-    base: (
-        hp: 35,
-        atk: 35,
-        def: 35,
-        sp_atk: 35,
-        sp_def: 35,
-        speed: 35,
-    ),
+    base: {
+        Health: 35,
+        Attack: 35,
+        Defense: 35,
+        SpAttack: 35,
+        SpDefense: 35,
+        Speed: 35,
+    },
     species: "Scuffle",
     evolution: None,
     height: 7,

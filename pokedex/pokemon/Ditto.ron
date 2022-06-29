@@ -8,14 +8,14 @@
     moves: [
         (1, "transform"),
     ],
-    base: (
-        hp: 48,
-        atk: 48,
-        def: 48,
-        sp_atk: 48,
-        sp_def: 48,
-        speed: 48,
-    ),
+    base: {
+        Health: 48,
+        Attack: 48,
+        Defense: 48,
+        SpAttack: 48,
+        SpDefense: 48,
+        Speed: 48,
+    },
     species: "Transform",
     evolution: None,
     height: 3,

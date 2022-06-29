@@ -8,14 +8,14 @@
     moves: [
         (1, "present"),
     ],
-    base: (
-        hp: 45,
-        atk: 55,
-        def: 45,
-        sp_atk: 65,
-        sp_def: 45,
-        speed: 75,
-    ),
+    base: {
+        Health: 45,
+        Attack: 55,
+        Defense: 45,
+        SpAttack: 65,
+        SpDefense: 45,
+        Speed: 75,
+    },
     species: "Delivery",
     evolution: None,
     height: 9,

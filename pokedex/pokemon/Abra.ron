@@ -8,14 +8,14 @@
     moves: [
         (1, "teleport"),
     ],
-    base: (
-        hp: 25,
-        atk: 20,
-        def: 15,
-        sp_atk: 105,
-        sp_def: 55,
-        speed: 90,
-    ),
+    base: {
+        Health: 25,
+        Attack: 20,
+        Defense: 15,
+        SpAttack: 105,
+        SpDefense: 55,
+        Speed: 90,
+    },
     species: "Psi",
     evolution: None,
     height: 9,
