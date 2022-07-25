@@ -1,0 +1,6 @@
+Actions([
+    Damage(Power(120)),
+    Chance([
+        Stat(Basic(SpDefense), -2),
+    ], 40),
+])

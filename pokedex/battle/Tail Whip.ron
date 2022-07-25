@@ -1,3 +1,0 @@
-("tail-whip", Actions([
-    Stat(Basic(Defense), -1),
-]))

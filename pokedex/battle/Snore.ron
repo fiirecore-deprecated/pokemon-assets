@@ -1,6 +1,0 @@
-("snore", Actions([
-    Damage(Power(50)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

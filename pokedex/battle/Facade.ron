@@ -1,3 +1,0 @@
-("facade", Actions([
-    Damage(Power(70)),
-]))

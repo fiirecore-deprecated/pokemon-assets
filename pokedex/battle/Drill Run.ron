@@ -1,3 +1,0 @@
-("drill-run", Actions([
-    Damage(Power(80)),
-]))

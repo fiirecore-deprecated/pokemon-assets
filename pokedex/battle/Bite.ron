@@ -1,6 +1,0 @@
-("bite", Actions([
-    Damage(Power(60)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

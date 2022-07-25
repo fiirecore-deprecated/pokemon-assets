@@ -1,4 +1,0 @@
-("ice-burn", Actions([
-    Damage(Power(140)),
-    Ailment(Burn, Permanent, 30),
-]))

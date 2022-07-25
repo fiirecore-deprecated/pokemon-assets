@@ -1,3 +1,0 @@
-("defense-curl", Actions([
-    Stat(Basic(Defense), 1),
-]))

@@ -1,3 +1,0 @@
-("scratch", Actions([
-    Damage(Power(40)),
-]))

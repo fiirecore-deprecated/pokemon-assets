@@ -1,3 +1,0 @@
-("surf", Actions([
-    Damage(Power(90)),
-]))

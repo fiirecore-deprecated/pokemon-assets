@@ -1,3 +1,0 @@
-("charge", Actions([
-    Stat(Basic(SpDefense), 1),
-]))

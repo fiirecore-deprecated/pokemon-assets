@@ -1,3 +1,0 @@
-("foul-play", Actions([
-    Damage(Power(95)),
-]))

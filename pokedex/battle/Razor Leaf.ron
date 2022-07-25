@@ -1,3 +1,0 @@
-("razor-leaf", Actions([
-    Damage(Power(55)),
-]))

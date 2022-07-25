@@ -1,3 +1,0 @@
-("vise-grip", Actions([
-    Damage(Power(55)),
-]))

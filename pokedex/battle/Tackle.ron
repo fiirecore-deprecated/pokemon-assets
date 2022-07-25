@@ -1,3 +1,0 @@
-("tackle", Actions([
-    Damage(Power(40)),
-]))

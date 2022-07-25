@@ -1,3 +1,0 @@
-("dream-eater", Actions([
-    Drain(Power(100), 50),
-]))

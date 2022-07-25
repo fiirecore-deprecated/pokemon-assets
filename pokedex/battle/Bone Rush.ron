@@ -1,3 +1,0 @@
-("bone-rush", Actions([
-    Damage(Power(25)),
-]))

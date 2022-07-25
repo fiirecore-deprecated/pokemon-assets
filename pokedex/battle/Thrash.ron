@@ -1,3 +1,0 @@
-("thrash", Actions([
-    Damage(Power(120)),
-]))

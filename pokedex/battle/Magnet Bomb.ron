@@ -1,3 +1,0 @@
-("magnet-bomb", Actions([
-    Damage(Power(60)),
-]))

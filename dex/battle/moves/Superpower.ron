@@ -1,0 +1,5 @@
+Actions([
+    Damage(Power(120)),
+    Stat(Basic(Attack), -1),
+    Stat(Basic(Defense), -1),
+])

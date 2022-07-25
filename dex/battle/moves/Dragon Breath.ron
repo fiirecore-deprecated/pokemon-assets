@@ -1,0 +1,4 @@
+Actions([
+    Damage(Power(60)),
+    Ailment(Some((Paralysis, Permanent)), 30),
+])

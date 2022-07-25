@@ -1,3 +1,0 @@
-("quick-attack", Actions([
-    Damage(Power(40)),
-]))

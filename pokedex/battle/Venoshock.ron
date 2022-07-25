@@ -1,3 +1,0 @@
-("venoshock", Actions([
-    Damage(Power(65)),
-]))

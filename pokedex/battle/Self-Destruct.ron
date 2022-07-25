@@ -1,3 +1,0 @@
-("self-destruct", Actions([
-    Damage(Power(200)),
-]))

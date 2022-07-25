@@ -1,3 +1,0 @@
-("water-spout", Actions([
-    Damage(Power(150)),
-]))

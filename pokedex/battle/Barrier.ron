@@ -1,3 +1,0 @@
-("barrier", Actions([
-    Stat(Basic(Defense), 2),
-]))

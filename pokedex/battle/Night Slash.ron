@@ -1,3 +1,0 @@
-("night-slash", Actions([
-    Damage(Power(70)),
-]))

@@ -1,3 +1,0 @@
-("flash", Actions([
-    Stat(Accuracy, -1),
-]))

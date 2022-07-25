@@ -1,3 +1,0 @@
-("u-turn", Actions([
-    Damage(Power(70)),
-]))

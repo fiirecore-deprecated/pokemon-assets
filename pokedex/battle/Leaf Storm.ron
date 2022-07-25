@@ -1,4 +1,0 @@
-("leaf-storm", Actions([
-    Damage(Power(130)),
-    Stat(Basic(SpAttack), -2),
-]))

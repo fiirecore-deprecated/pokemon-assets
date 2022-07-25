@@ -1,3 +1,0 @@
-("dive", Actions([
-    Damage(Power(80)),
-]))

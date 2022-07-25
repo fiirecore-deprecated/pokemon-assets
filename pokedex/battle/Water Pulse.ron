@@ -1,3 +1,0 @@
-("water-pulse", Actions([
-    Damage(Power(60)),
-]))

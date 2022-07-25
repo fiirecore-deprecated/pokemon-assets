@@ -1,4 +1,0 @@
-("bolt-strike", Actions([
-    Damage(Power(130)),
-    Ailment(Paralysis, Permanent, 20),
-]))

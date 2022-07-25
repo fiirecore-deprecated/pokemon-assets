@@ -1,4 +1,0 @@
-("thunder", Actions([
-    Damage(Power(110)),
-    Ailment(Paralysis, Permanent, 30),
-]))

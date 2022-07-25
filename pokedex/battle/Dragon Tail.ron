@@ -1,3 +1,0 @@
-("dragon-tail", Actions([
-    Damage(Power(60)),
-]))

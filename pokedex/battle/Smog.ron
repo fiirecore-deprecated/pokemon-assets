@@ -1,4 +1,0 @@
-("smog", Actions([
-    Damage(Power(30)),
-    Ailment(Poison, Permanent, 40),
-]))

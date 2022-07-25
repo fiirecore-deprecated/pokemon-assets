@@ -1,3 +1,0 @@
-("giga-impact", Actions([
-    Damage(Power(150)),
-]))

@@ -1,3 +1,0 @@
-("captivate", Actions([
-    Stat(Basic(SpAttack), -2),
-]))

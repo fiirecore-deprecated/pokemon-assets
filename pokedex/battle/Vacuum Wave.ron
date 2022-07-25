@@ -1,3 +1,0 @@
-("vacuum-wave", Actions([
-    Damage(Power(40)),
-]))

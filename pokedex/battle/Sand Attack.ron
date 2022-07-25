@@ -1,3 +1,0 @@
-("sand-attack", Actions([
-    Stat(Accuracy, -1),
-]))

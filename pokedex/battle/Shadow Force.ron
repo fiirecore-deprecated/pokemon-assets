@@ -1,3 +1,0 @@
-("shadow-force", Actions([
-    Damage(Power(120)),
-]))

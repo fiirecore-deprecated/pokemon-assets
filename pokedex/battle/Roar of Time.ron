@@ -1,3 +1,0 @@
-("roar-of-time", Actions([
-    Damage(Power(150)),
-]))

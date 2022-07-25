@@ -1,0 +1,4 @@
+Actions([
+    Damage(Power(65)),
+    Stat(Basic(Speed), -1),
+])

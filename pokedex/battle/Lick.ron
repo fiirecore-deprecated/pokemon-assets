@@ -1,4 +1,0 @@
-("lick", Actions([
-    Damage(Power(30)),
-    Ailment(Paralysis, Permanent, 30),
-]))

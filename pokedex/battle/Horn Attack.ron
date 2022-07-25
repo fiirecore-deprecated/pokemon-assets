@@ -1,3 +1,0 @@
-("horn-attack", Actions([
-    Damage(Power(65)),
-]))

@@ -1,4 +1,0 @@
-("snarl", Actions([
-    Damage(Power(55)),
-    Stat(Basic(SpAttack), -1),
-]))

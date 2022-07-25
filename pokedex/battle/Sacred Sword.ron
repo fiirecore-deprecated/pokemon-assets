@@ -1,3 +1,0 @@
-("sacred-sword", Actions([
-    Damage(Power(90)),
-]))

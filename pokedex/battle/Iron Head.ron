@@ -1,6 +1,0 @@
-("iron-head", Actions([
-    Damage(Power(80)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

@@ -1,3 +1,0 @@
-("stored-power", Actions([
-    Damage(Power(20)),
-]))

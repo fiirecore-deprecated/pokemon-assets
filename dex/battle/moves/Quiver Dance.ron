@@ -1,0 +1,5 @@
+Actions([
+    Stat(Basic(SpAttack), 1),
+    Stat(Basic(SpDefense), 1),
+    Stat(Basic(Speed), 1),
+])

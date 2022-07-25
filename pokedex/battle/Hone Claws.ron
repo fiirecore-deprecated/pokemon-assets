@@ -1,4 +1,0 @@
-("hone-claws", Actions([
-    Stat(Basic(Attack), 1),
-    Stat(Accuracy, 1),
-]))

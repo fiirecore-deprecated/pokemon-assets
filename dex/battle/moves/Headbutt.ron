@@ -1,0 +1,6 @@
+Actions([
+    Damage(Power(70)),
+    Chance([
+        Flinch,
+    ], 30),
+])

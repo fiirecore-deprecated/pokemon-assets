@@ -1,0 +1,3 @@
+Actions([
+    Ailment(Some((Sleep, Temporary(2, 4))), 0),
+])

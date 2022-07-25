@@ -1,4 +1,0 @@
-("discharge", Actions([
-    Damage(Power(80)),
-    Ailment(Paralysis, Permanent, 30),
-]))

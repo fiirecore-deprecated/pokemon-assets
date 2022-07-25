@@ -1,3 +1,0 @@
-("smelling-salts", Actions([
-    Damage(Power(70)),
-]))

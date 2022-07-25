@@ -1,3 +1,0 @@
-("strength", Actions([
-    Damage(Power(80)),
-]))

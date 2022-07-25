@@ -1,3 +1,0 @@
-("acid-armor", Actions([
-    Stat(Basic(Defense), 2),
-]))

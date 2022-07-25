@@ -1,3 +1,0 @@
-("doom-desire", Actions([
-    Damage(Power(140)),
-]))

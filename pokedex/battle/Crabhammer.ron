@@ -1,3 +1,0 @@
-("crabhammer", Actions([
-    Damage(Power(100)),
-]))

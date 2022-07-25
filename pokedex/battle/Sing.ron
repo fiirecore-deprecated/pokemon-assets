@@ -1,3 +1,0 @@
-("sing", Actions([
-    Ailment(Sleep, Temporary(2, 4), 0),
-]))

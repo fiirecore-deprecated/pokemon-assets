@@ -1,4 +1,0 @@
-("calm-mind", Actions([
-    Stat(Basic(SpAttack), 1),
-    Stat(Basic(SpDefense), 1),
-]))

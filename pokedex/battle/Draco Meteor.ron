@@ -1,4 +1,0 @@
-("draco-meteor", Actions([
-    Damage(Power(130)),
-    Stat(Basic(SpAttack), -2),
-]))

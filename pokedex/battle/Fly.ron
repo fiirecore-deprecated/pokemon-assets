@@ -1,3 +1,0 @@
-("fly", Actions([
-    Damage(Power(90)),
-]))

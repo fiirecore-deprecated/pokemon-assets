@@ -1,3 +1,0 @@
-("peck", Actions([
-    Damage(Power(35)),
-]))

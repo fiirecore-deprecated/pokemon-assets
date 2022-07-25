@@ -1,0 +1,3 @@
+Actions([
+    Ailment(Some((Poison, Temporary(15, 15))), 0),
+])

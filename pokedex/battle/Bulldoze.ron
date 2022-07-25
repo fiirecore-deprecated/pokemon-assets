@@ -1,4 +1,0 @@
-("bulldoze", Actions([
-    Damage(Power(60)),
-    Stat(Basic(Speed), -1),
-]))

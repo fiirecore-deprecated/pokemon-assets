@@ -1,4 +1,0 @@
-("fire-punch", Actions([
-    Damage(Power(75)),
-    Ailment(Burn, Permanent, 10),
-]))

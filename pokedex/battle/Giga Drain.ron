@@ -1,3 +1,0 @@
-("giga-drain", Actions([
-    Drain(Power(75), 50),
-]))

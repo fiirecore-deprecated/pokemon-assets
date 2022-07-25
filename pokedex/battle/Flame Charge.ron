@@ -1,4 +1,0 @@
-("flame-charge", Actions([
-    Damage(Power(50)),
-    Stat(Basic(Speed), 1),
-]))

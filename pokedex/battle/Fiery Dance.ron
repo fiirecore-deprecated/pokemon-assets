@@ -1,6 +1,0 @@
-("fiery-dance", Actions([
-    Damage(Power(80)),
-    Chance([
-        Stat(Basic(SpAttack), 1),
-    ], 50),
-]))

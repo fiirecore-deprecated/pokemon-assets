@@ -1,3 +1,0 @@
-("double-edge", Actions([
-    Drain(Power(120), -33),
-]))

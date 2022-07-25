@@ -1,4 +1,0 @@
-("zap-cannon", Actions([
-    Damage(Power(120)),
-    Ailment(Paralysis, Permanent, 100),
-]))

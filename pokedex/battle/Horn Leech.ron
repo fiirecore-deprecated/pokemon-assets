@@ -1,3 +1,0 @@
-("horn-leech", Actions([
-    Drain(Power(75), 50),
-]))

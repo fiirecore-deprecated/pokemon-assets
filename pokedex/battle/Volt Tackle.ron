@@ -1,4 +1,0 @@
-("volt-tackle", Actions([
-    Drain(Power(120), -33),
-    Ailment(Paralysis, Permanent, 10),
-]))

@@ -1,3 +1,0 @@
-("pound", Actions([
-    Damage(Power(40)),
-]))

@@ -1,3 +1,0 @@
-("power-gem", Actions([
-    Damage(Power(80)),
-]))

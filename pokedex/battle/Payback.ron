@@ -1,3 +1,0 @@
-("payback", Actions([
-    Damage(Power(50)),
-]))

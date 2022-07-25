@@ -1,3 +1,0 @@
-("barrage", Actions([
-    Damage(Power(15)),
-]))

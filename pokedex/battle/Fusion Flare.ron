@@ -1,3 +1,0 @@
-("fusion-flare", Actions([
-    Damage(Power(100)),
-]))

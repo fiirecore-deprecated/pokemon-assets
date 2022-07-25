@@ -1,4 +1,0 @@
-("ice-beam", Actions([
-    Damage(Power(90)),
-    Ailment(Freeze, Permanent, 10),
-]))

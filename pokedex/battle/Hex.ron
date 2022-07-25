@@ -1,3 +1,0 @@
-("hex", Actions([
-    Damage(Power(65)),
-]))

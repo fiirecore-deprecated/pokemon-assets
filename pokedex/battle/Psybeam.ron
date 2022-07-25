@@ -1,3 +1,0 @@
-("psybeam", Actions([
-    Damage(Power(65)),
-]))

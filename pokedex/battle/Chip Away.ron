@@ -1,3 +1,0 @@
-("chip-away", Actions([
-    Damage(Power(70)),
-]))

@@ -1,0 +1,6 @@
+Actions([
+    Damage(Power(65)),
+    Chance([
+        Stat(Basic(Speed), -1),
+    ], 10),
+])

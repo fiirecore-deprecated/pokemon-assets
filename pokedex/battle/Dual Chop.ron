@@ -1,3 +1,0 @@
-("dual-chop", Actions([
-    Damage(Power(40)),
-]))

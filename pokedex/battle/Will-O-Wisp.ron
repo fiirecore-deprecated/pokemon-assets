@@ -1,3 +1,0 @@
-("will-o-wisp", Actions([
-    Ailment(Burn, Permanent, 0),
-]))

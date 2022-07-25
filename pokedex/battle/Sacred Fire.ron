@@ -1,4 +1,0 @@
-("sacred-fire", Actions([
-    Damage(Power(100)),
-    Ailment(Burn, Permanent, 50),
-]))

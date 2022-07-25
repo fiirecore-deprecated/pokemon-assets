@@ -1,3 +1,0 @@
-("rollout", Actions([
-    Damage(Power(30)),
-]))

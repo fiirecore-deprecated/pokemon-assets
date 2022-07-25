@@ -1,3 +1,0 @@
-("round", Actions([
-    Damage(Power(60)),
-]))

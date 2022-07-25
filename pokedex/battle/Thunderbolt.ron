@@ -1,4 +1,0 @@
-("thunderbolt", Actions([
-    Damage(Power(90)),
-    Ailment(Paralysis, Permanent, 10),
-]))

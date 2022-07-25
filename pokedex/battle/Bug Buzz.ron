@@ -1,6 +1,0 @@
-("bug-buzz", Actions([
-    Damage(Power(90)),
-    Chance([
-        Stat(Basic(SpDefense), -1),
-    ], 10),
-]))

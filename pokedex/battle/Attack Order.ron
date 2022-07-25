@@ -1,3 +1,0 @@
-("attack-order", Actions([
-    Damage(Power(90)),
-]))

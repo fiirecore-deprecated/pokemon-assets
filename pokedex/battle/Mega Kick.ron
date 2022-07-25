@@ -1,3 +1,0 @@
-("mega-kick", Actions([
-    Damage(Power(120)),
-]))

@@ -1,3 +1,0 @@
-("echoed-voice", Actions([
-    Damage(Power(40)),
-]))

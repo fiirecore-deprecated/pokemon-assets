@@ -1,0 +1,4 @@
+Actions([
+    Drain(Power(120), -33),
+    Ailment(Some((Paralysis, Permanent)), 10),
+])

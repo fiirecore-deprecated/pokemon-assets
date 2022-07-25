@@ -1,3 +1,0 @@
-("cut", Actions([
-    Damage(Power(50)),
-]))

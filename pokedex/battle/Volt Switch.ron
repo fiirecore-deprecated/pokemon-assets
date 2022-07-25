@@ -1,3 +1,0 @@
-("volt-switch", Actions([
-    Damage(Power(70)),
-]))

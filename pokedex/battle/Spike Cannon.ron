@@ -1,3 +1,0 @@
-("spike-cannon", Actions([
-    Damage(Power(20)),
-]))

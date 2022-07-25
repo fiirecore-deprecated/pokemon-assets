@@ -1,3 +1,0 @@
-("withdraw", Actions([
-    Stat(Basic(Defense), 1),
-]))

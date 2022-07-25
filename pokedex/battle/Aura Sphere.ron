@@ -1,3 +1,0 @@
-("aura-sphere", Actions([
-    Damage(Power(80)),
-]))

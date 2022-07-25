@@ -1,3 +1,0 @@
-("autotomize", Actions([
-    Stat(Basic(Speed), 2),
-]))

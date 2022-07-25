@@ -1,0 +1,4 @@
+Actions([
+    Damage(Power(65)),
+    Ailment(Some((Poison, Permanent)), 30),
+])

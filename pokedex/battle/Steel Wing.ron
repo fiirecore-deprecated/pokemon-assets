@@ -1,6 +1,0 @@
-("steel-wing", Actions([
-    Damage(Power(70)),
-    Chance([
-        Stat(Basic(Defense), 1),
-    ], 10),
-]))

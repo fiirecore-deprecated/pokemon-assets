@@ -1,6 +1,0 @@
-("crunch", Actions([
-    Damage(Power(80)),
-    Chance([
-        Stat(Basic(Defense), -1),
-    ], 20),
-]))

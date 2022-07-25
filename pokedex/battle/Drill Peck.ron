@@ -1,3 +1,0 @@
-("drill-peck", Actions([
-    Damage(Power(80)),
-]))

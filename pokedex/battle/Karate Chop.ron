@@ -1,3 +1,0 @@
-("karate-chop", Actions([
-    Damage(Power(50)),
-]))

@@ -1,3 +1,0 @@
-("fire-pledge", Actions([
-    Damage(Power(80)),
-]))

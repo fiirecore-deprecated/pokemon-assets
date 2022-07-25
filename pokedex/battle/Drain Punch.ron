@@ -1,3 +1,0 @@
-("drain-punch", Actions([
-    Drain(Power(75), 50),
-]))

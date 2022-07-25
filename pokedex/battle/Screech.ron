@@ -1,3 +1,0 @@
-("screech", Actions([
-    Stat(Basic(Defense), -2),
-]))

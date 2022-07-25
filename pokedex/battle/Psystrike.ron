@@ -1,3 +1,0 @@
-("psystrike", Actions([
-    Damage(Power(100)),
-]))

@@ -1,3 +1,0 @@
-("wake-up-slap", Actions([
-    Damage(Power(70)),
-]))

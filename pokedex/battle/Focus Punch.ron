@@ -1,3 +1,0 @@
-("focus-punch", Actions([
-    Damage(Power(150)),
-]))

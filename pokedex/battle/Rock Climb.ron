@@ -1,3 +1,0 @@
-("rock-climb", Actions([
-    Damage(Power(90)),
-]))

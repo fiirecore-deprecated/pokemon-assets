@@ -1,3 +1,0 @@
-("swift", Actions([
-    Damage(Power(60)),
-]))

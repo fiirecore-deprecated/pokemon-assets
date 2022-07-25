@@ -1,3 +1,0 @@
-("weather-ball", Actions([
-    Damage(Power(50)),
-]))

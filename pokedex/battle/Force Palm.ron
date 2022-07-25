@@ -1,4 +1,0 @@
-("force-palm", Actions([
-    Damage(Power(60)),
-    Ailment(Paralysis, Permanent, 30),
-]))

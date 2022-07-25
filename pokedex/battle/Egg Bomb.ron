@@ -1,3 +1,0 @@
-("egg-bomb", Actions([
-    Damage(Power(100)),
-]))

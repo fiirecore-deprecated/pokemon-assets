@@ -1,3 +1,0 @@
-("x-scissor", Actions([
-    Damage(Power(80)),
-]))

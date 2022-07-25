@@ -1,3 +1,0 @@
-("avalanche", Actions([
-    Damage(Power(60)),
-]))

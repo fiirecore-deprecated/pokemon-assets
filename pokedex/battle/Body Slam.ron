@@ -1,4 +1,0 @@
-("body-slam", Actions([
-    Damage(Power(85)),
-    Ailment(Paralysis, Permanent, 30),
-]))

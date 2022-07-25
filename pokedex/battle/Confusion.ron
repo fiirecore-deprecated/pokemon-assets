@@ -1,3 +1,0 @@
-("confusion", Actions([
-    Damage(Power(50)),
-]))

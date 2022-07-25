@@ -1,3 +1,0 @@
-("petal-dance", Actions([
-    Damage(Power(120)),
-]))

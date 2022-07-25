@@ -1,3 +1,0 @@
-("sharpen", Actions([
-    Stat(Basic(Attack), 1),
-]))

@@ -1,3 +1,0 @@
-("fury-swipes", Actions([
-    Damage(Power(18)),
-]))

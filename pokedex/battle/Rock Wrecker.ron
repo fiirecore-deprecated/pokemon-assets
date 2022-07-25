@@ -1,3 +1,0 @@
-("rock-wrecker", Actions([
-    Damage(Power(150)),
-]))

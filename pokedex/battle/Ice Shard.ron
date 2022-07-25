@@ -1,3 +1,0 @@
-("ice-shard", Actions([
-    Damage(Power(40)),
-]))

@@ -1,6 +1,0 @@
-("twister", Actions([
-    Damage(Power(40)),
-    Chance([
-        Flinch,
-    ], 20),
-]))

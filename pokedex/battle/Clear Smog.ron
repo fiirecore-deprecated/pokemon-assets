@@ -1,3 +1,0 @@
-("clear-smog", Actions([
-    Damage(Power(50)),
-]))

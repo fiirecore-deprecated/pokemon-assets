@@ -1,4 +1,0 @@
-("shift-gear", Actions([
-    Stat(Basic(Attack), 1),
-    Stat(Basic(Speed), 2),
-]))

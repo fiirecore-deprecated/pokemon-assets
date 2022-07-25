@@ -1,0 +1,4 @@
+Actions([
+    Damage(Power(40)),
+    Flinch,
+])

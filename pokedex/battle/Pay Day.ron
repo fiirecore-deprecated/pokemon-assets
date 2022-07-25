@@ -1,3 +1,0 @@
-("pay-day", Actions([
-    Damage(Power(40)),
-]))

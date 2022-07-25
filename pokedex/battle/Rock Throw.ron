@@ -1,3 +1,0 @@
-("rock-throw", Actions([
-    Damage(Power(50)),
-]))

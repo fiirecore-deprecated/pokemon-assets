@@ -1,4 +1,0 @@
-("poison-sting", Actions([
-    Damage(Power(15)),
-    Ailment(Poison, Permanent, 30),
-]))

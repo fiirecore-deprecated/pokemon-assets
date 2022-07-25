@@ -1,6 +1,0 @@
-("astonish", Actions([
-    Damage(Power(30)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

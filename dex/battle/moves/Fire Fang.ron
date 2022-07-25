@@ -1,0 +1,7 @@
+Actions([
+    Damage(Power(65)),
+    Chance([
+        Flinch,
+    ], 10),
+    Ailment(Some((Burn, Permanent)), 10),
+])

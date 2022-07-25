@@ -1,3 +1,0 @@
-("judgment", Actions([
-    Damage(Power(100)),
-]))

@@ -1,3 +1,0 @@
-("fury-cutter", Actions([
-    Damage(Power(40)),
-]))

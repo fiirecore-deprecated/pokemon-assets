@@ -1,4 +1,0 @@
-("flare-blitz", Actions([
-    Drain(Power(120), -33),
-    Ailment(Burn, Permanent, 10),
-]))

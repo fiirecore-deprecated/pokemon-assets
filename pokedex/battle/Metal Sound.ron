@@ -1,3 +1,0 @@
-("metal-sound", Actions([
-    Stat(Basic(SpDefense), -2),
-]))

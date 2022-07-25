@@ -1,4 +1,0 @@
-("growth", Actions([
-    Stat(Basic(Attack), 1),
-    Stat(Basic(SpAttack), 1),
-]))

@@ -1,3 +1,0 @@
-("hurricane", Actions([
-    Damage(Power(110)),
-]))

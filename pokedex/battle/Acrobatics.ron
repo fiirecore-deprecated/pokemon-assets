@@ -1,3 +1,0 @@
-("acrobatics", Actions([
-    Damage(Power(55)),
-]))

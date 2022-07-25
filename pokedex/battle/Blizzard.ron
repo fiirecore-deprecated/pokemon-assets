@@ -1,4 +1,0 @@
-("blizzard", Actions([
-    Damage(Power(110)),
-    Ailment(Freeze, Permanent, 10),
-]))

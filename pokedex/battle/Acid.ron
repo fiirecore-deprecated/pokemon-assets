@@ -1,6 +1,0 @@
-("acid", Actions([
-    Damage(Power(40)),
-    Chance([
-        Stat(Basic(SpDefense), -1),
-    ], 10),
-]))

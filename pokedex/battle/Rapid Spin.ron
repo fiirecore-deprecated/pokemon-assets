@@ -1,3 +1,0 @@
-("rapid-spin", Actions([
-    Damage(Power(50)),
-]))

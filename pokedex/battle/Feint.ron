@@ -1,3 +1,0 @@
-("feint", Actions([
-    Damage(Power(30)),
-]))

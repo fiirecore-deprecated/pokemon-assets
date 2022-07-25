@@ -1,3 +1,0 @@
-("eruption", Actions([
-    Damage(Power(150)),
-]))

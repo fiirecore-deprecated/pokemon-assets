@@ -1,3 +1,0 @@
-("magma-storm", Actions([
-    Damage(Power(100)),
-]))

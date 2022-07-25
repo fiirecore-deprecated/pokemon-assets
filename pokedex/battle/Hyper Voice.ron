@@ -1,3 +1,0 @@
-("hyper-voice", Actions([
-    Damage(Power(90)),
-]))

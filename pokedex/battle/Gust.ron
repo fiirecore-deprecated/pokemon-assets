@@ -1,3 +1,0 @@
-("gust", Actions([
-    Damage(Power(40)),
-]))

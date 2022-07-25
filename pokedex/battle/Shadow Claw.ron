@@ -1,3 +1,0 @@
-("shadow-claw", Actions([
-    Damage(Power(70)),
-]))

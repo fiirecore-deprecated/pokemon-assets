@@ -1,3 +1,0 @@
-("scary-face", Actions([
-    Stat(Basic(Speed), -2),
-]))

@@ -1,3 +1,0 @@
-("dig", Actions([
-    Damage(Power(80)),
-]))

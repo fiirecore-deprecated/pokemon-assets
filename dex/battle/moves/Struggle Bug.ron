@@ -1,0 +1,4 @@
+Actions([
+    Damage(Power(50)),
+    Stat(Basic(SpAttack), -1),
+])

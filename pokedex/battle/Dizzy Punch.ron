@@ -1,3 +1,0 @@
-("dizzy-punch", Actions([
-    Damage(Power(70)),
-]))

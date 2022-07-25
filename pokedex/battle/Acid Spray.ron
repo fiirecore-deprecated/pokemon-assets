@@ -1,4 +1,0 @@
-("acid-spray", Actions([
-    Damage(Power(40)),
-    Stat(Basic(SpDefense), -2),
-]))

@@ -1,3 +1,0 @@
-("bonemerang", Actions([
-    Damage(Power(50)),
-]))

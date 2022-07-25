@@ -1,3 +1,0 @@
-("fake-tears", Actions([
-    Stat(Basic(SpDefense), -2),
-]))

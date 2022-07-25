@@ -1,3 +1,0 @@
-("icicle-spear", Actions([
-    Damage(Power(25)),
-]))

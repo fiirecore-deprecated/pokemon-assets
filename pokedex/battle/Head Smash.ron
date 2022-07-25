@@ -1,3 +1,0 @@
-("head-smash", Actions([
-    Drain(Power(150), -50),
-]))

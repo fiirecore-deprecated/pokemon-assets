@@ -1,3 +1,0 @@
-("water-gun", Actions([
-    Damage(Power(40)),
-]))

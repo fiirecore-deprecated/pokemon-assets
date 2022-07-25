@@ -1,6 +1,0 @@
-("metal-claw", Actions([
-    Damage(Power(50)),
-    Chance([
-        Stat(Basic(Attack), 1),
-    ], 10),
-]))

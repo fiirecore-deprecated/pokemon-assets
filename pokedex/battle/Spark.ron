@@ -1,4 +1,0 @@
-("spark", Actions([
-    Damage(Power(65)),
-    Ailment(Paralysis, Permanent, 30),
-]))

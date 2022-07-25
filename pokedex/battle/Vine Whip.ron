@@ -1,3 +1,0 @@
-("vine-whip", Actions([
-    Damage(Power(45)),
-]))

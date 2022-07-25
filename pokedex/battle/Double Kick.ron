@@ -1,3 +1,0 @@
-("double-kick", Actions([
-    Damage(Power(30)),
-]))

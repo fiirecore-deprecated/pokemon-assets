@@ -1,3 +1,0 @@
-("charm", Actions([
-    Stat(Basic(Attack), -2),
-]))

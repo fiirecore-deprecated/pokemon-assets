@@ -1,3 +1,0 @@
-("arm-thrust", Actions([
-    Damage(Power(15)),
-]))

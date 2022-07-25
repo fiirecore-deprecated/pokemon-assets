@@ -1,4 +1,0 @@
-("sludge", Actions([
-    Damage(Power(65)),
-    Ailment(Poison, Permanent, 30),
-]))

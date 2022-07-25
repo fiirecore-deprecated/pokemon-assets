@@ -1,6 +1,0 @@
-("night-daze", Actions([
-    Damage(Power(85)),
-    Chance([
-        Stat(Accuracy, -1),
-    ], 40),
-]))

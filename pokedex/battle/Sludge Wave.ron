@@ -1,4 +1,0 @@
-("sludge-wave", Actions([
-    Damage(Power(95)),
-    Ailment(Poison, Permanent, 10),
-]))

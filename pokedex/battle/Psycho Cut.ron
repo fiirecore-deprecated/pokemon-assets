@@ -1,3 +1,0 @@
-("psycho-cut", Actions([
-    Damage(Power(70)),
-]))

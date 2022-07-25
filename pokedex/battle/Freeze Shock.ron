@@ -1,4 +1,0 @@
-("freeze-shock", Actions([
-    Damage(Power(140)),
-    Ailment(Paralysis, Permanent, 30),
-]))

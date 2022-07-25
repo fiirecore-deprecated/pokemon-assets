@@ -1,3 +1,0 @@
-("whirlpool", Actions([
-    Damage(Power(35)),
-]))

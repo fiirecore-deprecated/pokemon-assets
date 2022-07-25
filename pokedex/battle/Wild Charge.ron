@@ -1,3 +1,0 @@
-("wild-charge", Actions([
-    Drain(Power(90), -25),
-]))

@@ -1,3 +1,0 @@
-("signal-beam", Actions([
-    Damage(Power(75)),
-]))

@@ -1,3 +1,0 @@
-("absorb", Actions([
-    Drain(Power(20), 50),
-]))

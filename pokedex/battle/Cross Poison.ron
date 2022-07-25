@@ -1,4 +1,0 @@
-("cross-poison", Actions([
-    Damage(Power(70)),
-    Ailment(Poison, Permanent, 10),
-]))

@@ -1,4 +1,0 @@
-("mud-slap", Actions([
-    Damage(Power(20)),
-    Stat(Accuracy, -1),
-]))

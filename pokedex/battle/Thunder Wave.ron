@@ -1,3 +1,0 @@
-("thunder-wave", Actions([
-    Ailment(Paralysis, Permanent, 0),
-]))

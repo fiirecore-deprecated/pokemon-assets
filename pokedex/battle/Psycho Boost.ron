@@ -1,4 +1,0 @@
-("psycho-boost", Actions([
-    Damage(Power(140)),
-    Stat(Basic(SpAttack), -2),
-]))

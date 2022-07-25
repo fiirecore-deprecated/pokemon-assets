@@ -1,4 +1,0 @@
-("lava-plume", Actions([
-    Damage(Power(80)),
-    Ailment(Burn, Permanent, 30),
-]))

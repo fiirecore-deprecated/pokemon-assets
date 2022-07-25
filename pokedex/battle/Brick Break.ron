@@ -1,3 +1,0 @@
-("brick-break", Actions([
-    Damage(Power(75)),
-]))

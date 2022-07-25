@@ -1,3 +1,0 @@
-("rage", Actions([
-    Damage(Power(20)),
-]))

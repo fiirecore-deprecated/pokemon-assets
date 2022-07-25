@@ -1,6 +1,0 @@
-("rock-smash", Actions([
-    Damage(Power(40)),
-    Chance([
-        Stat(Basic(Defense), -1),
-    ], 50),
-]))

@@ -1,3 +1,0 @@
-("glare", Actions([
-    Ailment(Paralysis, Permanent, 0),
-]))

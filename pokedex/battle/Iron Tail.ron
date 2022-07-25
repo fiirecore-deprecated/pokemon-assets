@@ -1,6 +1,0 @@
-("iron-tail", Actions([
-    Damage(Power(100)),
-    Chance([
-        Stat(Basic(Defense), -1),
-    ], 30),
-]))

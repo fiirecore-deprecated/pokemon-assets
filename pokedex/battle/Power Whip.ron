@@ -1,3 +1,0 @@
-("power-whip", Actions([
-    Damage(Power(120)),
-]))

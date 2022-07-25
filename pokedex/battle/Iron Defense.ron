@@ -1,3 +1,0 @@
-("iron-defense", Actions([
-    Stat(Basic(Defense), 2),
-]))

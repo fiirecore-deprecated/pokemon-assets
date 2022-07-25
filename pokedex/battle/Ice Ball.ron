@@ -1,3 +1,0 @@
-("ice-ball", Actions([
-    Damage(Power(30)),
-]))

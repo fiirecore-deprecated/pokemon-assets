@@ -1,3 +1,0 @@
-("bullet-seed", Actions([
-    Damage(Power(25)),
-]))

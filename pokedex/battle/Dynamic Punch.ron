@@ -1,3 +1,0 @@
-("dynamic-punch", Actions([
-    Damage(Power(100)),
-]))

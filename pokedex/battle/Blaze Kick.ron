@@ -1,4 +1,0 @@
-("blaze-kick", Actions([
-    Damage(Power(85)),
-    Ailment(Burn, Permanent, 10),
-]))

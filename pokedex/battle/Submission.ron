@@ -1,3 +1,0 @@
-("submission", Actions([
-    Drain(Power(80), -25),
-]))

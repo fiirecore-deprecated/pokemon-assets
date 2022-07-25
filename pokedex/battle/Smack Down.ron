@@ -1,3 +1,0 @@
-("smack-down", Actions([
-    Damage(Power(50)),
-]))

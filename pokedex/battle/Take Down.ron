@@ -1,3 +1,0 @@
-("take-down", Actions([
-    Drain(Power(90), -25),
-]))

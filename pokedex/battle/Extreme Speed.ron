@@ -1,3 +1,0 @@
-("extreme-speed", Actions([
-    Damage(Power(80)),
-]))

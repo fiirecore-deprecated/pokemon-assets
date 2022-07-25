@@ -1,3 +1,0 @@
-("stone-edge", Actions([
-    Damage(Power(100)),
-]))

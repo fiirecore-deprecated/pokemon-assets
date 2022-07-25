@@ -1,3 +1,0 @@
-("poison-powder", Actions([
-    Ailment(Poison, Permanent, 0),
-]))

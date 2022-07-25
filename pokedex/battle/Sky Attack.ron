@@ -1,6 +1,0 @@
-("sky-attack", Actions([
-    Damage(Power(140)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

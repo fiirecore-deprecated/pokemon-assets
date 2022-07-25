@@ -1,3 +1,0 @@
-("skull-bash", Actions([
-    Damage(Power(130)),
-]))

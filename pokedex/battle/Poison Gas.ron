@@ -1,3 +1,0 @@
-("poison-gas", Actions([
-    Ailment(Poison, Permanent, 0),
-]))

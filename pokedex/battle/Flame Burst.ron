@@ -1,3 +1,0 @@
-("flame-burst", Actions([
-    Damage(Power(70)),
-]))

@@ -1,3 +1,0 @@
-("techno-blast", Actions([
-    Damage(Power(120)),
-]))

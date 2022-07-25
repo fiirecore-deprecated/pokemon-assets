@@ -1,3 +1,0 @@
-("blast-burn", Actions([
-    Damage(Power(150)),
-]))

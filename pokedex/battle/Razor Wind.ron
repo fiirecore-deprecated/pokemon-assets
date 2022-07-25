@@ -1,3 +1,0 @@
-("razor-wind", Actions([
-    Damage(Power(80)),
-]))

@@ -1,6 +1,0 @@
-("meteor-mash", Actions([
-    Damage(Power(90)),
-    Chance([
-        Stat(Basic(Attack), 1),
-    ], 20),
-]))

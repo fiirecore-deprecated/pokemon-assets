@@ -1,6 +1,0 @@
-("zen-headbutt", Actions([
-    Damage(Power(80)),
-    Chance([
-        Flinch,
-    ], 20),
-]))

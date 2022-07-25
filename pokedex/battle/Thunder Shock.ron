@@ -1,4 +1,0 @@
-("thunder-shock", Actions([
-    Damage(Power(40)),
-    Ailment(Paralysis, Permanent, 10),
-]))

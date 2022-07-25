@@ -1,6 +1,0 @@
-("charge-beam", Actions([
-    Damage(Power(50)),
-    Chance([
-        Stat(Basic(SpAttack), 1),
-    ], 70),
-]))

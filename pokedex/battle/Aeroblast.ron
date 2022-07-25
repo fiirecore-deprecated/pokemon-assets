@@ -1,3 +1,0 @@
-("aeroblast", Actions([
-    Damage(Power(100)),
-]))

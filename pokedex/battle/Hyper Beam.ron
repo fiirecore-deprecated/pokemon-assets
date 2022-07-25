@@ -1,3 +1,0 @@
-("hyper-beam", Actions([
-    Damage(Power(150)),
-]))

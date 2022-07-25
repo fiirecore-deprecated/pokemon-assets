@@ -1,6 +1,0 @@
-("icicle-crash", Actions([
-    Damage(Power(85)),
-    Chance([
-        Flinch,
-    ], 30),
-]))

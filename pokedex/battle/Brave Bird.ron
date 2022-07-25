@@ -1,3 +1,0 @@
-("brave-bird", Actions([
-    Drain(Power(120), -33),
-]))

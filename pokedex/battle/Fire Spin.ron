@@ -1,3 +1,0 @@
-("fire-spin", Actions([
-    Damage(Power(35)),
-]))

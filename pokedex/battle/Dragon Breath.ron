@@ -1,4 +1,0 @@
-("dragon-breath", Actions([
-    Damage(Power(60)),
-    Ailment(Paralysis, Permanent, 30),
-]))

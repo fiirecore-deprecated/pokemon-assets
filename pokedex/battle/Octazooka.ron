@@ -1,6 +1,0 @@
-("octazooka", Actions([
-    Damage(Power(65)),
-    Chance([
-        Stat(Accuracy, -1),
-    ], 50),
-]))

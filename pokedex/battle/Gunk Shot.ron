@@ -1,4 +1,0 @@
-("gunk-shot", Actions([
-    Damage(Power(120)),
-    Ailment(Poison, Permanent, 30),
-]))

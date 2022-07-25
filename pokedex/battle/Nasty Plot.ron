@@ -1,3 +1,0 @@
-("nasty-plot", Actions([
-    Stat(Basic(SpAttack), 2),
-]))

@@ -1,4 +1,0 @@
-("cosmic-power", Actions([
-    Stat(Basic(Defense), 1),
-    Stat(Basic(SpDefense), 1),
-]))

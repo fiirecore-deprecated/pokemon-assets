@@ -1,3 +1,0 @@
-("wing-attack", Actions([
-    Damage(Power(60)),
-]))

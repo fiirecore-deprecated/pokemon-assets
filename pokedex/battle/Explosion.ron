@@ -1,3 +1,0 @@
-("explosion", Actions([
-    Damage(Power(250)),
-]))

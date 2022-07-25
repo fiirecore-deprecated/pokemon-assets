@@ -1,6 +1,0 @@
-("muddy-water", Actions([
-    Damage(Power(90)),
-    Chance([
-        Stat(Accuracy, -1),
-    ], 30),
-]))

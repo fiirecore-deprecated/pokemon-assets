@@ -1,7 +1,0 @@
-("fire-fang", Actions([
-    Damage(Power(65)),
-    Chance([
-        Flinch,
-    ], 10),
-    Ailment(Burn, Permanent, 10),
-]))

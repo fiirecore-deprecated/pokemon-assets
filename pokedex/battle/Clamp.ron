@@ -1,3 +1,0 @@
-("clamp", Actions([
-    Damage(Power(35)),
-]))

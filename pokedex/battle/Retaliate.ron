@@ -1,3 +1,0 @@
-("retaliate", Actions([
-    Damage(Power(70)),
-]))

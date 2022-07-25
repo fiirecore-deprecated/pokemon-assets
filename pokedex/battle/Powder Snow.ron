@@ -1,4 +1,0 @@
-("powder-snow", Actions([
-    Damage(Power(40)),
-    Ailment(Freeze, Permanent, 10),
-]))
